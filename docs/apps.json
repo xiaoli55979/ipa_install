@@ -1,7 +1,7 @@
 {
   "siteTitle": "App 分发",
   "publicUrl": "https://xiaoli55979.github.io/ipa_install",
-  "generatedAt": "2026-04-19T10:58:39.140Z",
+  "generatedAt": "2026-04-19T11:09:06.661Z",
   "apps": [
     {
       "id": "com.jiliaoim.cn",
@@ -31,40 +31,9 @@
           "file": "upload.apk",
           "size": 228884347,
           "downloadUrl": "https://github.com/xiaoli55979/ipa_install/releases/download/1.1.6/upload.apk"
-        },
-        {
-          "version": "1.1.3",
-          "uploadedAt": "2026-04-19T09:50:14Z",
-          "tag": "1.1.4",
-          "releaseName": "1.1.4",
-          "notes": "add",
-          "file": "app-release.apk",
-          "size": 248216995,
-          "downloadUrl": "https://github.com/xiaoli55979/ipa_install/releases/download/1.1.4/app-release.apk"
         }
       ],
       "latestAt": "2026-04-19T10:51:44Z"
-    },
-    {
-      "id": "com.jiliaoim.dis.cn",
-      "name": "云小聊",
-      "icon": "https://xiaoli55979.github.io/ipa_install/icons/com.jiliaoim.dis.cn-ios.png",
-      "ios": [
-        {
-          "version": "1.1.0",
-          "uploadedAt": "2026-04-19T09:50:37Z",
-          "tag": "1.1.4",
-          "releaseName": "1.1.4",
-          "notes": "add",
-          "file": "upload_.ipa",
-          "size": 40601858,
-          "downloadUrl": "https://github.com/xiaoli55979/ipa_install/releases/download/1.1.4/upload_.ipa",
-          "manifestUrl": "https://xiaoli55979.github.io/ipa_install/manifest/com.jiliaoim.dis.cn-1.1.4.plist",
-          "installUrl": "itms-services://?action=download-manifest&url=https%3A%2F%2Fxiaoli55979.github.io%2Fipa_install%2Fmanifest%2Fcom.jiliaoim.dis.cn-1.1.4.plist"
-        }
-      ],
-      "android": [],
-      "latestAt": "2026-04-19T09:50:37Z"
     }
   ]
 }
