@@ -27,6 +27,8 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
+        with:
+          ref: main
 
       - uses: actions/setup-node@v4
         with:
@@ -50,5 +52,10 @@ jobs:
             echo "No metadata changes."
           else
             git commit -m "chore: rebuild apps.json [skip ci]"
-            git push
+            for i in 1 2 3; do
+              if git push origin HEAD:main; then exit 0; fi
+              echo "push failed, pulling and retrying..."
+              git pull --rebase origin main || exit 1
+            done
+            exit 1
           fi
