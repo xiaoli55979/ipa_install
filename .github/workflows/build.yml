@@ -1,0 +1,54 @@
+name: Build metadata
+
+on:
+  release:
+    types: [published, edited, unpublished, deleted, released]
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - 'scripts/**'
+      - 'config.json'
+      - 'package.json'
+      - 'package-lock.json'
+      - '.github/workflows/build.yml'
+      - 'docs/index.html'
+      - 'docs/assets/**'
+
+permissions:
+  contents: write
+
+concurrency:
+  group: build-metadata
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+          cache: 'npm'
+
+      - name: Install deps
+        run: npm ci --no-audit --no-fund || npm install --no-audit --no-fund
+
+      - name: Build metadata from releases
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: npm run build
+
+      - name: Commit generated files
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add docs/apps.json docs/manifest docs/icons
+          if git diff --staged --quiet; then
+            echo "No metadata changes."
+          else
+            git commit -m "chore: rebuild apps.json [skip ci]"
+            git push
+          fi

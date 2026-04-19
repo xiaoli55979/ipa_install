@@ -1,0 +1,15 @@
+{
+  "name": "ipa-install",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Self-hosted iOS/Android OTA distribution page on GitHub Pages",
+  "scripts": {
+    "build": "node scripts/build-metadata.mjs"
+  },
+  "dependencies": {
+    "adm-zip": "^0.5.16",
+    "app-info-parser": "^1.1.6",
+    "simple-plist": "^1.4.0"
+  }
+}
