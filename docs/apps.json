@@ -1,13 +1,25 @@
 {
   "siteTitle": "App 分发",
   "publicUrl": "https://xiaoli55979.github.io/ipa_install",
-  "generatedAt": "2026-04-22T16:20:20.151Z",
+  "generatedAt": "2026-04-22T16:34:32.969Z",
   "apps": [
     {
       "id": "com.jiliaoim.cn",
       "name": "云小聊",
       "icon": "https://xiaoli55979.github.io/ipa_install/icons/com.jiliaoim.cn-android.png",
       "ios": [
+        {
+          "version": "1.1.8",
+          "uploadedAt": "2026-04-22T16:33:41Z",
+          "tag": "1.1.8",
+          "releaseName": "1.1.8",
+          "notes": "自动发布 1.1.8\n\n- iOS (test profile): `ipa_install_1.1.8_test.ipa`\n- Android (release): `ipa_install_1.1.8.apk`\n\n构建时间: 2026-04-23 01:33:32 JST",
+          "file": "ipa_install_1.1.8_test.ipa",
+          "size": 43911336,
+          "downloadUrl": "https://github.com/xiaoli55979/ipa_install/releases/download/1.1.8/ipa_install_1.1.8_test.ipa",
+          "manifestUrl": "https://xiaoli55979.github.io/ipa_install/manifest/com.jiliaoim.cn-1.1.8.plist",
+          "installUrl": "itms-services://?action=download-manifest&url=https%3A%2F%2Fxiaoli55979.github.io%2Fipa_install%2Fmanifest%2Fcom.jiliaoim.cn-1.1.8.plist"
+        },
         {
           "version": "1.1.7",
           "uploadedAt": "2026-04-22T12:44:44Z",
@@ -46,6 +58,16 @@
         }
       ],
       "android": [
+        {
+          "version": "1.1.8",
+          "uploadedAt": "2026-04-22T16:33:56Z",
+          "tag": "1.1.8",
+          "releaseName": "1.1.8",
+          "notes": "自动发布 1.1.8\n\n- iOS (test profile): `ipa_install_1.1.8_test.ipa`\n- Android (release): `ipa_install_1.1.8.apk`\n\n构建时间: 2026-04-23 01:33:32 JST",
+          "file": "ipa_install_1.1.8.apk",
+          "size": 229851063,
+          "downloadUrl": "https://github.com/xiaoli55979/ipa_install/releases/download/1.1.8/ipa_install_1.1.8.apk"
+        },
         {
           "version": "1.1.7",
           "uploadedAt": "2026-04-22T12:51:44Z",
@@ -111,7 +133,7 @@
           "downloadUrl": "https://github.com/xiaoli55979/ipa_install/releases/download/1.1.7.2/Setup-1.0.6-x64.exe"
         }
       ],
-      "latestAt": "2026-04-22T16:06:32Z"
+      "latestAt": "2026-04-22T16:33:56Z"
     }
   ]
 }
