@@ -1,10 +1,4 @@
 (function () {
-  const ua = navigator.userAgent;
-  const IS_IOS = /iPhone|iPad|iPod/i.test(ua);
-  const IS_ANDROID = /Android/i.test(ua);
-  const IS_MAC = /Macintosh|Mac OS X/i.test(ua) && !IS_IOS;
-  const IS_WIN = /Windows/i.test(ua);
-
   const PLATFORM_META = {
     ios:     { btnLabel: 'iOS 安装',     qrTitle: '用 iOS 手机扫码安装',   hint: '仅白名单（UDID）设备可安装', histLabel: '安装', histTitle: 'iOS 历史版本' },
     android: { btnLabel: 'Android 安装', qrTitle: '用 Android 手机扫码下载', hint: '下载后请允许"未知来源"安装', histLabel: '下载', histTitle: 'Android 历史版本' },
@@ -12,7 +6,6 @@
     win:     { btnLabel: 'Windows 下载', qrTitle: '扫码在 Windows 上下载',  hint: '.exe 直接运行；.zip 解压后运行',   histLabel: '下载', histTitle: 'Windows 历史版本' }
   };
 
-  const matchUa = (p) => (p === 'ios' && IS_IOS) || (p === 'android' && IS_ANDROID) || (p === 'mac' && IS_MAC) || (p === 'win' && IS_WIN);
   const entryUrl = (p, e) => p === 'ios' ? e.installUrl : e.downloadUrl;
 
   const $ = (sel, root = document) => root.querySelector(sel);
@@ -62,12 +55,6 @@
     a.innerHTML = `${meta.btnLabel}<small>v${entry.version} · ${fmtSize(entry.size)}</small>`;
     const url = entryUrl(platform, entry);
     a.href = url;
-    a.addEventListener('click', (ev) => {
-      if (!matchUa(platform)) {
-        ev.preventDefault();
-        openQr(meta.qrTitle, url, meta.hint);
-      }
-    });
 
     const qr = document.createElement('button');
     qr.type = 'button';
@@ -108,9 +95,6 @@
       const a = document.createElement('a');
       a.textContent = meta.histLabel;
       a.href = url;
-      a.addEventListener('click', (ev) => {
-        if (!matchUa(platform)) { ev.preventDefault(); openQr('扫码' + meta.histLabel + ' v' + e.version, url, ''); }
-      });
       const qr = document.createElement('button');
       qr.type = 'button';
       qr.className = 'history-qr';
