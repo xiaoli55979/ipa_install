@@ -1,12 +1,12 @@
 {
   "siteTitle": "App 分发",
   "publicUrl": "https://xiaoli55979.github.io/ipa_install",
-  "generatedAt": "2026-04-22T16:06:02.307Z",
+  "generatedAt": "2026-04-22T16:06:49.258Z",
   "apps": [
     {
       "id": "com.jiliaoim.cn",
       "name": "云小聊",
-      "icon": "https://xiaoli55979.github.io/ipa_install/icons/com.jiliaoim.cn-ios.png",
+      "icon": "https://xiaoli55979.github.io/ipa_install/icons/com.jiliaoim.cn-android.png",
       "ios": [
         {
           "version": "1.1.7",
@@ -92,6 +92,16 @@
       "win": [
         {
           "version": "1.1.7.2",
+          "uploadedAt": "2026-04-22T16:06:32Z",
+          "tag": "1.1.7.2",
+          "releaseName": "1.1.7.2",
+          "notes": "",
+          "file": "Setup-1.0.6.zip",
+          "size": 137052566,
+          "downloadUrl": "https://github.com/xiaoli55979/ipa_install/releases/download/1.1.7.2/Setup-1.0.6.zip"
+        },
+        {
+          "version": "1.1.7.2",
           "uploadedAt": "2026-04-22T16:05:29Z",
           "tag": "1.1.7.2",
           "releaseName": "1.1.7.2",
@@ -99,29 +109,9 @@
           "file": "Setup-1.0.6-x64.exe",
           "size": 98928977,
           "downloadUrl": "https://github.com/xiaoli55979/ipa_install/releases/download/1.1.7.2/Setup-1.0.6-x64.exe"
-        },
-        {
-          "version": "1.1.7.2",
-          "uploadedAt": "2026-04-22T16:03:01Z",
-          "tag": "1.1.7.2",
-          "releaseName": "1.1.7.2",
-          "notes": "",
-          "file": "-Setup-1.0.6.zip",
-          "size": 137052566,
-          "downloadUrl": "https://github.com/xiaoli55979/ipa_install/releases/download/1.1.7.2/-Setup-1.0.6.zip"
-        },
-        {
-          "version": "1.1.7.2",
-          "uploadedAt": "2026-04-22T13:10:09Z",
-          "tag": "1.1.7.2",
-          "releaseName": "1.1.7.2",
-          "notes": "",
-          "file": "default.exe",
-          "size": 157067776,
-          "downloadUrl": "https://github.com/xiaoli55979/ipa_install/releases/download/1.1.7.2/default.exe"
         }
       ],
-      "latestAt": "2026-04-22T16:05:29Z"
+      "latestAt": "2026-04-22T16:06:32Z"
     }
   ]
 }
