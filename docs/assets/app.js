@@ -180,10 +180,11 @@
     const canvasWrap = $('#qr-canvas');
     canvasWrap.innerHTML = '';
     if (window.QRCode) {
-      QRCode.toCanvas(url, { width: 240, margin: 1 }, (err, canvas) => {
-        if (err) { canvasWrap.textContent = url; return; }
-        canvasWrap.appendChild(canvas);
-      });
+      try {
+        new QRCode(canvasWrap, { text: url, width: 240, height: 240, correctLevel: QRCode.CorrectLevel.M });
+      } catch (e) {
+        canvasWrap.textContent = url;
+      }
     } else {
       canvasWrap.textContent = url;
     }

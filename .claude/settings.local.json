@@ -39,7 +39,10 @@
       "Bash(git reset *)",
       "Bash(python3 -c \"import sys, json; d = json.load\\(sys.stdin\\); [print\\(r['conclusion'] or r['status'], '|', r['name'], '|', r['event'], '|', r['display_title'][:60], '|', r['created_at']\\) for r in d.get\\('workflow_runs', []\\)]\")",
       "Bash(node --check scripts/build-metadata.mjs)",
-      "Bash(node --check docs/assets/app.js)"
+      "Bash(node --check docs/assets/app.js)",
+      "Bash(npm i *)",
+      "Bash(npm uninstall *)",
+      "Bash(node --check /Users/ahao/Documents/Workspace/ipa_install_project/docs/assets/app.js)"
     ]
   }
 }
