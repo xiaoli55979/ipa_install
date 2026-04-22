@@ -38,6 +38,11 @@ TEMPLATE_ROOT=$(cd "$(dirname "$0")/.." && pwd)
 PARENT=$(dirname "$TEMPLATE_ROOT")
 NEW_DIR="$PARENT/${REPO_NAME}_project"
 
+# 从模板 config.json 读出旧 owner/repo,用来在 README 里做替换
+OLD_REPO=$(grep -oE '"repo"[[:space:]]*:[[:space:]]*"[^"]+"' "$TEMPLATE_ROOT/config.json" | head -1 | sed -E 's/.*"([^"]+)"$/\1/')
+OLD_OWNER="${OLD_REPO%/*}"
+OLD_NAME="${OLD_REPO#*/}"
+
 if [ -e "$NEW_DIR" ]; then
   echo "❌ 目标目录已存在: $NEW_DIR"; exit 1
 fi
@@ -61,6 +66,17 @@ cat > config.json <<EOF
   "siteTitle": "${SITE_TITLE}"
 }
 EOF
+
+if [ -f README.md ]; then
+  echo "📝 替换 README.md 里旧仓库引用"
+  sed -i.bak \
+    -e "s|${OLD_OWNER}\.github\.io/${OLD_NAME}|${GH_USER}.github.io/${REPO_NAME}|g" \
+    -e "s|github\.com/${OLD_OWNER}/${OLD_NAME}|github.com/${GH_USER}/${REPO_NAME}|g" \
+    -e "s|${OLD_OWNER}/${OLD_NAME}|${GH_USER}/${REPO_NAME}|g" \
+    -e "1s|^# .*|# ${REPO_NAME}|" \
+    README.md
+  rm -f README.md.bak
+fi
 
 echo "🔧 初始化 git"
 git init -q
