@@ -1,6 +1,6 @@
 #!/usr/bin/env node
-// 从 GitHub Releases 拉取所有 IPA/APK/DMG 资产，解析元数据并生成 apps.json + manifest.plist
-// DMG 不解析内容，靠同 Release 里的 IPA/APK 提供 bundleId，版本号用 Release tag
+// 从 GitHub Releases 拉取所有 IPA/APK/DMG/EXE/ZIP 资产，解析元数据并生成 apps.json + manifest.plist
+// DMG(mac) / EXE|ZIP(win) 不解析内容，靠同 Release 里的 IPA/APK 提供 bundleId，版本号用 Release tag
 import fs from 'node:fs';
 import path from 'node:path';
 import os from 'node:os';
@@ -150,21 +150,27 @@ async function main() {
   const apps = new Map();
 
   for (const rel of releases) {
-    // 先处理 ipa/apk 拿到 bundleId,再处理 dmg 挂到同一 app
+    // 先处理 ipa/apk 拿到 bundleId,再处理 dmg/exe/zip 挂到同一 app
     const rawAssets = rel.assets || [];
-    const rank = (n) => /\.(ipa|apk)$/i.test(n) ? 0 : /\.dmg$/i.test(n) ? 1 : 2;
+    const extOf = (n) => (n.match(/\.(ipa|apk|dmg|exe|zip)$/i) || [])[1]?.toLowerCase() || '';
+    const platformOf = (ext) => ext === 'ipa' ? 'ios'
+      : ext === 'apk' ? 'android'
+      : ext === 'dmg' ? 'mac'
+      : (ext === 'exe' || ext === 'zip') ? 'win' : null;
+    const rank = (n) => { const p = platformOf(extOf(n)); return (p === 'ios' || p === 'android') ? 0 : p ? 1 : 2; };
     const orderedAssets = rawAssets.slice().sort((a, b) => rank(a.name) - rank(b.name));
 
     let releaseBundleId = null;
     let releaseAppName = null;
 
     for (const asset of orderedAssets) {
-      if (!/\.(ipa|apk|dmg)$/i.test(asset.name)) continue;
-      const ext = asset.name.match(/\.(ipa|apk|dmg)$/i)[1].toLowerCase();
+      const ext = extOf(asset.name);
+      const platform = platformOf(ext);
+      if (!platform) continue;
 
-      if (ext === 'dmg') {
+      if (platform === 'mac' || platform === 'win') {
         if (!releaseBundleId) {
-          console.warn(`[skip] dmg ${asset.name}: release ${rel.tag_name} 没有同包名的 ipa/apk，无法归组`);
+          console.warn(`[skip] ${ext} ${asset.name}: release ${rel.tag_name} 没有同包名的 ipa/apk，无法归组`);
           continue;
         }
         const pkgUrl = asset.browser_download_url;
@@ -172,12 +178,13 @@ async function main() {
         if (!apps.has(releaseBundleId)) {
           apps.set(releaseBundleId, {
             id: releaseBundleId, name: releaseAppName || releaseBundleId,
-            icon: null, ios: [], android: [], mac: []
+            icon: null, ios: [], android: [], mac: [], win: []
           });
         }
         const app = apps.get(releaseBundleId);
         if (!app.mac) app.mac = [];
-        app.mac.push({
+        if (!app.win) app.win = [];
+        app[platform].push({
           version: rel.tag_name,
           uploadedAt,
           tag: rel.tag_name,
@@ -191,7 +198,6 @@ async function main() {
       }
 
       const isIpa = ext === 'ipa';
-      const platform = isIpa ? 'ios' : 'android';
 
       let localPath;
       try {
@@ -219,11 +225,13 @@ async function main() {
           icon: null,
           ios: [],
           android: [],
-          mac: []
+          mac: [],
+          win: []
         });
       }
       const app = apps.get(parsed.bundleId);
       if (!app.mac) app.mac = [];
+      if (!app.win) app.win = [];
 
       if (!releaseBundleId) { releaseBundleId = parsed.bundleId; releaseAppName = parsed.name; }
 
@@ -263,10 +271,12 @@ async function main() {
 
   const out = [...apps.values()].map(a => {
     if (!a.mac) a.mac = [];
+    if (!a.win) a.win = [];
     a.ios.sort((x, y) => y.uploadedAt.localeCompare(x.uploadedAt));
     a.android.sort((x, y) => y.uploadedAt.localeCompare(x.uploadedAt));
     a.mac.sort((x, y) => y.uploadedAt.localeCompare(x.uploadedAt));
-    const times = [a.ios[0]?.uploadedAt, a.android[0]?.uploadedAt, a.mac[0]?.uploadedAt].filter(Boolean);
+    a.win.sort((x, y) => y.uploadedAt.localeCompare(x.uploadedAt));
+    const times = [a.ios[0]?.uploadedAt, a.android[0]?.uploadedAt, a.mac[0]?.uploadedAt, a.win[0]?.uploadedAt].filter(Boolean);
     a.latestAt = times.sort().pop() || null;
     return a;
   });

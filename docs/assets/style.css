@@ -7,6 +7,7 @@
   --ios: #0a84ff;
   --android: #3ddc84;
   --mac: #1d1d1f;
+  --win: #0078d4;
   --shadow: 0 2px 10px rgba(0,0,0,.05);
 }
 
@@ -128,6 +129,7 @@ html, body {
 .btn-ios { background: var(--ios); }
 .btn-android { background: var(--android); color: #0b2a14; }
 .btn-mac { background: var(--mac); }
+.btn-win { background: var(--win); }
 .btn small {
   font-weight: 400;
   opacity: .85;
@@ -148,6 +150,7 @@ html, body {
 .btn-qr-ios { background: var(--ios); }
 .btn-qr-android { background: var(--android); color: #0b2a14; }
 .btn-qr-mac { background: var(--mac); }
+.btn-qr-win { background: var(--win); }
 .btn-qr:hover { opacity: .9; }
 
 .history-toggle {

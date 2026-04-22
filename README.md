@@ -1,6 +1,6 @@
 # ipa_install
 
-基于 GitHub Pages 的自助 iOS / Android / Mac 分发页。上传走 **GitHub Releases**，绕开 Git 的 100MB 文件限制，单文件可达 2GB。
+基于 GitHub Pages 的自助 iOS / Android / Mac / Windows 分发页。上传走 **GitHub Releases**，绕开 Git 的 100MB 文件限制，单文件可达 2GB。
 
 ## 地址
 
@@ -22,7 +22,7 @@
 1. 仓库主页 → **Releases** → **Draft a new release**
 2. **Choose a tag** → 输入新版本号（如 `v1.2.3`）→ `Create new tag on publish`
 3. **Release title** 填一个你看得懂的标题（不影响归组）
-4. **Attach binaries** 区域拖入 `.ipa` / `.apk` / `.dmg`（.dmg 必须和同 App 的 .ipa 或 .apk 放在同一个 Release 里）
+4. **Attach binaries** 区域拖入 `.ipa` / `.apk` / `.dmg` / `.exe` / `.zip`（dmg/exe/zip 必须和同 App 的 .ipa 或 .apk 放在同一个 Release 里）
 5. 右下角 **Publish release**
 
 ### 方式 B：gh 命令行
@@ -37,7 +37,7 @@ gh release create v1.2.3 \
 发布后 GitHub Actions 会自动：
 1. 列出所有 Release 资产
 2. 下载每个 `.ipa` / `.apk`，解析 `Info.plist` / `AndroidManifest`
-3. 按**包名**（`CFBundleIdentifier` / `package`）归组；`.dmg` 不解析，用同 Release 里 ipa/apk 的包名挂过去
+3. 按**包名**（`CFBundleIdentifier` / `package`）归组；`.dmg` / `.exe` / `.zip` 不解析，用同 Release 里 ipa/apk 的包名挂过去
 4. 生成 `docs/manifest/*.plist` + 重建 `docs/apps.json`
 5. commit 回 `main`，Pages 重新部署
 
@@ -53,7 +53,8 @@ gh release create v1.2.3 \
 ## 每次发布可以传什么
 
 - 只有 IPA、只有 APK、IPA + APK 同时传 —— 都行
-- `.dmg` 需要同 Release 里至少有一个 `.ipa` 或 `.apk`，脚本靠它的包名归组；版本号用 Release tag
+- `.dmg`（Mac）、`.exe` / `.zip`（Windows）需要同 Release 里至少有一个 `.ipa` 或 `.apk`，脚本靠它的包名归组；版本号用 Release tag
+- Release 里**不要丢其它无关 zip**（例如源码打包），脚本会把它当成 Windows 包
 - 同一个 Release 里可以塞多个 App 的包（按包名归组不冲突）
 - 发新版本就建新 Release，老 Release 里的旧包会进"历史版本"
 

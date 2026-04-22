@@ -3,14 +3,16 @@
   const IS_IOS = /iPhone|iPad|iPod/i.test(ua);
   const IS_ANDROID = /Android/i.test(ua);
   const IS_MAC = /Macintosh|Mac OS X/i.test(ua) && !IS_IOS;
+  const IS_WIN = /Windows/i.test(ua);
 
   const PLATFORM_META = {
     ios:     { btnLabel: 'iOS 安装',     qrTitle: '用 iOS 手机扫码安装',   hint: '仅白名单（UDID）设备可安装', histLabel: '安装', histTitle: 'iOS 历史版本' },
     android: { btnLabel: 'Android 安装', qrTitle: '用 Android 手机扫码下载', hint: '下载后请允许"未知来源"安装', histLabel: '下载', histTitle: 'Android 历史版本' },
-    mac:     { btnLabel: 'Mac 下载',     qrTitle: '扫码在 Mac 上下载',      hint: '下载后双击 .dmg 拖入 Applications', histLabel: '下载', histTitle: 'Mac 历史版本' }
+    mac:     { btnLabel: 'Mac 下载',     qrTitle: '扫码在 Mac 上下载',      hint: '下载后双击 .dmg 拖入 Applications', histLabel: '下载', histTitle: 'Mac 历史版本' },
+    win:     { btnLabel: 'Windows 下载', qrTitle: '扫码在 Windows 上下载',  hint: '.exe 直接运行；.zip 解压后运行',   histLabel: '下载', histTitle: 'Windows 历史版本' }
   };
 
-  const matchUa = (p) => (p === 'ios' && IS_IOS) || (p === 'android' && IS_ANDROID) || (p === 'mac' && IS_MAC);
+  const matchUa = (p) => (p === 'ios' && IS_IOS) || (p === 'android' && IS_ANDROID) || (p === 'mac' && IS_MAC) || (p === 'win' && IS_WIN);
   const entryUrl = (p, e) => p === 'ios' ? e.installUrl : e.downloadUrl;
 
   const $ = (sel, root = document) => root.querySelector(sel);
@@ -136,14 +138,16 @@
     card.appendChild(head);
 
     const mac = app.mac || [];
+    const win = app.win || [];
     const platforms = document.createElement('div');
     platforms.className = 'platforms';
     if (app.ios[0]) platforms.appendChild(platformBtn('ios', app.ios[0]));
     if (app.android[0]) platforms.appendChild(platformBtn('android', app.android[0]));
     if (mac[0]) platforms.appendChild(platformBtn('mac', mac[0]));
+    if (win[0]) platforms.appendChild(platformBtn('win', win[0]));
     card.appendChild(platforms);
 
-    const hasHistory = app.ios.length > 1 || app.android.length > 1 || mac.length > 1;
+    const hasHistory = app.ios.length > 1 || app.android.length > 1 || mac.length > 1 || win.length > 1;
     if (hasHistory) {
       const toggle = document.createElement('button');
       toggle.className = 'history-toggle';
@@ -154,9 +158,11 @@
       const iosHist = historySection('ios', app.ios.slice(1));
       const andHist = historySection('android', app.android.slice(1));
       const macHist = historySection('mac', mac.slice(1));
+      const winHist = historySection('win', win.slice(1));
       if (iosHist) history.appendChild(iosHist);
       if (andHist) history.appendChild(andHist);
       if (macHist) history.appendChild(macHist);
+      if (winHist) history.appendChild(winHist);
       toggle.addEventListener('click', () => {
         history.hidden = !history.hidden;
         toggle.textContent = history.hidden ? '▸ 历史版本' : '▾ 收起';
