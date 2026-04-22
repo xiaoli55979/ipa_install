@@ -2,6 +2,16 @@
   const ua = navigator.userAgent;
   const IS_IOS = /iPhone|iPad|iPod/i.test(ua);
   const IS_ANDROID = /Android/i.test(ua);
+  const IS_MAC = /Macintosh|Mac OS X/i.test(ua) && !IS_IOS;
+
+  const PLATFORM_META = {
+    ios:     { btnLabel: 'iOS 安装',     qrTitle: '用 iOS 手机扫码安装',   hint: '仅白名单（UDID）设备可安装', histLabel: '安装', histTitle: 'iOS 历史版本' },
+    android: { btnLabel: 'Android 安装', qrTitle: '用 Android 手机扫码下载', hint: '下载后请允许"未知来源"安装', histLabel: '下载', histTitle: 'Android 历史版本' },
+    mac:     { btnLabel: 'Mac 下载',     qrTitle: '扫码在 Mac 上下载',      hint: '下载后双击 .dmg 拖入 Applications', histLabel: '下载', histTitle: 'Mac 历史版本' }
+  };
+
+  const matchUa = (p) => (p === 'ios' && IS_IOS) || (p === 'android' && IS_ANDROID) || (p === 'mac' && IS_MAC);
+  const entryUrl = (p, e) => p === 'ios' ? e.installUrl : e.downloadUrl;
 
   const $ = (sel, root = document) => root.querySelector(sel);
   const $$ = (sel, root = document) => [...root.querySelectorAll(sel)];
@@ -41,31 +51,47 @@
   }
 
   function platformBtn(platform, entry) {
+    const meta = PLATFORM_META[platform];
+    const wrap = document.createElement('div');
+    wrap.className = `btn-group btn-group-${platform}`;
+
     const a = document.createElement('a');
-    a.className = 'btn ' + (platform === 'ios' ? 'btn-ios' : 'btn-android');
-    const label = platform === 'ios' ? 'iOS 安装' : 'Android 安装';
-    a.innerHTML = `${label}<small>v${entry.version} · ${fmtSize(entry.size)}</small>`;
-    const url = platform === 'ios' ? entry.installUrl : entry.downloadUrl;
+    a.className = `btn btn-${platform}`;
+    a.innerHTML = `${meta.btnLabel}<small>v${entry.version} · ${fmtSize(entry.size)}</small>`;
+    const url = entryUrl(platform, entry);
     a.href = url;
     a.addEventListener('click', (ev) => {
-      const matchUa = (platform === 'ios' && IS_IOS) || (platform === 'android' && IS_ANDROID);
-      if (!matchUa) {
+      if (!matchUa(platform)) {
         ev.preventDefault();
-        openQr(platform === 'ios' ? '用 iOS 手机扫码安装' : '用 Android 手机扫码下载', url,
-          platform === 'ios'
-            ? '仅白名单（UDID）设备可安装'
-            : '下载后请允许"未知来源"安装');
+        openQr(meta.qrTitle, url, meta.hint);
       }
     });
-    return a;
+
+    const qr = document.createElement('button');
+    qr.type = 'button';
+    qr.className = `btn-qr btn-qr-${platform}`;
+    qr.title = '扫码下载';
+    qr.setAttribute('aria-label', '扫码下载');
+    qr.innerHTML = qrIconSvg();
+    qr.addEventListener('click', () => openQr(meta.qrTitle, url, meta.hint));
+
+    wrap.append(a, qr);
+    return wrap;
+  }
+
+  function qrIconSvg() {
+    return '<svg viewBox="0 0 24 24" width="18" height="18" fill="currentColor" aria-hidden="true">' +
+      '<path d="M3 3h8v8H3V3zm2 2v4h4V5H5zm8-2h8v8h-8V3zm2 2v4h4V5h-4zM3 13h8v8H3v-8zm2 2v4h4v-4H5zm8 0h2v2h-2v-2zm4 0h2v2h-2v-2zm2 2h2v2h-2v-2zm-6 2h2v2h-2v-2zm4 0h2v2h-2v-2zm2 2h2v2h-2v-2zm-6 0h2v2h-2v-2z"/>' +
+      '</svg>';
   }
 
   function historySection(platform, list) {
     if (!list.length) return null;
+    const meta = PLATFORM_META[platform];
     const wrap = document.createElement('div');
     wrap.className = 'history-group';
     const h = document.createElement('h4');
-    h.textContent = platform === 'ios' ? 'iOS 历史版本' : 'Android 历史版本';
+    h.textContent = meta.histTitle;
     wrap.appendChild(h);
     list.forEach(e => {
       const row = document.createElement('div');
@@ -77,12 +103,11 @@
       when.className = 'when';
       when.textContent = fmtTime(e.uploadedAt) + ' · ' + fmtSize(e.size);
       const a = document.createElement('a');
-      a.textContent = platform === 'ios' ? '安装' : '下载';
-      const url = platform === 'ios' ? e.installUrl : e.downloadUrl;
+      a.textContent = meta.histLabel;
+      const url = entryUrl(platform, e);
       a.href = url;
       a.addEventListener('click', (ev) => {
-        const matchUa = (platform === 'ios' && IS_IOS) || (platform === 'android' && IS_ANDROID);
-        if (!matchUa) { ev.preventDefault(); openQr('扫码安装 v' + e.version, url, ''); }
+        if (!matchUa(platform)) { ev.preventDefault(); openQr('扫码' + meta.histLabel + ' v' + e.version, url, ''); }
       });
       row.append(ver, when, a);
       wrap.appendChild(row);
@@ -110,13 +135,15 @@
     head.appendChild(titleWrap);
     card.appendChild(head);
 
+    const mac = app.mac || [];
     const platforms = document.createElement('div');
     platforms.className = 'platforms';
     if (app.ios[0]) platforms.appendChild(platformBtn('ios', app.ios[0]));
     if (app.android[0]) platforms.appendChild(platformBtn('android', app.android[0]));
+    if (mac[0]) platforms.appendChild(platformBtn('mac', mac[0]));
     card.appendChild(platforms);
 
-    const hasHistory = app.ios.length > 1 || app.android.length > 1;
+    const hasHistory = app.ios.length > 1 || app.android.length > 1 || mac.length > 1;
     if (hasHistory) {
       const toggle = document.createElement('button');
       toggle.className = 'history-toggle';
@@ -126,8 +153,10 @@
       history.hidden = true;
       const iosHist = historySection('ios', app.ios.slice(1));
       const andHist = historySection('android', app.android.slice(1));
+      const macHist = historySection('mac', mac.slice(1));
       if (iosHist) history.appendChild(iosHist);
       if (andHist) history.appendChild(andHist);
+      if (macHist) history.appendChild(macHist);
       toggle.addEventListener('click', () => {
         history.hidden = !history.hidden;
         toggle.textContent = history.hidden ? '▸ 历史版本' : '▾ 收起';

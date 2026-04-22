@@ -30,7 +30,16 @@
       "Bash(python3 -c \"import sys, json; d = json.load\\(sys.stdin\\); [print\\(r['tag_name'], '-', r['name'], '|', len\\(r.get\\('assets', []\\)\\), 'assets'\\) for r in d]\")",
       "Bash(python3 -c \"import sys, json; d = json.load\\(sys.stdin\\); print\\('generatedAt:', d.get\\('generatedAt'\\)\\); [print\\(' -', a['id'], 'iOS:', [v['version'] for v in a['ios']], 'AND:', [v['version'] for v in a['android']]\\) for a in d['apps']]\")",
       "Bash(git ls-tree *)",
-      "Bash(python3 -c ' *)"
+      "Bash(python3 -c ' *)",
+      "Bash(gh release *)",
+      "Bash(python3 -c \"import sys, json; d = json.load\\(sys.stdin\\); [print\\(r['tag_name'], '-', r['name'], '|', len\\(r.get\\('assets', []\\)\\), 'assets:', [a['name'] for a in r.get\\('assets', []\\)]\\) for r in d]\")",
+      "Bash(python3 -c \"import sys, json; d = json.load\\(sys.stdin\\); [print\\(r['name'], '|', r['event'], '|', r['status'], '|', r['conclusion'], '|', r.get\\('head_commit', {}\\).get\\('message', ''\\)[:50], '|', r['created_at']\\) for r in d.get\\('workflow_runs', []\\)]\")",
+      "Bash(python3 -c \"import sys, json; d = json.load\\(sys.stdin\\); print\\('GitHub releases:', len\\(d\\)\\); [print\\(' -', r['tag_name'], '|', r['name'], '|', [a['name'] for a in r.get\\('assets', []\\)]\\) for r in d]\")",
+      "Bash(python3 -c \"import sys, json; d = json.load\\(sys.stdin\\); [print\\(r['conclusion'], '|', r['display_title'], '|', r['created_at'], '|', r['html_url']\\) for r in d.get\\('workflow_runs', []\\)]\")",
+      "Bash(git reset *)",
+      "Bash(python3 -c \"import sys, json; d = json.load\\(sys.stdin\\); [print\\(r['conclusion'] or r['status'], '|', r['name'], '|', r['event'], '|', r['display_title'][:60], '|', r['created_at']\\) for r in d.get\\('workflow_runs', []\\)]\")",
+      "Bash(node --check scripts/build-metadata.mjs)",
+      "Bash(node --check docs/assets/app.js)"
     ]
   }
 }
