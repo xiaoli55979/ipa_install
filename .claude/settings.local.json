@@ -46,7 +46,10 @@
       "Bash(git -C /Users/ahao/Documents/Workspace/ipa_install_project status --short)",
       "Bash(git -C /Users/ahao/Documents/Workspace/ipa_install_project log --oneline -5)",
       "Bash(git -C /Users/ahao/Documents/Workspace/ipa_install_project diff --stat)",
-      "Bash(git *)"
+      "Bash(git *)",
+      "Bash(chmod +x /Users/ahao/Documents/Workspace/ipa_install_project/scripts/new-dist-repo.sh)",
+      "Bash(bash -n /Users/ahao/Documents/Workspace/ipa_install_project/scripts/new-dist-repo.sh)",
+      "Bash(/Users/ahao/Documents/Workspace/ipa_install_project/scripts/new-dist-repo.sh)"
     ]
   }
 }
