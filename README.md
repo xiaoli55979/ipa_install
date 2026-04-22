@@ -7,6 +7,112 @@
 - 分发页：https://xiaoli55979.github.io/ipa_install/
 - iOS 安装链接：`itms-services://...`（脚本自动生成，指向 Release 资产）
 
+## 架构原理
+
+用 GitHub 全家桶凑出的免费 App 分发服务：**Releases 当文件仓库，Pages 当分发页，Actions 当打包流水线**，零服务器、零数据库、零域名成本。
+
+### 架构图
+
+```
+       ┌────────────── 你做的事 ──────────────┐
+       │                                     │
+       │  Release 新版 → 拖 ipa/apk/dmg/exe  │
+       │                                     │
+       └────────────────┬────────────────────┘
+                        │ 触发 release 事件
+                        ▼
+       ┌─────────────────────────────────────┐
+       │        GitHub Actions (免费 CI)      │
+       │  build-metadata.mjs                  │
+       │  ① 拉所有 Release 资产               │
+       │  ② 解析 ipa Info.plist / apk manifest│
+       │  ③ 按 bundleId 归组，挂载 dmg/exe    │
+       │  ④ 生成 manifest.plist + apps.json   │
+       │  ⑤ 提取图标                          │
+       │  ⑥ commit 回 docs/                   │
+       └────────────────┬────────────────────┘
+                        │ 自动 push main
+                        ▼
+       ┌─────────────────────────────────────┐
+       │     GitHub Pages (docs/ 目录静态托管) │
+       │                                      │
+       │  index.html + app.js + apps.json     │
+       │  manifest/*.plist + icons/*.png      │
+       └────────────────┬─────────────────────┘
+                        │ 用户访问
+                        ▼
+       ┌─────────────────────────────────────┐
+       │         终端用户浏览器                │
+       │                                      │
+       │  fetch apps.json → 渲染卡片          │
+       │  UA 识别平台 → 点按钮                 │
+       │    iOS:    itms-services:// 唤起系统  │
+       │    其它:   直链下载 / 扫码给手机       │
+       └─────────────────────────────────────┘
+```
+
+### 各层职责
+
+#### 1. 存储层 — GitHub Releases
+
+- **为什么不用 git 本体**：git 单文件硬上限 100 MB，ipa 动辄几十上百 MB 根本放不下。
+- **Releases 的好处**：单文件 2 GB，CDN 加速，全球免费下载，不计仓库空间。
+- **数据就是 Releases 本身**：你的 Release 就是数据库，每个 Release 里的 asset 就是一条记录。
+- 文件永久 URL：`github.com/OWNER/REPO/releases/download/<tag>/<file>`。
+
+#### 2. 触发层 — GitHub Actions
+
+- 监听 `release` 事件 + 手动触发。
+- 核心脚本 `scripts/build-metadata.mjs` 干 3 件事：
+  - `gh api /repos/OWNER/REPO/releases` 拉所有 release 列表
+  - 每个 `.ipa` 下载后用 `adm-zip` 拆开读 `Info.plist`；每个 `.apk` 用 `app-info-parser` 读 `AndroidManifest`
+  - 按 `CFBundleIdentifier` / `package` 归组 → 生成 `apps.json` + `manifest/*.plist` → commit 回 `docs/`
+- **dmg/exe/zip 不解析**，只在同一个 Release 里蹭 ipa/apk 的 bundleId 做归组。
+
+#### 3. 托管层 — GitHub Pages
+
+- 仓库 `Settings → Pages` 配 `main` 分支 `/docs` 目录。
+- Actions push 完，Pages 自动重新部署。
+- 最终地址 `https://USER.github.io/REPO/` 就是分发页。
+- 静态页，无后端，所有动态逻辑都在浏览器里跑。
+
+#### 4. 前端展示层 — `docs/` 纯静态
+
+- `index.html + app.js + style.css` 是写死的模板。
+- `apps.json` 是运行时数据，浏览器 fetch 进来渲染。
+- 每张卡片：图标 + 名称 + bundleId + 各平台最新版按钮 + 历史版本折叠。
+- UA 识别：iOS / Android / Mac / Windows 各自给合适的提示。
+- 扫码按钮：`qrcodejs` 本地渲染二维码，解决"PC 上看到 iOS 包想传到手机"的场景。
+
+#### 5. 安装协议层
+
+整套方案最巧妙的地方：
+
+- **iOS OTA 安装**：必须走 `itms-services://?action=download-manifest&url=<plist>` 这个 Apple 协议 URL。`<plist>` 是描述文件（里面写着真正 ipa 的 URL + bundleId + version），**必须 HTTPS**。GitHub Pages 自带 HTTPS，脚本自动生成这个 plist 扔在 `docs/manifest/` 里，完美满足条件。
+- **Android / Mac / Windows**：没有 OTA 协议，就是直链下载。Android 下载完系统会提示安装；Mac `.dmg` 要手动拖 Applications；Windows `.exe` / `.zip` 自己跑。
+
+#### 6. 归组规则
+
+同 `bundleId` = 同一张卡，不管有多少平台、多少版本。所以只要保证 iOS `CFBundleIdentifier` 和 Android `package` 一致，就能自动聚合到一起。
+
+### 和其它方案对比
+
+| 方案 | 成本 | 定制度 | 私有控制 | 对比本方案 |
+|------|------|--------|---------|-----------|
+| 蒲公英 / fir.im | 免费有限额，付费贵 | 低 | 中 | 本方案免费无限额，但没后台管理 |
+| 自建 + OSS + 域名 | OSS 流量费 + 备案 + 服务器 | 高 | 高 | 本方案零成本但完全公开 |
+| TestFlight | 免费 | 最低 | 高 | 本方案更灵活，TF 要审核 |
+| 企业签名 | 签名服务贵 + 易被封 | 中 | 中 | 本方案合规（开发者账号 Ad-Hoc） |
+
+### 端到端时序
+
+1. **你** 拖个 ipa 到 Release — 1 秒
+2. **Actions** 识别 → 解析 → 生成 → commit — 1-2 分钟
+3. **Pages** 重新部署 — 30 秒
+4. **用户** 打开页面 → 扫码 → iOS 弹安装面板 → 下载装上 — 1-3 分钟（看网速）
+
+端到端用户感知 **2-5 分钟能用上新版**。
+
 ## 一次性初始化（在 GitHub 上做一遍）
 
 1. 推送代码到 `https://github.com/xiaoli55979/ipa_install.git` 的 `main` 分支
