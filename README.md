@@ -174,6 +174,21 @@ gh release create v1.2.3 \
 | 图标提取 | Assets.car 不支持 | 用 Assets.car 打包的 IPA 会没图标，兜底显示首字母 |
 | Release 数量 | 建议 ≤ 100 个 | 每次构建要下载所有资产解析，太多会慢 |
 
+## 基于本项目克隆一套新分发（给另一批 App 用）
+
+如果要给**不同客户/业务线**做独立分发页（独立仓库、独立 URL、独立访问权），用自带脚本一键克隆：
+
+```bash
+# 先确认已 gh auth login
+./scripts/new-dist-repo.sh <新仓库名> "站点标题"
+# 示例:
+./scripts/new-dist-repo.sh customer_abc "ABC 客户分发"
+```
+
+脚本会自动：复制本项目到 `../<新仓库名>_project/`、清掉旧产物、写入新 `config.json`、建 GitHub 仓库并推送、启用 Pages、打开 Actions 写权限。跑完 1-2 分钟后去新 Pages URL 就能用。
+
+> 如果只是想**在现有页面里加多个 App**，不用克隆仓库，直接把新 App 的 ipa/apk 丢进 Release，脚本会按 `bundleId` 自动归成新卡片。
+
 ## 本地调试（可选）
 
 ```bash
