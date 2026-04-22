@@ -1,13 +1,25 @@
 {
   "siteTitle": "App 分发",
   "publicUrl": "https://xiaoli55979.github.io/ipa_install",
-  "generatedAt": "2026-04-22T06:32:03.682Z",
+  "generatedAt": "2026-04-22T09:27:48.850Z",
   "apps": [
     {
       "id": "com.jiliaoim.cn",
       "name": "云小聊",
       "icon": "https://xiaoli55979.github.io/ipa_install/icons/com.jiliaoim.cn-android.png",
       "ios": [
+        {
+          "version": "1.1.7",
+          "uploadedAt": "2026-04-22T09:24:02Z",
+          "tag": "1.1.7",
+          "releaseName": "1.1.7",
+          "notes": "修复视频通话断开问题",
+          "file": "upload.ipa",
+          "size": 40995757,
+          "downloadUrl": "https://github.com/xiaoli55979/ipa_install/releases/download/1.1.7/upload.ipa",
+          "manifestUrl": "https://xiaoli55979.github.io/ipa_install/manifest/com.jiliaoim.cn-1.1.7.plist",
+          "installUrl": "itms-services://?action=download-manifest&url=https%3A%2F%2Fxiaoli55979.github.io%2Fipa_install%2Fmanifest%2Fcom.jiliaoim.cn-1.1.7.plist"
+        },
         {
           "version": "1.1.6",
           "uploadedAt": "2026-04-22T06:27:03Z",
@@ -23,6 +35,16 @@
       ],
       "android": [
         {
+          "version": "1.1.7",
+          "uploadedAt": "2026-04-22T09:27:18Z",
+          "tag": "1.1.7",
+          "releaseName": "1.1.7",
+          "notes": "修复视频通话断开问题",
+          "file": "upload.apk",
+          "size": 229703607,
+          "downloadUrl": "https://github.com/xiaoli55979/ipa_install/releases/download/1.1.7/upload.apk"
+        },
+        {
           "version": "1.1.6",
           "uploadedAt": "2026-04-22T06:28:38Z",
           "tag": "1.1.6.1",
@@ -33,7 +55,7 @@
           "downloadUrl": "https://github.com/xiaoli55979/ipa_install/releases/download/1.1.6.1/1.1.6.1.apk"
         }
       ],
-      "latestAt": "2026-04-22T06:28:38Z"
+      "latestAt": "2026-04-22T09:27:18Z"
     }
   ]
 }
