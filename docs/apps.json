@@ -1,7 +1,7 @@
 {
   "siteTitle": "App 分发",
   "publicUrl": "https://xiaoli55979.github.io/ipa_install",
-  "generatedAt": "2026-04-19T11:09:42.646Z",
+  "generatedAt": "2026-04-22T06:29:11.373Z",
   "apps": [
     {
       "id": "com.jiliaoim.cn",
@@ -10,30 +10,30 @@
       "ios": [
         {
           "version": "1.1.6",
-          "uploadedAt": "2026-04-19T10:01:57Z",
-          "tag": "1.1.6",
-          "releaseName": "1.1.6",
+          "uploadedAt": "2026-04-22T06:27:03Z",
+          "tag": "1.1.6.1",
+          "releaseName": "1.1.6.1",
           "notes": "add",
-          "file": "upload.ipa",
-          "size": 40731832,
-          "downloadUrl": "https://github.com/xiaoli55979/ipa_install/releases/download/1.1.6/upload.ipa",
-          "manifestUrl": "https://xiaoli55979.github.io/ipa_install/manifest/com.jiliaoim.cn-1.1.6.plist",
-          "installUrl": "itms-services://?action=download-manifest&url=https%3A%2F%2Fxiaoli55979.github.io%2Fipa_install%2Fmanifest%2Fcom.jiliaoim.cn-1.1.6.plist"
+          "file": "1.1.6.1.ipa",
+          "size": 40986069,
+          "downloadUrl": "https://github.com/xiaoli55979/ipa_install/releases/download/1.1.6.1/1.1.6.1.ipa",
+          "manifestUrl": "https://xiaoli55979.github.io/ipa_install/manifest/com.jiliaoim.cn-1.1.6.1.plist",
+          "installUrl": "itms-services://?action=download-manifest&url=https%3A%2F%2Fxiaoli55979.github.io%2Fipa_install%2Fmanifest%2Fcom.jiliaoim.cn-1.1.6.1.plist"
         }
       ],
       "android": [
         {
           "version": "1.1.6",
-          "uploadedAt": "2026-04-19T10:51:44Z",
-          "tag": "1.1.6",
-          "releaseName": "1.1.6",
+          "uploadedAt": "2026-04-22T06:28:38Z",
+          "tag": "1.1.6.1",
+          "releaseName": "1.1.6.1",
           "notes": "add",
-          "file": "upload.apk",
-          "size": 228884347,
-          "downloadUrl": "https://github.com/xiaoli55979/ipa_install/releases/download/1.1.6/upload.apk"
+          "file": "1.1.6.1.apk",
+          "size": 249036307,
+          "downloadUrl": "https://github.com/xiaoli55979/ipa_install/releases/download/1.1.6.1/1.1.6.1.apk"
         }
       ],
-      "latestAt": "2026-04-19T10:51:44Z"
+      "latestAt": "2026-04-22T06:28:38Z"
     }
   ]
 }
