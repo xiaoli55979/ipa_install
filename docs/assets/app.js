@@ -6,6 +6,12 @@
     win:     { btnLabel: 'Windows 下载', qrTitle: '扫码在 Windows 上下载',  hint: '.exe 直接运行；.zip 解压后运行',   histLabel: '下载', histTitle: 'Windows 历史版本' }
   };
 
+  const WIN_EXE_META = { btnLabel: 'Windows 安装版', qrTitle: '扫码下载 Windows 安装版', hint: '.exe 双击运行安装程序', histLabel: '安装', histTitle: 'Windows 安装版历史' };
+  const WIN_ZIP_META = { btnLabel: 'Windows 便携版', qrTitle: '扫码下载 Windows 便携版', hint: '.zip 解压后直接运行',   histLabel: '下载', histTitle: 'Windows 便携版历史' };
+
+  const isExe = (e) => /\.exe$/i.test(e.file || '');
+  const isZip = (e) => /\.zip$/i.test(e.file || '');
+
   const entryUrl = (p, e) => p === 'ios' ? e.installUrl : e.downloadUrl;
 
   const $ = (sel, root = document) => root.querySelector(sel);
@@ -45,8 +51,8 @@
     return iconFallback(app.name);
   }
 
-  function platformBtn(platform, entry) {
-    const meta = PLATFORM_META[platform];
+  function platformBtn(platform, entry, override) {
+    const meta = { ...PLATFORM_META[platform], ...(override || {}) };
     const wrap = document.createElement('div');
     wrap.className = `btn-group btn-group-${platform}`;
 
@@ -74,9 +80,9 @@
       '</svg>';
   }
 
-  function historySection(platform, list) {
+  function historySection(platform, list, override) {
     if (!list.length) return null;
-    const meta = PLATFORM_META[platform];
+    const meta = { ...PLATFORM_META[platform], ...(override || {}) };
     const wrap = document.createElement('div');
     wrap.className = 'history-group';
     const h = document.createElement('h4');
@@ -130,15 +136,21 @@
 
     const mac = app.mac || [];
     const win = app.win || [];
+    const winExe = win.filter(isExe);
+    const winZip = win.filter(isZip);
+    const winOther = win.filter(e => !isExe(e) && !isZip(e));
     const platforms = document.createElement('div');
     platforms.className = 'platforms';
     if (app.ios[0]) platforms.appendChild(platformBtn('ios', app.ios[0]));
     if (app.android[0]) platforms.appendChild(platformBtn('android', app.android[0]));
     if (mac[0]) platforms.appendChild(platformBtn('mac', mac[0]));
-    if (win[0]) platforms.appendChild(platformBtn('win', win[0]));
+    if (winExe[0]) platforms.appendChild(platformBtn('win', winExe[0], WIN_EXE_META));
+    if (winZip[0]) platforms.appendChild(platformBtn('win', winZip[0], WIN_ZIP_META));
+    if (!winExe.length && !winZip.length && winOther[0]) platforms.appendChild(platformBtn('win', winOther[0]));
     card.appendChild(platforms);
 
-    const hasHistory = app.ios.length > 1 || app.android.length > 1 || mac.length > 1 || win.length > 1;
+    const hasHistory = app.ios.length > 1 || app.android.length > 1 || mac.length > 1
+      || winExe.length > 1 || winZip.length > 1 || winOther.length > 1;
     if (hasHistory) {
       const toggle = document.createElement('button');
       toggle.className = 'history-toggle';
@@ -149,11 +161,15 @@
       const iosHist = historySection('ios', app.ios.slice(1));
       const andHist = historySection('android', app.android.slice(1));
       const macHist = historySection('mac', mac.slice(1));
-      const winHist = historySection('win', win.slice(1));
+      const winExeHist = historySection('win', winExe.slice(1), WIN_EXE_META);
+      const winZipHist = historySection('win', winZip.slice(1), WIN_ZIP_META);
+      const winOtherHist = (!winExe.length && !winZip.length) ? historySection('win', winOther.slice(1)) : null;
       if (iosHist) history.appendChild(iosHist);
       if (andHist) history.appendChild(andHist);
       if (macHist) history.appendChild(macHist);
-      if (winHist) history.appendChild(winHist);
+      if (winExeHist) history.appendChild(winExeHist);
+      if (winZipHist) history.appendChild(winZipHist);
+      if (winOtherHist) history.appendChild(winOtherHist);
       toggle.addEventListener('click', () => {
         history.hidden = !history.hidden;
         toggle.textContent = history.hidden ? '▸ 历史版本' : '▾ 收起';
