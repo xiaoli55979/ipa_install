@@ -42,7 +42,11 @@
       "Bash(node --check docs/assets/app.js)",
       "Bash(npm i *)",
       "Bash(npm uninstall *)",
-      "Bash(node --check /Users/ahao/Documents/Workspace/ipa_install_project/docs/assets/app.js)"
+      "Bash(node --check /Users/ahao/Documents/Workspace/ipa_install_project/docs/assets/app.js)",
+      "Bash(git -C /Users/ahao/Documents/Workspace/ipa_install_project status --short)",
+      "Bash(git -C /Users/ahao/Documents/Workspace/ipa_install_project log --oneline -5)",
+      "Bash(git -C /Users/ahao/Documents/Workspace/ipa_install_project diff --stat)",
+      "Bash(git *)"
     ]
   }
 }

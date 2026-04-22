@@ -104,14 +104,21 @@
       const when = document.createElement('span');
       when.className = 'when';
       when.textContent = fmtTime(e.uploadedAt) + ' · ' + fmtSize(e.size);
+      const url = entryUrl(platform, e);
       const a = document.createElement('a');
       a.textContent = meta.histLabel;
-      const url = entryUrl(platform, e);
       a.href = url;
       a.addEventListener('click', (ev) => {
         if (!matchUa(platform)) { ev.preventDefault(); openQr('扫码' + meta.histLabel + ' v' + e.version, url, ''); }
       });
-      row.append(ver, when, a);
+      const qr = document.createElement('button');
+      qr.type = 'button';
+      qr.className = 'history-qr';
+      qr.title = '扫码' + meta.histLabel;
+      qr.setAttribute('aria-label', '扫码' + meta.histLabel);
+      qr.innerHTML = qrIconSvg();
+      qr.addEventListener('click', () => openQr('扫码' + meta.histLabel + ' v' + e.version, url, ''));
+      row.append(ver, when, a, qr);
       wrap.appendChild(row);
     });
     return wrap;
@@ -181,7 +188,7 @@
     canvasWrap.innerHTML = '';
     if (window.QRCode) {
       try {
-        new QRCode(canvasWrap, { text: url, width: 240, height: 240, correctLevel: QRCode.CorrectLevel.M });
+        new QRCode(canvasWrap, { text: url, width: 180, height: 180, correctLevel: QRCode.CorrectLevel.M });
       } catch (e) {
         canvasWrap.textContent = url;
       }

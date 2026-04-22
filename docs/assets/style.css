@@ -183,6 +183,18 @@ html, body {
 .history-item .ver { font-weight: 600; }
 .history-item .when { color: var(--muted); flex: 1; font-size: 12px; }
 .history-item a { color: var(--ios); text-decoration: none; }
+.history-qr {
+  appearance: none;
+  border: none;
+  background: transparent;
+  color: var(--muted);
+  padding: 2px 4px;
+  cursor: pointer;
+  display: inline-flex;
+  align-items: center;
+}
+.history-qr svg { width: 16px; height: 16px; }
+.history-qr:hover { color: var(--ios); }
 
 .modal {
   position: fixed;
@@ -201,9 +213,9 @@ html, body {
 .modal-panel {
   position: relative;
   background: #fff;
-  padding: 20px;
+  padding: 16px;
   border-radius: 14px;
-  max-width: 320px;
+  max-width: 240px;
   width: calc(100% - 32px);
   text-align: center;
   box-shadow: 0 10px 40px rgba(0,0,0,.2);
