@@ -1,13 +1,25 @@
 {
   "siteTitle": "App 分发",
   "publicUrl": "https://xiaoli55979.github.io/ipa_install",
-  "generatedAt": "2026-04-23T09:17:58.195Z",
+  "generatedAt": "2026-04-23T11:48:46.108Z",
   "apps": [
     {
       "id": "com.jiliaoim.cn",
       "name": "云小聊",
       "icon": "https://xiaoli55979.github.io/ipa_install/icons/com.jiliaoim.cn-android.png",
       "ios": [
+        {
+          "version": "1.1.11",
+          "uploadedAt": "2026-04-23T11:47:27Z",
+          "tag": "1.1.11",
+          "releaseName": "1.1.11",
+          "notes": "自动发布 1.1.11\n\n- iOS (test profile): `ipa_install_1.1.11_test.ipa`\n- Android (release): `ipa_install_1.1.11.apk`\n\n构建时间: 2026-04-23 20:47:15 JST",
+          "file": "ipa_install_1.1.11_test.ipa",
+          "size": 43950711,
+          "downloadUrl": "https://github.com/xiaoli55979/ipa_install/releases/download/1.1.11/ipa_install_1.1.11_test.ipa",
+          "manifestUrl": "https://xiaoli55979.github.io/ipa_install/manifest/com.jiliaoim.cn-1.1.11.plist",
+          "installUrl": "itms-services://?action=download-manifest&url=https%3A%2F%2Fxiaoli55979.github.io%2Fipa_install%2Fmanifest%2Fcom.jiliaoim.cn-1.1.11.plist"
+        },
         {
           "version": "1.1.10",
           "uploadedAt": "2026-04-23T09:16:31Z",
@@ -82,6 +94,16 @@
         }
       ],
       "android": [
+        {
+          "version": "1.1.11",
+          "uploadedAt": "2026-04-23T11:47:47Z",
+          "tag": "1.1.11",
+          "releaseName": "1.1.11",
+          "notes": "自动发布 1.1.11\n\n- iOS (test profile): `ipa_install_1.1.11_test.ipa`\n- Android (release): `ipa_install_1.1.11.apk`\n\n构建时间: 2026-04-23 20:47:15 JST",
+          "file": "ipa_install_1.1.11.apk",
+          "size": 230048172,
+          "downloadUrl": "https://github.com/xiaoli55979/ipa_install/releases/download/1.1.11/ipa_install_1.1.11.apk"
+        },
         {
           "version": "1.1.10",
           "uploadedAt": "2026-04-23T09:16:53Z",
@@ -207,7 +229,7 @@
           "downloadUrl": "https://github.com/xiaoli55979/ipa_install/releases/download/1.1.7.2/Setup-1.0.6-x64.exe"
         }
       ],
-      "latestAt": "2026-04-23T09:16:53Z"
+      "latestAt": "2026-04-23T11:47:47Z"
     }
   ]
 }
