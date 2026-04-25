@@ -1,13 +1,25 @@
 {
   "siteTitle": "App 分发",
   "publicUrl": "https://xiaoli55979.github.io/ipa_install",
-  "generatedAt": "2026-04-25T04:13:56.062Z",
+  "generatedAt": "2026-04-25T04:21:23.227Z",
   "apps": [
     {
       "id": "com.flutterChatSupport",
       "name": "客服插件",
       "icon": "https://xiaoli55979.github.io/ipa_install/icons/com.flutterChatSupport-android.png",
       "ios": [
+        {
+          "version": "1.1.13",
+          "uploadedAt": "2026-04-25T04:20:46Z",
+          "tag": "1.1.13",
+          "releaseName": "1.1.13",
+          "notes": "自动发布 1.1.13\n\n- `flutter_chat_support_example_1.1.13_test.ipa`\n- `flutter_chat_support_example_1.1.13.apk`\n\n构建时间: 2026-04-25 13:20:38 JST",
+          "file": "flutter_chat_support_example_1.1.13_test.ipa",
+          "size": 21302175,
+          "downloadUrl": "https://github.com/xiaoli55979/ipa_install/releases/download/1.1.13/flutter_chat_support_example_1.1.13_test.ipa",
+          "manifestUrl": "https://xiaoli55979.github.io/ipa_install/manifest/com.flutterChatSupport-1.1.13.plist",
+          "installUrl": "itms-services://?action=download-manifest&url=https%3A%2F%2Fxiaoli55979.github.io%2Fipa_install%2Fmanifest%2Fcom.flutterChatSupport-1.1.13.plist"
+        },
         {
           "version": "1.1.12",
           "uploadedAt": "2026-04-25T04:12:41Z",
@@ -23,6 +35,16 @@
       ],
       "android": [
         {
+          "version": "1.1.13",
+          "uploadedAt": "2026-04-25T04:20:56Z",
+          "tag": "1.1.13",
+          "releaseName": "1.1.13",
+          "notes": "自动发布 1.1.13\n\n- `flutter_chat_support_example_1.1.13_test.ipa`\n- `flutter_chat_support_example_1.1.13.apk`\n\n构建时间: 2026-04-25 13:20:38 JST",
+          "file": "flutter_chat_support_example_1.1.13.apk",
+          "size": 107866949,
+          "downloadUrl": "https://github.com/xiaoli55979/ipa_install/releases/download/1.1.13/flutter_chat_support_example_1.1.13.apk"
+        },
+        {
           "version": "1.1.10",
           "uploadedAt": "2026-04-25T04:12:50Z",
           "tag": "1.1.12",
@@ -35,7 +57,7 @@
       ],
       "mac": [],
       "win": [],
-      "latestAt": "2026-04-25T04:12:50Z"
+      "latestAt": "2026-04-25T04:20:56Z"
     },
     {
       "id": "com.jiliaoim.cn",
