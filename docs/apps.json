@@ -1,12 +1,12 @@
 {
   "siteTitle": "App 分发",
   "publicUrl": "https://xiaoli55979.github.io/ipa_install",
-  "generatedAt": "2026-04-26T08:09:09.447Z",
+  "generatedAt": "2026-04-26T08:09:38.153Z",
   "apps": [
     {
       "id": "com.flutterChatSupport",
       "name": "客服插件",
-      "icon": "https://xiaoli55979.github.io/ipa_install/icons/com.flutterChatSupport-ios.png",
+      "icon": "https://xiaoli55979.github.io/ipa_install/icons/com.flutterChatSupport-android.png",
       "ios": [
         {
           "version": "1.1.15",
@@ -102,6 +102,16 @@
       "mac": [
         {
           "version": "1.1.15",
+          "uploadedAt": "2026-04-26T08:08:48Z",
+          "tag": "1.1.15",
+          "releaseName": "1.1.15",
+          "notes": "自动发布 1.1.15\n\n- `flutter_chat_support_example_1.1.15_test.ipa`\n- `flutter_chat_support_example_1.1.15.apk`\n\n构建时间: 2026-04-25 17:15:45 JST",
+          "file": "YunXiaoLiao-1.1.15-x64.dmg",
+          "size": 135730414,
+          "downloadUrl": "https://github.com/xiaoli55979/ipa_install/releases/download/1.1.15/YunXiaoLiao-1.1.15-x64.dmg"
+        },
+        {
+          "version": "1.1.15",
           "uploadedAt": "2026-04-26T08:08:46Z",
           "tag": "1.1.15",
           "releaseName": "1.1.15",
@@ -123,12 +133,12 @@
           "downloadUrl": "https://github.com/xiaoli55979/ipa_install/releases/download/1.1.15/YunXiaoLiao-Setup-1.1.15-x64.exe"
         }
       ],
-      "latestAt": "2026-04-26T08:08:46Z"
+      "latestAt": "2026-04-26T08:08:48Z"
     },
     {
       "id": "com.jiliaoim.cn",
       "name": "云小聊",
-      "icon": "https://xiaoli55979.github.io/ipa_install/icons/com.jiliaoim.cn-ios.png",
+      "icon": "https://xiaoli55979.github.io/ipa_install/icons/com.jiliaoim.cn-android.png",
       "ios": [
         {
           "version": "1.1.16",
