@@ -1,5 +1,9 @@
 {
   "repo": "xiaoli55979/ipa_install",
   "publicUrl": "https://xiaoli55979.github.io/ipa_install",
-  "siteTitle": "App 分发"
+  "siteTitle": "App 分发",
+  "pcMatchers": [
+    { "bundleId": "com.jiliaoim.cn",        "prefixes": ["YunXiaoLiao"] },
+    { "bundleId": "com.flutterChatSupport", "prefixes": ["flutter_chat_support"] }
+  ]
 }

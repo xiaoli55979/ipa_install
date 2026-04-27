@@ -1,6 +1,9 @@
 #!/usr/bin/env node
 // 从 GitHub Releases 拉取所有 IPA/APK/DMG/EXE/ZIP 资产，解析元数据并生成 apps.json + manifest.plist
-// DMG(mac) / EXE|ZIP(win) 不解析内容，靠同 Release 里的 IPA/APK 提供 bundleId，版本号用 Release tag
+// DMG(mac) / EXE|ZIP(win) 不解析内容，归组优先级:
+//   1) config.json 的 pcMatchers 按文件名前缀匹配 bundleId
+//   2) 同 Release 里 IPA/APK 解析出的 bundleId 兜底
+// 版本号用 Release tag
 import fs from 'node:fs';
 import path from 'node:path';
 import os from 'node:os';
@@ -33,6 +36,22 @@ function escapeXml(s) {
   ));
 }
 function slugify(s) { return String(s).replace(/[^a-zA-Z0-9._-]/g, '_'); }
+
+// pcMatchers: [{ bundleId, prefixes: [...] }] —— 按文件名前缀把 dmg/exe/zip 归到指定 bundleId
+// 长前缀优先,大小写不敏感
+const PC_MATCHERS = (() => {
+  const raw = Array.isArray(CONFIG.pcMatchers) ? CONFIG.pcMatchers : [];
+  return raw
+    .flatMap(m => (m.prefixes || []).map(p => ({ bundleId: m.bundleId, prefix: String(p).toLowerCase() })))
+    .sort((a, b) => b.prefix.length - a.prefix.length);
+})();
+function matchPcByFilename(name) {
+  const lower = String(name).toLowerCase();
+  for (const { bundleId, prefix } of PC_MATCHERS) {
+    if (lower.startsWith(prefix)) return bundleId;
+  }
+  return null;
+}
 
 function fetchReleases() {
   const out = sh('gh', ['api', '--paginate', `/repos/${REPO}/releases?per_page=100`]);
@@ -169,19 +188,23 @@ async function main() {
       if (!platform) continue;
 
       if (platform === 'mac' || platform === 'win') {
-        if (!releaseBundleId) {
-          console.warn(`[skip] ${ext} ${asset.name}: release ${rel.tag_name} 没有同包名的 ipa/apk，无法归组`);
+        // 优先用文件名前缀匹配,跨 release 也能正确归组;匹配不上再用同 release 的 ipa/apk 兜底
+        const matchedBundleId = matchPcByFilename(asset.name);
+        const targetBundleId = matchedBundleId || releaseBundleId;
+        if (!targetBundleId) {
+          console.warn(`[skip] ${ext} ${asset.name}: 文件名前缀不在 pcMatchers 中,且 release ${rel.tag_name} 没有 ipa/apk 提供 bundleId`);
           continue;
         }
         const pkgUrl = asset.browser_download_url;
         const uploadedAt = asset.updated_at || asset.created_at || rel.published_at;
-        if (!apps.has(releaseBundleId)) {
-          apps.set(releaseBundleId, {
-            id: releaseBundleId, name: releaseAppName || releaseBundleId,
+        if (!apps.has(targetBundleId)) {
+          apps.set(targetBundleId, {
+            id: targetBundleId,
+            name: matchedBundleId ? targetBundleId : (releaseAppName || targetBundleId),
             icon: null, ios: [], android: [], mac: [], win: []
           });
         }
-        const app = apps.get(releaseBundleId);
+        const app = apps.get(targetBundleId);
         if (!app.mac) app.mac = [];
         if (!app.win) app.win = [];
         app[platform].push({
