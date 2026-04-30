@@ -1,135 +1,25 @@
 {
   "siteTitle": "App 分发",
   "publicUrl": "https://xiaoli55979.github.io/ipa_install",
-  "generatedAt": "2026-04-30T02:59:14.135Z",
+  "generatedAt": "2026-04-30T06:06:33.976Z",
   "apps": [
-    {
-      "id": "com.flutterChatSupport",
-      "name": "客服插件",
-      "icon": "https://xiaoli55979.github.io/ipa_install/icons/com.flutterChatSupport-android.png",
-      "ios": [
-        {
-          "version": "1.1.16",
-          "uploadedAt": "2026-04-30T02:57:28Z",
-          "tag": "chat_support-1.1.16",
-          "releaseName": "chat_support-1.1.16",
-          "notes": "自动发布 chat_support-1.1.16\n\n- `chat_support_1.1.16_test.ipa`\n- `chat_support_1.1.16.apk`\n\n构建时间: 2026-04-30 11:57:21 JST",
-          "file": "chat_support_1.1.16_test.ipa",
-          "size": 21307543,
-          "downloadUrl": "https://github.com/xiaoli55979/ipa_install/releases/download/chat_support-1.1.16/chat_support_1.1.16_test.ipa",
-          "manifestUrl": "https://xiaoli55979.github.io/ipa_install/manifest/com.flutterChatSupport-chat_support-1.1.16.plist",
-          "installUrl": "itms-services://?action=download-manifest&url=https%3A%2F%2Fxiaoli55979.github.io%2Fipa_install%2Fmanifest%2Fcom.flutterChatSupport-chat_support-1.1.16.plist"
-        },
-        {
-          "version": "1.1.15",
-          "uploadedAt": "2026-04-25T08:15:52Z",
-          "tag": "1.1.15",
-          "releaseName": "1.1.15",
-          "notes": "自动发布 1.1.15\r\n\r\n- `flutter_chat_support_example_1.1.15_test.ipa`\r\n- `flutter_chat_support_example_1.1.15.apk`\r\n\r\n构建时间: 2026-04-25 17:15:45 JST",
-          "file": "flutter_chat_support_example_1.1.15_test.ipa",
-          "size": 21333045,
-          "downloadUrl": "https://github.com/xiaoli55979/ipa_install/releases/download/1.1.15/flutter_chat_support_example_1.1.15_test.ipa",
-          "manifestUrl": "https://xiaoli55979.github.io/ipa_install/manifest/com.flutterChatSupport-1.1.15.plist",
-          "installUrl": "itms-services://?action=download-manifest&url=https%3A%2F%2Fxiaoli55979.github.io%2Fipa_install%2Fmanifest%2Fcom.flutterChatSupport-1.1.15.plist"
-        },
-        {
-          "version": "1.1.14",
-          "uploadedAt": "2026-04-25T04:24:40Z",
-          "tag": "1.1.14",
-          "releaseName": "1.1.14",
-          "notes": "自动发布 1.1.14\n\n- `flutter_chat_support_example_1.1.14_test.ipa`\n- `flutter_chat_support_example_1.1.14.apk`\n\n构建时间: 2026-04-25 13:24:32 JST",
-          "file": "flutter_chat_support_example_1.1.14_test.ipa",
-          "size": 21302130,
-          "downloadUrl": "https://github.com/xiaoli55979/ipa_install/releases/download/1.1.14/flutter_chat_support_example_1.1.14_test.ipa",
-          "manifestUrl": "https://xiaoli55979.github.io/ipa_install/manifest/com.flutterChatSupport-1.1.14.plist",
-          "installUrl": "itms-services://?action=download-manifest&url=https%3A%2F%2Fxiaoli55979.github.io%2Fipa_install%2Fmanifest%2Fcom.flutterChatSupport-1.1.14.plist"
-        },
-        {
-          "version": "1.1.13",
-          "uploadedAt": "2026-04-25T04:20:46Z",
-          "tag": "1.1.13",
-          "releaseName": "1.1.13",
-          "notes": "自动发布 1.1.13\n\n- `flutter_chat_support_example_1.1.13_test.ipa`\n- `flutter_chat_support_example_1.1.13.apk`\n\n构建时间: 2026-04-25 13:20:38 JST",
-          "file": "flutter_chat_support_example_1.1.13_test.ipa",
-          "size": 21302175,
-          "downloadUrl": "https://github.com/xiaoli55979/ipa_install/releases/download/1.1.13/flutter_chat_support_example_1.1.13_test.ipa",
-          "manifestUrl": "https://xiaoli55979.github.io/ipa_install/manifest/com.flutterChatSupport-1.1.13.plist",
-          "installUrl": "itms-services://?action=download-manifest&url=https%3A%2F%2Fxiaoli55979.github.io%2Fipa_install%2Fmanifest%2Fcom.flutterChatSupport-1.1.13.plist"
-        },
-        {
-          "version": "1.1.12",
-          "uploadedAt": "2026-04-25T04:12:41Z",
-          "tag": "1.1.12",
-          "releaseName": "1.1.12",
-          "notes": "自动发布 1.1.12\n\n- `flutter_chat_support_example_1.1.12_test.ipa`\n- `flutter_chat_support_example_1.1.12.apk`\n\n构建时间: 2026-04-25 13:12:33 JST",
-          "file": "flutter_chat_support_example_1.1.12_test.ipa",
-          "size": 21302343,
-          "downloadUrl": "https://github.com/xiaoli55979/ipa_install/releases/download/1.1.12/flutter_chat_support_example_1.1.12_test.ipa",
-          "manifestUrl": "https://xiaoli55979.github.io/ipa_install/manifest/com.flutterChatSupport-1.1.12.plist",
-          "installUrl": "itms-services://?action=download-manifest&url=https%3A%2F%2Fxiaoli55979.github.io%2Fipa_install%2Fmanifest%2Fcom.flutterChatSupport-1.1.12.plist"
-        }
-      ],
-      "android": [
-        {
-          "version": "1.1.16",
-          "uploadedAt": "2026-04-30T02:57:38Z",
-          "tag": "chat_support-1.1.16",
-          "releaseName": "chat_support-1.1.16",
-          "notes": "自动发布 chat_support-1.1.16\n\n- `chat_support_1.1.16_test.ipa`\n- `chat_support_1.1.16.apk`\n\n构建时间: 2026-04-30 11:57:21 JST",
-          "file": "chat_support_1.1.16.apk",
-          "size": 107949361,
-          "downloadUrl": "https://github.com/xiaoli55979/ipa_install/releases/download/chat_support-1.1.16/chat_support_1.1.16.apk"
-        },
-        {
-          "version": "1.1.15",
-          "uploadedAt": "2026-04-25T08:16:02Z",
-          "tag": "1.1.15",
-          "releaseName": "1.1.15",
-          "notes": "自动发布 1.1.15\r\n\r\n- `flutter_chat_support_example_1.1.15_test.ipa`\r\n- `flutter_chat_support_example_1.1.15.apk`\r\n\r\n构建时间: 2026-04-25 17:15:45 JST",
-          "file": "flutter_chat_support_example_1.1.15.apk",
-          "size": 107982129,
-          "downloadUrl": "https://github.com/xiaoli55979/ipa_install/releases/download/1.1.15/flutter_chat_support_example_1.1.15.apk"
-        },
-        {
-          "version": "1.1.14",
-          "uploadedAt": "2026-04-25T04:24:50Z",
-          "tag": "1.1.14",
-          "releaseName": "1.1.14",
-          "notes": "自动发布 1.1.14\n\n- `flutter_chat_support_example_1.1.14_test.ipa`\n- `flutter_chat_support_example_1.1.14.apk`\n\n构建时间: 2026-04-25 13:24:32 JST",
-          "file": "flutter_chat_support_example_1.1.14.apk",
-          "size": 107866949,
-          "downloadUrl": "https://github.com/xiaoli55979/ipa_install/releases/download/1.1.14/flutter_chat_support_example_1.1.14.apk"
-        },
-        {
-          "version": "1.1.13",
-          "uploadedAt": "2026-04-25T04:20:56Z",
-          "tag": "1.1.13",
-          "releaseName": "1.1.13",
-          "notes": "自动发布 1.1.13\n\n- `flutter_chat_support_example_1.1.13_test.ipa`\n- `flutter_chat_support_example_1.1.13.apk`\n\n构建时间: 2026-04-25 13:20:38 JST",
-          "file": "flutter_chat_support_example_1.1.13.apk",
-          "size": 107866949,
-          "downloadUrl": "https://github.com/xiaoli55979/ipa_install/releases/download/1.1.13/flutter_chat_support_example_1.1.13.apk"
-        },
-        {
-          "version": "1.1.10",
-          "uploadedAt": "2026-04-25T04:12:50Z",
-          "tag": "1.1.12",
-          "releaseName": "1.1.12",
-          "notes": "自动发布 1.1.12\n\n- `flutter_chat_support_example_1.1.12_test.ipa`\n- `flutter_chat_support_example_1.1.12.apk`\n\n构建时间: 2026-04-25 13:12:33 JST",
-          "file": "flutter_chat_support_example_1.1.12.apk",
-          "size": 107864016,
-          "downloadUrl": "https://github.com/xiaoli55979/ipa_install/releases/download/1.1.12/flutter_chat_support_example_1.1.12.apk"
-        }
-      ],
-      "mac": [],
-      "win": [],
-      "latestAt": "2026-04-30T02:57:38Z"
-    },
     {
       "id": "com.jiliaoim.cn",
       "name": "云小聊",
       "icon": "https://xiaoli55979.github.io/ipa_install/icons/com.jiliaoim.cn-android.png",
       "ios": [
+        {
+          "version": "1.1.18",
+          "uploadedAt": "2026-04-30T06:04:57Z",
+          "tag": "1.1.18",
+          "releaseName": "1.1.18",
+          "notes": "自动发布 1.1.18\n\n- `im_chat_manager_plugin_example_1.1.18_test.ipa`\n- `im_chat_manager_plugin_example_1.1.18.apk`\n\n构建时间: 2026-04-30 15:04:44 JST",
+          "file": "im_chat_manager_plugin_example_1.1.18_test.ipa",
+          "size": 43992884,
+          "downloadUrl": "https://github.com/xiaoli55979/ipa_install/releases/download/1.1.18/im_chat_manager_plugin_example_1.1.18_test.ipa",
+          "manifestUrl": "https://xiaoli55979.github.io/ipa_install/manifest/com.jiliaoim.cn-1.1.18.plist",
+          "installUrl": "itms-services://?action=download-manifest&url=https%3A%2F%2Fxiaoli55979.github.io%2Fipa_install%2Fmanifest%2Fcom.jiliaoim.cn-1.1.18.plist"
+        },
         {
           "version": "1.1.16",
           "uploadedAt": "2026-04-26T08:01:37Z",
@@ -228,6 +118,16 @@
         }
       ],
       "android": [
+        {
+          "version": "1.1.18",
+          "uploadedAt": "2026-04-30T06:05:17Z",
+          "tag": "1.1.18",
+          "releaseName": "1.1.18",
+          "notes": "自动发布 1.1.18\n\n- `im_chat_manager_plugin_example_1.1.18_test.ipa`\n- `im_chat_manager_plugin_example_1.1.18.apk`\n\n构建时间: 2026-04-30 15:04:44 JST",
+          "file": "im_chat_manager_plugin_example_1.1.18.apk",
+          "size": 230375848,
+          "downloadUrl": "https://github.com/xiaoli55979/ipa_install/releases/download/1.1.18/im_chat_manager_plugin_example_1.1.18.apk"
+        },
         {
           "version": "1.1.16",
           "uploadedAt": "2026-04-26T08:02:00Z",
@@ -403,7 +303,129 @@
           "downloadUrl": "https://github.com/xiaoli55979/ipa_install/releases/download/1.1.7.2/Setup-1.0.6-x64.exe"
         }
       ],
-      "latestAt": "2026-04-26T13:39:19Z"
+      "latestAt": "2026-04-30T06:05:17Z"
+    },
+    {
+      "id": "com.flutterChatSupport",
+      "name": "客服插件",
+      "icon": "https://xiaoli55979.github.io/ipa_install/icons/com.flutterChatSupport-android.png",
+      "ios": [
+        {
+          "version": "1.1.16",
+          "uploadedAt": "2026-04-30T02:57:28Z",
+          "tag": "chat_support-1.1.16",
+          "releaseName": "chat_support-1.1.16",
+          "notes": "自动发布 chat_support-1.1.16\n\n- `chat_support_1.1.16_test.ipa`\n- `chat_support_1.1.16.apk`\n\n构建时间: 2026-04-30 11:57:21 JST",
+          "file": "chat_support_1.1.16_test.ipa",
+          "size": 21307543,
+          "downloadUrl": "https://github.com/xiaoli55979/ipa_install/releases/download/chat_support-1.1.16/chat_support_1.1.16_test.ipa",
+          "manifestUrl": "https://xiaoli55979.github.io/ipa_install/manifest/com.flutterChatSupport-chat_support-1.1.16.plist",
+          "installUrl": "itms-services://?action=download-manifest&url=https%3A%2F%2Fxiaoli55979.github.io%2Fipa_install%2Fmanifest%2Fcom.flutterChatSupport-chat_support-1.1.16.plist"
+        },
+        {
+          "version": "1.1.15",
+          "uploadedAt": "2026-04-25T08:15:52Z",
+          "tag": "1.1.15",
+          "releaseName": "1.1.15",
+          "notes": "自动发布 1.1.15\r\n\r\n- `flutter_chat_support_example_1.1.15_test.ipa`\r\n- `flutter_chat_support_example_1.1.15.apk`\r\n\r\n构建时间: 2026-04-25 17:15:45 JST",
+          "file": "flutter_chat_support_example_1.1.15_test.ipa",
+          "size": 21333045,
+          "downloadUrl": "https://github.com/xiaoli55979/ipa_install/releases/download/1.1.15/flutter_chat_support_example_1.1.15_test.ipa",
+          "manifestUrl": "https://xiaoli55979.github.io/ipa_install/manifest/com.flutterChatSupport-1.1.15.plist",
+          "installUrl": "itms-services://?action=download-manifest&url=https%3A%2F%2Fxiaoli55979.github.io%2Fipa_install%2Fmanifest%2Fcom.flutterChatSupport-1.1.15.plist"
+        },
+        {
+          "version": "1.1.14",
+          "uploadedAt": "2026-04-25T04:24:40Z",
+          "tag": "1.1.14",
+          "releaseName": "1.1.14",
+          "notes": "自动发布 1.1.14\n\n- `flutter_chat_support_example_1.1.14_test.ipa`\n- `flutter_chat_support_example_1.1.14.apk`\n\n构建时间: 2026-04-25 13:24:32 JST",
+          "file": "flutter_chat_support_example_1.1.14_test.ipa",
+          "size": 21302130,
+          "downloadUrl": "https://github.com/xiaoli55979/ipa_install/releases/download/1.1.14/flutter_chat_support_example_1.1.14_test.ipa",
+          "manifestUrl": "https://xiaoli55979.github.io/ipa_install/manifest/com.flutterChatSupport-1.1.14.plist",
+          "installUrl": "itms-services://?action=download-manifest&url=https%3A%2F%2Fxiaoli55979.github.io%2Fipa_install%2Fmanifest%2Fcom.flutterChatSupport-1.1.14.plist"
+        },
+        {
+          "version": "1.1.13",
+          "uploadedAt": "2026-04-25T04:20:46Z",
+          "tag": "1.1.13",
+          "releaseName": "1.1.13",
+          "notes": "自动发布 1.1.13\n\n- `flutter_chat_support_example_1.1.13_test.ipa`\n- `flutter_chat_support_example_1.1.13.apk`\n\n构建时间: 2026-04-25 13:20:38 JST",
+          "file": "flutter_chat_support_example_1.1.13_test.ipa",
+          "size": 21302175,
+          "downloadUrl": "https://github.com/xiaoli55979/ipa_install/releases/download/1.1.13/flutter_chat_support_example_1.1.13_test.ipa",
+          "manifestUrl": "https://xiaoli55979.github.io/ipa_install/manifest/com.flutterChatSupport-1.1.13.plist",
+          "installUrl": "itms-services://?action=download-manifest&url=https%3A%2F%2Fxiaoli55979.github.io%2Fipa_install%2Fmanifest%2Fcom.flutterChatSupport-1.1.13.plist"
+        },
+        {
+          "version": "1.1.12",
+          "uploadedAt": "2026-04-25T04:12:41Z",
+          "tag": "1.1.12",
+          "releaseName": "1.1.12",
+          "notes": "自动发布 1.1.12\n\n- `flutter_chat_support_example_1.1.12_test.ipa`\n- `flutter_chat_support_example_1.1.12.apk`\n\n构建时间: 2026-04-25 13:12:33 JST",
+          "file": "flutter_chat_support_example_1.1.12_test.ipa",
+          "size": 21302343,
+          "downloadUrl": "https://github.com/xiaoli55979/ipa_install/releases/download/1.1.12/flutter_chat_support_example_1.1.12_test.ipa",
+          "manifestUrl": "https://xiaoli55979.github.io/ipa_install/manifest/com.flutterChatSupport-1.1.12.plist",
+          "installUrl": "itms-services://?action=download-manifest&url=https%3A%2F%2Fxiaoli55979.github.io%2Fipa_install%2Fmanifest%2Fcom.flutterChatSupport-1.1.12.plist"
+        }
+      ],
+      "android": [
+        {
+          "version": "1.1.16",
+          "uploadedAt": "2026-04-30T02:57:38Z",
+          "tag": "chat_support-1.1.16",
+          "releaseName": "chat_support-1.1.16",
+          "notes": "自动发布 chat_support-1.1.16\n\n- `chat_support_1.1.16_test.ipa`\n- `chat_support_1.1.16.apk`\n\n构建时间: 2026-04-30 11:57:21 JST",
+          "file": "chat_support_1.1.16.apk",
+          "size": 107949361,
+          "downloadUrl": "https://github.com/xiaoli55979/ipa_install/releases/download/chat_support-1.1.16/chat_support_1.1.16.apk"
+        },
+        {
+          "version": "1.1.15",
+          "uploadedAt": "2026-04-25T08:16:02Z",
+          "tag": "1.1.15",
+          "releaseName": "1.1.15",
+          "notes": "自动发布 1.1.15\r\n\r\n- `flutter_chat_support_example_1.1.15_test.ipa`\r\n- `flutter_chat_support_example_1.1.15.apk`\r\n\r\n构建时间: 2026-04-25 17:15:45 JST",
+          "file": "flutter_chat_support_example_1.1.15.apk",
+          "size": 107982129,
+          "downloadUrl": "https://github.com/xiaoli55979/ipa_install/releases/download/1.1.15/flutter_chat_support_example_1.1.15.apk"
+        },
+        {
+          "version": "1.1.14",
+          "uploadedAt": "2026-04-25T04:24:50Z",
+          "tag": "1.1.14",
+          "releaseName": "1.1.14",
+          "notes": "自动发布 1.1.14\n\n- `flutter_chat_support_example_1.1.14_test.ipa`\n- `flutter_chat_support_example_1.1.14.apk`\n\n构建时间: 2026-04-25 13:24:32 JST",
+          "file": "flutter_chat_support_example_1.1.14.apk",
+          "size": 107866949,
+          "downloadUrl": "https://github.com/xiaoli55979/ipa_install/releases/download/1.1.14/flutter_chat_support_example_1.1.14.apk"
+        },
+        {
+          "version": "1.1.13",
+          "uploadedAt": "2026-04-25T04:20:56Z",
+          "tag": "1.1.13",
+          "releaseName": "1.1.13",
+          "notes": "自动发布 1.1.13\n\n- `flutter_chat_support_example_1.1.13_test.ipa`\n- `flutter_chat_support_example_1.1.13.apk`\n\n构建时间: 2026-04-25 13:20:38 JST",
+          "file": "flutter_chat_support_example_1.1.13.apk",
+          "size": 107866949,
+          "downloadUrl": "https://github.com/xiaoli55979/ipa_install/releases/download/1.1.13/flutter_chat_support_example_1.1.13.apk"
+        },
+        {
+          "version": "1.1.10",
+          "uploadedAt": "2026-04-25T04:12:50Z",
+          "tag": "1.1.12",
+          "releaseName": "1.1.12",
+          "notes": "自动发布 1.1.12\n\n- `flutter_chat_support_example_1.1.12_test.ipa`\n- `flutter_chat_support_example_1.1.12.apk`\n\n构建时间: 2026-04-25 13:12:33 JST",
+          "file": "flutter_chat_support_example_1.1.12.apk",
+          "size": 107864016,
+          "downloadUrl": "https://github.com/xiaoli55979/ipa_install/releases/download/1.1.12/flutter_chat_support_example_1.1.12.apk"
+        }
+      ],
+      "mac": [],
+      "win": [],
+      "latestAt": "2026-04-30T02:57:38Z"
     }
   ]
 }
