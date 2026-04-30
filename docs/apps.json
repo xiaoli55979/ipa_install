@@ -1,7 +1,7 @@
 {
   "siteTitle": "App 分发",
   "publicUrl": "https://xiaoli55979.github.io/ipa_install",
-  "generatedAt": "2026-04-30T06:07:10.765Z",
+  "generatedAt": "2026-04-30T09:11:19.740Z",
   "apps": [
     {
       "id": "com.jiliaoim.cn",
@@ -211,6 +211,26 @@
       ],
       "mac": [
         {
+          "version": "1.1.19",
+          "uploadedAt": "2026-04-30T09:09:29Z",
+          "tag": "1.1.19",
+          "releaseName": "1.1.19",
+          "notes": "自动发布 PC 版本 1.1.19\n\n- `YunXiaoLiao-1.1.19-arm64.dmg`\n- `YunXiaoLiao-1.1.19-x64.dmg`\n- `YunXiaoLiao-Setup-1.1.19-x64.exe`\n\n构建时间: 2026-04-30 18:06:09 JST",
+          "file": "YunXiaoLiao-1.1.19-arm64.dmg",
+          "size": 130857720,
+          "downloadUrl": "https://github.com/xiaoli55979/ipa_install/releases/download/1.1.19/YunXiaoLiao-1.1.19-arm64.dmg"
+        },
+        {
+          "version": "1.1.19",
+          "uploadedAt": "2026-04-30T09:09:28Z",
+          "tag": "1.1.19",
+          "releaseName": "1.1.19",
+          "notes": "自动发布 PC 版本 1.1.19\n\n- `YunXiaoLiao-1.1.19-arm64.dmg`\n- `YunXiaoLiao-1.1.19-x64.dmg`\n- `YunXiaoLiao-Setup-1.1.19-x64.exe`\n\n构建时间: 2026-04-30 18:06:09 JST",
+          "file": "YunXiaoLiao-1.1.19-x64.dmg",
+          "size": 136080366,
+          "downloadUrl": "https://github.com/xiaoli55979/ipa_install/releases/download/1.1.19/YunXiaoLiao-1.1.19-x64.dmg"
+        },
+        {
           "version": "1.1.17",
           "uploadedAt": "2026-04-26T13:39:19Z",
           "tag": "1.1.17",
@@ -263,6 +283,16 @@
       ],
       "win": [
         {
+          "version": "1.1.19",
+          "uploadedAt": "2026-04-30T09:09:02Z",
+          "tag": "1.1.19",
+          "releaseName": "1.1.19",
+          "notes": "自动发布 PC 版本 1.1.19\n\n- `YunXiaoLiao-1.1.19-arm64.dmg`\n- `YunXiaoLiao-1.1.19-x64.dmg`\n- `YunXiaoLiao-Setup-1.1.19-x64.exe`\n\n构建时间: 2026-04-30 18:06:09 JST",
+          "file": "YunXiaoLiao-Setup-1.1.19-x64.exe",
+          "size": 99267224,
+          "downloadUrl": "https://github.com/xiaoli55979/ipa_install/releases/download/1.1.19/YunXiaoLiao-Setup-1.1.19-x64.exe"
+        },
+        {
           "version": "1.1.17",
           "uploadedAt": "2026-04-26T13:39:09Z",
           "tag": "1.1.17",
@@ -303,7 +333,7 @@
           "downloadUrl": "https://github.com/xiaoli55979/ipa_install/releases/download/1.1.7.2/Setup-1.0.6-x64.exe"
         }
       ],
-      "latestAt": "2026-04-30T06:05:17Z"
+      "latestAt": "2026-04-30T09:09:29Z"
     },
     {
       "id": "com.flutterChatSupport",
