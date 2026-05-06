@@ -1,12 +1,12 @@
 {
   "siteTitle": "App 分发",
   "publicUrl": "https://xiaoli55979.github.io/ipa_install",
-  "generatedAt": "2026-05-06T02:02:03.998Z",
+  "generatedAt": "2026-05-06T02:04:04.077Z",
   "apps": [
     {
       "id": "com.jiliaoim.cn",
       "name": "云小聊",
-      "icon": "https://xiaoli55979.github.io/ipa_install/icons/com.jiliaoim.cn-ios.png",
+      "icon": "https://xiaoli55979.github.io/ipa_install/icons/com.jiliaoim.cn-android.png",
       "ios": [
         {
           "version": "1.1.20",
@@ -130,6 +130,16 @@
         }
       ],
       "android": [
+        {
+          "version": "1.1.20",
+          "uploadedAt": "2026-05-06T02:01:45Z",
+          "tag": "1.1.20",
+          "releaseName": "1.1.20",
+          "notes": "自动发布 PC 版本 1.1.20\n\n- `YunXiaoLiao-1.1.20-arm64.dmg`\n- `YunXiaoLiao-1.1.20-x64.dmg`\n- `YunXiaoLiao-Setup-1.1.20-x64.exe`\n\n构建时间: 2026-05-06 10:34:27 JST",
+          "file": "im_chat_manager_plugin_example_1.1.20.apk",
+          "size": 230375848,
+          "downloadUrl": "https://github.com/xiaoli55979/ipa_install/releases/download/1.1.20/im_chat_manager_plugin_example_1.1.20.apk"
+        },
         {
           "version": "1.1.18",
           "uploadedAt": "2026-04-30T06:05:17Z",
@@ -375,12 +385,12 @@
           "downloadUrl": "https://github.com/xiaoli55979/ipa_install/releases/download/1.1.7.2/Setup-1.0.6-x64.exe"
         }
       ],
-      "latestAt": "2026-05-06T02:01:16Z"
+      "latestAt": "2026-05-06T02:01:45Z"
     },
     {
       "id": "com.flutterChatSupport",
       "name": "客服插件",
-      "icon": "https://xiaoli55979.github.io/ipa_install/icons/com.flutterChatSupport-ios.png",
+      "icon": "https://xiaoli55979.github.io/ipa_install/icons/com.flutterChatSupport-android.png",
       "ios": [
         {
           "version": "1.1.16",
