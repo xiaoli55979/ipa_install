@@ -1,69 +1,13 @@
 {
   "siteTitle": "App 分发",
   "publicUrl": "https://xiaoli55979.github.io/ipa_install",
-  "generatedAt": "2026-05-11T09:29:24.891Z",
+  "generatedAt": "2026-05-11T09:32:18.512Z",
   "apps": [
-    {
-      "id": "com.example.tesla_manager_example",
-      "name": "tesla_manager_example",
-      "icon": "https://xiaoli55979.github.io/ipa_install/icons/com.example.tesla_manager_example-android.png",
-      "ios": [],
-      "android": [
-        {
-          "version": "1.1.22",
-          "uploadedAt": "2026-05-11T09:27:14Z",
-          "tag": "im_chat_manager_plugin_example-mobile-1.1.22",
-          "releaseName": "im_chat_manager_plugin_example-mobile-1.1.22",
-          "notes": "自动发布 im_chat_manager_plugin_example-mobile-1.1.22\n\n- `im_chat_manager_plugin_example-mobile_1.1.22_test.ipa`\n- `im_chat_manager_plugin_example-mobile_1.1.22.apk`\n\n构建时间: 2026-05-11 18:25:35 JST",
-          "file": "im_chat_manager_plugin_example-mobile_1.1.22.apk",
-          "size": 222851276,
-          "downloadUrl": "https://github.com/xiaoli55979/ipa_install/releases/download/im_chat_manager_plugin_example-mobile-1.1.22/im_chat_manager_plugin_example-mobile_1.1.22.apk"
-        }
-      ],
-      "mac": [],
-      "win": [],
-      "latestAt": "2026-05-11T09:27:14Z"
-    },
-    {
-      "id": "com.jt8.cn",
-      "name": "808",
-      "icon": "https://xiaoli55979.github.io/ipa_install/icons/com.jt8.cn-ios.png",
-      "ios": [
-        {
-          "version": "1.1.22",
-          "uploadedAt": "2026-05-11T09:26:04Z",
-          "tag": "im_chat_manager_plugin_example-mobile-1.1.22",
-          "releaseName": "im_chat_manager_plugin_example-mobile-1.1.22",
-          "notes": "自动发布 im_chat_manager_plugin_example-mobile-1.1.22\n\n- `im_chat_manager_plugin_example-mobile_1.1.22_test.ipa`\n- `im_chat_manager_plugin_example-mobile_1.1.22.apk`\n\n构建时间: 2026-05-11 18:25:35 JST",
-          "file": "im_chat_manager_plugin_example-mobile_1.1.22_test.ipa",
-          "size": 48358469,
-          "downloadUrl": "https://github.com/xiaoli55979/ipa_install/releases/download/im_chat_manager_plugin_example-mobile-1.1.22/im_chat_manager_plugin_example-mobile_1.1.22_test.ipa",
-          "manifestUrl": "https://xiaoli55979.github.io/ipa_install/manifest/com.jt8.cn-im_chat_manager_plugin_example-mobile-1.1.22.plist",
-          "installUrl": "itms-services://?action=download-manifest&url=https%3A%2F%2Fxiaoli55979.github.io%2Fipa_install%2Fmanifest%2Fcom.jt8.cn-im_chat_manager_plugin_example-mobile-1.1.22.plist"
-        }
-      ],
-      "android": [],
-      "mac": [],
-      "win": [],
-      "latestAt": "2026-05-11T09:26:04Z"
-    },
     {
       "id": "com.jiliaoim.cn",
       "name": "云小聊",
       "icon": "https://xiaoli55979.github.io/ipa_install/icons/com.jiliaoim.cn-android.png",
       "ios": [
-        {
-          "version": "1.1.21",
-          "uploadedAt": "2026-05-09T13:50:05Z",
-          "tag": "im_chat_manager_plugin_example-mobile-1.1.21",
-          "releaseName": "im_chat_manager_plugin_example-mobile-1.1.21",
-          "notes": "自动发布 im_chat_manager_plugin_example-mobile-1.1.21\n\n- `im_chat_manager_plugin_example-mobile_1.1.21_test.ipa`\n- `im_chat_manager_plugin_example-mobile_1.1.21.apk`\n\n构建时间: 2026-05-09 22:49:34 JST",
-          "file": "im_chat_manager_plugin_example-mobile_1.1.21_test.ipa",
-          "size": 43398629,
-          "downloadUrl": "https://github.com/xiaoli55979/ipa_install/releases/download/im_chat_manager_plugin_example-mobile-1.1.21/im_chat_manager_plugin_example-mobile_1.1.21_test.ipa",
-          "manifestUrl": "https://xiaoli55979.github.io/ipa_install/manifest/com.jiliaoim.cn-im_chat_manager_plugin_example-mobile-1.1.21.plist",
-          "installUrl": "itms-services://?action=download-manifest&url=https%3A%2F%2Fxiaoli55979.github.io%2Fipa_install%2Fmanifest%2Fcom.jiliaoim.cn-im_chat_manager_plugin_example-mobile-1.1.21.plist"
-        },
         {
           "version": "1.1.20",
           "uploadedAt": "2026-05-06T02:01:16Z",
@@ -186,16 +130,6 @@
         }
       ],
       "android": [
-        {
-          "version": "1.1.21",
-          "uploadedAt": "2026-05-09T13:50:42Z",
-          "tag": "im_chat_manager_plugin_example-mobile-1.1.21",
-          "releaseName": "im_chat_manager_plugin_example-mobile-1.1.21",
-          "notes": "自动发布 im_chat_manager_plugin_example-mobile-1.1.21\n\n- `im_chat_manager_plugin_example-mobile_1.1.21_test.ipa`\n- `im_chat_manager_plugin_example-mobile_1.1.21.apk`\n\n构建时间: 2026-05-09 22:49:34 JST",
-          "file": "im_chat_manager_plugin_example-mobile_1.1.21.apk",
-          "size": 230588920,
-          "downloadUrl": "https://github.com/xiaoli55979/ipa_install/releases/download/im_chat_manager_plugin_example-mobile-1.1.21/im_chat_manager_plugin_example-mobile_1.1.21.apk"
-        },
         {
           "version": "1.1.20",
           "uploadedAt": "2026-05-06T02:01:45Z",
@@ -451,7 +385,7 @@
           "downloadUrl": "https://github.com/xiaoli55979/ipa_install/releases/download/1.1.7.2/Setup-1.0.6-x64.exe"
         }
       ],
-      "latestAt": "2026-05-09T13:50:42Z"
+      "latestAt": "2026-05-06T02:01:45Z"
     },
     {
       "id": "com.flutterChatSupport",
