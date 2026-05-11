@@ -1,7 +1,7 @@
 {
   "siteTitle": "App 分发",
   "publicUrl": "https://xiaoli55979.github.io/ipa_install",
-  "generatedAt": "2026-05-11T11:36:09.390Z",
+  "generatedAt": "2026-05-11T11:37:06.974Z",
   "apps": [
     {
       "id": "com.ttm.sport.cn",
@@ -25,29 +25,6 @@
       "mac": [],
       "win": [],
       "latestAt": "2026-05-11T11:34:42Z"
-    },
-    {
-      "id": "com.ttm.sport.5858866c01.tm.sport.ttm",
-      "name": "5858.VIP",
-      "icon": "https://xiaoli55979.github.io/ipa_install/icons/com.ttm.sport.5858866c01.tm.sport.ttm-ios.png",
-      "ios": [
-        {
-          "version": "2.3.0123",
-          "uploadedAt": "2026-05-11T11:27:11Z",
-          "tag": "1.1.22",
-          "releaseName": "1.1.22",
-          "notes": "",
-          "file": "ICue5aque_2_3_0123.ipa",
-          "size": 112636601,
-          "downloadUrl": "https://github.com/xiaoli55979/ipa_install/releases/download/1.1.22/ICue5aque_2_3_0123.ipa",
-          "manifestUrl": "https://xiaoli55979.github.io/ipa_install/manifest/com.ttm.sport.5858866c01.tm.sport.ttm-1.1.22.plist",
-          "installUrl": "itms-services://?action=download-manifest&url=https%3A%2F%2Fxiaoli55979.github.io%2Fipa_install%2Fmanifest%2Fcom.ttm.sport.5858866c01.tm.sport.ttm-1.1.22.plist"
-        }
-      ],
-      "android": [],
-      "mac": [],
-      "win": [],
-      "latestAt": "2026-05-11T11:27:11Z"
     },
     {
       "id": "com.jiliaoim.cn",
