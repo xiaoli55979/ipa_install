@@ -1,13 +1,116 @@
 {
   "siteTitle": "App 分发",
   "publicUrl": "https://xiaoli55979.github.io/ipa_install",
-  "generatedAt": "2026-04-26T13:57:58.020Z",
+  "generatedAt": "2026-05-12T13:18:24.311Z",
   "apps": [
+    {
+      "id": "com.jt8.cn",
+      "name": "808",
+      "icon": "https://xiaoli55979.github.io/ipa_install/icons/com.jt8.cn-android.png",
+      "ios": [
+        {
+          "version": "1.1.24",
+          "uploadedAt": "2026-05-12T13:14:43Z",
+          "tag": "808-mobile-1.1.24",
+          "releaseName": "808-mobile-1.1.24",
+          "notes": "自动发布 808-mobile-1.1.24\n\n- `808-mobile_1.1.24_test.ipa`\n- `808-mobile_1.1.24.apk`\n\n构建时间: 2026-05-12 22:13:56 JST",
+          "file": "808-mobile_1.1.24_test.ipa",
+          "size": 48812897,
+          "downloadUrl": "https://github.com/xiaoli55979/ipa_install/releases/download/808-mobile-1.1.24/808-mobile_1.1.24_test.ipa",
+          "manifestUrl": "https://xiaoli55979.github.io/ipa_install/manifest/com.jt8.cn-808-mobile-1.1.24.plist",
+          "installUrl": "itms-services://?action=download-manifest&url=https%3A%2F%2Fxiaoli55979.github.io%2Fipa_install%2Fmanifest%2Fcom.jt8.cn-808-mobile-1.1.24.plist"
+        },
+        {
+          "version": "1.1.23",
+          "uploadedAt": "2026-05-11T11:57:15Z",
+          "tag": "808-mobile-1.1.23",
+          "releaseName": "808-mobile-1.1.23",
+          "notes": "自动发布 808-mobile-1.1.23\n\n- `808-mobile_1.1.23_test.ipa`\n- `808-mobile_1.1.23.apk`\n\n构建时间: 2026-05-11 20:56:42 JST",
+          "file": "808-mobile_1.1.23_test.ipa",
+          "size": 48358393,
+          "downloadUrl": "https://github.com/xiaoli55979/ipa_install/releases/download/808-mobile-1.1.23/808-mobile_1.1.23_test.ipa",
+          "manifestUrl": "https://xiaoli55979.github.io/ipa_install/manifest/com.jt8.cn-808-mobile-1.1.23.plist",
+          "installUrl": "itms-services://?action=download-manifest&url=https%3A%2F%2Fxiaoli55979.github.io%2Fipa_install%2Fmanifest%2Fcom.jt8.cn-808-mobile-1.1.23.plist"
+        }
+      ],
+      "android": [
+        {
+          "version": "1.1.24",
+          "uploadedAt": "2026-05-12T13:15:50Z",
+          "tag": "808-mobile-1.1.24",
+          "releaseName": "808-mobile-1.1.24",
+          "notes": "自动发布 808-mobile-1.1.24\n\n- `808-mobile_1.1.24_test.ipa`\n- `808-mobile_1.1.24.apk`\n\n构建时间: 2026-05-12 22:13:56 JST",
+          "file": "808-mobile_1.1.24.apk",
+          "size": 222956476,
+          "downloadUrl": "https://github.com/xiaoli55979/ipa_install/releases/download/808-mobile-1.1.24/808-mobile_1.1.24.apk"
+        },
+        {
+          "version": "1.1.23",
+          "uploadedAt": "2026-05-11T11:58:48Z",
+          "tag": "808-mobile-1.1.23",
+          "releaseName": "808-mobile-1.1.23",
+          "notes": "自动发布 808-mobile-1.1.23\n\n- `808-mobile_1.1.23_test.ipa`\n- `808-mobile_1.1.23.apk`\n\n构建时间: 2026-05-11 20:56:42 JST",
+          "file": "808-mobile_1.1.23.apk",
+          "size": 222940092,
+          "downloadUrl": "https://github.com/xiaoli55979/ipa_install/releases/download/808-mobile-1.1.23/808-mobile_1.1.23.apk"
+        }
+      ],
+      "mac": [],
+      "win": [],
+      "latestAt": "2026-05-12T13:15:50Z"
+    },
+    {
+      "id": "com.ttm.sport.cn",
+      "name": "5858.VIP",
+      "icon": "https://xiaoli55979.github.io/ipa_install/icons/com.ttm.sport.cn-ios.png",
+      "ios": [
+        {
+          "version": "2.3.0123",
+          "uploadedAt": "2026-05-11T11:34:42Z",
+          "tag": "1.1.22",
+          "releaseName": "1.1.22",
+          "notes": "",
+          "file": "ICue5aque_2_3_0123-resigned.ipa",
+          "size": 117611918,
+          "downloadUrl": "https://github.com/xiaoli55979/ipa_install/releases/download/1.1.22/ICue5aque_2_3_0123-resigned.ipa",
+          "manifestUrl": "https://xiaoli55979.github.io/ipa_install/manifest/com.ttm.sport.cn-1.1.22.plist",
+          "installUrl": "itms-services://?action=download-manifest&url=https%3A%2F%2Fxiaoli55979.github.io%2Fipa_install%2Fmanifest%2Fcom.ttm.sport.cn-1.1.22.plist"
+        }
+      ],
+      "android": [],
+      "mac": [],
+      "win": [],
+      "latestAt": "2026-05-11T11:34:42Z"
+    },
     {
       "id": "com.jiliaoim.cn",
       "name": "云小聊",
       "icon": "https://xiaoli55979.github.io/ipa_install/icons/com.jiliaoim.cn-android.png",
       "ios": [
+        {
+          "version": "1.1.20",
+          "uploadedAt": "2026-05-06T02:01:16Z",
+          "tag": "1.1.20",
+          "releaseName": "1.1.20",
+          "notes": "自动发布 PC 版本 1.1.20\n\n- `YunXiaoLiao-1.1.20-arm64.dmg`\n- `YunXiaoLiao-1.1.20-x64.dmg`\n- `YunXiaoLiao-Setup-1.1.20-x64.exe`\n\n构建时间: 2026-05-06 10:34:27 JST",
+          "file": "im_chat_manager_plugin_example_1.1.20_test.ipa",
+          "size": 43998008,
+          "downloadUrl": "https://github.com/xiaoli55979/ipa_install/releases/download/1.1.20/im_chat_manager_plugin_example_1.1.20_test.ipa",
+          "manifestUrl": "https://xiaoli55979.github.io/ipa_install/manifest/com.jiliaoim.cn-1.1.20.plist",
+          "installUrl": "itms-services://?action=download-manifest&url=https%3A%2F%2Fxiaoli55979.github.io%2Fipa_install%2Fmanifest%2Fcom.jiliaoim.cn-1.1.20.plist"
+        },
+        {
+          "version": "1.1.18",
+          "uploadedAt": "2026-04-30T06:04:57Z",
+          "tag": "1.1.18",
+          "releaseName": "1.1.18",
+          "notes": "自动发布 1.1.18\n\n- `im_chat_manager_plugin_example_1.1.18_test.ipa`\n- `im_chat_manager_plugin_example_1.1.18.apk`\n\n构建时间: 2026-04-30 15:04:44 JST",
+          "file": "im_chat_manager_plugin_example_1.1.18_test.ipa",
+          "size": 43992884,
+          "downloadUrl": "https://github.com/xiaoli55979/ipa_install/releases/download/1.1.18/im_chat_manager_plugin_example_1.1.18_test.ipa",
+          "manifestUrl": "https://xiaoli55979.github.io/ipa_install/manifest/com.jiliaoim.cn-1.1.18.plist",
+          "installUrl": "itms-services://?action=download-manifest&url=https%3A%2F%2Fxiaoli55979.github.io%2Fipa_install%2Fmanifest%2Fcom.jiliaoim.cn-1.1.18.plist"
+        },
         {
           "version": "1.1.16",
           "uploadedAt": "2026-04-26T08:01:37Z",
@@ -107,6 +210,26 @@
       ],
       "android": [
         {
+          "version": "1.1.20",
+          "uploadedAt": "2026-05-06T02:01:45Z",
+          "tag": "1.1.20",
+          "releaseName": "1.1.20",
+          "notes": "自动发布 PC 版本 1.1.20\n\n- `YunXiaoLiao-1.1.20-arm64.dmg`\n- `YunXiaoLiao-1.1.20-x64.dmg`\n- `YunXiaoLiao-Setup-1.1.20-x64.exe`\n\n构建时间: 2026-05-06 10:34:27 JST",
+          "file": "im_chat_manager_plugin_example_1.1.20.apk",
+          "size": 230375848,
+          "downloadUrl": "https://github.com/xiaoli55979/ipa_install/releases/download/1.1.20/im_chat_manager_plugin_example_1.1.20.apk"
+        },
+        {
+          "version": "1.1.18",
+          "uploadedAt": "2026-04-30T06:05:17Z",
+          "tag": "1.1.18",
+          "releaseName": "1.1.18",
+          "notes": "自动发布 1.1.18\n\n- `im_chat_manager_plugin_example_1.1.18_test.ipa`\n- `im_chat_manager_plugin_example_1.1.18.apk`\n\n构建时间: 2026-04-30 15:04:44 JST",
+          "file": "im_chat_manager_plugin_example_1.1.18.apk",
+          "size": 230375848,
+          "downloadUrl": "https://github.com/xiaoli55979/ipa_install/releases/download/1.1.18/im_chat_manager_plugin_example_1.1.18.apk"
+        },
+        {
           "version": "1.1.16",
           "uploadedAt": "2026-04-26T08:02:00Z",
           "tag": "1.1.16",
@@ -189,6 +312,46 @@
       ],
       "mac": [
         {
+          "version": "1.1.20",
+          "uploadedAt": "2026-05-06T01:35:50Z",
+          "tag": "1.1.20",
+          "releaseName": "1.1.20",
+          "notes": "自动发布 PC 版本 1.1.20\n\n- `YunXiaoLiao-1.1.20-arm64.dmg`\n- `YunXiaoLiao-1.1.20-x64.dmg`\n- `YunXiaoLiao-Setup-1.1.20-x64.exe`\n\n构建时间: 2026-05-06 10:34:27 JST",
+          "file": "YunXiaoLiao-1.1.20-x64.dmg",
+          "size": 135628524,
+          "downloadUrl": "https://github.com/xiaoli55979/ipa_install/releases/download/1.1.20/YunXiaoLiao-1.1.20-x64.dmg"
+        },
+        {
+          "version": "1.1.20",
+          "uploadedAt": "2026-05-06T01:35:47Z",
+          "tag": "1.1.20",
+          "releaseName": "1.1.20",
+          "notes": "自动发布 PC 版本 1.1.20\n\n- `YunXiaoLiao-1.1.20-arm64.dmg`\n- `YunXiaoLiao-1.1.20-x64.dmg`\n- `YunXiaoLiao-Setup-1.1.20-x64.exe`\n\n构建时间: 2026-05-06 10:34:27 JST",
+          "file": "YunXiaoLiao-1.1.20-arm64.dmg",
+          "size": 130348060,
+          "downloadUrl": "https://github.com/xiaoli55979/ipa_install/releases/download/1.1.20/YunXiaoLiao-1.1.20-arm64.dmg"
+        },
+        {
+          "version": "1.1.19",
+          "uploadedAt": "2026-04-30T09:09:29Z",
+          "tag": "1.1.19",
+          "releaseName": "1.1.19",
+          "notes": "自动发布 PC 版本 1.1.19\n\n- `YunXiaoLiao-1.1.19-arm64.dmg`\n- `YunXiaoLiao-1.1.19-x64.dmg`\n- `YunXiaoLiao-Setup-1.1.19-x64.exe`\n\n构建时间: 2026-04-30 18:06:09 JST",
+          "file": "YunXiaoLiao-1.1.19-arm64.dmg",
+          "size": 130857720,
+          "downloadUrl": "https://github.com/xiaoli55979/ipa_install/releases/download/1.1.19/YunXiaoLiao-1.1.19-arm64.dmg"
+        },
+        {
+          "version": "1.1.19",
+          "uploadedAt": "2026-04-30T09:09:28Z",
+          "tag": "1.1.19",
+          "releaseName": "1.1.19",
+          "notes": "自动发布 PC 版本 1.1.19\n\n- `YunXiaoLiao-1.1.19-arm64.dmg`\n- `YunXiaoLiao-1.1.19-x64.dmg`\n- `YunXiaoLiao-Setup-1.1.19-x64.exe`\n\n构建时间: 2026-04-30 18:06:09 JST",
+          "file": "YunXiaoLiao-1.1.19-x64.dmg",
+          "size": 136080366,
+          "downloadUrl": "https://github.com/xiaoli55979/ipa_install/releases/download/1.1.19/YunXiaoLiao-1.1.19-x64.dmg"
+        },
+        {
           "version": "1.1.17",
           "uploadedAt": "2026-04-26T13:39:19Z",
           "tag": "1.1.17",
@@ -241,6 +404,26 @@
       ],
       "win": [
         {
+          "version": "1.1.20",
+          "uploadedAt": "2026-05-06T01:35:27Z",
+          "tag": "1.1.20",
+          "releaseName": "1.1.20",
+          "notes": "自动发布 PC 版本 1.1.20\n\n- `YunXiaoLiao-1.1.20-arm64.dmg`\n- `YunXiaoLiao-1.1.20-x64.dmg`\n- `YunXiaoLiao-Setup-1.1.20-x64.exe`\n\n构建时间: 2026-05-06 10:34:27 JST",
+          "file": "YunXiaoLiao-Setup-1.1.20-x64.exe",
+          "size": 98937935,
+          "downloadUrl": "https://github.com/xiaoli55979/ipa_install/releases/download/1.1.20/YunXiaoLiao-Setup-1.1.20-x64.exe"
+        },
+        {
+          "version": "1.1.19",
+          "uploadedAt": "2026-04-30T09:09:02Z",
+          "tag": "1.1.19",
+          "releaseName": "1.1.19",
+          "notes": "自动发布 PC 版本 1.1.19\n\n- `YunXiaoLiao-1.1.19-arm64.dmg`\n- `YunXiaoLiao-1.1.19-x64.dmg`\n- `YunXiaoLiao-Setup-1.1.19-x64.exe`\n\n构建时间: 2026-04-30 18:06:09 JST",
+          "file": "YunXiaoLiao-Setup-1.1.19-x64.exe",
+          "size": 99267224,
+          "downloadUrl": "https://github.com/xiaoli55979/ipa_install/releases/download/1.1.19/YunXiaoLiao-Setup-1.1.19-x64.exe"
+        },
+        {
           "version": "1.1.17",
           "uploadedAt": "2026-04-26T13:39:09Z",
           "tag": "1.1.17",
@@ -281,13 +464,25 @@
           "downloadUrl": "https://github.com/xiaoli55979/ipa_install/releases/download/1.1.7.2/Setup-1.0.6-x64.exe"
         }
       ],
-      "latestAt": "2026-04-26T13:39:19Z"
+      "latestAt": "2026-05-06T02:01:45Z"
     },
     {
       "id": "com.flutterChatSupport",
       "name": "客服插件",
       "icon": "https://xiaoli55979.github.io/ipa_install/icons/com.flutterChatSupport-android.png",
       "ios": [
+        {
+          "version": "1.1.16",
+          "uploadedAt": "2026-04-30T02:57:28Z",
+          "tag": "chat_support-1.1.16",
+          "releaseName": "chat_support-1.1.16",
+          "notes": "自动发布 chat_support-1.1.16\n\n- `chat_support_1.1.16_test.ipa`\n- `chat_support_1.1.16.apk`\n\n构建时间: 2026-04-30 11:57:21 JST",
+          "file": "chat_support_1.1.16_test.ipa",
+          "size": 21307543,
+          "downloadUrl": "https://github.com/xiaoli55979/ipa_install/releases/download/chat_support-1.1.16/chat_support_1.1.16_test.ipa",
+          "manifestUrl": "https://xiaoli55979.github.io/ipa_install/manifest/com.flutterChatSupport-chat_support-1.1.16.plist",
+          "installUrl": "itms-services://?action=download-manifest&url=https%3A%2F%2Fxiaoli55979.github.io%2Fipa_install%2Fmanifest%2Fcom.flutterChatSupport-chat_support-1.1.16.plist"
+        },
         {
           "version": "1.1.15",
           "uploadedAt": "2026-04-25T08:15:52Z",
@@ -339,6 +534,16 @@
       ],
       "android": [
         {
+          "version": "1.1.16",
+          "uploadedAt": "2026-04-30T02:57:38Z",
+          "tag": "chat_support-1.1.16",
+          "releaseName": "chat_support-1.1.16",
+          "notes": "自动发布 chat_support-1.1.16\n\n- `chat_support_1.1.16_test.ipa`\n- `chat_support_1.1.16.apk`\n\n构建时间: 2026-04-30 11:57:21 JST",
+          "file": "chat_support_1.1.16.apk",
+          "size": 107949361,
+          "downloadUrl": "https://github.com/xiaoli55979/ipa_install/releases/download/chat_support-1.1.16/chat_support_1.1.16.apk"
+        },
+        {
           "version": "1.1.15",
           "uploadedAt": "2026-04-25T08:16:02Z",
           "tag": "1.1.15",
@@ -381,7 +586,7 @@
       ],
       "mac": [],
       "win": [],
-      "latestAt": "2026-04-25T08:16:02Z"
+      "latestAt": "2026-04-30T02:57:38Z"
     }
   ]
 }
