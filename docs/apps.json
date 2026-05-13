@@ -1,52 +1,8 @@
 {
   "siteTitle": "App 分发",
   "publicUrl": "https://xiaoli55979.github.io/ipa_install",
-  "generatedAt": "2026-05-13T12:15:54.037Z",
+  "generatedAt": "2026-05-13T12:36:27.124Z",
   "apps": [
-    {
-      "id": "com.lianfu.lianfu01",
-      "name": "988",
-      "icon": "https://xiaoli55979.github.io/ipa_install/icons/com.lianfu.lianfu01-android.png",
-      "ios": [],
-      "android": [
-        {
-          "version": "2.0.1",
-          "uploadedAt": "2026-05-13T12:12:08Z",
-          "tag": "988-mobile-2.0.1",
-          "releaseName": "988-mobile-2.0.1",
-          "notes": "自动发布 988-mobile-2.0.1\n\n- `988-mobile_2.0.1_test.ipa`\n- `988-mobile_2.0.1.apk`\n\n构建时间: 2026-05-13 20:57:37 JST",
-          "file": "988-mobile_2.0.1.apk",
-          "size": 159156790,
-          "downloadUrl": "https://github.com/xiaoli55979/ipa_install/releases/download/988-mobile-2.0.1/988-mobile_2.0.1.apk"
-        }
-      ],
-      "mac": [],
-      "win": [],
-      "latestAt": "2026-05-13T12:12:08Z"
-    },
-    {
-      "id": "com.lianfu.cn",
-      "name": "988",
-      "icon": "https://xiaoli55979.github.io/ipa_install/icons/com.lianfu.cn-ios.png",
-      "ios": [
-        {
-          "version": "2.0.1",
-          "uploadedAt": "2026-05-13T12:04:24Z",
-          "tag": "988-mobile-2.0.1",
-          "releaseName": "988-mobile-2.0.1",
-          "notes": "自动发布 988-mobile-2.0.1\n\n- `988-mobile_2.0.1_test.ipa`\n- `988-mobile_2.0.1.apk`\n\n构建时间: 2026-05-13 20:57:37 JST",
-          "file": "988-mobile_2.0.1_test.ipa",
-          "size": 47887577,
-          "downloadUrl": "https://github.com/xiaoli55979/ipa_install/releases/download/988-mobile-2.0.1/988-mobile_2.0.1_test.ipa",
-          "manifestUrl": "https://xiaoli55979.github.io/ipa_install/manifest/com.lianfu.cn-988-mobile-2.0.1.plist",
-          "installUrl": "itms-services://?action=download-manifest&url=https%3A%2F%2Fxiaoli55979.github.io%2Fipa_install%2Fmanifest%2Fcom.lianfu.cn-988-mobile-2.0.1.plist"
-        }
-      ],
-      "android": [],
-      "mac": [],
-      "win": [],
-      "latestAt": "2026-05-13T12:04:24Z"
-    },
     {
       "id": "com.jiliaoim.cn",
       "name": "云小聊",
