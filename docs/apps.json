@@ -1,13 +1,25 @@
 {
   "siteTitle": "App 分发",
   "publicUrl": "https://xiaoli55979.github.io/ipa_install",
-  "generatedAt": "2026-05-12T13:18:24.311Z",
+  "generatedAt": "2026-05-13T01:18:16.837Z",
   "apps": [
     {
       "id": "com.jt8.cn",
       "name": "808",
       "icon": "https://xiaoli55979.github.io/ipa_install/icons/com.jt8.cn-android.png",
       "ios": [
+        {
+          "version": "1.1.25",
+          "uploadedAt": "2026-05-13T01:15:11Z",
+          "tag": "808-mobile-1.1.25",
+          "releaseName": "808-mobile-1.1.25",
+          "notes": "自动发布 808-mobile-1.1.25\n\n- `808-mobile_1.1.25_test.ipa`\n- `808-mobile_1.1.25.apk`\n\n构建时间: 2026-05-13 10:14:34 JST",
+          "file": "808-mobile_1.1.25_test.ipa",
+          "size": 48812839,
+          "downloadUrl": "https://github.com/xiaoli55979/ipa_install/releases/download/808-mobile-1.1.25/808-mobile_1.1.25_test.ipa",
+          "manifestUrl": "https://xiaoli55979.github.io/ipa_install/manifest/com.jt8.cn-808-mobile-1.1.25.plist",
+          "installUrl": "itms-services://?action=download-manifest&url=https%3A%2F%2Fxiaoli55979.github.io%2Fipa_install%2Fmanifest%2Fcom.jt8.cn-808-mobile-1.1.25.plist"
+        },
         {
           "version": "1.1.24",
           "uploadedAt": "2026-05-12T13:14:43Z",
@@ -35,6 +47,16 @@
       ],
       "android": [
         {
+          "version": "1.1.25",
+          "uploadedAt": "2026-05-13T01:16:41Z",
+          "tag": "808-mobile-1.1.25",
+          "releaseName": "808-mobile-1.1.25",
+          "notes": "自动发布 808-mobile-1.1.25\n\n- `808-mobile_1.1.25_test.ipa`\n- `808-mobile_1.1.25.apk`\n\n构建时间: 2026-05-13 10:14:34 JST",
+          "file": "808-mobile_1.1.25.apk",
+          "size": 222940092,
+          "downloadUrl": "https://github.com/xiaoli55979/ipa_install/releases/download/808-mobile-1.1.25/808-mobile_1.1.25.apk"
+        },
+        {
           "version": "1.1.24",
           "uploadedAt": "2026-05-12T13:15:50Z",
           "tag": "808-mobile-1.1.24",
@@ -57,7 +79,7 @@
       ],
       "mac": [],
       "win": [],
-      "latestAt": "2026-05-12T13:15:50Z"
+      "latestAt": "2026-05-13T01:16:41Z"
     },
     {
       "id": "com.ttm.sport.cn",
