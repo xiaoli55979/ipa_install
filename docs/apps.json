@@ -1,8 +1,42 @@
 {
   "siteTitle": "App 分发",
   "publicUrl": "https://xiaoli55979.github.io/ipa_install",
-  "generatedAt": "2026-05-13T12:36:27.124Z",
+  "generatedAt": "2026-05-13T12:54:18.149Z",
   "apps": [
+    {
+      "id": "com.lianfu.cn",
+      "name": "988",
+      "icon": "https://xiaoli55979.github.io/ipa_install/icons/com.lianfu.cn-android.png",
+      "ios": [
+        {
+          "version": "2.0.2",
+          "uploadedAt": "2026-05-13T12:51:31Z",
+          "tag": "988-mobile-2.0.2",
+          "releaseName": "988-mobile-2.0.2",
+          "notes": "自动发布 988-mobile-2.0.2\n\n- `988-mobile_2.0.2_test.ipa`\n- `988-mobile_2.0.2.apk`\n\n构建时间: 2026-05-13 21:50:05 JST",
+          "file": "988-mobile_2.0.2_test.ipa",
+          "size": 48023732,
+          "downloadUrl": "https://github.com/xiaoli55979/ipa_install/releases/download/988-mobile-2.0.2/988-mobile_2.0.2_test.ipa",
+          "manifestUrl": "https://xiaoli55979.github.io/ipa_install/manifest/com.lianfu.cn-988-mobile-2.0.2.plist",
+          "installUrl": "itms-services://?action=download-manifest&url=https%3A%2F%2Fxiaoli55979.github.io%2Fipa_install%2Fmanifest%2Fcom.lianfu.cn-988-mobile-2.0.2.plist"
+        }
+      ],
+      "android": [
+        {
+          "version": "2.0.2",
+          "uploadedAt": "2026-05-13T12:52:47Z",
+          "tag": "988-mobile-2.0.2",
+          "releaseName": "988-mobile-2.0.2",
+          "notes": "自动发布 988-mobile-2.0.2\n\n- `988-mobile_2.0.2_test.ipa`\n- `988-mobile_2.0.2.apk`\n\n构建时间: 2026-05-13 21:50:05 JST",
+          "file": "988-mobile_2.0.2.apk",
+          "size": 159156782,
+          "downloadUrl": "https://github.com/xiaoli55979/ipa_install/releases/download/988-mobile-2.0.2/988-mobile_2.0.2.apk"
+        }
+      ],
+      "mac": [],
+      "win": [],
+      "latestAt": "2026-05-13T12:52:47Z"
+    },
     {
       "id": "com.jiliaoim.cn",
       "name": "云小聊",
