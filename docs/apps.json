@@ -1,13 +1,25 @@
 {
   "siteTitle": "App 分发",
   "publicUrl": "https://xiaoli55979.github.io/ipa_install",
-  "generatedAt": "2026-05-18T13:55:19.269Z",
+  "generatedAt": "2026-05-18T14:18:31.550Z",
   "apps": [
     {
       "id": "com.wlp.com.cn",
       "name": "50",
       "icon": "https://xiaoli55979.github.io/ipa_install/icons/com.wlp.com.cn-android.png",
       "ios": [
+        {
+          "version": "6.1.10",
+          "uploadedAt": "2026-05-18T14:14:48Z",
+          "tag": "50-mobile-6.1.10",
+          "releaseName": "50-mobile-6.1.10",
+          "notes": "自动发布 50-mobile-6.1.10\n\n- `50-mobile_6.1.10_test.ipa`\n- `50-mobile_6.1.10.apk`\n\n构建时间: 2026-05-18 23:14:34 JST",
+          "file": "50-mobile_6.1.10_test.ipa",
+          "size": 52253407,
+          "downloadUrl": "https://github.com/xiaoli55979/ipa_install/releases/download/50-mobile-6.1.10/50-mobile_6.1.10_test.ipa",
+          "manifestUrl": "https://xiaoli55979.github.io/ipa_install/manifest/com.wlp.com.cn-50-mobile-6.1.10.plist",
+          "installUrl": "itms-services://?action=download-manifest&url=https%3A%2F%2Fxiaoli55979.github.io%2Fipa_install%2Fmanifest%2Fcom.wlp.com.cn-50-mobile-6.1.10.plist"
+        },
         {
           "version": "6.1.9",
           "uploadedAt": "2026-05-18T13:52:36Z",
@@ -23,6 +35,16 @@
       ],
       "android": [
         {
+          "version": "6.1.10",
+          "uploadedAt": "2026-05-18T14:15:11Z",
+          "tag": "50-mobile-6.1.10",
+          "releaseName": "50-mobile-6.1.10",
+          "notes": "自动发布 50-mobile-6.1.10\n\n- `50-mobile_6.1.10_test.ipa`\n- `50-mobile_6.1.10.apk`\n\n构建时间: 2026-05-18 23:14:34 JST",
+          "file": "50-mobile_6.1.10.apk",
+          "size": 231239949,
+          "downloadUrl": "https://github.com/xiaoli55979/ipa_install/releases/download/50-mobile-6.1.10/50-mobile_6.1.10.apk"
+        },
+        {
           "version": "6.1.9",
           "uploadedAt": "2026-05-18T13:52:58Z",
           "tag": "50-mobile-6.1.9",
@@ -35,7 +57,7 @@
       ],
       "mac": [],
       "win": [],
-      "latestAt": "2026-05-18T13:52:58Z"
+      "latestAt": "2026-05-18T14:15:11Z"
     },
     {
       "id": "com.ttm.sport.cn",
