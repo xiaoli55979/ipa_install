@@ -1,8 +1,42 @@
 {
   "siteTitle": "App 分发",
   "publicUrl": "https://xiaoli55979.github.io/ipa_install",
-  "generatedAt": "2026-05-20T03:03:40.829Z",
+  "generatedAt": "2026-05-20T13:59:45.903Z",
   "apps": [
+    {
+      "id": "com.ams.cn",
+      "name": "234",
+      "icon": "https://xiaoli55979.github.io/ipa_install/icons/com.ams.cn-android.png",
+      "ios": [
+        {
+          "version": "6.1.12",
+          "uploadedAt": "2026-05-20T13:57:59Z",
+          "tag": "234-mobile-6.1.12",
+          "releaseName": "234-mobile-6.1.12",
+          "notes": "自动发布 234-mobile-6.1.12\n\n- `234-mobile_6.1.12_test.ipa`\n- `234-mobile_6.1.12.apk`\n\n构建时间: 2026-05-20 22:57:46 JST",
+          "file": "234-mobile_6.1.12_test.ipa",
+          "size": 47755609,
+          "downloadUrl": "https://github.com/xiaoli55979/ipa_install/releases/download/234-mobile-6.1.12/234-mobile_6.1.12_test.ipa",
+          "manifestUrl": "https://xiaoli55979.github.io/ipa_install/manifest/com.ams.cn-234-mobile-6.1.12.plist",
+          "installUrl": "itms-services://?action=download-manifest&url=https%3A%2F%2Fxiaoli55979.github.io%2Fipa_install%2Fmanifest%2Fcom.ams.cn-234-mobile-6.1.12.plist"
+        }
+      ],
+      "android": [
+        {
+          "version": "6.1.12",
+          "uploadedAt": "2026-05-20T13:58:21Z",
+          "tag": "234-mobile-6.1.12",
+          "releaseName": "234-mobile-6.1.12",
+          "notes": "自动发布 234-mobile-6.1.12\n\n- `234-mobile_6.1.12_test.ipa`\n- `234-mobile_6.1.12.apk`\n\n构建时间: 2026-05-20 22:57:46 JST",
+          "file": "234-mobile_6.1.12.apk",
+          "size": 226990340,
+          "downloadUrl": "https://github.com/xiaoli55979/ipa_install/releases/download/234-mobile-6.1.12/234-mobile_6.1.12.apk"
+        }
+      ],
+      "mac": [],
+      "win": [],
+      "latestAt": "2026-05-20T13:58:21Z"
+    },
     {
       "id": "com.wlp.com.cn",
       "name": "50",
