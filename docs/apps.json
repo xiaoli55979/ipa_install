@@ -1,7 +1,7 @@
 {
   "siteTitle": "App 分发",
   "publicUrl": "https://xiaoli55979.github.io/ipa_install",
-  "generatedAt": "2026-05-22T02:27:37.840Z",
+  "generatedAt": "2026-05-22T02:51:32.399Z",
   "apps": [
     {
       "id": "com.lianfu.cn",
@@ -12,7 +12,7 @@
           "version": "2.0.5",
           "uploadedAt": "2026-05-21T13:24:57Z",
           "tag": "6.2.1",
-          "releaseName": "988-mobile-2.0.5",
+          "releaseName": "988-mobile-6.2.1",
           "notes": "自动发布 988-mobile-2.0.5\r\n\r\n- `988-mobile_2.0.5_test.ipa`\r\n- `988-mobile_2.0.5.apk`\r\n\r\n构建时间: 2026-05-21 22:24:43 JST",
           "file": "988-mobile_2.0.5_test.ipa",
           "size": 48220296,
@@ -62,7 +62,7 @@
           "version": "2.0.5",
           "uploadedAt": "2026-05-21T13:25:10Z",
           "tag": "6.2.1",
-          "releaseName": "988-mobile-2.0.5",
+          "releaseName": "988-mobile-6.2.1",
           "notes": "自动发布 988-mobile-2.0.5\r\n\r\n- `988-mobile_2.0.5_test.ipa`\r\n- `988-mobile_2.0.5.apk`\r\n\r\n构建时间: 2026-05-21 22:24:43 JST",
           "file": "988-mobile_2.0.5.apk",
           "size": 159649481,
