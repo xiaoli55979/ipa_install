@@ -14,9 +14,19 @@ import AdmZip from 'adm-zip';
 import simplePlist from 'simple-plist';
 import * as peLib from 'pe-library';
 import * as reseditMod from 'resedit';
+import cgbi from 'cgbi-to-png';
 
 const require = createRequire(import.meta.url);
 const ApkParser = require('app-info-parser/src/apk');
+
+// IPA 内的 png 多是 Xcode pngcrush 转出的 CgBI 苹果优化格式(BGR 通道 + raw deflate),浏览器无法渲染,要转回标准 PNG
+const PNG_MAGIC = Buffer.from([0x89, 0x50, 0x4e, 0x47, 0x0d, 0x0a, 0x1a, 0x0a]);
+function normalizeIpaPng(buf) {
+  if (!buf || buf.length < 16) return buf;
+  if (!buf.slice(0, 8).equals(PNG_MAGIC)) return buf;
+  if (buf.slice(12, 16).toString('ascii') !== 'CgBI') return buf;
+  try { return cgbi.revert(buf); } catch { return buf; }
+}
 
 const ROOT = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
 const CONFIG = JSON.parse(fs.readFileSync(path.join(ROOT, 'config.json'), 'utf-8'));
@@ -118,6 +128,7 @@ function parseIpa(filePath) {
       iconData = itunes[0].getData();
     }
   }
+  iconData = normalizeIpaPng(iconData);
   return { bundleId, version, name, iconData, iconExt: 'png' };
 }
 
