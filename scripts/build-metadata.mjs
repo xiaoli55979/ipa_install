@@ -12,6 +12,8 @@ import { execFileSync } from 'node:child_process';
 import { createRequire } from 'node:module';
 import AdmZip from 'adm-zip';
 import simplePlist from 'simple-plist';
+import * as peLib from 'pe-library';
+import * as reseditMod from 'resedit';
 
 const require = createRequire(import.meta.url);
 const ApkParser = require('app-info-parser/src/apk');
@@ -87,20 +89,105 @@ function parseIpa(filePath) {
     info['CFBundleIcons~ipad']?.CFBundlePrimaryIcon?.CFBundleIconFiles ||
     (info.CFBundleIconFile ? [info.CFBundleIconFile] : []);
 
+  const inAppPng = entries.filter(e => e.entryName.startsWith(appDir + '/') && /\.png$/i.test(e.entryName));
+  const pickLargest = (list) => list.length
+    ? list.slice().sort((a, b) => b.header.size - a.header.size)[0].getData()
+    : null;
+
+  // 优先 Info.plist 声明的图标 → 再扫 .app 目录里所有 AppIcon/Icon 前缀的 png → 兜底 iTunesArtwork
   let iconData = null;
   if (iconFiles.length) {
-    const candidates = entries.filter(e => {
-      if (!e.entryName.startsWith(appDir + '/')) return false;
+    iconData = pickLargest(inAppPng.filter(e => {
       const base = path.posix.basename(e.entryName);
-      if (!base.endsWith('.png')) return false;
       return iconFiles.some(n => base.startsWith(n));
-    });
-    if (candidates.length) {
-      candidates.sort((a, b) => b.header.size - a.header.size);
-      iconData = candidates[0].getData();
+    }));
+  }
+  if (!iconData) {
+    iconData = pickLargest(inAppPng.filter(e => {
+      const base = path.posix.basename(e.entryName).toLowerCase();
+      return base.includes('appicon') || base.startsWith('icon');
+    }));
+  }
+  if (!iconData) {
+    iconData = pickLargest(inAppPng);
+  }
+  if (!iconData) {
+    const itunes = entries.filter(e => /(^|\/)iTunesArtwork(@2x)?$/.test(e.entryName));
+    if (itunes.length) {
+      itunes.sort((a, b) => b.header.size - a.header.size);
+      iconData = itunes[0].getData();
     }
   }
-  return { bundleId, version, name, iconData };
+  return { bundleId, version, name, iconData, iconExt: 'png' };
+}
+
+// 从 EXE 的 PE 资源段提取最大尺寸图标。优先内嵌 PNG;否则包成单图标 ICO。
+function parseExeIcon(filePath) {
+  try {
+    const buf = fs.readFileSync(filePath);
+    const ab = buf.buffer.slice(buf.byteOffset, buf.byteOffset + buf.byteLength);
+    const exe = peLib.NtExecutable.from(ab, { ignoreCert: true });
+    const res = peLib.NtExecutableResource.from(exe);
+    const groups = reseditMod.Resource.IconGroupEntry.fromEntries(res.entries);
+    if (!groups.length) return null;
+    const rtIcons = res.entries.filter(e => e.type === 3);
+    const candidates = [];
+    for (const grp of groups) {
+      for (const ic of grp.icons) {
+        const ent = rtIcons.find(e => e.id === ic.iconID && e.lang === grp.lang);
+        if (!ent) continue;
+        const view = new DataView(ent.bin);
+        const isPng = view.byteLength >= 4 && view.getUint32(0, false) === 0x89504E47;
+        candidates.push({
+          width: ic.width || 256,
+          height: ic.height || 256,
+          isPng,
+          bin: Buffer.from(ent.bin),
+        });
+      }
+    }
+    if (!candidates.length) return null;
+    candidates.sort((a, b) => {
+      if (a.isPng !== b.isPng) return a.isPng ? -1 : 1;
+      return (b.width * b.height) - (a.width * a.height);
+    });
+    const top = candidates[0];
+    if (top.isPng) return { data: top.bin, ext: 'png' };
+    return { data: buildSingleIco(top), ext: 'ico' };
+  } catch {
+    return null;
+  }
+}
+
+function buildSingleIco(c) {
+  const header = Buffer.alloc(6 + 16);
+  header.writeUInt16LE(0, 0);
+  header.writeUInt16LE(1, 2);
+  header.writeUInt16LE(1, 4);
+  header.writeUInt8(c.width >= 256 ? 0 : c.width, 6);
+  header.writeUInt8(c.height >= 256 ? 0 : c.height, 7);
+  header.writeUInt8(0, 8);
+  header.writeUInt8(0, 9);
+  header.writeUInt16LE(1, 10);
+  header.writeUInt16LE(32, 12);
+  header.writeUInt32LE(c.bin.length, 14);
+  header.writeUInt32LE(22, 18);
+  return Buffer.concat([header, c.bin]);
+}
+
+// 图标来源优先级:iOS=1,Windows=2;数字越小越优先,可覆盖
+const ICON_RANK = { ios: 1, win: 2 };
+
+function maybeSetIcon(app, bundleId, platform, iconData, iconExt) {
+  if (!iconData) return;
+  const rank = ICON_RANK[platform];
+  if (!rank) return;
+  if (app._iconRank != null && rank >= app._iconRank) return;
+  const ext = iconExt || 'png';
+  const iconName = `${slugify(bundleId)}-${platform}.${ext}`;
+  fs.writeFileSync(path.join(ICON_DIR, iconName), iconData);
+  app.icon = `${PUBLIC_URL}/icons/${iconName}`;
+  app._iconRank = rank;
 }
 
 async function parseApk(filePath) {
@@ -217,6 +304,22 @@ async function main() {
           size: asset.size,
           downloadUrl: pkgUrl
         });
+
+        // 当 ios 还没贡献图标时,从 exe 抽一个兜底
+        if (ext === 'exe' && (app._iconRank == null || app._iconRank > ICON_RANK.win)) {
+          let exePath;
+          try {
+            exePath = downloadAsset(rel.tag_name, asset.name);
+          } catch (e) {
+            console.warn(`[skip-icon] download ${asset.name}: ${e.message}`);
+          }
+          if (exePath) {
+            const got = parseExeIcon(exePath);
+            if (got) maybeSetIcon(app, targetBundleId, 'win', got.data, got.ext);
+            else console.warn(`[skip-icon] no icon resource in ${asset.name}`);
+            try { fs.unlinkSync(exePath); } catch {}
+          }
+        }
         continue;
       }
 
@@ -258,11 +361,8 @@ async function main() {
 
       if (!releaseBundleId) { releaseBundleId = parsed.bundleId; releaseAppName = parsed.name; }
 
-      if (parsed.iconData && !app.icon) {
-        const iconName = `${slugify(parsed.bundleId)}-${platform}.png`;
-        fs.writeFileSync(path.join(ICON_DIR, iconName), parsed.iconData);
-        app.icon = `${PUBLIC_URL}/icons/${iconName}`;
-      }
+      // 图标只接受 ios/win 来源(maybeSetIcon 内部过滤)
+      maybeSetIcon(app, parsed.bundleId, platform, parsed.iconData, parsed.iconExt);
       if (parsed.name && parsed.name !== parsed.bundleId) app.name = parsed.name;
 
       const entry = {
@@ -301,6 +401,7 @@ async function main() {
     a.win.sort((x, y) => y.uploadedAt.localeCompare(x.uploadedAt));
     const times = [a.ios[0]?.uploadedAt, a.android[0]?.uploadedAt, a.mac[0]?.uploadedAt, a.win[0]?.uploadedAt].filter(Boolean);
     a.latestAt = times.sort().pop() || null;
+    delete a._iconRank;
     return a;
   });
   out.sort((a, b) => (b.latestAt || '').localeCompare(a.latestAt || ''));

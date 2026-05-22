@@ -1,12 +1,12 @@
 {
   "siteTitle": "App 分发",
   "publicUrl": "https://xiaoli55979.github.io/ipa_install",
-  "generatedAt": "2026-05-22T03:05:49.651Z",
+  "generatedAt": "2026-05-22T03:23:33.138Z",
   "apps": [
     {
       "id": "com.jt8.cn",
       "name": "808",
-      "icon": "https://xiaoli55979.github.io/ipa_install/icons/com.jt8.cn-android.png",
+      "icon": "https://xiaoli55979.github.io/ipa_install/icons/com.jt8.cn-ios.png",
       "ios": [
         {
           "version": "1.1.29",
@@ -172,7 +172,7 @@
     {
       "id": "com.lianfu.cn",
       "name": "988",
-      "icon": "https://xiaoli55979.github.io/ipa_install/icons/com.lianfu.cn-android.png",
+      "icon": "https://xiaoli55979.github.io/ipa_install/icons/com.lianfu.cn-ios.png",
       "ios": [
         {
           "version": "2.0.5",
@@ -272,7 +272,7 @@
     {
       "id": "com.ams.cn",
       "name": "234",
-      "icon": "https://xiaoli55979.github.io/ipa_install/icons/com.ams.cn-android.png",
+      "icon": "https://xiaoli55979.github.io/ipa_install/icons/com.ams.cn-ios.png",
       "ios": [
         {
           "version": "6.1.12",
@@ -306,7 +306,7 @@
     {
       "id": "com.wlp.com.cn",
       "name": "50",
-      "icon": "https://xiaoli55979.github.io/ipa_install/icons/com.wlp.com.cn-android.png",
+      "icon": "https://xiaoli55979.github.io/ipa_install/icons/com.wlp.com.cn-ios.png",
       "ios": [
         {
           "version": "6.1.13",
@@ -419,7 +419,7 @@
     {
       "id": "com.jiliaoim.cn",
       "name": "云小聊",
-      "icon": "https://xiaoli55979.github.io/ipa_install/icons/com.jiliaoim.cn-android.png",
+      "icon": "https://xiaoli55979.github.io/ipa_install/icons/com.jiliaoim.cn-ios.png",
       "ios": [
         {
           "version": "1.1.20",
@@ -803,7 +803,7 @@
     {
       "id": "com.flutterChatSupport",
       "name": "客服插件",
-      "icon": "https://xiaoli55979.github.io/ipa_install/icons/com.flutterChatSupport-android.png",
+      "icon": "https://xiaoli55979.github.io/ipa_install/icons/com.flutterChatSupport-ios.png",
       "ios": [
         {
           "version": "1.1.16",

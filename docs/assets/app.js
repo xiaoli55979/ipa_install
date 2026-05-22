@@ -58,9 +58,17 @@
 
     const a = document.createElement('a');
     a.className = `btn btn-${platform}`;
-    a.innerHTML = `${meta.btnLabel}<small>v${entry.version} · ${fmtSize(entry.size)}</small>`;
+    const metaLine = [`v${entry.version}`, fmtSize(entry.size)].filter(Boolean).join(' · ');
+    const timeLine = fmtTime(entry.uploadedAt);
+    a.innerHTML = `<span class="btn-label">${meta.btnLabel}</span>`
+      + `<small class="btn-meta">${metaLine}${timeLine ? `<br>更新于 ${timeLine}` : ''}</small>`;
     const url = entryUrl(platform, entry);
     a.href = url;
+    // 安卓:用 download 属性 + rel 把链接锁定为"下载该文件",避免某些浏览器顺手预读其它链接
+    if (platform === 'android' && entry.file) {
+      a.setAttribute('download', entry.file);
+      a.rel = 'noopener';
+    }
 
     const qr = document.createElement('button');
     qr.type = 'button';
@@ -68,7 +76,7 @@
     qr.title = '扫码下载';
     qr.setAttribute('aria-label', '扫码下载');
     qr.innerHTML = qrIconSvg();
-    qr.addEventListener('click', () => openQr(meta.qrTitle, url, meta.hint));
+    qr.addEventListener('click', (ev) => { ev.stopPropagation(); openQr(meta.qrTitle, url, meta.hint); });
 
     wrap.append(a, qr);
     return wrap;
@@ -101,13 +109,17 @@
       const a = document.createElement('a');
       a.textContent = meta.histLabel;
       a.href = url;
+      if (platform === 'android' && e.file) {
+        a.setAttribute('download', e.file);
+        a.rel = 'noopener';
+      }
       const qr = document.createElement('button');
       qr.type = 'button';
       qr.className = 'history-qr';
       qr.title = '扫码' + meta.histLabel;
       qr.setAttribute('aria-label', '扫码' + meta.histLabel);
       qr.innerHTML = qrIconSvg();
-      qr.addEventListener('click', () => openQr('扫码' + meta.histLabel + ' v' + e.version, url, ''));
+      qr.addEventListener('click', (ev) => { ev.stopPropagation(); openQr('扫码' + meta.histLabel + ' v' + e.version, url, ''); });
       row.append(ver, when, a, qr);
       wrap.appendChild(row);
     });
