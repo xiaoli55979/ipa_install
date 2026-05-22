@@ -1,7 +1,7 @@
 {
   "siteTitle": "App 分发",
   "publicUrl": "https://xiaoli55979.github.io/ipa_install",
-  "generatedAt": "2026-05-22T02:51:32.399Z",
+  "generatedAt": "2026-05-22T02:53:09.476Z",
   "apps": [
     {
       "id": "com.lianfu.cn",
@@ -112,8 +112,8 @@
           "version": "1.1.28",
           "uploadedAt": "2026-05-21T09:07:04Z",
           "tag": "808-mobile-1.1.28",
-          "releaseName": "808-mobile-1.1.28",
-          "notes": "自动发布 808-mobile-1.1.28\n\n- `808-mobile_1.1.28_test.ipa`\n- `808-mobile_1.1.28.apk`\n\n构建时间: 2026-05-21 18:06:51 JST",
+          "releaseName": "808-mobile-6.2.1",
+          "notes": "自动发布 808-mobile-1.1.28\r\n\r\n- `808-mobile_1.1.28_test.ipa`\r\n- `808-mobile_1.1.28.apk`\r\n\r\n构建时间: 2026-05-21 18:06:51 JST",
           "file": "808-mobile_1.1.28_test.ipa",
           "size": 49954065,
           "downloadUrl": "https://github.com/xiaoli55979/ipa_install/releases/download/808-mobile-1.1.28/808-mobile_1.1.28_test.ipa",
@@ -186,8 +186,8 @@
           "version": "1.1.28",
           "uploadedAt": "2026-05-21T09:07:19Z",
           "tag": "808-mobile-1.1.28",
-          "releaseName": "808-mobile-1.1.28",
-          "notes": "自动发布 808-mobile-1.1.28\n\n- `808-mobile_1.1.28_test.ipa`\n- `808-mobile_1.1.28.apk`\n\n构建时间: 2026-05-21 18:06:51 JST",
+          "releaseName": "808-mobile-6.2.1",
+          "notes": "自动发布 808-mobile-1.1.28\r\n\r\n- `808-mobile_1.1.28_test.ipa`\r\n- `808-mobile_1.1.28.apk`\r\n\r\n构建时间: 2026-05-21 18:06:51 JST",
           "file": "808-mobile_1.1.28.apk",
           "size": 161674592,
           "downloadUrl": "https://github.com/xiaoli55979/ipa_install/releases/download/808-mobile-1.1.28/808-mobile_1.1.28.apk"
