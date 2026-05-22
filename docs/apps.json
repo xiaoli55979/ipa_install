@@ -1,7 +1,7 @@
 {
   "siteTitle": "App 分发",
   "publicUrl": "https://xiaoli55979.github.io/ipa_install",
-  "generatedAt": "2026-05-21T13:29:52.868Z",
+  "generatedAt": "2026-05-22T02:27:37.840Z",
   "apps": [
     {
       "id": "com.lianfu.cn",
@@ -11,14 +11,14 @@
         {
           "version": "2.0.5",
           "uploadedAt": "2026-05-21T13:24:57Z",
-          "tag": "988-mobile-2.0.5",
+          "tag": "6.2.1",
           "releaseName": "988-mobile-2.0.5",
-          "notes": "自动发布 988-mobile-2.0.5\n\n- `988-mobile_2.0.5_test.ipa`\n- `988-mobile_2.0.5.apk`\n\n构建时间: 2026-05-21 22:24:43 JST",
+          "notes": "自动发布 988-mobile-2.0.5\r\n\r\n- `988-mobile_2.0.5_test.ipa`\r\n- `988-mobile_2.0.5.apk`\r\n\r\n构建时间: 2026-05-21 22:24:43 JST",
           "file": "988-mobile_2.0.5_test.ipa",
           "size": 48220296,
-          "downloadUrl": "https://github.com/xiaoli55979/ipa_install/releases/download/988-mobile-2.0.5/988-mobile_2.0.5_test.ipa",
-          "manifestUrl": "https://xiaoli55979.github.io/ipa_install/manifest/com.lianfu.cn-988-mobile-2.0.5.plist",
-          "installUrl": "itms-services://?action=download-manifest&url=https%3A%2F%2Fxiaoli55979.github.io%2Fipa_install%2Fmanifest%2Fcom.lianfu.cn-988-mobile-2.0.5.plist"
+          "downloadUrl": "https://github.com/xiaoli55979/ipa_install/releases/download/6.2.1/988-mobile_2.0.5_test.ipa",
+          "manifestUrl": "https://xiaoli55979.github.io/ipa_install/manifest/com.lianfu.cn-6.2.1.plist",
+          "installUrl": "itms-services://?action=download-manifest&url=https%3A%2F%2Fxiaoli55979.github.io%2Fipa_install%2Fmanifest%2Fcom.lianfu.cn-6.2.1.plist"
         },
         {
           "version": "2.0.4",
@@ -61,12 +61,12 @@
         {
           "version": "2.0.5",
           "uploadedAt": "2026-05-21T13:25:10Z",
-          "tag": "988-mobile-2.0.5",
+          "tag": "6.2.1",
           "releaseName": "988-mobile-2.0.5",
-          "notes": "自动发布 988-mobile-2.0.5\n\n- `988-mobile_2.0.5_test.ipa`\n- `988-mobile_2.0.5.apk`\n\n构建时间: 2026-05-21 22:24:43 JST",
+          "notes": "自动发布 988-mobile-2.0.5\r\n\r\n- `988-mobile_2.0.5_test.ipa`\r\n- `988-mobile_2.0.5.apk`\r\n\r\n构建时间: 2026-05-21 22:24:43 JST",
           "file": "988-mobile_2.0.5.apk",
           "size": 159649481,
-          "downloadUrl": "https://github.com/xiaoli55979/ipa_install/releases/download/988-mobile-2.0.5/988-mobile_2.0.5.apk"
+          "downloadUrl": "https://github.com/xiaoli55979/ipa_install/releases/download/6.2.1/988-mobile_2.0.5.apk"
         },
         {
           "version": "2.0.4",
