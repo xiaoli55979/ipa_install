@@ -226,6 +226,9 @@
       if (data.generatedAt) {
         $('#generated-at').textContent = '更新于 ' + fmtTime(data.generatedAt);
       }
+      // 给 icon URL 拼上 generatedAt 作 cache buster,避免浏览器拿到旧的(可能损坏的)缓存
+      const iconV = encodeURIComponent(data.generatedAt || Date.now());
+      data.apps.forEach(a => { if (a.icon) a.icon += (a.icon.includes('?') ? '&' : '?') + 'v=' + iconV; });
       const list = $('#app-list');
       list.innerHTML = '';
       if (!data.apps || !data.apps.length) {
