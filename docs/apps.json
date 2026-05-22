@@ -1,7 +1,7 @@
 {
   "siteTitle": "App 分发",
   "publicUrl": "https://xiaoli55979.github.io/ipa_install",
-  "generatedAt": "2026-05-22T16:21:56.430Z",
+  "generatedAt": "2026-05-22T16:29:10.419Z",
   "apps": [
     {
       "id": "com.ams.cn",
@@ -485,7 +485,7 @@
           "uploadedAt": "2026-05-22T14:25:41Z",
           "tag": "chat-mobile-1.1.19",
           "releaseName": "chat-mobile-1.1.19",
-          "notes": "自动发布 chat-mobile-1.1.19\n\n- `chat-mobile_1.1.19_test.ipa`\n- `chat-mobile_1.1.19.apk`\n\n构建时间: 2026-05-22 23:25:24 JST",
+          "notes": "自动发布 chat-mobile-1.1.19\r\n\r\n- `chat-mobile_1.1.19_test.ipa`\r\n- `chat-mobile_1.1.19.apk`\r\n\r\n构建时间: 2026-05-22 23:25:24 JST",
           "file": "chat-mobile_1.1.19.apk",
           "size": 108551975,
           "downloadUrl": "https://github.com/xiaoli55979/ipa_install/releases/download/chat-mobile-1.1.19/chat-mobile_1.1.19.apk"
@@ -544,29 +544,6 @@
       "mac": [],
       "win": [],
       "latestAt": "2026-05-22T14:25:41Z"
-    },
-    {
-      "id": "com.chatSupport.cn",
-      "name": "客服插件",
-      "icon": "https://xiaoli55979.github.io/ipa_install/icons/com.chatSupport.cn-ios.png",
-      "ios": [
-        {
-          "version": "1.1.19",
-          "uploadedAt": "2026-05-22T14:25:31Z",
-          "tag": "chat-mobile-1.1.19",
-          "releaseName": "chat-mobile-1.1.19",
-          "notes": "自动发布 chat-mobile-1.1.19\n\n- `chat-mobile_1.1.19_test.ipa`\n- `chat-mobile_1.1.19.apk`\n\n构建时间: 2026-05-22 23:25:24 JST",
-          "file": "chat-mobile_1.1.19_test.ipa",
-          "size": 21025876,
-          "downloadUrl": "https://github.com/xiaoli55979/ipa_install/releases/download/chat-mobile-1.1.19/chat-mobile_1.1.19_test.ipa",
-          "manifestUrl": "https://xiaoli55979.github.io/ipa_install/manifest/com.chatSupport.cn-chat-mobile-1.1.19.plist",
-          "installUrl": "itms-services://?action=download-manifest&url=https%3A%2F%2Fxiaoli55979.github.io%2Fipa_install%2Fmanifest%2Fcom.chatSupport.cn-chat-mobile-1.1.19.plist"
-        }
-      ],
-      "android": [],
-      "mac": [],
-      "win": [],
-      "latestAt": "2026-05-22T14:25:31Z"
     },
     {
       "id": "com.wlp.com.cn",
