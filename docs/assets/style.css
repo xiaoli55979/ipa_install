@@ -98,16 +98,19 @@ html, body {
 }
 
 .platforms {
-  display: flex;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
   gap: 8px;
   margin-top: 12px;
-  flex-wrap: wrap;
 }
 .btn-group {
   display: flex;
   gap: 6px;
-  flex: 1;
-  min-width: 160px;
+  min-width: 0;
+}
+/* 奇数个按钮时最后一个独占整行,避免右边留空 */
+.btn-group:last-child:nth-child(odd) {
+  grid-column: span 2;
 }
 .btn {
   appearance: none;
