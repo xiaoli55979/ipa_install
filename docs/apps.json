@@ -1,7 +1,7 @@
 {
   "siteTitle": "App 分发",
   "publicUrl": "https://xiaoli55979.github.io/ipa_install",
-  "generatedAt": "2026-05-25T04:17:27.369Z",
+  "generatedAt": "2026-05-25T04:18:51.165Z",
   "apps": [
     {
       "id": "com.wlp.com.cn",
@@ -167,14 +167,14 @@
         {
           "version": "1.1.30",
           "uploadedAt": "2026-05-22T15:54:26Z",
-          "tag": "808-mobile-1.1.30",
+          "tag": "808-mobile-7.0.1",
           "releaseName": "808-mobile-1.1.30",
-          "notes": "自动发布 808-mobile-1.1.30\n\n- `808-mobile_1.1.30_test.ipa`\n- `808-mobile_1.1.30.apk`\n\n构建时间: 2026-05-23 00:54:13 JST",
+          "notes": "自动发布 808-mobile-1.1.30\r\n\r\n- `808-mobile_1.1.30_test.ipa`\r\n- `808-mobile_1.1.30.apk`\r\n\r\n构建时间: 2026-05-23 00:54:13 JST",
           "file": "808-mobile_1.1.30_test.ipa",
           "size": 49957502,
-          "downloadUrl": "https://github.com/xiaoli55979/ipa_install/releases/download/808-mobile-1.1.30/808-mobile_1.1.30_test.ipa",
-          "manifestUrl": "https://xiaoli55979.github.io/ipa_install/manifest/com.jt8.cn-808-mobile-1.1.30.plist",
-          "installUrl": "itms-services://?action=download-manifest&url=https%3A%2F%2Fxiaoli55979.github.io%2Fipa_install%2Fmanifest%2Fcom.jt8.cn-808-mobile-1.1.30.plist"
+          "downloadUrl": "https://github.com/xiaoli55979/ipa_install/releases/download/808-mobile-7.0.1/808-mobile_1.1.30_test.ipa",
+          "manifestUrl": "https://xiaoli55979.github.io/ipa_install/manifest/com.jt8.cn-808-mobile-7.0.1.plist",
+          "installUrl": "itms-services://?action=download-manifest&url=https%3A%2F%2Fxiaoli55979.github.io%2Fipa_install%2Fmanifest%2Fcom.jt8.cn-808-mobile-7.0.1.plist"
         },
         {
           "version": "1.1.29",
@@ -265,12 +265,12 @@
         {
           "version": "1.1.30",
           "uploadedAt": "2026-05-22T15:54:40Z",
-          "tag": "808-mobile-1.1.30",
+          "tag": "808-mobile-7.0.1",
           "releaseName": "808-mobile-1.1.30",
-          "notes": "自动发布 808-mobile-1.1.30\n\n- `808-mobile_1.1.30_test.ipa`\n- `808-mobile_1.1.30.apk`\n\n构建时间: 2026-05-23 00:54:13 JST",
+          "notes": "自动发布 808-mobile-1.1.30\r\n\r\n- `808-mobile_1.1.30_test.ipa`\r\n- `808-mobile_1.1.30.apk`\r\n\r\n构建时间: 2026-05-23 00:54:13 JST",
           "file": "808-mobile_1.1.30.apk",
           "size": 161690976,
-          "downloadUrl": "https://github.com/xiaoli55979/ipa_install/releases/download/808-mobile-1.1.30/808-mobile_1.1.30.apk"
+          "downloadUrl": "https://github.com/xiaoli55979/ipa_install/releases/download/808-mobile-7.0.1/808-mobile_1.1.30.apk"
         },
         {
           "version": "1.1.29",
