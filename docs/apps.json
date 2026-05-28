@@ -1,8 +1,196 @@
 {
   "siteTitle": "App 分发",
   "publicUrl": "https://xiaoli55979.github.io/ipa_install",
-  "generatedAt": "2026-05-27T14:19:25.865Z",
+  "generatedAt": "2026-05-28T09:40:02.133Z",
   "apps": [
+    {
+      "id": "com.wlp.com.cn",
+      "name": "50",
+      "icon": "https://xiaoli55979.github.io/ipa_install/icons/com.wlp.com.cn-ios.png",
+      "ios": [
+        {
+          "version": "6.1.18",
+          "uploadedAt": "2026-05-28T09:32:49Z",
+          "tag": "50-mobile-6.1.18",
+          "releaseName": "50-mobile-6.1.18",
+          "notes": "自动发布 50-mobile-6.1.18\n\n- `50-mobile_6.1.18_test.ipa`\n- `50-mobile_6.1.18.apk`\n\n构建时间: 2026-05-28 18:32:34 JST",
+          "file": "50-mobile_6.1.18_test.ipa",
+          "size": 53002573,
+          "downloadUrl": "https://github.com/xiaoli55979/ipa_install/releases/download/50-mobile-6.1.18/50-mobile_6.1.18_test.ipa",
+          "manifestUrl": "https://xiaoli55979.github.io/ipa_install/manifest/com.wlp.com.cn-50-mobile-6.1.18.plist",
+          "installUrl": "itms-services://?action=download-manifest&url=https%3A%2F%2Fxiaoli55979.github.io%2Fipa_install%2Fmanifest%2Fcom.wlp.com.cn-50-mobile-6.1.18.plist"
+        },
+        {
+          "version": "6.1.17",
+          "uploadedAt": "2026-05-27T05:58:48Z",
+          "tag": "50-mobile-6.1.17",
+          "releaseName": "50-mobile-6.1.17",
+          "notes": "自动发布 50-mobile-6.1.17\n\n- `50-mobile_6.1.17_test.ipa`\n- `50-mobile_6.1.17.apk`\n\n构建时间: 2026-05-27 14:58:35 JST",
+          "file": "50-mobile_6.1.17_test.ipa",
+          "size": 52975674,
+          "downloadUrl": "https://github.com/xiaoli55979/ipa_install/releases/download/50-mobile-6.1.17/50-mobile_6.1.17_test.ipa",
+          "manifestUrl": "https://xiaoli55979.github.io/ipa_install/manifest/com.wlp.com.cn-50-mobile-6.1.17.plist",
+          "installUrl": "itms-services://?action=download-manifest&url=https%3A%2F%2Fxiaoli55979.github.io%2Fipa_install%2Fmanifest%2Fcom.wlp.com.cn-50-mobile-6.1.17.plist"
+        },
+        {
+          "version": "6.1.16",
+          "uploadedAt": "2026-05-26T09:08:15Z",
+          "tag": "50-mobile-6.1.16",
+          "releaseName": "50-mobile-6.1.16",
+          "notes": "自动发布 50-mobile-6.1.16\n\n- `50-mobile_6.1.16_test.ipa`\n- `50-mobile_6.1.16.apk`\n\n构建时间: 2026-05-26 18:08:01 JST",
+          "file": "50-mobile_6.1.16_test.ipa",
+          "size": 52981839,
+          "downloadUrl": "https://github.com/xiaoli55979/ipa_install/releases/download/50-mobile-6.1.16/50-mobile_6.1.16_test.ipa",
+          "manifestUrl": "https://xiaoli55979.github.io/ipa_install/manifest/com.wlp.com.cn-50-mobile-6.1.16.plist",
+          "installUrl": "itms-services://?action=download-manifest&url=https%3A%2F%2Fxiaoli55979.github.io%2Fipa_install%2Fmanifest%2Fcom.wlp.com.cn-50-mobile-6.1.16.plist"
+        },
+        {
+          "version": "6.1.15",
+          "uploadedAt": "2026-05-25T13:10:04Z",
+          "tag": "50-mobile-6.1.15",
+          "releaseName": "50-mobile-6.1.15",
+          "notes": "自动发布 50-mobile-6.1.15\n\n- `50-mobile_6.1.15_test.ipa`\n- `50-mobile_6.1.15.apk`\n\n构建时间: 2026-05-25 22:09:49 JST",
+          "file": "50-mobile_6.1.15_test.ipa",
+          "size": 52979821,
+          "downloadUrl": "https://github.com/xiaoli55979/ipa_install/releases/download/50-mobile-6.1.15/50-mobile_6.1.15_test.ipa",
+          "manifestUrl": "https://xiaoli55979.github.io/ipa_install/manifest/com.wlp.com.cn-50-mobile-6.1.15.plist",
+          "installUrl": "itms-services://?action=download-manifest&url=https%3A%2F%2Fxiaoli55979.github.io%2Fipa_install%2Fmanifest%2Fcom.wlp.com.cn-50-mobile-6.1.15.plist"
+        },
+        {
+          "version": "6.1.14",
+          "uploadedAt": "2026-05-22T16:34:39Z",
+          "tag": "50-mobile-6.1.14",
+          "releaseName": "50-mobile-6.1.14",
+          "notes": "自动发布 50-mobile-6.1.14\n\n- `50-mobile_6.1.14_test.ipa`\n- `50-mobile_6.1.14.apk`\n\n构建时间: 2026-05-23 01:34:24 JST",
+          "file": "50-mobile_6.1.14_test.ipa",
+          "size": 52272160,
+          "downloadUrl": "https://github.com/xiaoli55979/ipa_install/releases/download/50-mobile-6.1.14/50-mobile_6.1.14_test.ipa",
+          "manifestUrl": "https://xiaoli55979.github.io/ipa_install/manifest/com.wlp.com.cn-50-mobile-6.1.14.plist",
+          "installUrl": "itms-services://?action=download-manifest&url=https%3A%2F%2Fxiaoli55979.github.io%2Fipa_install%2Fmanifest%2Fcom.wlp.com.cn-50-mobile-6.1.14.plist"
+        },
+        {
+          "version": "6.1.13",
+          "uploadedAt": "2026-05-20T02:58:31Z",
+          "tag": "50-mobile-6.1.13",
+          "releaseName": "50-mobile-6.1.13",
+          "notes": "自动发布 50-mobile-6.1.13\n\n- `50-mobile_6.1.13_test.ipa`\n- `50-mobile_6.1.13.apk`\n\n构建时间: 2026-05-20 11:58:17 JST",
+          "file": "50-mobile_6.1.13_test.ipa",
+          "size": 52268791,
+          "downloadUrl": "https://github.com/xiaoli55979/ipa_install/releases/download/50-mobile-6.1.13/50-mobile_6.1.13_test.ipa",
+          "manifestUrl": "https://xiaoli55979.github.io/ipa_install/manifest/com.wlp.com.cn-50-mobile-6.1.13.plist",
+          "installUrl": "itms-services://?action=download-manifest&url=https%3A%2F%2Fxiaoli55979.github.io%2Fipa_install%2Fmanifest%2Fcom.wlp.com.cn-50-mobile-6.1.13.plist"
+        },
+        {
+          "version": "6.1.12",
+          "uploadedAt": "2026-05-19T09:14:09Z",
+          "tag": "50-mobile-6.1.12",
+          "releaseName": "50-mobile-6.1.12",
+          "notes": "自动发布 50-mobile-6.1.12\n\n- `50-mobile_6.1.12_test.ipa`\n- `50-mobile_6.1.12.apk`\n\n构建时间: 2026-05-19 18:13:55 JST",
+          "file": "50-mobile_6.1.12_test.ipa",
+          "size": 52262004,
+          "downloadUrl": "https://github.com/xiaoli55979/ipa_install/releases/download/50-mobile-6.1.12/50-mobile_6.1.12_test.ipa",
+          "manifestUrl": "https://xiaoli55979.github.io/ipa_install/manifest/com.wlp.com.cn-50-mobile-6.1.12.plist",
+          "installUrl": "itms-services://?action=download-manifest&url=https%3A%2F%2Fxiaoli55979.github.io%2Fipa_install%2Fmanifest%2Fcom.wlp.com.cn-50-mobile-6.1.12.plist"
+        },
+        {
+          "version": "6.1.11",
+          "uploadedAt": "2026-05-19T00:41:11Z",
+          "tag": "50-mobile-6.1.11",
+          "releaseName": "50-mobile-6.1.11",
+          "notes": "自动发布 50-mobile-6.1.11\n\n- `50-mobile_6.1.11_test.ipa`\n- `50-mobile_6.1.11.apk`\n\n构建时间: 2026-05-19 09:40:58 JST",
+          "file": "50-mobile_6.1.11_test.ipa",
+          "size": 52253353,
+          "downloadUrl": "https://github.com/xiaoli55979/ipa_install/releases/download/50-mobile-6.1.11/50-mobile_6.1.11_test.ipa",
+          "manifestUrl": "https://xiaoli55979.github.io/ipa_install/manifest/com.wlp.com.cn-50-mobile-6.1.11.plist",
+          "installUrl": "itms-services://?action=download-manifest&url=https%3A%2F%2Fxiaoli55979.github.io%2Fipa_install%2Fmanifest%2Fcom.wlp.com.cn-50-mobile-6.1.11.plist"
+        }
+      ],
+      "android": [
+        {
+          "version": "6.1.18",
+          "uploadedAt": "2026-05-28T09:33:10Z",
+          "tag": "50-mobile-6.1.18",
+          "releaseName": "50-mobile-6.1.18",
+          "notes": "自动发布 50-mobile-6.1.18\n\n- `50-mobile_6.1.18_test.ipa`\n- `50-mobile_6.1.18.apk`\n\n构建时间: 2026-05-28 18:32:34 JST",
+          "file": "50-mobile_6.1.18.apk",
+          "size": 231372849,
+          "downloadUrl": "https://github.com/xiaoli55979/ipa_install/releases/download/50-mobile-6.1.18/50-mobile_6.1.18.apk"
+        },
+        {
+          "version": "6.1.17",
+          "uploadedAt": "2026-05-27T05:59:12Z",
+          "tag": "50-mobile-6.1.17",
+          "releaseName": "50-mobile-6.1.17",
+          "notes": "自动发布 50-mobile-6.1.17\n\n- `50-mobile_6.1.17_test.ipa`\n- `50-mobile_6.1.17.apk`\n\n构建时间: 2026-05-27 14:58:35 JST",
+          "file": "50-mobile_6.1.17.apk",
+          "size": 231258113,
+          "downloadUrl": "https://github.com/xiaoli55979/ipa_install/releases/download/50-mobile-6.1.17/50-mobile_6.1.17.apk"
+        },
+        {
+          "version": "6.1.16",
+          "uploadedAt": "2026-05-26T09:08:36Z",
+          "tag": "50-mobile-6.1.16",
+          "releaseName": "50-mobile-6.1.16",
+          "notes": "自动发布 50-mobile-6.1.16\n\n- `50-mobile_6.1.16_test.ipa`\n- `50-mobile_6.1.16.apk`\n\n构建时间: 2026-05-26 18:08:01 JST",
+          "file": "50-mobile_6.1.16.apk",
+          "size": 231257913,
+          "downloadUrl": "https://github.com/xiaoli55979/ipa_install/releases/download/50-mobile-6.1.16/50-mobile_6.1.16.apk"
+        },
+        {
+          "version": "6.1.15",
+          "uploadedAt": "2026-05-25T13:10:26Z",
+          "tag": "50-mobile-6.1.15",
+          "releaseName": "50-mobile-6.1.15",
+          "notes": "自动发布 50-mobile-6.1.15\n\n- `50-mobile_6.1.15_test.ipa`\n- `50-mobile_6.1.15.apk`\n\n构建时间: 2026-05-25 22:09:49 JST",
+          "file": "50-mobile_6.1.15.apk",
+          "size": 231257917,
+          "downloadUrl": "https://github.com/xiaoli55979/ipa_install/releases/download/50-mobile-6.1.15/50-mobile_6.1.15.apk"
+        },
+        {
+          "version": "6.1.14",
+          "uploadedAt": "2026-05-22T16:35:00Z",
+          "tag": "50-mobile-6.1.14",
+          "releaseName": "50-mobile-6.1.14",
+          "notes": "自动发布 50-mobile-6.1.14\n\n- `50-mobile_6.1.14_test.ipa`\n- `50-mobile_6.1.14.apk`\n\n构建时间: 2026-05-23 01:34:24 JST",
+          "file": "50-mobile_6.1.14.apk",
+          "size": 231241533,
+          "downloadUrl": "https://github.com/xiaoli55979/ipa_install/releases/download/50-mobile-6.1.14/50-mobile_6.1.14.apk"
+        },
+        {
+          "version": "6.1.13",
+          "uploadedAt": "2026-05-20T02:58:56Z",
+          "tag": "50-mobile-6.1.13",
+          "releaseName": "50-mobile-6.1.13",
+          "notes": "自动发布 50-mobile-6.1.13\n\n- `50-mobile_6.1.13_test.ipa`\n- `50-mobile_6.1.13.apk`\n\n构建时间: 2026-05-20 11:58:17 JST",
+          "file": "50-mobile_6.1.13.apk",
+          "size": 231223569,
+          "downloadUrl": "https://github.com/xiaoli55979/ipa_install/releases/download/50-mobile-6.1.13/50-mobile_6.1.13.apk"
+        },
+        {
+          "version": "6.1.12",
+          "uploadedAt": "2026-05-19T09:14:29Z",
+          "tag": "50-mobile-6.1.12",
+          "releaseName": "50-mobile-6.1.12",
+          "notes": "自动发布 50-mobile-6.1.12\n\n- `50-mobile_6.1.12_test.ipa`\n- `50-mobile_6.1.12.apk`\n\n构建时间: 2026-05-19 18:13:55 JST",
+          "file": "50-mobile_6.1.12.apk",
+          "size": 231239953,
+          "downloadUrl": "https://github.com/xiaoli55979/ipa_install/releases/download/50-mobile-6.1.12/50-mobile_6.1.12.apk"
+        },
+        {
+          "version": "6.1.11",
+          "uploadedAt": "2026-05-19T00:41:32Z",
+          "tag": "50-mobile-6.1.11",
+          "releaseName": "50-mobile-6.1.11",
+          "notes": "自动发布 50-mobile-6.1.11\n\n- `50-mobile_6.1.11_test.ipa`\n- `50-mobile_6.1.11.apk`\n\n构建时间: 2026-05-19 09:40:58 JST",
+          "file": "50-mobile_6.1.11.apk",
+          "size": 231239953,
+          "downloadUrl": "https://github.com/xiaoli55979/ipa_install/releases/download/50-mobile-6.1.11/50-mobile_6.1.11.apk"
+        }
+      ],
+      "mac": [],
+      "win": [],
+      "latestAt": "2026-05-28T09:33:10Z"
+    },
     {
       "id": "com.jt8.cn",
       "name": "808",
@@ -576,172 +764,6 @@
       "mac": [],
       "win": [],
       "latestAt": "2026-05-27T14:14:17Z"
-    },
-    {
-      "id": "com.wlp.com.cn",
-      "name": "50",
-      "icon": "https://xiaoli55979.github.io/ipa_install/icons/com.wlp.com.cn-ios.png",
-      "ios": [
-        {
-          "version": "6.1.17",
-          "uploadedAt": "2026-05-27T05:58:48Z",
-          "tag": "50-mobile-6.1.17",
-          "releaseName": "50-mobile-6.1.17",
-          "notes": "自动发布 50-mobile-6.1.17\n\n- `50-mobile_6.1.17_test.ipa`\n- `50-mobile_6.1.17.apk`\n\n构建时间: 2026-05-27 14:58:35 JST",
-          "file": "50-mobile_6.1.17_test.ipa",
-          "size": 52975674,
-          "downloadUrl": "https://github.com/xiaoli55979/ipa_install/releases/download/50-mobile-6.1.17/50-mobile_6.1.17_test.ipa",
-          "manifestUrl": "https://xiaoli55979.github.io/ipa_install/manifest/com.wlp.com.cn-50-mobile-6.1.17.plist",
-          "installUrl": "itms-services://?action=download-manifest&url=https%3A%2F%2Fxiaoli55979.github.io%2Fipa_install%2Fmanifest%2Fcom.wlp.com.cn-50-mobile-6.1.17.plist"
-        },
-        {
-          "version": "6.1.16",
-          "uploadedAt": "2026-05-26T09:08:15Z",
-          "tag": "50-mobile-6.1.16",
-          "releaseName": "50-mobile-6.1.16",
-          "notes": "自动发布 50-mobile-6.1.16\n\n- `50-mobile_6.1.16_test.ipa`\n- `50-mobile_6.1.16.apk`\n\n构建时间: 2026-05-26 18:08:01 JST",
-          "file": "50-mobile_6.1.16_test.ipa",
-          "size": 52981839,
-          "downloadUrl": "https://github.com/xiaoli55979/ipa_install/releases/download/50-mobile-6.1.16/50-mobile_6.1.16_test.ipa",
-          "manifestUrl": "https://xiaoli55979.github.io/ipa_install/manifest/com.wlp.com.cn-50-mobile-6.1.16.plist",
-          "installUrl": "itms-services://?action=download-manifest&url=https%3A%2F%2Fxiaoli55979.github.io%2Fipa_install%2Fmanifest%2Fcom.wlp.com.cn-50-mobile-6.1.16.plist"
-        },
-        {
-          "version": "6.1.15",
-          "uploadedAt": "2026-05-25T13:10:04Z",
-          "tag": "50-mobile-6.1.15",
-          "releaseName": "50-mobile-6.1.15",
-          "notes": "自动发布 50-mobile-6.1.15\n\n- `50-mobile_6.1.15_test.ipa`\n- `50-mobile_6.1.15.apk`\n\n构建时间: 2026-05-25 22:09:49 JST",
-          "file": "50-mobile_6.1.15_test.ipa",
-          "size": 52979821,
-          "downloadUrl": "https://github.com/xiaoli55979/ipa_install/releases/download/50-mobile-6.1.15/50-mobile_6.1.15_test.ipa",
-          "manifestUrl": "https://xiaoli55979.github.io/ipa_install/manifest/com.wlp.com.cn-50-mobile-6.1.15.plist",
-          "installUrl": "itms-services://?action=download-manifest&url=https%3A%2F%2Fxiaoli55979.github.io%2Fipa_install%2Fmanifest%2Fcom.wlp.com.cn-50-mobile-6.1.15.plist"
-        },
-        {
-          "version": "6.1.14",
-          "uploadedAt": "2026-05-22T16:34:39Z",
-          "tag": "50-mobile-6.1.14",
-          "releaseName": "50-mobile-6.1.14",
-          "notes": "自动发布 50-mobile-6.1.14\n\n- `50-mobile_6.1.14_test.ipa`\n- `50-mobile_6.1.14.apk`\n\n构建时间: 2026-05-23 01:34:24 JST",
-          "file": "50-mobile_6.1.14_test.ipa",
-          "size": 52272160,
-          "downloadUrl": "https://github.com/xiaoli55979/ipa_install/releases/download/50-mobile-6.1.14/50-mobile_6.1.14_test.ipa",
-          "manifestUrl": "https://xiaoli55979.github.io/ipa_install/manifest/com.wlp.com.cn-50-mobile-6.1.14.plist",
-          "installUrl": "itms-services://?action=download-manifest&url=https%3A%2F%2Fxiaoli55979.github.io%2Fipa_install%2Fmanifest%2Fcom.wlp.com.cn-50-mobile-6.1.14.plist"
-        },
-        {
-          "version": "6.1.13",
-          "uploadedAt": "2026-05-20T02:58:31Z",
-          "tag": "50-mobile-6.1.13",
-          "releaseName": "50-mobile-6.1.13",
-          "notes": "自动发布 50-mobile-6.1.13\n\n- `50-mobile_6.1.13_test.ipa`\n- `50-mobile_6.1.13.apk`\n\n构建时间: 2026-05-20 11:58:17 JST",
-          "file": "50-mobile_6.1.13_test.ipa",
-          "size": 52268791,
-          "downloadUrl": "https://github.com/xiaoli55979/ipa_install/releases/download/50-mobile-6.1.13/50-mobile_6.1.13_test.ipa",
-          "manifestUrl": "https://xiaoli55979.github.io/ipa_install/manifest/com.wlp.com.cn-50-mobile-6.1.13.plist",
-          "installUrl": "itms-services://?action=download-manifest&url=https%3A%2F%2Fxiaoli55979.github.io%2Fipa_install%2Fmanifest%2Fcom.wlp.com.cn-50-mobile-6.1.13.plist"
-        },
-        {
-          "version": "6.1.12",
-          "uploadedAt": "2026-05-19T09:14:09Z",
-          "tag": "50-mobile-6.1.12",
-          "releaseName": "50-mobile-6.1.12",
-          "notes": "自动发布 50-mobile-6.1.12\n\n- `50-mobile_6.1.12_test.ipa`\n- `50-mobile_6.1.12.apk`\n\n构建时间: 2026-05-19 18:13:55 JST",
-          "file": "50-mobile_6.1.12_test.ipa",
-          "size": 52262004,
-          "downloadUrl": "https://github.com/xiaoli55979/ipa_install/releases/download/50-mobile-6.1.12/50-mobile_6.1.12_test.ipa",
-          "manifestUrl": "https://xiaoli55979.github.io/ipa_install/manifest/com.wlp.com.cn-50-mobile-6.1.12.plist",
-          "installUrl": "itms-services://?action=download-manifest&url=https%3A%2F%2Fxiaoli55979.github.io%2Fipa_install%2Fmanifest%2Fcom.wlp.com.cn-50-mobile-6.1.12.plist"
-        },
-        {
-          "version": "6.1.11",
-          "uploadedAt": "2026-05-19T00:41:11Z",
-          "tag": "50-mobile-6.1.11",
-          "releaseName": "50-mobile-6.1.11",
-          "notes": "自动发布 50-mobile-6.1.11\n\n- `50-mobile_6.1.11_test.ipa`\n- `50-mobile_6.1.11.apk`\n\n构建时间: 2026-05-19 09:40:58 JST",
-          "file": "50-mobile_6.1.11_test.ipa",
-          "size": 52253353,
-          "downloadUrl": "https://github.com/xiaoli55979/ipa_install/releases/download/50-mobile-6.1.11/50-mobile_6.1.11_test.ipa",
-          "manifestUrl": "https://xiaoli55979.github.io/ipa_install/manifest/com.wlp.com.cn-50-mobile-6.1.11.plist",
-          "installUrl": "itms-services://?action=download-manifest&url=https%3A%2F%2Fxiaoli55979.github.io%2Fipa_install%2Fmanifest%2Fcom.wlp.com.cn-50-mobile-6.1.11.plist"
-        }
-      ],
-      "android": [
-        {
-          "version": "6.1.17",
-          "uploadedAt": "2026-05-27T05:59:12Z",
-          "tag": "50-mobile-6.1.17",
-          "releaseName": "50-mobile-6.1.17",
-          "notes": "自动发布 50-mobile-6.1.17\n\n- `50-mobile_6.1.17_test.ipa`\n- `50-mobile_6.1.17.apk`\n\n构建时间: 2026-05-27 14:58:35 JST",
-          "file": "50-mobile_6.1.17.apk",
-          "size": 231258113,
-          "downloadUrl": "https://github.com/xiaoli55979/ipa_install/releases/download/50-mobile-6.1.17/50-mobile_6.1.17.apk"
-        },
-        {
-          "version": "6.1.16",
-          "uploadedAt": "2026-05-26T09:08:36Z",
-          "tag": "50-mobile-6.1.16",
-          "releaseName": "50-mobile-6.1.16",
-          "notes": "自动发布 50-mobile-6.1.16\n\n- `50-mobile_6.1.16_test.ipa`\n- `50-mobile_6.1.16.apk`\n\n构建时间: 2026-05-26 18:08:01 JST",
-          "file": "50-mobile_6.1.16.apk",
-          "size": 231257913,
-          "downloadUrl": "https://github.com/xiaoli55979/ipa_install/releases/download/50-mobile-6.1.16/50-mobile_6.1.16.apk"
-        },
-        {
-          "version": "6.1.15",
-          "uploadedAt": "2026-05-25T13:10:26Z",
-          "tag": "50-mobile-6.1.15",
-          "releaseName": "50-mobile-6.1.15",
-          "notes": "自动发布 50-mobile-6.1.15\n\n- `50-mobile_6.1.15_test.ipa`\n- `50-mobile_6.1.15.apk`\n\n构建时间: 2026-05-25 22:09:49 JST",
-          "file": "50-mobile_6.1.15.apk",
-          "size": 231257917,
-          "downloadUrl": "https://github.com/xiaoli55979/ipa_install/releases/download/50-mobile-6.1.15/50-mobile_6.1.15.apk"
-        },
-        {
-          "version": "6.1.14",
-          "uploadedAt": "2026-05-22T16:35:00Z",
-          "tag": "50-mobile-6.1.14",
-          "releaseName": "50-mobile-6.1.14",
-          "notes": "自动发布 50-mobile-6.1.14\n\n- `50-mobile_6.1.14_test.ipa`\n- `50-mobile_6.1.14.apk`\n\n构建时间: 2026-05-23 01:34:24 JST",
-          "file": "50-mobile_6.1.14.apk",
-          "size": 231241533,
-          "downloadUrl": "https://github.com/xiaoli55979/ipa_install/releases/download/50-mobile-6.1.14/50-mobile_6.1.14.apk"
-        },
-        {
-          "version": "6.1.13",
-          "uploadedAt": "2026-05-20T02:58:56Z",
-          "tag": "50-mobile-6.1.13",
-          "releaseName": "50-mobile-6.1.13",
-          "notes": "自动发布 50-mobile-6.1.13\n\n- `50-mobile_6.1.13_test.ipa`\n- `50-mobile_6.1.13.apk`\n\n构建时间: 2026-05-20 11:58:17 JST",
-          "file": "50-mobile_6.1.13.apk",
-          "size": 231223569,
-          "downloadUrl": "https://github.com/xiaoli55979/ipa_install/releases/download/50-mobile-6.1.13/50-mobile_6.1.13.apk"
-        },
-        {
-          "version": "6.1.12",
-          "uploadedAt": "2026-05-19T09:14:29Z",
-          "tag": "50-mobile-6.1.12",
-          "releaseName": "50-mobile-6.1.12",
-          "notes": "自动发布 50-mobile-6.1.12\n\n- `50-mobile_6.1.12_test.ipa`\n- `50-mobile_6.1.12.apk`\n\n构建时间: 2026-05-19 18:13:55 JST",
-          "file": "50-mobile_6.1.12.apk",
-          "size": 231239953,
-          "downloadUrl": "https://github.com/xiaoli55979/ipa_install/releases/download/50-mobile-6.1.12/50-mobile_6.1.12.apk"
-        },
-        {
-          "version": "6.1.11",
-          "uploadedAt": "2026-05-19T00:41:32Z",
-          "tag": "50-mobile-6.1.11",
-          "releaseName": "50-mobile-6.1.11",
-          "notes": "自动发布 50-mobile-6.1.11\n\n- `50-mobile_6.1.11_test.ipa`\n- `50-mobile_6.1.11.apk`\n\n构建时间: 2026-05-19 09:40:58 JST",
-          "file": "50-mobile_6.1.11.apk",
-          "size": 231239953,
-          "downloadUrl": "https://github.com/xiaoli55979/ipa_install/releases/download/50-mobile-6.1.11/50-mobile_6.1.11.apk"
-        }
-      ],
-      "mac": [],
-      "win": [],
-      "latestAt": "2026-05-27T05:59:12Z"
     },
     {
       "id": "com.ams.cn",
