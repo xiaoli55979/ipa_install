@@ -1,29 +1,8 @@
 {
   "siteTitle": "App 分发",
   "publicUrl": "https://xiaoli55979.github.io/ipa_install",
-  "generatedAt": "2026-05-29T11:55:31.750Z",
+  "generatedAt": "2026-05-29T17:42:16.549Z",
   "apps": [
-    {
-      "id": "com.jiliaoim.dis.cn",
-      "name": "云小聊",
-      "icon": null,
-      "ios": [],
-      "android": [
-        {
-          "version": "1.1.23",
-          "uploadedAt": "2026-05-29T11:46:09Z",
-          "tag": "im_chat_manager_plugin_example-mobile-1.1.23",
-          "releaseName": "im_chat_manager_plugin_example-mobile-1.1.23",
-          "notes": "自动发布 im_chat_manager_plugin_example-mobile-1.1.23\n\n- `im_chat_manager_plugin_example-mobile_1.1.23_test.ipa`\n- `im_chat_manager_plugin_example-mobile_1.1.23.apk`\n\n构建时间: 2026-05-29 20:34:18 JST",
-          "file": "im_chat_manager_plugin_example-mobile_1.1.23.apk",
-          "size": 225960017,
-          "downloadUrl": "https://github.com/xiaoli55979/ipa_install/releases/download/im_chat_manager_plugin_example-mobile-1.1.23/im_chat_manager_plugin_example-mobile_1.1.23.apk"
-        }
-      ],
-      "mac": [],
-      "win": [],
-      "latestAt": "2026-05-29T11:46:09Z"
-    },
     {
       "id": "com.jiliaoim.cn",
       "name": "云小聊",
@@ -266,6 +245,26 @@
       ],
       "mac": [
         {
+          "version": "1.1.23",
+          "uploadedAt": "2026-05-29T17:39:37Z",
+          "tag": "1.1.23",
+          "releaseName": "1.1.23",
+          "notes": "自动发布 PC 版本 1.1.23\n\n- `YunXiaoLiao-1.1.23-arm64.dmg`\n- `YunXiaoLiao-1.1.23-x64.dmg`\n- `YunXiaoLiao-Setup-1.1.23-x64.exe`\n- `YunXiaoLiao-Setup-1.1.23-x64.zip`\n\n构建时间: 2026-05-30 02:38:16 JST",
+          "file": "YunXiaoLiao-1.1.23-x64.dmg",
+          "size": 135688171,
+          "downloadUrl": "https://github.com/xiaoli55979/ipa_install/releases/download/1.1.23/YunXiaoLiao-1.1.23-x64.dmg"
+        },
+        {
+          "version": "1.1.23",
+          "uploadedAt": "2026-05-29T17:39:36Z",
+          "tag": "1.1.23",
+          "releaseName": "1.1.23",
+          "notes": "自动发布 PC 版本 1.1.23\n\n- `YunXiaoLiao-1.1.23-arm64.dmg`\n- `YunXiaoLiao-1.1.23-x64.dmg`\n- `YunXiaoLiao-Setup-1.1.23-x64.exe`\n- `YunXiaoLiao-Setup-1.1.23-x64.zip`\n\n构建时间: 2026-05-30 02:38:16 JST",
+          "file": "YunXiaoLiao-1.1.23-arm64.dmg",
+          "size": 129397010,
+          "downloadUrl": "https://github.com/xiaoli55979/ipa_install/releases/download/1.1.23/YunXiaoLiao-1.1.23-arm64.dmg"
+        },
+        {
           "version": "1.1.21",
           "uploadedAt": "2026-05-28T13:00:45Z",
           "tag": "1.1.21",
@@ -378,6 +377,26 @@
       ],
       "win": [
         {
+          "version": "1.1.23",
+          "uploadedAt": "2026-05-29T17:39:36Z",
+          "tag": "1.1.23",
+          "releaseName": "1.1.23",
+          "notes": "自动发布 PC 版本 1.1.23\n\n- `YunXiaoLiao-1.1.23-arm64.dmg`\n- `YunXiaoLiao-1.1.23-x64.dmg`\n- `YunXiaoLiao-Setup-1.1.23-x64.exe`\n- `YunXiaoLiao-Setup-1.1.23-x64.zip`\n\n构建时间: 2026-05-30 02:38:16 JST",
+          "file": "YunXiaoLiao-Setup-1.1.23-x64.zip",
+          "size": 137091722,
+          "downloadUrl": "https://github.com/xiaoli55979/ipa_install/releases/download/1.1.23/YunXiaoLiao-Setup-1.1.23-x64.zip"
+        },
+        {
+          "version": "1.1.23",
+          "uploadedAt": "2026-05-29T17:39:19Z",
+          "tag": "1.1.23",
+          "releaseName": "1.1.23",
+          "notes": "自动发布 PC 版本 1.1.23\n\n- `YunXiaoLiao-1.1.23-arm64.dmg`\n- `YunXiaoLiao-1.1.23-x64.dmg`\n- `YunXiaoLiao-Setup-1.1.23-x64.exe`\n- `YunXiaoLiao-Setup-1.1.23-x64.zip`\n\n构建时间: 2026-05-30 02:38:16 JST",
+          "file": "YunXiaoLiao-Setup-1.1.23-x64.exe",
+          "size": 98924657,
+          "downloadUrl": "https://github.com/xiaoli55979/ipa_install/releases/download/1.1.23/YunXiaoLiao-Setup-1.1.23-x64.exe"
+        },
+        {
           "version": "1.1.21",
           "uploadedAt": "2026-05-28T13:00:24Z",
           "tag": "1.1.21",
@@ -448,7 +467,28 @@
           "downloadUrl": "https://github.com/xiaoli55979/ipa_install/releases/download/1.1.7.2/Setup-1.0.6-x64.exe"
         }
       ],
-      "latestAt": "2026-05-29T11:40:09Z"
+      "latestAt": "2026-05-29T17:39:37Z"
+    },
+    {
+      "id": "com.jiliaoim.dis.cn",
+      "name": "云小聊",
+      "icon": null,
+      "ios": [],
+      "android": [
+        {
+          "version": "1.1.23",
+          "uploadedAt": "2026-05-29T11:46:09Z",
+          "tag": "im_chat_manager_plugin_example-mobile-1.1.23",
+          "releaseName": "im_chat_manager_plugin_example-mobile-1.1.23",
+          "notes": "自动发布 im_chat_manager_plugin_example-mobile-1.1.23\n\n- `im_chat_manager_plugin_example-mobile_1.1.23_test.ipa`\n- `im_chat_manager_plugin_example-mobile_1.1.23.apk`\n\n构建时间: 2026-05-29 20:34:18 JST",
+          "file": "im_chat_manager_plugin_example-mobile_1.1.23.apk",
+          "size": 225960017,
+          "downloadUrl": "https://github.com/xiaoli55979/ipa_install/releases/download/im_chat_manager_plugin_example-mobile-1.1.23/im_chat_manager_plugin_example-mobile_1.1.23.apk"
+        }
+      ],
+      "mac": [],
+      "win": [],
+      "latestAt": "2026-05-29T11:46:09Z"
     },
     {
       "id": "com.ams.cn",
