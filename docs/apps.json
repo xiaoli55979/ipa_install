@@ -1,7 +1,7 @@
 {
   "siteTitle": "App 分发",
   "publicUrl": "https://xiaoli55979.github.io/ipa_install",
-  "generatedAt": "2026-06-02T13:18:13.993Z",
+  "generatedAt": "2026-06-03T06:12:29.960Z",
   "apps": [
     {
       "id": "com.jiliaoim.cn",
@@ -245,6 +245,16 @@
       ],
       "mac": [
         {
+          "version": "1.1.25",
+          "uploadedAt": "2026-06-03T06:02:19Z",
+          "tag": "1.1.25",
+          "releaseName": "1.1.25",
+          "notes": "自动发布 PC 版本 1.1.25\n\n- `YunXiaoLiao-1.1.25-x64.dmg`\n- `YunXiaoLiao-Setup-1.1.25-x64.zip`\n\n构建时间: 2026-06-03 14:58:18 JST",
+          "file": "YunXiaoLiao-1.1.25-x64.dmg",
+          "size": 135662722,
+          "downloadUrl": "https://github.com/xiaoli55979/ipa_install/releases/download/1.1.25/YunXiaoLiao-1.1.25-x64.dmg"
+        },
+        {
           "version": "1.1.24",
           "uploadedAt": "2026-06-02T13:07:09Z",
           "tag": "1.1.24",
@@ -387,6 +397,16 @@
       ],
       "win": [
         {
+          "version": "1.1.25",
+          "uploadedAt": "2026-06-03T06:02:18Z",
+          "tag": "1.1.25",
+          "releaseName": "1.1.25",
+          "notes": "自动发布 PC 版本 1.1.25\n\n- `YunXiaoLiao-1.1.25-x64.dmg`\n- `YunXiaoLiao-Setup-1.1.25-x64.zip`\n\n构建时间: 2026-06-03 14:58:18 JST",
+          "file": "YunXiaoLiao-Setup-1.1.25-x64.zip",
+          "size": 137099139,
+          "downloadUrl": "https://github.com/xiaoli55979/ipa_install/releases/download/1.1.25/YunXiaoLiao-Setup-1.1.25-x64.zip"
+        },
+        {
           "version": "1.1.24",
           "uploadedAt": "2026-06-02T13:07:10Z",
           "tag": "1.1.24",
@@ -487,7 +507,7 @@
           "downloadUrl": "https://github.com/xiaoli55979/ipa_install/releases/download/1.1.7.2/Setup-1.0.6-x64.exe"
         }
       ],
-      "latestAt": "2026-06-02T13:07:10Z"
+      "latestAt": "2026-06-03T06:02:19Z"
     },
     {
       "id": "com.jt8.cn",
