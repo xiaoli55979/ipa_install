@@ -1,7 +1,7 @@
 {
   "siteTitle": "App 分发",
   "publicUrl": "https://xiaoli55979.github.io/ipa_install",
-  "generatedAt": "2026-06-07T14:10:09.668Z",
+  "generatedAt": "2026-06-07T14:12:28.576Z",
   "apps": [
     {
       "id": "com.jiliaoim.dis.cn",
@@ -18,26 +18,6 @@
           "file": "im_chat_manager_plugin_example-mobile_1.1.25.apk",
           "size": 228995934,
           "downloadUrl": "https://github.com/xiaoli55979/ipa_install/releases/download/im_chat_manager_plugin_example-mobile-1.1.25/im_chat_manager_plugin_example-mobile_1.1.25.apk"
-        },
-        {
-          "version": "1.1.24",
-          "uploadedAt": "2026-06-03T12:10:32Z",
-          "tag": "im_chat_manager_plugin_example-mobile-1.1.24",
-          "releaseName": "im_chat_manager_plugin_example-mobile-1.1.24",
-          "notes": "自动发布 im_chat_manager_plugin_example-mobile-1.1.24\n\n- `im_chat_manager_plugin_example-mobile_1.1.24_test.ipa`\n- `im_chat_manager_plugin_example-mobile_1.1.24.apk`\n\n构建时间: 2026-06-03 21:08:35 JST",
-          "file": "im_chat_manager_plugin_example-mobile_1.1.24.apk",
-          "size": 225943633,
-          "downloadUrl": "https://github.com/xiaoli55979/ipa_install/releases/download/im_chat_manager_plugin_example-mobile-1.1.24/im_chat_manager_plugin_example-mobile_1.1.24.apk"
-        },
-        {
-          "version": "1.1.23",
-          "uploadedAt": "2026-05-29T11:46:09Z",
-          "tag": "im_chat_manager_plugin_example-mobile-1.1.23",
-          "releaseName": "im_chat_manager_plugin_example-mobile-1.1.23",
-          "notes": "自动发布 im_chat_manager_plugin_example-mobile-1.1.23\n\n- `im_chat_manager_plugin_example-mobile_1.1.23_test.ipa`\n- `im_chat_manager_plugin_example-mobile_1.1.23.apk`\n\n构建时间: 2026-05-29 20:34:18 JST",
-          "file": "im_chat_manager_plugin_example-mobile_1.1.23.apk",
-          "size": 225960017,
-          "downloadUrl": "https://github.com/xiaoli55979/ipa_install/releases/download/im_chat_manager_plugin_example-mobile-1.1.23/im_chat_manager_plugin_example-mobile_1.1.23.apk"
         }
       ],
       "mac": [],
@@ -998,30 +978,6 @@
       "icon": "https://xiaoli55979.github.io/ipa_install/icons/com.jiliaoim.cn-ios.png",
       "ios": [
         {
-          "version": "1.1.24",
-          "uploadedAt": "2026-06-03T12:09:11Z",
-          "tag": "im_chat_manager_plugin_example-mobile-1.1.24",
-          "releaseName": "im_chat_manager_plugin_example-mobile-1.1.24",
-          "notes": "自动发布 im_chat_manager_plugin_example-mobile-1.1.24\n\n- `im_chat_manager_plugin_example-mobile_1.1.24_test.ipa`\n- `im_chat_manager_plugin_example-mobile_1.1.24.apk`\n\n构建时间: 2026-06-03 21:08:35 JST",
-          "file": "im_chat_manager_plugin_example-mobile_1.1.24_test.ipa",
-          "size": 42299273,
-          "downloadUrl": "https://github.com/xiaoli55979/ipa_install/releases/download/im_chat_manager_plugin_example-mobile-1.1.24/im_chat_manager_plugin_example-mobile_1.1.24_test.ipa",
-          "manifestUrl": "https://xiaoli55979.github.io/ipa_install/manifest/com.jiliaoim.cn-im_chat_manager_plugin_example-mobile-1.1.24.plist",
-          "installUrl": "itms-services://?action=download-manifest&url=https%3A%2F%2Fxiaoli55979.github.io%2Fipa_install%2Fmanifest%2Fcom.jiliaoim.cn-im_chat_manager_plugin_example-mobile-1.1.24.plist"
-        },
-        {
-          "version": "1.1.23",
-          "uploadedAt": "2026-05-29T11:40:09Z",
-          "tag": "im_chat_manager_plugin_example-mobile-1.1.23",
-          "releaseName": "im_chat_manager_plugin_example-mobile-1.1.23",
-          "notes": "自动发布 im_chat_manager_plugin_example-mobile-1.1.23\n\n- `im_chat_manager_plugin_example-mobile_1.1.23_test.ipa`\n- `im_chat_manager_plugin_example-mobile_1.1.23.apk`\n\n构建时间: 2026-05-29 20:34:18 JST",
-          "file": "im_chat_manager_plugin_example-mobile_1.1.23_test.ipa",
-          "size": 42286376,
-          "downloadUrl": "https://github.com/xiaoli55979/ipa_install/releases/download/im_chat_manager_plugin_example-mobile-1.1.23/im_chat_manager_plugin_example-mobile_1.1.23_test.ipa",
-          "manifestUrl": "https://xiaoli55979.github.io/ipa_install/manifest/com.jiliaoim.cn-im_chat_manager_plugin_example-mobile-1.1.23.plist",
-          "installUrl": "itms-services://?action=download-manifest&url=https%3A%2F%2Fxiaoli55979.github.io%2Fipa_install%2Fmanifest%2Fcom.jiliaoim.cn-im_chat_manager_plugin_example-mobile-1.1.23.plist"
-        },
-        {
           "version": "1.1.20",
           "uploadedAt": "2026-05-06T02:01:16Z",
           "tag": "1.1.20",
@@ -1032,18 +988,6 @@
           "downloadUrl": "https://github.com/xiaoli55979/ipa_install/releases/download/1.1.20/im_chat_manager_plugin_example_1.1.20_test.ipa",
           "manifestUrl": "https://xiaoli55979.github.io/ipa_install/manifest/com.jiliaoim.cn-1.1.20.plist",
           "installUrl": "itms-services://?action=download-manifest&url=https%3A%2F%2Fxiaoli55979.github.io%2Fipa_install%2Fmanifest%2Fcom.jiliaoim.cn-1.1.20.plist"
-        },
-        {
-          "version": "1.1.18",
-          "uploadedAt": "2026-04-30T06:04:57Z",
-          "tag": "1.1.18",
-          "releaseName": "1.1.18",
-          "notes": "自动发布 1.1.18\n\n- `im_chat_manager_plugin_example_1.1.18_test.ipa`\n- `im_chat_manager_plugin_example_1.1.18.apk`\n\n构建时间: 2026-04-30 15:04:44 JST",
-          "file": "im_chat_manager_plugin_example_1.1.18_test.ipa",
-          "size": 43992884,
-          "downloadUrl": "https://github.com/xiaoli55979/ipa_install/releases/download/1.1.18/im_chat_manager_plugin_example_1.1.18_test.ipa",
-          "manifestUrl": "https://xiaoli55979.github.io/ipa_install/manifest/com.jiliaoim.cn-1.1.18.plist",
-          "installUrl": "itms-services://?action=download-manifest&url=https%3A%2F%2Fxiaoli55979.github.io%2Fipa_install%2Fmanifest%2Fcom.jiliaoim.cn-1.1.18.plist"
         },
         {
           "version": "1.1.16",
@@ -1124,16 +1068,6 @@
           "file": "im_chat_manager_plugin_example_1.1.20.apk",
           "size": 230375848,
           "downloadUrl": "https://github.com/xiaoli55979/ipa_install/releases/download/1.1.20/im_chat_manager_plugin_example_1.1.20.apk"
-        },
-        {
-          "version": "1.1.18",
-          "uploadedAt": "2026-04-30T06:05:17Z",
-          "tag": "1.1.18",
-          "releaseName": "1.1.18",
-          "notes": "自动发布 1.1.18\n\n- `im_chat_manager_plugin_example_1.1.18_test.ipa`\n- `im_chat_manager_plugin_example_1.1.18.apk`\n\n构建时间: 2026-04-30 15:04:44 JST",
-          "file": "im_chat_manager_plugin_example_1.1.18.apk",
-          "size": 230375848,
-          "downloadUrl": "https://github.com/xiaoli55979/ipa_install/releases/download/1.1.18/im_chat_manager_plugin_example_1.1.18.apk"
         },
         {
           "version": "1.1.16",
@@ -1288,26 +1222,6 @@
           "downloadUrl": "https://github.com/xiaoli55979/ipa_install/releases/download/1.1.17/YunXiaoLiao-1.1.17-arm64.dmg"
         },
         {
-          "version": "1.1.8",
-          "uploadedAt": "2026-04-23T00:35:00Z",
-          "tag": "1.1.8",
-          "releaseName": "1.1.8",
-          "notes": "自动发布 1.1.8\n\n- iOS (test profile): `ipa_install_1.1.8_test.ipa`\n- Android (release): `ipa_install_1.1.8.apk`\n\n构建时间: 2026-04-23 01:33:32 JST",
-          "file": "YunXiaoLiao-1.1.8-x64.dmg",
-          "size": 135643890,
-          "downloadUrl": "https://github.com/xiaoli55979/ipa_install/releases/download/1.1.8/YunXiaoLiao-1.1.8-x64.dmg"
-        },
-        {
-          "version": "1.1.8",
-          "uploadedAt": "2026-04-23T00:34:59Z",
-          "tag": "1.1.8",
-          "releaseName": "1.1.8",
-          "notes": "自动发布 1.1.8\n\n- iOS (test profile): `ipa_install_1.1.8_test.ipa`\n- Android (release): `ipa_install_1.1.8.apk`\n\n构建时间: 2026-04-23 01:33:32 JST",
-          "file": "YunXiaoLiao-1.1.8-arm64.dmg",
-          "size": 130359166,
-          "downloadUrl": "https://github.com/xiaoli55979/ipa_install/releases/download/1.1.8/YunXiaoLiao-1.1.8-arm64.dmg"
-        },
-        {
           "version": "1.1.7.2",
           "uploadedAt": "2026-04-22T13:00:23Z",
           "tag": "1.1.7.2",
@@ -1408,16 +1322,6 @@
           "file": "YunXiaoLiao-Setup-1.1.17-x64.exe",
           "size": 98985525,
           "downloadUrl": "https://github.com/xiaoli55979/ipa_install/releases/download/1.1.17/YunXiaoLiao-Setup-1.1.17-x64.exe"
-        },
-        {
-          "version": "1.1.8",
-          "uploadedAt": "2026-04-23T00:34:54Z",
-          "tag": "1.1.8",
-          "releaseName": "1.1.8",
-          "notes": "自动发布 1.1.8\n\n- iOS (test profile): `ipa_install_1.1.8_test.ipa`\n- Android (release): `ipa_install_1.1.8.apk`\n\n构建时间: 2026-04-23 01:33:32 JST",
-          "file": "YunXiaoLiao-Setup-1.1.8-x64.exe",
-          "size": 98929060,
-          "downloadUrl": "https://github.com/xiaoli55979/ipa_install/releases/download/1.1.8/YunXiaoLiao-Setup-1.1.8-x64.exe"
         },
         {
           "version": "1.1.7.2",
