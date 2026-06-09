@@ -1,7 +1,7 @@
 {
   "siteTitle": "App 分发",
   "publicUrl": "https://xiaoli55979.github.io/ipa_install",
-  "generatedAt": "2026-06-09T01:18:46.348Z",
+  "generatedAt": "2026-06-09T14:16:26.587Z",
   "apps": [
     {
       "id": "com.jiliaoim.dis.cn",
@@ -9,6 +9,16 @@
       "icon": null,
       "ios": [],
       "android": [
+        {
+          "version": "1.1.29",
+          "uploadedAt": "2026-06-09T14:12:52Z",
+          "tag": "im_chat_manager_plugin_example-mobile-1.1.29",
+          "releaseName": "im_chat_manager_plugin_example-mobile-1.1.29",
+          "notes": "自动发布 im_chat_manager_plugin_example-mobile-1.1.29\n\n- `im_chat_manager_plugin_example-mobile_1.1.29.apk`\n\n构建时间: 2026-06-09 22:57:45 JST",
+          "file": "im_chat_manager_plugin_example-mobile_1.1.29.apk",
+          "size": 131399134,
+          "downloadUrl": "https://github.com/xiaoli55979/ipa_install/releases/download/im_chat_manager_plugin_example-mobile-1.1.29/im_chat_manager_plugin_example-mobile_1.1.29.apk"
+        },
         {
           "version": "1.1.28",
           "uploadedAt": "2026-06-09T01:11:16Z",
@@ -52,7 +62,7 @@
       ],
       "mac": [],
       "win": [],
-      "latestAt": "2026-06-09T01:11:16Z"
+      "latestAt": "2026-06-09T14:12:52Z"
     },
     {
       "id": "com.lianfu.cn",
