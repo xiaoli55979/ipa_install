@@ -1,7 +1,7 @@
 {
   "siteTitle": "App 分发",
   "publicUrl": "https://xiaoli55979.github.io/ipa_install",
-  "generatedAt": "2026-06-18T04:39:26.987Z",
+  "generatedAt": "2026-06-20T07:27:08.559Z",
   "apps": [
     {
       "id": "com.jiliaoim.cn",
@@ -122,6 +122,16 @@
         }
       ],
       "mac": [
+        {
+          "version": "1.1.29",
+          "uploadedAt": "2026-06-20T07:22:43Z",
+          "tag": "1.1.29",
+          "releaseName": "1.1.29",
+          "notes": "Auto published PC version 1.1.29\n\n- `YunXiaoLiao-1.1.29-x64.dmg`\n- `YunXiaoLiao-Setup-1.1.29-x64.zip`\n\nSource branch: release\nSource commit: 1475e5af02393b25ba68b17ae2d211a738d7f25b\nBuild time: 2026-06-20 16:22:38 JST\n",
+          "file": "YunXiaoLiao-1.1.29-x64.dmg",
+          "size": 133886723,
+          "downloadUrl": "https://github.com/xiaoli55979/ipa_install/releases/download/1.1.29/YunXiaoLiao-1.1.29-x64.dmg"
+        },
         {
           "version": "1.1.28",
           "uploadedAt": "2026-06-18T04:26:57Z",
@@ -285,6 +295,16 @@
       ],
       "win": [
         {
+          "version": "1.1.29",
+          "uploadedAt": "2026-06-20T07:22:42Z",
+          "tag": "1.1.29",
+          "releaseName": "1.1.29",
+          "notes": "Auto published PC version 1.1.29\n\n- `YunXiaoLiao-1.1.29-x64.dmg`\n- `YunXiaoLiao-Setup-1.1.29-x64.zip`\n\nSource branch: release\nSource commit: 1475e5af02393b25ba68b17ae2d211a738d7f25b\nBuild time: 2026-06-20 16:22:38 JST\n",
+          "file": "YunXiaoLiao-Setup-1.1.29-x64.zip",
+          "size": 137103776,
+          "downloadUrl": "https://github.com/xiaoli55979/ipa_install/releases/download/1.1.29/YunXiaoLiao-Setup-1.1.29-x64.zip"
+        },
+        {
           "version": "1.1.28",
           "uploadedAt": "2026-06-18T04:26:47Z",
           "tag": "1.1.28",
@@ -415,7 +435,7 @@
           "downloadUrl": "https://github.com/xiaoli55979/ipa_install/releases/download/1.1.7.2/Setup-1.0.6-x64.exe"
         }
       ],
-      "latestAt": "2026-06-18T04:26:57Z"
+      "latestAt": "2026-06-20T07:22:43Z"
     },
     {
       "id": "com.wlp.com.cn",
