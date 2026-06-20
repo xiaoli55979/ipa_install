@@ -1,8 +1,29 @@
 {
   "siteTitle": "App 分发",
   "publicUrl": "https://xiaoli55979.github.io/ipa_install",
-  "generatedAt": "2026-06-20T07:31:21.787Z",
+  "generatedAt": "2026-06-20T12:51:04.591Z",
   "apps": [
+    {
+      "id": "com.jiliao.im",
+      "name": "即聊",
+      "icon": null,
+      "ios": [],
+      "android": [
+        {
+          "version": "7.0.3",
+          "uploadedAt": "2026-06-20T12:48:12Z",
+          "tag": "jiliao-mobile-7.0.3",
+          "releaseName": "jiliao-mobile-7.0.3",
+          "notes": "自动发布 jiliao-mobile-7.0.3\n\n- `jiliao-mobile_7.0.3_26062004.apk`\n\n构建时间: 2026-06-20 21:46:47 JST",
+          "file": "jiliao-mobile_7.0.3_26062004.apk",
+          "size": 165475236,
+          "downloadUrl": "https://github.com/xiaoli55979/ipa_install/releases/download/jiliao-mobile-7.0.3/jiliao-mobile_7.0.3_26062004.apk"
+        }
+      ],
+      "mac": [],
+      "win": [],
+      "latestAt": "2026-06-20T12:48:12Z"
+    },
     {
       "id": "com.jiliaoim.cn",
       "name": "云小聊",
