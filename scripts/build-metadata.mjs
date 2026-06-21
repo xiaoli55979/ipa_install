@@ -186,8 +186,8 @@ function buildSingleIco(c) {
   return Buffer.concat([header, c.bin]);
 }
 
-// 图标来源优先级:iOS=1,Windows=2;数字越小越优先,可覆盖
-const ICON_RANK = { ios: 1, win: 2 };
+// 图标来源优先级:iOS=1,Android=2,Windows=3;数字越小越优先,可覆盖
+const ICON_RANK = { ios: 1, android: 2, win: 3 };
 
 function maybeSetIcon(app, bundleId, platform, iconData, iconExt) {
   if (!iconData) return;
@@ -215,7 +215,7 @@ async function parseApk(filePath) {
   let iconData = null;
   if (info.icon && typeof info.icon === 'string') {
     const m = info.icon.match(/^data:image\/\w+;base64,(.+)$/);
-    if (m) iconData = Buffer.from(m[1], 'base64');
+    iconData = Buffer.from(m ? m[1] : info.icon, 'base64');
   }
   return { bundleId, version, name, iconData };
 }
@@ -372,7 +372,7 @@ async function main() {
 
       if (!releaseBundleId) { releaseBundleId = parsed.bundleId; releaseAppName = parsed.name; }
 
-      // 图标只接受 ios/win 来源(maybeSetIcon 内部过滤)
+      // 图标来源优先级由 maybeSetIcon 控制:iOS 可覆盖 Android,Android 可覆盖 Windows
       maybeSetIcon(app, parsed.bundleId, platform, parsed.iconData, parsed.iconExt);
       if (parsed.name && parsed.name !== parsed.bundleId) app.name = parsed.name;
 
