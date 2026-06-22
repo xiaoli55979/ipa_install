@@ -1,7 +1,7 @@
 {
   "siteTitle": "App 分发",
   "publicUrl": "https://xiaoli55979.github.io/ipa_install",
-  "generatedAt": "2026-06-22T07:57:01.311Z",
+  "generatedAt": "2026-06-22T09:45:24.666Z",
   "apps": [
     {
       "id": "com.jiliaoim.dis.cn",
@@ -9,6 +9,16 @@
       "icon": "https://xiaoli55979.github.io/ipa_install/icons/com.jiliaoim.dis.cn-android.png",
       "ios": [],
       "android": [
+        {
+          "version": "1.1.34",
+          "uploadedAt": "2026-06-22T09:21:46Z",
+          "tag": "YunXiaoLiao-mobile-1.1.34",
+          "releaseName": "YunXiaoLiao-mobile-1.1.34",
+          "notes": "自动发布 YunXiaoLiao-mobile-1.1.34\n\n- `YunXiaoLiao-mobile_1.1.34.apk`\n\n构建时间: 2026-06-22 18:20:35 JST",
+          "file": "YunXiaoLiao-mobile_1.1.34.apk",
+          "size": 131807227,
+          "downloadUrl": "https://github.com/xiaoli55979/ipa_install/releases/download/YunXiaoLiao-mobile-1.1.34/YunXiaoLiao-mobile_1.1.34.apk"
+        },
         {
           "version": "1.1.33",
           "uploadedAt": "2026-06-22T07:49:40Z",
@@ -72,7 +82,7 @@
       ],
       "mac": [],
       "win": [],
-      "latestAt": "2026-06-22T07:49:40Z"
+      "latestAt": "2026-06-22T09:21:46Z"
     },
     {
       "id": "com.jiliao.im",
