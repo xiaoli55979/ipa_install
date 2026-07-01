@@ -1,8 +1,29 @@
 {
   "siteTitle": "App 分发",
   "publicUrl": "https://xiaoli55979.github.io/ipa_install",
-  "generatedAt": "2026-07-01T04:40:03.855Z",
+  "generatedAt": "2026-07-01T07:26:40.083Z",
   "apps": [
+    {
+      "id": "com.tfsystem.cn",
+      "name": "TF管理系统",
+      "icon": "https://xiaoli55979.github.io/ipa_install/icons/com.tfsystem.cn-android.png",
+      "ios": [],
+      "android": [
+        {
+          "version": "1.0",
+          "uploadedAt": "2026-07-01T07:24:22Z",
+          "tag": "tf-system-mobile-3",
+          "releaseName": "TF管理系统 3",
+          "notes": "移动端 Android 打包产物。",
+          "file": "TFSystem-mobile_3.apk",
+          "size": 4308790,
+          "downloadUrl": "https://github.com/xiaoli55979/ipa_install/releases/download/tf-system-mobile-3/TFSystem-mobile_3.apk"
+        }
+      ],
+      "mac": [],
+      "win": [],
+      "latestAt": "2026-07-01T07:24:22Z"
+    },
     {
       "id": "com.imtest.cn",
       "name": "云小聊",
