@@ -1,58 +1,24 @@
 {
   "siteTitle": "App 分发",
   "publicUrl": "https://xiaoli55979.github.io/ipa_install",
-  "generatedAt": "2026-07-01T07:32:46.119Z",
+  "generatedAt": "2026-07-03T09:18:26.679Z",
   "apps": [
-    {
-      "id": "com.tfsystem.cn",
-      "name": "TF管理系统",
-      "icon": "https://xiaoli55979.github.io/ipa_install/icons/com.tfsystem.cn-android.png",
-      "ios": [],
-      "android": [
-        {
-          "version": "1.0",
-          "uploadedAt": "2026-07-01T07:24:22Z",
-          "tag": "tf-system-mobile-3",
-          "releaseName": "TF管理系统 3",
-          "notes": "移动端 Android 打包产物。",
-          "file": "TFSystem-mobile_3.apk",
-          "size": 4308790,
-          "downloadUrl": "https://github.com/xiaoli55979/ipa_install/releases/download/tf-system-mobile-3/TFSystem-mobile_3.apk"
-        }
-      ],
-      "mac": [],
-      "win": [],
-      "latestAt": "2026-07-01T07:24:22Z"
-    },
-    {
-      "id": "com.imtest.cn",
-      "name": "云小聊",
-      "icon": "https://xiaoli55979.github.io/ipa_install/icons/com.imtest.cn-ios.png",
-      "ios": [
-        {
-          "version": "1.1.39",
-          "uploadedAt": "2026-07-01T04:33:52Z",
-          "tag": "YunXiaoLiao-mobile-1.1.39",
-          "releaseName": "YunXiaoLiao-mobile-1.1.39",
-          "notes": "自动发布 YunXiaoLiao-mobile-1.1.39\n\n- `YunXiaoLiao-mobile_1.1.39_test.ipa`\n\n构建时间: 2026-07-01 13:33:12 JST",
-          "file": "YunXiaoLiao-mobile_1.1.39_test.ipa",
-          "size": 42355261,
-          "downloadUrl": "https://github.com/xiaoli55979/ipa_install/releases/download/YunXiaoLiao-mobile-1.1.39/YunXiaoLiao-mobile_1.1.39_test.ipa",
-          "manifestUrl": "https://xiaoli55979.github.io/ipa_install/manifest/com.imtest.cn-YunXiaoLiao-mobile-1.1.39.plist",
-          "installUrl": "itms-services://?action=download-manifest&url=https%3A%2F%2Fxiaoli55979.github.io%2Fipa_install%2Fmanifest%2Fcom.imtest.cn-YunXiaoLiao-mobile-1.1.39.plist"
-        }
-      ],
-      "android": [],
-      "mac": [],
-      "win": [],
-      "latestAt": "2026-07-01T04:33:52Z"
-    },
     {
       "id": "com.jiliaoim.dis.cn",
       "name": "云小聊",
       "icon": "https://xiaoli55979.github.io/ipa_install/icons/com.jiliaoim.dis.cn-android.png",
       "ios": [],
       "android": [
+        {
+          "version": "1.1.40",
+          "uploadedAt": "2026-07-03T09:07:27Z",
+          "tag": "YunXiaoLiao-mobile-1.1.40",
+          "releaseName": "YunXiaoLiao-mobile-1.1.40",
+          "notes": "自动发布 YunXiaoLiao-mobile-1.1.40\n\n- `YunXiaoLiao-mobile_1.1.40_test.ipa`\n- `YunXiaoLiao-mobile_1.1.40.apk`\n\n构建时间: 2026-07-03 17:48:02 JST",
+          "file": "YunXiaoLiao-mobile_1.1.40.apk",
+          "size": 131851825,
+          "downloadUrl": "https://github.com/xiaoli55979/ipa_install/releases/download/YunXiaoLiao-mobile-1.1.40/YunXiaoLiao-mobile_1.1.40.apk"
+        },
         {
           "version": "1.1.38",
           "uploadedAt": "2026-07-01T03:02:11Z",
@@ -166,7 +132,63 @@
       ],
       "mac": [],
       "win": [],
-      "latestAt": "2026-07-01T03:02:11Z"
+      "latestAt": "2026-07-03T09:07:27Z"
+    },
+    {
+      "id": "com.imtest.cn",
+      "name": "云小聊",
+      "icon": "https://xiaoli55979.github.io/ipa_install/icons/com.imtest.cn-ios.png",
+      "ios": [
+        {
+          "version": "1.1.40",
+          "uploadedAt": "2026-07-03T08:58:40Z",
+          "tag": "YunXiaoLiao-mobile-1.1.40",
+          "releaseName": "YunXiaoLiao-mobile-1.1.40",
+          "notes": "自动发布 YunXiaoLiao-mobile-1.1.40\n\n- `YunXiaoLiao-mobile_1.1.40_test.ipa`\n- `YunXiaoLiao-mobile_1.1.40.apk`\n\n构建时间: 2026-07-03 17:48:02 JST",
+          "file": "YunXiaoLiao-mobile_1.1.40_test.ipa",
+          "size": 42295649,
+          "downloadUrl": "https://github.com/xiaoli55979/ipa_install/releases/download/YunXiaoLiao-mobile-1.1.40/YunXiaoLiao-mobile_1.1.40_test.ipa",
+          "manifestUrl": "https://xiaoli55979.github.io/ipa_install/manifest/com.imtest.cn-YunXiaoLiao-mobile-1.1.40.plist",
+          "installUrl": "itms-services://?action=download-manifest&url=https%3A%2F%2Fxiaoli55979.github.io%2Fipa_install%2Fmanifest%2Fcom.imtest.cn-YunXiaoLiao-mobile-1.1.40.plist"
+        },
+        {
+          "version": "1.1.39",
+          "uploadedAt": "2026-07-01T04:33:52Z",
+          "tag": "YunXiaoLiao-mobile-1.1.39",
+          "releaseName": "YunXiaoLiao-mobile-1.1.39",
+          "notes": "自动发布 YunXiaoLiao-mobile-1.1.39\n\n- `YunXiaoLiao-mobile_1.1.39_test.ipa`\n\n构建时间: 2026-07-01 13:33:12 JST",
+          "file": "YunXiaoLiao-mobile_1.1.39_test.ipa",
+          "size": 42355261,
+          "downloadUrl": "https://github.com/xiaoli55979/ipa_install/releases/download/YunXiaoLiao-mobile-1.1.39/YunXiaoLiao-mobile_1.1.39_test.ipa",
+          "manifestUrl": "https://xiaoli55979.github.io/ipa_install/manifest/com.imtest.cn-YunXiaoLiao-mobile-1.1.39.plist",
+          "installUrl": "itms-services://?action=download-manifest&url=https%3A%2F%2Fxiaoli55979.github.io%2Fipa_install%2Fmanifest%2Fcom.imtest.cn-YunXiaoLiao-mobile-1.1.39.plist"
+        }
+      ],
+      "android": [],
+      "mac": [],
+      "win": [],
+      "latestAt": "2026-07-03T08:58:40Z"
+    },
+    {
+      "id": "com.tfsystem.cn",
+      "name": "TF管理系统",
+      "icon": "https://xiaoli55979.github.io/ipa_install/icons/com.tfsystem.cn-android.png",
+      "ios": [],
+      "android": [
+        {
+          "version": "1.0",
+          "uploadedAt": "2026-07-01T07:24:22Z",
+          "tag": "tf-system-mobile-3",
+          "releaseName": "TF管理系统 3",
+          "notes": "移动端 Android 打包产物。",
+          "file": "TFSystem-mobile_3.apk",
+          "size": 4308790,
+          "downloadUrl": "https://github.com/xiaoli55979/ipa_install/releases/download/tf-system-mobile-3/TFSystem-mobile_3.apk"
+        }
+      ],
+      "mac": [],
+      "win": [],
+      "latestAt": "2026-07-01T07:24:22Z"
     },
     {
       "id": "com.jiliaoim.cn",
