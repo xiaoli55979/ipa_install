@@ -1,7 +1,7 @@
 {
   "siteTitle": "App 分发",
   "publicUrl": "https://xiaoli55979.github.io/ipa_install",
-  "generatedAt": "2026-07-07T06:38:33.238Z",
+  "generatedAt": "2026-07-07T06:57:22.495Z",
   "apps": [
     {
       "id": "com.jiliaoim.dis.cn",
@@ -9,6 +9,16 @@
       "icon": "https://xiaoli55979.github.io/ipa_install/icons/com.jiliaoim.dis.cn-android.png",
       "ios": [],
       "android": [
+        {
+          "version": "1.1.42",
+          "uploadedAt": "2026-07-07T06:55:23Z",
+          "tag": "YunXiaoLiao-mobile-1.1.42",
+          "releaseName": "YunXiaoLiao-mobile-1.1.42",
+          "notes": "自动发布 YunXiaoLiao-mobile-1.1.42\n\n- `YunXiaoLiao-mobile_1.1.42.ipa`\n- `YunXiaoLiao-mobile_1.1.42.apk`\n\n构建时间: 2026-07-07 15:46:01 JST",
+          "file": "YunXiaoLiao-mobile_1.1.42.apk",
+          "size": 131869417,
+          "downloadUrl": "https://github.com/xiaoli55979/ipa_install/releases/download/YunXiaoLiao-mobile-1.1.42/YunXiaoLiao-mobile_1.1.42.apk"
+        },
         {
           "version": "1.1.41",
           "uploadedAt": "2026-07-07T06:18:52Z",
@@ -142,13 +152,25 @@
       ],
       "mac": [],
       "win": [],
-      "latestAt": "2026-07-07T06:18:52Z"
+      "latestAt": "2026-07-07T06:55:23Z"
     },
     {
       "id": "com.imtest.cn",
       "name": "云小聊",
       "icon": "https://xiaoli55979.github.io/ipa_install/icons/com.imtest.cn-ios.png",
       "ios": [
+        {
+          "version": "1.1.42",
+          "uploadedAt": "2026-07-07T06:50:13Z",
+          "tag": "YunXiaoLiao-mobile-1.1.42",
+          "releaseName": "YunXiaoLiao-mobile-1.1.42",
+          "notes": "自动发布 YunXiaoLiao-mobile-1.1.42\n\n- `YunXiaoLiao-mobile_1.1.42.ipa`\n- `YunXiaoLiao-mobile_1.1.42.apk`\n\n构建时间: 2026-07-07 15:46:01 JST",
+          "file": "YunXiaoLiao-mobile_1.1.42.ipa",
+          "size": 39390646,
+          "downloadUrl": "https://github.com/xiaoli55979/ipa_install/releases/download/YunXiaoLiao-mobile-1.1.42/YunXiaoLiao-mobile_1.1.42.ipa",
+          "manifestUrl": "https://xiaoli55979.github.io/ipa_install/manifest/com.imtest.cn-YunXiaoLiao-mobile-1.1.42.plist",
+          "installUrl": "itms-services://?action=download-manifest&url=https%3A%2F%2Fxiaoli55979.github.io%2Fipa_install%2Fmanifest%2Fcom.imtest.cn-YunXiaoLiao-mobile-1.1.42.plist"
+        },
         {
           "version": "1.1.41",
           "uploadedAt": "2026-07-07T06:13:51Z",
@@ -189,7 +211,7 @@
       "android": [],
       "mac": [],
       "win": [],
-      "latestAt": "2026-07-07T06:13:51Z"
+      "latestAt": "2026-07-07T06:50:13Z"
     },
     {
       "id": "com.jiliaoim.cn",
