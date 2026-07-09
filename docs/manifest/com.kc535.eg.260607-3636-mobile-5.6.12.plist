@@ -9,15 +9,7 @@
       <array>
         <dict>
           <key>kind</key><string>software-package</string>
-          <key>url</key><string>https://xiaoli55979.github.io/ipa_install/ipa/com.kc535.eg.260607-3636-mobile-5.6.12.ipa</string>
-        </dict>
-        <dict>
-          <key>kind</key><string>display-image</string>
-          <key>url</key><string>https://xiaoli55979.github.io/ipa_install/icons/com.kc535.eg.260607-ios.png</string>
-        </dict>
-        <dict>
-          <key>kind</key><string>full-size-image</string>
-          <key>url</key><string>https://xiaoli55979.github.io/ipa_install/icons/com.kc535.eg.260607-ios.png</string>
+          <key>url</key><string>https://github.com/xiaoli55979/ipa_install/releases/download/3636-mobile-5.6.12/0708c535-5.6.12.3-noext.ipa</string>
         </dict>
       </array>
       <key>metadata</key>
