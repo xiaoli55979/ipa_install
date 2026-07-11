@@ -1,13 +1,25 @@
 {
   "siteTitle": "App 分发",
   "publicUrl": "https://xiaoli55979.github.io/ipa_install",
-  "generatedAt": "2026-07-11T05:57:26.603Z",
+  "generatedAt": "2026-07-11T06:15:37.692Z",
   "apps": [
     {
       "id": "com.wlp.com.cn",
       "name": "50",
       "icon": "https://xiaoli55979.github.io/ipa_install/icons/com.wlp.com.cn-ios.png",
       "ios": [
+        {
+          "version": "6.1.26",
+          "uploadedAt": "2026-07-11T06:09:02Z",
+          "tag": "50-mobile-6.1.26",
+          "releaseName": "50-mobile-6.1.26",
+          "notes": "自动发布 50-mobile-6.1.26\n\n- `50-mobile_6.1.26_test.ipa`\n- `50-mobile_6.1.26.apk`\n\n构建时间: 2026-07-11 15:04:09 JST",
+          "file": "50-mobile_6.1.26_test.ipa",
+          "size": 53371633,
+          "downloadUrl": "https://github.com/xiaoli55979/ipa_install/releases/download/50-mobile-6.1.26/50-mobile_6.1.26_test.ipa",
+          "manifestUrl": "https://xiaoli55979.github.io/ipa_install/manifest/com.wlp.com.cn-50-mobile-6.1.26.plist",
+          "installUrl": "itms-services://?action=download-manifest&url=https%3A%2F%2Fxiaoli55979.github.io%2Fipa_install%2Fmanifest%2Fcom.wlp.com.cn-50-mobile-6.1.26.plist"
+        },
         {
           "version": "6.1.25",
           "uploadedAt": "2026-07-11T05:43:47Z",
@@ -143,6 +155,16 @@
       ],
       "android": [
         {
+          "version": "6.1.26",
+          "uploadedAt": "2026-07-11T06:13:16Z",
+          "tag": "50-mobile-6.1.26",
+          "releaseName": "50-mobile-6.1.26",
+          "notes": "自动发布 50-mobile-6.1.26\n\n- `50-mobile_6.1.26_test.ipa`\n- `50-mobile_6.1.26.apk`\n\n构建时间: 2026-07-11 15:04:09 JST",
+          "file": "50-mobile_6.1.26.apk",
+          "size": 183866680,
+          "downloadUrl": "https://github.com/xiaoli55979/ipa_install/releases/download/50-mobile-6.1.26/50-mobile_6.1.26.apk"
+        },
+        {
           "version": "6.1.25",
           "uploadedAt": "2026-07-11T05:49:57Z",
           "tag": "50-mobile-6.1.25",
@@ -275,7 +297,7 @@
       ],
       "mac": [],
       "win": [],
-      "latestAt": "2026-07-11T05:49:57Z"
+      "latestAt": "2026-07-11T06:13:16Z"
     },
     {
       "id": "com.flutterChatSupport",
