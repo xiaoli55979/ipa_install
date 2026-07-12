@@ -1,8 +1,502 @@
 {
   "siteTitle": "App 分发",
   "publicUrl": "https://xiaoli55979.github.io/ipa_install",
-  "generatedAt": "2026-07-11T14:59:33.891Z",
+  "generatedAt": "2026-07-12T01:45:13.837Z",
   "apps": [
+    {
+      "id": "com.jiliaoim.cn",
+      "name": "云小聊",
+      "icon": "https://xiaoli55979.github.io/ipa_install/icons/com.jiliaoim.cn-ios.png",
+      "ios": [
+        {
+          "version": "1.1.20",
+          "uploadedAt": "2026-05-06T02:01:16Z",
+          "tag": "1.1.20",
+          "releaseName": "1.1.20",
+          "notes": "自动发布 PC 版本 1.1.20\n\n- `YunXiaoLiao-1.1.20-arm64.dmg`\n- `YunXiaoLiao-1.1.20-x64.dmg`\n- `YunXiaoLiao-Setup-1.1.20-x64.exe`\n\n构建时间: 2026-05-06 10:34:27 JST",
+          "file": "im_chat_manager_plugin_example_1.1.20_test.ipa",
+          "size": 43998008,
+          "downloadUrl": "https://github.com/xiaoli55979/ipa_install/releases/download/1.1.20/im_chat_manager_plugin_example_1.1.20_test.ipa",
+          "manifestUrl": "https://xiaoli55979.github.io/ipa_install/manifest/com.jiliaoim.cn-1.1.20.plist",
+          "installUrl": "itms-services://?action=download-manifest&url=https%3A%2F%2Fxiaoli55979.github.io%2Fipa_install%2Fmanifest%2Fcom.jiliaoim.cn-1.1.20.plist"
+        },
+        {
+          "version": "1.1.16",
+          "uploadedAt": "2026-04-26T08:01:37Z",
+          "tag": "1.1.16",
+          "releaseName": "1.1.16",
+          "notes": "自动发布 1.1.16\n\n- `im_chat_manager_plugin_example_1.1.16_test.ipa`\n- `im_chat_manager_plugin_example_1.1.16.apk`\n\n构建时间: 2026-04-26 17:01:23 JST",
+          "file": "im_chat_manager_plugin_example_1.1.16_test.ipa",
+          "size": 43956875,
+          "downloadUrl": "https://github.com/xiaoli55979/ipa_install/releases/download/1.1.16/im_chat_manager_plugin_example_1.1.16_test.ipa",
+          "manifestUrl": "https://xiaoli55979.github.io/ipa_install/manifest/com.jiliaoim.cn-1.1.16.plist",
+          "installUrl": "itms-services://?action=download-manifest&url=https%3A%2F%2Fxiaoli55979.github.io%2Fipa_install%2Fmanifest%2Fcom.jiliaoim.cn-1.1.16.plist"
+        },
+        {
+          "version": "1.1.7",
+          "uploadedAt": "2026-04-22T12:44:44Z",
+          "tag": "1.1.7.2",
+          "releaseName": "1.1.7.2",
+          "notes": "",
+          "file": "upload_test.ipa",
+          "size": 43911149,
+          "downloadUrl": "https://github.com/xiaoli55979/ipa_install/releases/download/1.1.7.2/upload_test.ipa",
+          "manifestUrl": "https://xiaoli55979.github.io/ipa_install/manifest/com.jiliaoim.cn-1.1.7.2.plist",
+          "installUrl": "itms-services://?action=download-manifest&url=https%3A%2F%2Fxiaoli55979.github.io%2Fipa_install%2Fmanifest%2Fcom.jiliaoim.cn-1.1.7.2.plist"
+        },
+        {
+          "version": "1.1.7",
+          "uploadedAt": "2026-04-22T09:24:02Z",
+          "tag": "1.1.7",
+          "releaseName": "1.1.7",
+          "notes": "修复视频通话断开问题",
+          "file": "upload.ipa",
+          "size": 40995757,
+          "downloadUrl": "https://github.com/xiaoli55979/ipa_install/releases/download/1.1.7/upload.ipa",
+          "manifestUrl": "https://xiaoli55979.github.io/ipa_install/manifest/com.jiliaoim.cn-1.1.7.plist",
+          "installUrl": "itms-services://?action=download-manifest&url=https%3A%2F%2Fxiaoli55979.github.io%2Fipa_install%2Fmanifest%2Fcom.jiliaoim.cn-1.1.7.plist"
+        },
+        {
+          "version": "1.1.6",
+          "uploadedAt": "2026-04-22T06:27:03Z",
+          "tag": "1.1.6.1",
+          "releaseName": "1.1.6.1",
+          "notes": "add",
+          "file": "1.1.6.1.ipa",
+          "size": 40986069,
+          "downloadUrl": "https://github.com/xiaoli55979/ipa_install/releases/download/1.1.6.1/1.1.6.1.ipa",
+          "manifestUrl": "https://xiaoli55979.github.io/ipa_install/manifest/com.jiliaoim.cn-1.1.6.1.plist",
+          "installUrl": "itms-services://?action=download-manifest&url=https%3A%2F%2Fxiaoli55979.github.io%2Fipa_install%2Fmanifest%2Fcom.jiliaoim.cn-1.1.6.1.plist"
+        }
+      ],
+      "android": [
+        {
+          "version": "1.1.7",
+          "uploadedAt": "2026-05-13T01:21:08Z",
+          "tag": "1.1.7.2",
+          "releaseName": "1.1.7.2",
+          "notes": "",
+          "file": "ipa_install_1.1.7.2.apk",
+          "size": 229851063,
+          "downloadUrl": "https://github.com/xiaoli55979/ipa_install/releases/download/1.1.7.2/ipa_install_1.1.7.2.apk"
+        },
+        {
+          "version": "1.1.7",
+          "uploadedAt": "2026-05-13T01:21:07Z",
+          "tag": "1.1.7",
+          "releaseName": "1.1.7",
+          "notes": "修复视频通话断开问题",
+          "file": "ipa_install_1.1.7.apk",
+          "size": 229703607,
+          "downloadUrl": "https://github.com/xiaoli55979/ipa_install/releases/download/1.1.7/ipa_install_1.1.7.apk"
+        },
+        {
+          "version": "1.1.20",
+          "uploadedAt": "2026-05-06T02:01:45Z",
+          "tag": "1.1.20",
+          "releaseName": "1.1.20",
+          "notes": "自动发布 PC 版本 1.1.20\n\n- `YunXiaoLiao-1.1.20-arm64.dmg`\n- `YunXiaoLiao-1.1.20-x64.dmg`\n- `YunXiaoLiao-Setup-1.1.20-x64.exe`\n\n构建时间: 2026-05-06 10:34:27 JST",
+          "file": "im_chat_manager_plugin_example_1.1.20.apk",
+          "size": 230375848,
+          "downloadUrl": "https://github.com/xiaoli55979/ipa_install/releases/download/1.1.20/im_chat_manager_plugin_example_1.1.20.apk"
+        },
+        {
+          "version": "1.1.16",
+          "uploadedAt": "2026-04-26T08:02:00Z",
+          "tag": "1.1.16",
+          "releaseName": "1.1.16",
+          "notes": "自动发布 1.1.16\n\n- `im_chat_manager_plugin_example_1.1.16_test.ipa`\n- `im_chat_manager_plugin_example_1.1.16.apk`\n\n构建时间: 2026-04-26 17:01:23 JST",
+          "file": "im_chat_manager_plugin_example_1.1.16.apk",
+          "size": 230195624,
+          "downloadUrl": "https://github.com/xiaoli55979/ipa_install/releases/download/1.1.16/im_chat_manager_plugin_example_1.1.16.apk"
+        },
+        {
+          "version": "1.1.6",
+          "uploadedAt": "2026-04-22T06:28:38Z",
+          "tag": "1.1.6.1",
+          "releaseName": "1.1.6.1",
+          "notes": "add",
+          "file": "1.1.6.1.apk",
+          "size": 249036307,
+          "downloadUrl": "https://github.com/xiaoli55979/ipa_install/releases/download/1.1.6.1/1.1.6.1.apk"
+        }
+      ],
+      "mac": [
+        {
+          "version": "1.1.32",
+          "uploadedAt": "2026-07-12T01:41:32Z",
+          "tag": "1.1.32",
+          "releaseName": "1.1.32",
+          "notes": "自动发布 PC 版本 1.1.32\n\n- `YunXiaoLiao-1.1.32-x64.dmg`\n- `YunXiaoLiao-Setup-1.1.32-x64.zip`\n\n构建时间: 2026-07-12 10:38:49 JST",
+          "file": "YunXiaoLiao-1.1.32-x64.dmg",
+          "size": 135668589,
+          "downloadUrl": "https://github.com/xiaoli55979/ipa_install/releases/download/1.1.32/YunXiaoLiao-1.1.32-x64.dmg"
+        },
+        {
+          "version": "1.1.31",
+          "uploadedAt": "2026-07-03T12:07:23Z",
+          "tag": "1.1.31",
+          "releaseName": "1.1.31",
+          "notes": "自动发布 PC 版本 1.1.31\n\n- `YunXiaoLiao-1.1.31-x64.dmg`\n- `YunXiaoLiao-Setup-1.1.31-x64.zip`\n\n构建时间: 2026-07-03 20:52:07 JST",
+          "file": "YunXiaoLiao-1.1.31-x64.dmg",
+          "size": 135647420,
+          "downloadUrl": "https://github.com/xiaoli55979/ipa_install/releases/download/1.1.31/YunXiaoLiao-1.1.31-x64.dmg"
+        },
+        {
+          "version": "1.1.30",
+          "uploadedAt": "2026-06-25T06:39:42Z",
+          "tag": "1.1.30",
+          "releaseName": "1.1.30",
+          "notes": "自动发布 PC 版本 1.1.30\n\n- `YunXiaoLiao-1.1.30-x64.dmg`\n- `YunXiaoLiao-Setup-1.1.30-x64.zip`\n\n构建时间: 2026-06-25 15:36:36 JST",
+          "file": "YunXiaoLiao-1.1.30-x64.dmg",
+          "size": 133867491,
+          "downloadUrl": "https://github.com/xiaoli55979/ipa_install/releases/download/1.1.30/YunXiaoLiao-1.1.30-x64.dmg"
+        },
+        {
+          "version": "1.1.29",
+          "uploadedAt": "2026-06-20T07:22:43Z",
+          "tag": "1.1.29",
+          "releaseName": "1.1.29",
+          "notes": "Auto published PC version 1.1.29\n\n- `YunXiaoLiao-1.1.29-x64.dmg`\n- `YunXiaoLiao-Setup-1.1.29-x64.zip`\n\nSource branch: release\nSource commit: 1475e5af02393b25ba68b17ae2d211a738d7f25b\nBuild time: 2026-06-20 16:22:38 JST\n",
+          "file": "YunXiaoLiao-1.1.29-x64.dmg",
+          "size": 133886723,
+          "downloadUrl": "https://github.com/xiaoli55979/ipa_install/releases/download/1.1.29/YunXiaoLiao-1.1.29-x64.dmg"
+        },
+        {
+          "version": "1.1.28",
+          "uploadedAt": "2026-06-18T04:26:57Z",
+          "tag": "1.1.28",
+          "releaseName": "1.1.28",
+          "notes": "自动发布 PC 版本 1.1.28\n\n- `YunXiaoLiao-1.1.28-x64.dmg`\n- `YunXiaoLiao-Setup-1.1.28-x64.zip`\n\n构建时间: 2026-06-18 13:25:13 JST",
+          "file": "YunXiaoLiao-1.1.28-x64.dmg",
+          "size": 135665969,
+          "downloadUrl": "https://github.com/xiaoli55979/ipa_install/releases/download/1.1.28/YunXiaoLiao-1.1.28-x64.dmg"
+        },
+        {
+          "version": "1.1.27",
+          "uploadedAt": "2026-06-14T14:34:19Z",
+          "tag": "1.1.27",
+          "releaseName": "1.1.27",
+          "notes": "自动发布 PC 版本 1.1.27\n\n- `YunXiaoLiao-1.1.27-x64.dmg`\n- `YunXiaoLiao-Setup-1.1.27-x64.zip`\n\n构建时间: 2026-06-14 23:33:33 JST",
+          "file": "YunXiaoLiao-1.1.27-x64.dmg",
+          "size": 135666320,
+          "downloadUrl": "https://github.com/xiaoli55979/ipa_install/releases/download/1.1.27/YunXiaoLiao-1.1.27-x64.dmg"
+        },
+        {
+          "version": "1.1.26",
+          "uploadedAt": "2026-06-04T12:27:53Z",
+          "tag": "1.1.26",
+          "releaseName": "1.1.26",
+          "notes": "自动发布 PC 版本 1.1.26\n\n- `YunXiaoLiao-1.1.26-x64.dmg`\n- `YunXiaoLiao-Setup-1.1.26-x64.zip`\n\n构建时间: 2026-06-04 21:24:38 JST",
+          "file": "YunXiaoLiao-1.1.26-x64.dmg",
+          "size": 135663049,
+          "downloadUrl": "https://github.com/xiaoli55979/ipa_install/releases/download/1.1.26/YunXiaoLiao-1.1.26-x64.dmg"
+        },
+        {
+          "version": "1.1.25",
+          "uploadedAt": "2026-06-03T06:02:19Z",
+          "tag": "1.1.25",
+          "releaseName": "1.1.25",
+          "notes": "自动发布 PC 版本 1.1.25\n\n- `YunXiaoLiao-1.1.25-x64.dmg`\n- `YunXiaoLiao-Setup-1.1.25-x64.zip`\n\n构建时间: 2026-06-03 14:58:18 JST",
+          "file": "YunXiaoLiao-1.1.25-x64.dmg",
+          "size": 135662722,
+          "downloadUrl": "https://github.com/xiaoli55979/ipa_install/releases/download/1.1.25/YunXiaoLiao-1.1.25-x64.dmg"
+        },
+        {
+          "version": "1.1.24",
+          "uploadedAt": "2026-06-02T13:07:09Z",
+          "tag": "1.1.24",
+          "releaseName": "1.1.24",
+          "notes": "自动发布 PC 版本 1.1.24\n\n- `YunXiaoLiao-1.1.24-x64.dmg`\n- `YunXiaoLiao-Setup-1.1.24-x64.zip`\n\n构建时间: 2026-06-02 22:04:21 JST",
+          "file": "YunXiaoLiao-1.1.24-x64.dmg",
+          "size": 135670580,
+          "downloadUrl": "https://github.com/xiaoli55979/ipa_install/releases/download/1.1.24/YunXiaoLiao-1.1.24-x64.dmg"
+        },
+        {
+          "version": "1.1.23",
+          "uploadedAt": "2026-05-29T17:39:37Z",
+          "tag": "1.1.23",
+          "releaseName": "1.1.23",
+          "notes": "自动发布 PC 版本 1.1.23\n\n- `YunXiaoLiao-1.1.23-arm64.dmg`\n- `YunXiaoLiao-1.1.23-x64.dmg`\n- `YunXiaoLiao-Setup-1.1.23-x64.exe`\n- `YunXiaoLiao-Setup-1.1.23-x64.zip`\n\n构建时间: 2026-05-30 02:38:16 JST",
+          "file": "YunXiaoLiao-1.1.23-x64.dmg",
+          "size": 135688171,
+          "downloadUrl": "https://github.com/xiaoli55979/ipa_install/releases/download/1.1.23/YunXiaoLiao-1.1.23-x64.dmg"
+        },
+        {
+          "version": "1.1.23",
+          "uploadedAt": "2026-05-29T17:39:36Z",
+          "tag": "1.1.23",
+          "releaseName": "1.1.23",
+          "notes": "自动发布 PC 版本 1.1.23\n\n- `YunXiaoLiao-1.1.23-arm64.dmg`\n- `YunXiaoLiao-1.1.23-x64.dmg`\n- `YunXiaoLiao-Setup-1.1.23-x64.exe`\n- `YunXiaoLiao-Setup-1.1.23-x64.zip`\n\n构建时间: 2026-05-30 02:38:16 JST",
+          "file": "YunXiaoLiao-1.1.23-arm64.dmg",
+          "size": 129397010,
+          "downloadUrl": "https://github.com/xiaoli55979/ipa_install/releases/download/1.1.23/YunXiaoLiao-1.1.23-arm64.dmg"
+        },
+        {
+          "version": "1.1.21",
+          "uploadedAt": "2026-05-28T13:00:45Z",
+          "tag": "1.1.21",
+          "releaseName": "1.1.21",
+          "notes": "自动发布 PC 版本 1.1.21\n\n- `YunXiaoLiao-1.1.21-arm64.dmg`\n- `YunXiaoLiao-1.1.21-x64.dmg`\n- `YunXiaoLiao-Setup-1.1.21-x64.exe`\n\n构建时间: 2026-05-28 21:59:19 JST",
+          "file": "YunXiaoLiao-1.1.21-x64.dmg",
+          "size": 135687680,
+          "downloadUrl": "https://github.com/xiaoli55979/ipa_install/releases/download/1.1.21/YunXiaoLiao-1.1.21-x64.dmg"
+        },
+        {
+          "version": "1.1.21",
+          "uploadedAt": "2026-05-28T13:00:44Z",
+          "tag": "1.1.21",
+          "releaseName": "1.1.21",
+          "notes": "自动发布 PC 版本 1.1.21\n\n- `YunXiaoLiao-1.1.21-arm64.dmg`\n- `YunXiaoLiao-1.1.21-x64.dmg`\n- `YunXiaoLiao-Setup-1.1.21-x64.exe`\n\n构建时间: 2026-05-28 21:59:19 JST",
+          "file": "YunXiaoLiao-1.1.21-arm64.dmg",
+          "size": 129397256,
+          "downloadUrl": "https://github.com/xiaoli55979/ipa_install/releases/download/1.1.21/YunXiaoLiao-1.1.21-arm64.dmg"
+        },
+        {
+          "version": "1.1.20",
+          "uploadedAt": "2026-05-06T01:35:50Z",
+          "tag": "1.1.20",
+          "releaseName": "1.1.20",
+          "notes": "自动发布 PC 版本 1.1.20\n\n- `YunXiaoLiao-1.1.20-arm64.dmg`\n- `YunXiaoLiao-1.1.20-x64.dmg`\n- `YunXiaoLiao-Setup-1.1.20-x64.exe`\n\n构建时间: 2026-05-06 10:34:27 JST",
+          "file": "YunXiaoLiao-1.1.20-x64.dmg",
+          "size": 135628524,
+          "downloadUrl": "https://github.com/xiaoli55979/ipa_install/releases/download/1.1.20/YunXiaoLiao-1.1.20-x64.dmg"
+        },
+        {
+          "version": "1.1.20",
+          "uploadedAt": "2026-05-06T01:35:47Z",
+          "tag": "1.1.20",
+          "releaseName": "1.1.20",
+          "notes": "自动发布 PC 版本 1.1.20\n\n- `YunXiaoLiao-1.1.20-arm64.dmg`\n- `YunXiaoLiao-1.1.20-x64.dmg`\n- `YunXiaoLiao-Setup-1.1.20-x64.exe`\n\n构建时间: 2026-05-06 10:34:27 JST",
+          "file": "YunXiaoLiao-1.1.20-arm64.dmg",
+          "size": 130348060,
+          "downloadUrl": "https://github.com/xiaoli55979/ipa_install/releases/download/1.1.20/YunXiaoLiao-1.1.20-arm64.dmg"
+        },
+        {
+          "version": "1.1.19",
+          "uploadedAt": "2026-04-30T09:09:29Z",
+          "tag": "1.1.19",
+          "releaseName": "1.1.19",
+          "notes": "自动发布 PC 版本 1.1.19\n\n- `YunXiaoLiao-1.1.19-arm64.dmg`\n- `YunXiaoLiao-1.1.19-x64.dmg`\n- `YunXiaoLiao-Setup-1.1.19-x64.exe`\n\n构建时间: 2026-04-30 18:06:09 JST",
+          "file": "YunXiaoLiao-1.1.19-arm64.dmg",
+          "size": 130857720,
+          "downloadUrl": "https://github.com/xiaoli55979/ipa_install/releases/download/1.1.19/YunXiaoLiao-1.1.19-arm64.dmg"
+        },
+        {
+          "version": "1.1.19",
+          "uploadedAt": "2026-04-30T09:09:28Z",
+          "tag": "1.1.19",
+          "releaseName": "1.1.19",
+          "notes": "自动发布 PC 版本 1.1.19\n\n- `YunXiaoLiao-1.1.19-arm64.dmg`\n- `YunXiaoLiao-1.1.19-x64.dmg`\n- `YunXiaoLiao-Setup-1.1.19-x64.exe`\n\n构建时间: 2026-04-30 18:06:09 JST",
+          "file": "YunXiaoLiao-1.1.19-x64.dmg",
+          "size": 136080366,
+          "downloadUrl": "https://github.com/xiaoli55979/ipa_install/releases/download/1.1.19/YunXiaoLiao-1.1.19-x64.dmg"
+        },
+        {
+          "version": "1.1.17",
+          "uploadedAt": "2026-04-26T13:39:19Z",
+          "tag": "1.1.17",
+          "releaseName": "1.1.17",
+          "notes": "云小聊 PC 版本 1.1.17\n\n- `YunXiaoLiao-1.1.17-arm64.dmg`\n- `YunXiaoLiao-1.1.17-x64.dmg`\n- `YunXiaoLiao-Setup-1.1.17-x64.exe`\n\n构建时间: 2026-04-26 22:38:24 JST",
+          "file": "YunXiaoLiao-1.1.17-x64.dmg",
+          "size": 135730453,
+          "downloadUrl": "https://github.com/xiaoli55979/ipa_install/releases/download/1.1.17/YunXiaoLiao-1.1.17-x64.dmg"
+        },
+        {
+          "version": "1.1.17",
+          "uploadedAt": "2026-04-26T13:39:17Z",
+          "tag": "1.1.17",
+          "releaseName": "1.1.17",
+          "notes": "云小聊 PC 版本 1.1.17\n\n- `YunXiaoLiao-1.1.17-arm64.dmg`\n- `YunXiaoLiao-1.1.17-x64.dmg`\n- `YunXiaoLiao-Setup-1.1.17-x64.exe`\n\n构建时间: 2026-04-26 22:38:24 JST",
+          "file": "YunXiaoLiao-1.1.17-arm64.dmg",
+          "size": 130438842,
+          "downloadUrl": "https://github.com/xiaoli55979/ipa_install/releases/download/1.1.17/YunXiaoLiao-1.1.17-arm64.dmg"
+        },
+        {
+          "version": "1.1.7.2",
+          "uploadedAt": "2026-04-22T13:00:23Z",
+          "tag": "1.1.7.2",
+          "releaseName": "1.1.7.2",
+          "notes": "",
+          "file": "-1.0.6-arm64.dmg",
+          "size": 130359509,
+          "downloadUrl": "https://github.com/xiaoli55979/ipa_install/releases/download/1.1.7.2/-1.0.6-arm64.dmg"
+        }
+      ],
+      "win": [
+        {
+          "version": "1.1.32",
+          "uploadedAt": "2026-07-12T01:41:33Z",
+          "tag": "1.1.32",
+          "releaseName": "1.1.32",
+          "notes": "自动发布 PC 版本 1.1.32\n\n- `YunXiaoLiao-1.1.32-x64.dmg`\n- `YunXiaoLiao-Setup-1.1.32-x64.zip`\n\n构建时间: 2026-07-12 10:38:49 JST",
+          "file": "YunXiaoLiao-Setup-1.1.32-x64.zip",
+          "size": 137108540,
+          "downloadUrl": "https://github.com/xiaoli55979/ipa_install/releases/download/1.1.32/YunXiaoLiao-Setup-1.1.32-x64.zip"
+        },
+        {
+          "version": "1.1.31",
+          "uploadedAt": "2026-07-03T12:07:26Z",
+          "tag": "1.1.31",
+          "releaseName": "1.1.31",
+          "notes": "自动发布 PC 版本 1.1.31\n\n- `YunXiaoLiao-1.1.31-x64.dmg`\n- `YunXiaoLiao-Setup-1.1.31-x64.zip`\n\n构建时间: 2026-07-03 20:52:07 JST",
+          "file": "YunXiaoLiao-Setup-1.1.31-x64.zip",
+          "size": 137105244,
+          "downloadUrl": "https://github.com/xiaoli55979/ipa_install/releases/download/1.1.31/YunXiaoLiao-Setup-1.1.31-x64.zip"
+        },
+        {
+          "version": "1.1.30",
+          "uploadedAt": "2026-06-25T06:39:47Z",
+          "tag": "1.1.30",
+          "releaseName": "1.1.30",
+          "notes": "自动发布 PC 版本 1.1.30\n\n- `YunXiaoLiao-1.1.30-x64.dmg`\n- `YunXiaoLiao-Setup-1.1.30-x64.zip`\n\n构建时间: 2026-06-25 15:36:36 JST",
+          "file": "YunXiaoLiao-Setup-1.1.30-x64.zip",
+          "size": 137105398,
+          "downloadUrl": "https://github.com/xiaoli55979/ipa_install/releases/download/1.1.30/YunXiaoLiao-Setup-1.1.30-x64.zip"
+        },
+        {
+          "version": "1.1.29",
+          "uploadedAt": "2026-06-20T07:22:42Z",
+          "tag": "1.1.29",
+          "releaseName": "1.1.29",
+          "notes": "Auto published PC version 1.1.29\n\n- `YunXiaoLiao-1.1.29-x64.dmg`\n- `YunXiaoLiao-Setup-1.1.29-x64.zip`\n\nSource branch: release\nSource commit: 1475e5af02393b25ba68b17ae2d211a738d7f25b\nBuild time: 2026-06-20 16:22:38 JST\n",
+          "file": "YunXiaoLiao-Setup-1.1.29-x64.zip",
+          "size": 137103776,
+          "downloadUrl": "https://github.com/xiaoli55979/ipa_install/releases/download/1.1.29/YunXiaoLiao-Setup-1.1.29-x64.zip"
+        },
+        {
+          "version": "1.1.28",
+          "uploadedAt": "2026-06-18T04:26:47Z",
+          "tag": "1.1.28",
+          "releaseName": "1.1.28",
+          "notes": "自动发布 PC 版本 1.1.28\n\n- `YunXiaoLiao-1.1.28-x64.dmg`\n- `YunXiaoLiao-Setup-1.1.28-x64.zip`\n\n构建时间: 2026-06-18 13:25:13 JST",
+          "file": "YunXiaoLiao-Setup-1.1.28-x64.zip",
+          "size": 137100454,
+          "downloadUrl": "https://github.com/xiaoli55979/ipa_install/releases/download/1.1.28/YunXiaoLiao-Setup-1.1.28-x64.zip"
+        },
+        {
+          "version": "1.1.27",
+          "uploadedAt": "2026-06-14T14:34:17Z",
+          "tag": "1.1.27",
+          "releaseName": "1.1.27",
+          "notes": "自动发布 PC 版本 1.1.27\n\n- `YunXiaoLiao-1.1.27-x64.dmg`\n- `YunXiaoLiao-Setup-1.1.27-x64.zip`\n\n构建时间: 2026-06-14 23:33:33 JST",
+          "file": "YunXiaoLiao-Setup-1.1.27-x64.zip",
+          "size": 137100658,
+          "downloadUrl": "https://github.com/xiaoli55979/ipa_install/releases/download/1.1.27/YunXiaoLiao-Setup-1.1.27-x64.zip"
+        },
+        {
+          "version": "1.1.26",
+          "uploadedAt": "2026-06-04T12:27:52Z",
+          "tag": "1.1.26",
+          "releaseName": "1.1.26",
+          "notes": "自动发布 PC 版本 1.1.26\n\n- `YunXiaoLiao-1.1.26-x64.dmg`\n- `YunXiaoLiao-Setup-1.1.26-x64.zip`\n\n构建时间: 2026-06-04 21:24:38 JST",
+          "file": "YunXiaoLiao-Setup-1.1.26-x64.zip",
+          "size": 137099118,
+          "downloadUrl": "https://github.com/xiaoli55979/ipa_install/releases/download/1.1.26/YunXiaoLiao-Setup-1.1.26-x64.zip"
+        },
+        {
+          "version": "1.1.25",
+          "uploadedAt": "2026-06-03T06:02:18Z",
+          "tag": "1.1.25",
+          "releaseName": "1.1.25",
+          "notes": "自动发布 PC 版本 1.1.25\n\n- `YunXiaoLiao-1.1.25-x64.dmg`\n- `YunXiaoLiao-Setup-1.1.25-x64.zip`\n\n构建时间: 2026-06-03 14:58:18 JST",
+          "file": "YunXiaoLiao-Setup-1.1.25-x64.zip",
+          "size": 137099139,
+          "downloadUrl": "https://github.com/xiaoli55979/ipa_install/releases/download/1.1.25/YunXiaoLiao-Setup-1.1.25-x64.zip"
+        },
+        {
+          "version": "1.1.24",
+          "uploadedAt": "2026-06-02T13:07:10Z",
+          "tag": "1.1.24",
+          "releaseName": "1.1.24",
+          "notes": "自动发布 PC 版本 1.1.24\n\n- `YunXiaoLiao-1.1.24-x64.dmg`\n- `YunXiaoLiao-Setup-1.1.24-x64.zip`\n\n构建时间: 2026-06-02 22:04:21 JST",
+          "file": "YunXiaoLiao-Setup-1.1.24-x64.zip",
+          "size": 137099070,
+          "downloadUrl": "https://github.com/xiaoli55979/ipa_install/releases/download/1.1.24/YunXiaoLiao-Setup-1.1.24-x64.zip"
+        },
+        {
+          "version": "1.1.23",
+          "uploadedAt": "2026-05-29T17:39:36Z",
+          "tag": "1.1.23",
+          "releaseName": "1.1.23",
+          "notes": "自动发布 PC 版本 1.1.23\n\n- `YunXiaoLiao-1.1.23-arm64.dmg`\n- `YunXiaoLiao-1.1.23-x64.dmg`\n- `YunXiaoLiao-Setup-1.1.23-x64.exe`\n- `YunXiaoLiao-Setup-1.1.23-x64.zip`\n\n构建时间: 2026-05-30 02:38:16 JST",
+          "file": "YunXiaoLiao-Setup-1.1.23-x64.zip",
+          "size": 137091722,
+          "downloadUrl": "https://github.com/xiaoli55979/ipa_install/releases/download/1.1.23/YunXiaoLiao-Setup-1.1.23-x64.zip"
+        },
+        {
+          "version": "1.1.23",
+          "uploadedAt": "2026-05-29T17:39:19Z",
+          "tag": "1.1.23",
+          "releaseName": "1.1.23",
+          "notes": "自动发布 PC 版本 1.1.23\n\n- `YunXiaoLiao-1.1.23-arm64.dmg`\n- `YunXiaoLiao-1.1.23-x64.dmg`\n- `YunXiaoLiao-Setup-1.1.23-x64.exe`\n- `YunXiaoLiao-Setup-1.1.23-x64.zip`\n\n构建时间: 2026-05-30 02:38:16 JST",
+          "file": "YunXiaoLiao-Setup-1.1.23-x64.exe",
+          "size": 98924657,
+          "downloadUrl": "https://github.com/xiaoli55979/ipa_install/releases/download/1.1.23/YunXiaoLiao-Setup-1.1.23-x64.exe"
+        },
+        {
+          "version": "1.1.21",
+          "uploadedAt": "2026-05-28T13:00:24Z",
+          "tag": "1.1.21",
+          "releaseName": "1.1.21",
+          "notes": "自动发布 PC 版本 1.1.21\n\n- `YunXiaoLiao-1.1.21-arm64.dmg`\n- `YunXiaoLiao-1.1.21-x64.dmg`\n- `YunXiaoLiao-Setup-1.1.21-x64.exe`\n\n构建时间: 2026-05-28 21:59:19 JST",
+          "file": "YunXiaoLiao-Setup-1.1.21-x64.exe",
+          "size": 98924541,
+          "downloadUrl": "https://github.com/xiaoli55979/ipa_install/releases/download/1.1.21/YunXiaoLiao-Setup-1.1.21-x64.exe"
+        },
+        {
+          "version": "1.1.20",
+          "uploadedAt": "2026-05-06T01:35:27Z",
+          "tag": "1.1.20",
+          "releaseName": "1.1.20",
+          "notes": "自动发布 PC 版本 1.1.20\n\n- `YunXiaoLiao-1.1.20-arm64.dmg`\n- `YunXiaoLiao-1.1.20-x64.dmg`\n- `YunXiaoLiao-Setup-1.1.20-x64.exe`\n\n构建时间: 2026-05-06 10:34:27 JST",
+          "file": "YunXiaoLiao-Setup-1.1.20-x64.exe",
+          "size": 98937935,
+          "downloadUrl": "https://github.com/xiaoli55979/ipa_install/releases/download/1.1.20/YunXiaoLiao-Setup-1.1.20-x64.exe"
+        },
+        {
+          "version": "1.1.19",
+          "uploadedAt": "2026-04-30T09:09:02Z",
+          "tag": "1.1.19",
+          "releaseName": "1.1.19",
+          "notes": "自动发布 PC 版本 1.1.19\n\n- `YunXiaoLiao-1.1.19-arm64.dmg`\n- `YunXiaoLiao-1.1.19-x64.dmg`\n- `YunXiaoLiao-Setup-1.1.19-x64.exe`\n\n构建时间: 2026-04-30 18:06:09 JST",
+          "file": "YunXiaoLiao-Setup-1.1.19-x64.exe",
+          "size": 99267224,
+          "downloadUrl": "https://github.com/xiaoli55979/ipa_install/releases/download/1.1.19/YunXiaoLiao-Setup-1.1.19-x64.exe"
+        },
+        {
+          "version": "1.1.17",
+          "uploadedAt": "2026-04-26T13:39:09Z",
+          "tag": "1.1.17",
+          "releaseName": "1.1.17",
+          "notes": "云小聊 PC 版本 1.1.17\n\n- `YunXiaoLiao-1.1.17-arm64.dmg`\n- `YunXiaoLiao-1.1.17-x64.dmg`\n- `YunXiaoLiao-Setup-1.1.17-x64.exe`\n\n构建时间: 2026-04-26 22:38:24 JST",
+          "file": "YunXiaoLiao-Setup-1.1.17-x64.exe",
+          "size": 98985525,
+          "downloadUrl": "https://github.com/xiaoli55979/ipa_install/releases/download/1.1.17/YunXiaoLiao-Setup-1.1.17-x64.exe"
+        },
+        {
+          "version": "1.1.7.2",
+          "uploadedAt": "2026-04-22T16:06:32Z",
+          "tag": "1.1.7.2",
+          "releaseName": "1.1.7.2",
+          "notes": "",
+          "file": "Setup-1.0.6.zip",
+          "size": 137052566,
+          "downloadUrl": "https://github.com/xiaoli55979/ipa_install/releases/download/1.1.7.2/Setup-1.0.6.zip"
+        },
+        {
+          "version": "1.1.7.2",
+          "uploadedAt": "2026-04-22T16:05:29Z",
+          "tag": "1.1.7.2",
+          "releaseName": "1.1.7.2",
+          "notes": "",
+          "file": "Setup-1.0.6-x64.exe",
+          "size": 98928977,
+          "downloadUrl": "https://github.com/xiaoli55979/ipa_install/releases/download/1.1.7.2/Setup-1.0.6-x64.exe"
+        }
+      ],
+      "latestAt": "2026-07-12T01:41:33Z"
+    },
     {
       "id": "com.wlp.com.cn",
       "name": "50",
@@ -791,480 +1285,6 @@
       "mac": [],
       "win": [],
       "latestAt": "2026-07-07T14:06:31Z"
-    },
-    {
-      "id": "com.jiliaoim.cn",
-      "name": "云小聊",
-      "icon": "https://xiaoli55979.github.io/ipa_install/icons/com.jiliaoim.cn-ios.png",
-      "ios": [
-        {
-          "version": "1.1.20",
-          "uploadedAt": "2026-05-06T02:01:16Z",
-          "tag": "1.1.20",
-          "releaseName": "1.1.20",
-          "notes": "自动发布 PC 版本 1.1.20\n\n- `YunXiaoLiao-1.1.20-arm64.dmg`\n- `YunXiaoLiao-1.1.20-x64.dmg`\n- `YunXiaoLiao-Setup-1.1.20-x64.exe`\n\n构建时间: 2026-05-06 10:34:27 JST",
-          "file": "im_chat_manager_plugin_example_1.1.20_test.ipa",
-          "size": 43998008,
-          "downloadUrl": "https://github.com/xiaoli55979/ipa_install/releases/download/1.1.20/im_chat_manager_plugin_example_1.1.20_test.ipa",
-          "manifestUrl": "https://xiaoli55979.github.io/ipa_install/manifest/com.jiliaoim.cn-1.1.20.plist",
-          "installUrl": "itms-services://?action=download-manifest&url=https%3A%2F%2Fxiaoli55979.github.io%2Fipa_install%2Fmanifest%2Fcom.jiliaoim.cn-1.1.20.plist"
-        },
-        {
-          "version": "1.1.16",
-          "uploadedAt": "2026-04-26T08:01:37Z",
-          "tag": "1.1.16",
-          "releaseName": "1.1.16",
-          "notes": "自动发布 1.1.16\n\n- `im_chat_manager_plugin_example_1.1.16_test.ipa`\n- `im_chat_manager_plugin_example_1.1.16.apk`\n\n构建时间: 2026-04-26 17:01:23 JST",
-          "file": "im_chat_manager_plugin_example_1.1.16_test.ipa",
-          "size": 43956875,
-          "downloadUrl": "https://github.com/xiaoli55979/ipa_install/releases/download/1.1.16/im_chat_manager_plugin_example_1.1.16_test.ipa",
-          "manifestUrl": "https://xiaoli55979.github.io/ipa_install/manifest/com.jiliaoim.cn-1.1.16.plist",
-          "installUrl": "itms-services://?action=download-manifest&url=https%3A%2F%2Fxiaoli55979.github.io%2Fipa_install%2Fmanifest%2Fcom.jiliaoim.cn-1.1.16.plist"
-        },
-        {
-          "version": "1.1.7",
-          "uploadedAt": "2026-04-22T12:44:44Z",
-          "tag": "1.1.7.2",
-          "releaseName": "1.1.7.2",
-          "notes": "",
-          "file": "upload_test.ipa",
-          "size": 43911149,
-          "downloadUrl": "https://github.com/xiaoli55979/ipa_install/releases/download/1.1.7.2/upload_test.ipa",
-          "manifestUrl": "https://xiaoli55979.github.io/ipa_install/manifest/com.jiliaoim.cn-1.1.7.2.plist",
-          "installUrl": "itms-services://?action=download-manifest&url=https%3A%2F%2Fxiaoli55979.github.io%2Fipa_install%2Fmanifest%2Fcom.jiliaoim.cn-1.1.7.2.plist"
-        },
-        {
-          "version": "1.1.7",
-          "uploadedAt": "2026-04-22T09:24:02Z",
-          "tag": "1.1.7",
-          "releaseName": "1.1.7",
-          "notes": "修复视频通话断开问题",
-          "file": "upload.ipa",
-          "size": 40995757,
-          "downloadUrl": "https://github.com/xiaoli55979/ipa_install/releases/download/1.1.7/upload.ipa",
-          "manifestUrl": "https://xiaoli55979.github.io/ipa_install/manifest/com.jiliaoim.cn-1.1.7.plist",
-          "installUrl": "itms-services://?action=download-manifest&url=https%3A%2F%2Fxiaoli55979.github.io%2Fipa_install%2Fmanifest%2Fcom.jiliaoim.cn-1.1.7.plist"
-        },
-        {
-          "version": "1.1.6",
-          "uploadedAt": "2026-04-22T06:27:03Z",
-          "tag": "1.1.6.1",
-          "releaseName": "1.1.6.1",
-          "notes": "add",
-          "file": "1.1.6.1.ipa",
-          "size": 40986069,
-          "downloadUrl": "https://github.com/xiaoli55979/ipa_install/releases/download/1.1.6.1/1.1.6.1.ipa",
-          "manifestUrl": "https://xiaoli55979.github.io/ipa_install/manifest/com.jiliaoim.cn-1.1.6.1.plist",
-          "installUrl": "itms-services://?action=download-manifest&url=https%3A%2F%2Fxiaoli55979.github.io%2Fipa_install%2Fmanifest%2Fcom.jiliaoim.cn-1.1.6.1.plist"
-        }
-      ],
-      "android": [
-        {
-          "version": "1.1.7",
-          "uploadedAt": "2026-05-13T01:21:08Z",
-          "tag": "1.1.7.2",
-          "releaseName": "1.1.7.2",
-          "notes": "",
-          "file": "ipa_install_1.1.7.2.apk",
-          "size": 229851063,
-          "downloadUrl": "https://github.com/xiaoli55979/ipa_install/releases/download/1.1.7.2/ipa_install_1.1.7.2.apk"
-        },
-        {
-          "version": "1.1.7",
-          "uploadedAt": "2026-05-13T01:21:07Z",
-          "tag": "1.1.7",
-          "releaseName": "1.1.7",
-          "notes": "修复视频通话断开问题",
-          "file": "ipa_install_1.1.7.apk",
-          "size": 229703607,
-          "downloadUrl": "https://github.com/xiaoli55979/ipa_install/releases/download/1.1.7/ipa_install_1.1.7.apk"
-        },
-        {
-          "version": "1.1.20",
-          "uploadedAt": "2026-05-06T02:01:45Z",
-          "tag": "1.1.20",
-          "releaseName": "1.1.20",
-          "notes": "自动发布 PC 版本 1.1.20\n\n- `YunXiaoLiao-1.1.20-arm64.dmg`\n- `YunXiaoLiao-1.1.20-x64.dmg`\n- `YunXiaoLiao-Setup-1.1.20-x64.exe`\n\n构建时间: 2026-05-06 10:34:27 JST",
-          "file": "im_chat_manager_plugin_example_1.1.20.apk",
-          "size": 230375848,
-          "downloadUrl": "https://github.com/xiaoli55979/ipa_install/releases/download/1.1.20/im_chat_manager_plugin_example_1.1.20.apk"
-        },
-        {
-          "version": "1.1.16",
-          "uploadedAt": "2026-04-26T08:02:00Z",
-          "tag": "1.1.16",
-          "releaseName": "1.1.16",
-          "notes": "自动发布 1.1.16\n\n- `im_chat_manager_plugin_example_1.1.16_test.ipa`\n- `im_chat_manager_plugin_example_1.1.16.apk`\n\n构建时间: 2026-04-26 17:01:23 JST",
-          "file": "im_chat_manager_plugin_example_1.1.16.apk",
-          "size": 230195624,
-          "downloadUrl": "https://github.com/xiaoli55979/ipa_install/releases/download/1.1.16/im_chat_manager_plugin_example_1.1.16.apk"
-        },
-        {
-          "version": "1.1.6",
-          "uploadedAt": "2026-04-22T06:28:38Z",
-          "tag": "1.1.6.1",
-          "releaseName": "1.1.6.1",
-          "notes": "add",
-          "file": "1.1.6.1.apk",
-          "size": 249036307,
-          "downloadUrl": "https://github.com/xiaoli55979/ipa_install/releases/download/1.1.6.1/1.1.6.1.apk"
-        }
-      ],
-      "mac": [
-        {
-          "version": "1.1.31",
-          "uploadedAt": "2026-07-03T12:07:23Z",
-          "tag": "1.1.31",
-          "releaseName": "1.1.31",
-          "notes": "自动发布 PC 版本 1.1.31\n\n- `YunXiaoLiao-1.1.31-x64.dmg`\n- `YunXiaoLiao-Setup-1.1.31-x64.zip`\n\n构建时间: 2026-07-03 20:52:07 JST",
-          "file": "YunXiaoLiao-1.1.31-x64.dmg",
-          "size": 135647420,
-          "downloadUrl": "https://github.com/xiaoli55979/ipa_install/releases/download/1.1.31/YunXiaoLiao-1.1.31-x64.dmg"
-        },
-        {
-          "version": "1.1.30",
-          "uploadedAt": "2026-06-25T06:39:42Z",
-          "tag": "1.1.30",
-          "releaseName": "1.1.30",
-          "notes": "自动发布 PC 版本 1.1.30\n\n- `YunXiaoLiao-1.1.30-x64.dmg`\n- `YunXiaoLiao-Setup-1.1.30-x64.zip`\n\n构建时间: 2026-06-25 15:36:36 JST",
-          "file": "YunXiaoLiao-1.1.30-x64.dmg",
-          "size": 133867491,
-          "downloadUrl": "https://github.com/xiaoli55979/ipa_install/releases/download/1.1.30/YunXiaoLiao-1.1.30-x64.dmg"
-        },
-        {
-          "version": "1.1.29",
-          "uploadedAt": "2026-06-20T07:22:43Z",
-          "tag": "1.1.29",
-          "releaseName": "1.1.29",
-          "notes": "Auto published PC version 1.1.29\n\n- `YunXiaoLiao-1.1.29-x64.dmg`\n- `YunXiaoLiao-Setup-1.1.29-x64.zip`\n\nSource branch: release\nSource commit: 1475e5af02393b25ba68b17ae2d211a738d7f25b\nBuild time: 2026-06-20 16:22:38 JST\n",
-          "file": "YunXiaoLiao-1.1.29-x64.dmg",
-          "size": 133886723,
-          "downloadUrl": "https://github.com/xiaoli55979/ipa_install/releases/download/1.1.29/YunXiaoLiao-1.1.29-x64.dmg"
-        },
-        {
-          "version": "1.1.28",
-          "uploadedAt": "2026-06-18T04:26:57Z",
-          "tag": "1.1.28",
-          "releaseName": "1.1.28",
-          "notes": "自动发布 PC 版本 1.1.28\n\n- `YunXiaoLiao-1.1.28-x64.dmg`\n- `YunXiaoLiao-Setup-1.1.28-x64.zip`\n\n构建时间: 2026-06-18 13:25:13 JST",
-          "file": "YunXiaoLiao-1.1.28-x64.dmg",
-          "size": 135665969,
-          "downloadUrl": "https://github.com/xiaoli55979/ipa_install/releases/download/1.1.28/YunXiaoLiao-1.1.28-x64.dmg"
-        },
-        {
-          "version": "1.1.27",
-          "uploadedAt": "2026-06-14T14:34:19Z",
-          "tag": "1.1.27",
-          "releaseName": "1.1.27",
-          "notes": "自动发布 PC 版本 1.1.27\n\n- `YunXiaoLiao-1.1.27-x64.dmg`\n- `YunXiaoLiao-Setup-1.1.27-x64.zip`\n\n构建时间: 2026-06-14 23:33:33 JST",
-          "file": "YunXiaoLiao-1.1.27-x64.dmg",
-          "size": 135666320,
-          "downloadUrl": "https://github.com/xiaoli55979/ipa_install/releases/download/1.1.27/YunXiaoLiao-1.1.27-x64.dmg"
-        },
-        {
-          "version": "1.1.26",
-          "uploadedAt": "2026-06-04T12:27:53Z",
-          "tag": "1.1.26",
-          "releaseName": "1.1.26",
-          "notes": "自动发布 PC 版本 1.1.26\n\n- `YunXiaoLiao-1.1.26-x64.dmg`\n- `YunXiaoLiao-Setup-1.1.26-x64.zip`\n\n构建时间: 2026-06-04 21:24:38 JST",
-          "file": "YunXiaoLiao-1.1.26-x64.dmg",
-          "size": 135663049,
-          "downloadUrl": "https://github.com/xiaoli55979/ipa_install/releases/download/1.1.26/YunXiaoLiao-1.1.26-x64.dmg"
-        },
-        {
-          "version": "1.1.25",
-          "uploadedAt": "2026-06-03T06:02:19Z",
-          "tag": "1.1.25",
-          "releaseName": "1.1.25",
-          "notes": "自动发布 PC 版本 1.1.25\n\n- `YunXiaoLiao-1.1.25-x64.dmg`\n- `YunXiaoLiao-Setup-1.1.25-x64.zip`\n\n构建时间: 2026-06-03 14:58:18 JST",
-          "file": "YunXiaoLiao-1.1.25-x64.dmg",
-          "size": 135662722,
-          "downloadUrl": "https://github.com/xiaoli55979/ipa_install/releases/download/1.1.25/YunXiaoLiao-1.1.25-x64.dmg"
-        },
-        {
-          "version": "1.1.24",
-          "uploadedAt": "2026-06-02T13:07:09Z",
-          "tag": "1.1.24",
-          "releaseName": "1.1.24",
-          "notes": "自动发布 PC 版本 1.1.24\n\n- `YunXiaoLiao-1.1.24-x64.dmg`\n- `YunXiaoLiao-Setup-1.1.24-x64.zip`\n\n构建时间: 2026-06-02 22:04:21 JST",
-          "file": "YunXiaoLiao-1.1.24-x64.dmg",
-          "size": 135670580,
-          "downloadUrl": "https://github.com/xiaoli55979/ipa_install/releases/download/1.1.24/YunXiaoLiao-1.1.24-x64.dmg"
-        },
-        {
-          "version": "1.1.23",
-          "uploadedAt": "2026-05-29T17:39:37Z",
-          "tag": "1.1.23",
-          "releaseName": "1.1.23",
-          "notes": "自动发布 PC 版本 1.1.23\n\n- `YunXiaoLiao-1.1.23-arm64.dmg`\n- `YunXiaoLiao-1.1.23-x64.dmg`\n- `YunXiaoLiao-Setup-1.1.23-x64.exe`\n- `YunXiaoLiao-Setup-1.1.23-x64.zip`\n\n构建时间: 2026-05-30 02:38:16 JST",
-          "file": "YunXiaoLiao-1.1.23-x64.dmg",
-          "size": 135688171,
-          "downloadUrl": "https://github.com/xiaoli55979/ipa_install/releases/download/1.1.23/YunXiaoLiao-1.1.23-x64.dmg"
-        },
-        {
-          "version": "1.1.23",
-          "uploadedAt": "2026-05-29T17:39:36Z",
-          "tag": "1.1.23",
-          "releaseName": "1.1.23",
-          "notes": "自动发布 PC 版本 1.1.23\n\n- `YunXiaoLiao-1.1.23-arm64.dmg`\n- `YunXiaoLiao-1.1.23-x64.dmg`\n- `YunXiaoLiao-Setup-1.1.23-x64.exe`\n- `YunXiaoLiao-Setup-1.1.23-x64.zip`\n\n构建时间: 2026-05-30 02:38:16 JST",
-          "file": "YunXiaoLiao-1.1.23-arm64.dmg",
-          "size": 129397010,
-          "downloadUrl": "https://github.com/xiaoli55979/ipa_install/releases/download/1.1.23/YunXiaoLiao-1.1.23-arm64.dmg"
-        },
-        {
-          "version": "1.1.21",
-          "uploadedAt": "2026-05-28T13:00:45Z",
-          "tag": "1.1.21",
-          "releaseName": "1.1.21",
-          "notes": "自动发布 PC 版本 1.1.21\n\n- `YunXiaoLiao-1.1.21-arm64.dmg`\n- `YunXiaoLiao-1.1.21-x64.dmg`\n- `YunXiaoLiao-Setup-1.1.21-x64.exe`\n\n构建时间: 2026-05-28 21:59:19 JST",
-          "file": "YunXiaoLiao-1.1.21-x64.dmg",
-          "size": 135687680,
-          "downloadUrl": "https://github.com/xiaoli55979/ipa_install/releases/download/1.1.21/YunXiaoLiao-1.1.21-x64.dmg"
-        },
-        {
-          "version": "1.1.21",
-          "uploadedAt": "2026-05-28T13:00:44Z",
-          "tag": "1.1.21",
-          "releaseName": "1.1.21",
-          "notes": "自动发布 PC 版本 1.1.21\n\n- `YunXiaoLiao-1.1.21-arm64.dmg`\n- `YunXiaoLiao-1.1.21-x64.dmg`\n- `YunXiaoLiao-Setup-1.1.21-x64.exe`\n\n构建时间: 2026-05-28 21:59:19 JST",
-          "file": "YunXiaoLiao-1.1.21-arm64.dmg",
-          "size": 129397256,
-          "downloadUrl": "https://github.com/xiaoli55979/ipa_install/releases/download/1.1.21/YunXiaoLiao-1.1.21-arm64.dmg"
-        },
-        {
-          "version": "1.1.20",
-          "uploadedAt": "2026-05-06T01:35:50Z",
-          "tag": "1.1.20",
-          "releaseName": "1.1.20",
-          "notes": "自动发布 PC 版本 1.1.20\n\n- `YunXiaoLiao-1.1.20-arm64.dmg`\n- `YunXiaoLiao-1.1.20-x64.dmg`\n- `YunXiaoLiao-Setup-1.1.20-x64.exe`\n\n构建时间: 2026-05-06 10:34:27 JST",
-          "file": "YunXiaoLiao-1.1.20-x64.dmg",
-          "size": 135628524,
-          "downloadUrl": "https://github.com/xiaoli55979/ipa_install/releases/download/1.1.20/YunXiaoLiao-1.1.20-x64.dmg"
-        },
-        {
-          "version": "1.1.20",
-          "uploadedAt": "2026-05-06T01:35:47Z",
-          "tag": "1.1.20",
-          "releaseName": "1.1.20",
-          "notes": "自动发布 PC 版本 1.1.20\n\n- `YunXiaoLiao-1.1.20-arm64.dmg`\n- `YunXiaoLiao-1.1.20-x64.dmg`\n- `YunXiaoLiao-Setup-1.1.20-x64.exe`\n\n构建时间: 2026-05-06 10:34:27 JST",
-          "file": "YunXiaoLiao-1.1.20-arm64.dmg",
-          "size": 130348060,
-          "downloadUrl": "https://github.com/xiaoli55979/ipa_install/releases/download/1.1.20/YunXiaoLiao-1.1.20-arm64.dmg"
-        },
-        {
-          "version": "1.1.19",
-          "uploadedAt": "2026-04-30T09:09:29Z",
-          "tag": "1.1.19",
-          "releaseName": "1.1.19",
-          "notes": "自动发布 PC 版本 1.1.19\n\n- `YunXiaoLiao-1.1.19-arm64.dmg`\n- `YunXiaoLiao-1.1.19-x64.dmg`\n- `YunXiaoLiao-Setup-1.1.19-x64.exe`\n\n构建时间: 2026-04-30 18:06:09 JST",
-          "file": "YunXiaoLiao-1.1.19-arm64.dmg",
-          "size": 130857720,
-          "downloadUrl": "https://github.com/xiaoli55979/ipa_install/releases/download/1.1.19/YunXiaoLiao-1.1.19-arm64.dmg"
-        },
-        {
-          "version": "1.1.19",
-          "uploadedAt": "2026-04-30T09:09:28Z",
-          "tag": "1.1.19",
-          "releaseName": "1.1.19",
-          "notes": "自动发布 PC 版本 1.1.19\n\n- `YunXiaoLiao-1.1.19-arm64.dmg`\n- `YunXiaoLiao-1.1.19-x64.dmg`\n- `YunXiaoLiao-Setup-1.1.19-x64.exe`\n\n构建时间: 2026-04-30 18:06:09 JST",
-          "file": "YunXiaoLiao-1.1.19-x64.dmg",
-          "size": 136080366,
-          "downloadUrl": "https://github.com/xiaoli55979/ipa_install/releases/download/1.1.19/YunXiaoLiao-1.1.19-x64.dmg"
-        },
-        {
-          "version": "1.1.17",
-          "uploadedAt": "2026-04-26T13:39:19Z",
-          "tag": "1.1.17",
-          "releaseName": "1.1.17",
-          "notes": "云小聊 PC 版本 1.1.17\n\n- `YunXiaoLiao-1.1.17-arm64.dmg`\n- `YunXiaoLiao-1.1.17-x64.dmg`\n- `YunXiaoLiao-Setup-1.1.17-x64.exe`\n\n构建时间: 2026-04-26 22:38:24 JST",
-          "file": "YunXiaoLiao-1.1.17-x64.dmg",
-          "size": 135730453,
-          "downloadUrl": "https://github.com/xiaoli55979/ipa_install/releases/download/1.1.17/YunXiaoLiao-1.1.17-x64.dmg"
-        },
-        {
-          "version": "1.1.17",
-          "uploadedAt": "2026-04-26T13:39:17Z",
-          "tag": "1.1.17",
-          "releaseName": "1.1.17",
-          "notes": "云小聊 PC 版本 1.1.17\n\n- `YunXiaoLiao-1.1.17-arm64.dmg`\n- `YunXiaoLiao-1.1.17-x64.dmg`\n- `YunXiaoLiao-Setup-1.1.17-x64.exe`\n\n构建时间: 2026-04-26 22:38:24 JST",
-          "file": "YunXiaoLiao-1.1.17-arm64.dmg",
-          "size": 130438842,
-          "downloadUrl": "https://github.com/xiaoli55979/ipa_install/releases/download/1.1.17/YunXiaoLiao-1.1.17-arm64.dmg"
-        },
-        {
-          "version": "1.1.7.2",
-          "uploadedAt": "2026-04-22T13:00:23Z",
-          "tag": "1.1.7.2",
-          "releaseName": "1.1.7.2",
-          "notes": "",
-          "file": "-1.0.6-arm64.dmg",
-          "size": 130359509,
-          "downloadUrl": "https://github.com/xiaoli55979/ipa_install/releases/download/1.1.7.2/-1.0.6-arm64.dmg"
-        }
-      ],
-      "win": [
-        {
-          "version": "1.1.31",
-          "uploadedAt": "2026-07-03T12:07:26Z",
-          "tag": "1.1.31",
-          "releaseName": "1.1.31",
-          "notes": "自动发布 PC 版本 1.1.31\n\n- `YunXiaoLiao-1.1.31-x64.dmg`\n- `YunXiaoLiao-Setup-1.1.31-x64.zip`\n\n构建时间: 2026-07-03 20:52:07 JST",
-          "file": "YunXiaoLiao-Setup-1.1.31-x64.zip",
-          "size": 137105244,
-          "downloadUrl": "https://github.com/xiaoli55979/ipa_install/releases/download/1.1.31/YunXiaoLiao-Setup-1.1.31-x64.zip"
-        },
-        {
-          "version": "1.1.30",
-          "uploadedAt": "2026-06-25T06:39:47Z",
-          "tag": "1.1.30",
-          "releaseName": "1.1.30",
-          "notes": "自动发布 PC 版本 1.1.30\n\n- `YunXiaoLiao-1.1.30-x64.dmg`\n- `YunXiaoLiao-Setup-1.1.30-x64.zip`\n\n构建时间: 2026-06-25 15:36:36 JST",
-          "file": "YunXiaoLiao-Setup-1.1.30-x64.zip",
-          "size": 137105398,
-          "downloadUrl": "https://github.com/xiaoli55979/ipa_install/releases/download/1.1.30/YunXiaoLiao-Setup-1.1.30-x64.zip"
-        },
-        {
-          "version": "1.1.29",
-          "uploadedAt": "2026-06-20T07:22:42Z",
-          "tag": "1.1.29",
-          "releaseName": "1.1.29",
-          "notes": "Auto published PC version 1.1.29\n\n- `YunXiaoLiao-1.1.29-x64.dmg`\n- `YunXiaoLiao-Setup-1.1.29-x64.zip`\n\nSource branch: release\nSource commit: 1475e5af02393b25ba68b17ae2d211a738d7f25b\nBuild time: 2026-06-20 16:22:38 JST\n",
-          "file": "YunXiaoLiao-Setup-1.1.29-x64.zip",
-          "size": 137103776,
-          "downloadUrl": "https://github.com/xiaoli55979/ipa_install/releases/download/1.1.29/YunXiaoLiao-Setup-1.1.29-x64.zip"
-        },
-        {
-          "version": "1.1.28",
-          "uploadedAt": "2026-06-18T04:26:47Z",
-          "tag": "1.1.28",
-          "releaseName": "1.1.28",
-          "notes": "自动发布 PC 版本 1.1.28\n\n- `YunXiaoLiao-1.1.28-x64.dmg`\n- `YunXiaoLiao-Setup-1.1.28-x64.zip`\n\n构建时间: 2026-06-18 13:25:13 JST",
-          "file": "YunXiaoLiao-Setup-1.1.28-x64.zip",
-          "size": 137100454,
-          "downloadUrl": "https://github.com/xiaoli55979/ipa_install/releases/download/1.1.28/YunXiaoLiao-Setup-1.1.28-x64.zip"
-        },
-        {
-          "version": "1.1.27",
-          "uploadedAt": "2026-06-14T14:34:17Z",
-          "tag": "1.1.27",
-          "releaseName": "1.1.27",
-          "notes": "自动发布 PC 版本 1.1.27\n\n- `YunXiaoLiao-1.1.27-x64.dmg`\n- `YunXiaoLiao-Setup-1.1.27-x64.zip`\n\n构建时间: 2026-06-14 23:33:33 JST",
-          "file": "YunXiaoLiao-Setup-1.1.27-x64.zip",
-          "size": 137100658,
-          "downloadUrl": "https://github.com/xiaoli55979/ipa_install/releases/download/1.1.27/YunXiaoLiao-Setup-1.1.27-x64.zip"
-        },
-        {
-          "version": "1.1.26",
-          "uploadedAt": "2026-06-04T12:27:52Z",
-          "tag": "1.1.26",
-          "releaseName": "1.1.26",
-          "notes": "自动发布 PC 版本 1.1.26\n\n- `YunXiaoLiao-1.1.26-x64.dmg`\n- `YunXiaoLiao-Setup-1.1.26-x64.zip`\n\n构建时间: 2026-06-04 21:24:38 JST",
-          "file": "YunXiaoLiao-Setup-1.1.26-x64.zip",
-          "size": 137099118,
-          "downloadUrl": "https://github.com/xiaoli55979/ipa_install/releases/download/1.1.26/YunXiaoLiao-Setup-1.1.26-x64.zip"
-        },
-        {
-          "version": "1.1.25",
-          "uploadedAt": "2026-06-03T06:02:18Z",
-          "tag": "1.1.25",
-          "releaseName": "1.1.25",
-          "notes": "自动发布 PC 版本 1.1.25\n\n- `YunXiaoLiao-1.1.25-x64.dmg`\n- `YunXiaoLiao-Setup-1.1.25-x64.zip`\n\n构建时间: 2026-06-03 14:58:18 JST",
-          "file": "YunXiaoLiao-Setup-1.1.25-x64.zip",
-          "size": 137099139,
-          "downloadUrl": "https://github.com/xiaoli55979/ipa_install/releases/download/1.1.25/YunXiaoLiao-Setup-1.1.25-x64.zip"
-        },
-        {
-          "version": "1.1.24",
-          "uploadedAt": "2026-06-02T13:07:10Z",
-          "tag": "1.1.24",
-          "releaseName": "1.1.24",
-          "notes": "自动发布 PC 版本 1.1.24\n\n- `YunXiaoLiao-1.1.24-x64.dmg`\n- `YunXiaoLiao-Setup-1.1.24-x64.zip`\n\n构建时间: 2026-06-02 22:04:21 JST",
-          "file": "YunXiaoLiao-Setup-1.1.24-x64.zip",
-          "size": 137099070,
-          "downloadUrl": "https://github.com/xiaoli55979/ipa_install/releases/download/1.1.24/YunXiaoLiao-Setup-1.1.24-x64.zip"
-        },
-        {
-          "version": "1.1.23",
-          "uploadedAt": "2026-05-29T17:39:36Z",
-          "tag": "1.1.23",
-          "releaseName": "1.1.23",
-          "notes": "自动发布 PC 版本 1.1.23\n\n- `YunXiaoLiao-1.1.23-arm64.dmg`\n- `YunXiaoLiao-1.1.23-x64.dmg`\n- `YunXiaoLiao-Setup-1.1.23-x64.exe`\n- `YunXiaoLiao-Setup-1.1.23-x64.zip`\n\n构建时间: 2026-05-30 02:38:16 JST",
-          "file": "YunXiaoLiao-Setup-1.1.23-x64.zip",
-          "size": 137091722,
-          "downloadUrl": "https://github.com/xiaoli55979/ipa_install/releases/download/1.1.23/YunXiaoLiao-Setup-1.1.23-x64.zip"
-        },
-        {
-          "version": "1.1.23",
-          "uploadedAt": "2026-05-29T17:39:19Z",
-          "tag": "1.1.23",
-          "releaseName": "1.1.23",
-          "notes": "自动发布 PC 版本 1.1.23\n\n- `YunXiaoLiao-1.1.23-arm64.dmg`\n- `YunXiaoLiao-1.1.23-x64.dmg`\n- `YunXiaoLiao-Setup-1.1.23-x64.exe`\n- `YunXiaoLiao-Setup-1.1.23-x64.zip`\n\n构建时间: 2026-05-30 02:38:16 JST",
-          "file": "YunXiaoLiao-Setup-1.1.23-x64.exe",
-          "size": 98924657,
-          "downloadUrl": "https://github.com/xiaoli55979/ipa_install/releases/download/1.1.23/YunXiaoLiao-Setup-1.1.23-x64.exe"
-        },
-        {
-          "version": "1.1.21",
-          "uploadedAt": "2026-05-28T13:00:24Z",
-          "tag": "1.1.21",
-          "releaseName": "1.1.21",
-          "notes": "自动发布 PC 版本 1.1.21\n\n- `YunXiaoLiao-1.1.21-arm64.dmg`\n- `YunXiaoLiao-1.1.21-x64.dmg`\n- `YunXiaoLiao-Setup-1.1.21-x64.exe`\n\n构建时间: 2026-05-28 21:59:19 JST",
-          "file": "YunXiaoLiao-Setup-1.1.21-x64.exe",
-          "size": 98924541,
-          "downloadUrl": "https://github.com/xiaoli55979/ipa_install/releases/download/1.1.21/YunXiaoLiao-Setup-1.1.21-x64.exe"
-        },
-        {
-          "version": "1.1.20",
-          "uploadedAt": "2026-05-06T01:35:27Z",
-          "tag": "1.1.20",
-          "releaseName": "1.1.20",
-          "notes": "自动发布 PC 版本 1.1.20\n\n- `YunXiaoLiao-1.1.20-arm64.dmg`\n- `YunXiaoLiao-1.1.20-x64.dmg`\n- `YunXiaoLiao-Setup-1.1.20-x64.exe`\n\n构建时间: 2026-05-06 10:34:27 JST",
-          "file": "YunXiaoLiao-Setup-1.1.20-x64.exe",
-          "size": 98937935,
-          "downloadUrl": "https://github.com/xiaoli55979/ipa_install/releases/download/1.1.20/YunXiaoLiao-Setup-1.1.20-x64.exe"
-        },
-        {
-          "version": "1.1.19",
-          "uploadedAt": "2026-04-30T09:09:02Z",
-          "tag": "1.1.19",
-          "releaseName": "1.1.19",
-          "notes": "自动发布 PC 版本 1.1.19\n\n- `YunXiaoLiao-1.1.19-arm64.dmg`\n- `YunXiaoLiao-1.1.19-x64.dmg`\n- `YunXiaoLiao-Setup-1.1.19-x64.exe`\n\n构建时间: 2026-04-30 18:06:09 JST",
-          "file": "YunXiaoLiao-Setup-1.1.19-x64.exe",
-          "size": 99267224,
-          "downloadUrl": "https://github.com/xiaoli55979/ipa_install/releases/download/1.1.19/YunXiaoLiao-Setup-1.1.19-x64.exe"
-        },
-        {
-          "version": "1.1.17",
-          "uploadedAt": "2026-04-26T13:39:09Z",
-          "tag": "1.1.17",
-          "releaseName": "1.1.17",
-          "notes": "云小聊 PC 版本 1.1.17\n\n- `YunXiaoLiao-1.1.17-arm64.dmg`\n- `YunXiaoLiao-1.1.17-x64.dmg`\n- `YunXiaoLiao-Setup-1.1.17-x64.exe`\n\n构建时间: 2026-04-26 22:38:24 JST",
-          "file": "YunXiaoLiao-Setup-1.1.17-x64.exe",
-          "size": 98985525,
-          "downloadUrl": "https://github.com/xiaoli55979/ipa_install/releases/download/1.1.17/YunXiaoLiao-Setup-1.1.17-x64.exe"
-        },
-        {
-          "version": "1.1.7.2",
-          "uploadedAt": "2026-04-22T16:06:32Z",
-          "tag": "1.1.7.2",
-          "releaseName": "1.1.7.2",
-          "notes": "",
-          "file": "Setup-1.0.6.zip",
-          "size": 137052566,
-          "downloadUrl": "https://github.com/xiaoli55979/ipa_install/releases/download/1.1.7.2/Setup-1.0.6.zip"
-        },
-        {
-          "version": "1.1.7.2",
-          "uploadedAt": "2026-04-22T16:05:29Z",
-          "tag": "1.1.7.2",
-          "releaseName": "1.1.7.2",
-          "notes": "",
-          "file": "Setup-1.0.6-x64.exe",
-          "size": 98928977,
-          "downloadUrl": "https://github.com/xiaoli55979/ipa_install/releases/download/1.1.7.2/Setup-1.0.6-x64.exe"
-        }
-      ],
-      "latestAt": "2026-07-03T12:07:26Z"
     },
     {
       "id": "com.tfsystem.cn",
