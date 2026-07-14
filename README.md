@@ -140,6 +140,25 @@ gh release create v1.2.3 \
   --notes "修了登录 bug"
 ```
 
+### 自动版本决策
+
+打包流水线如果要自动决定 Release 版本，先调用版本解析脚本：
+
+```bash
+npm run resolve-version -- --local-version 6.1.18 --prefix 50-mobile
+```
+
+规则：
+
+- 本地包版本高于 GitHub 已有最高版本：直接使用本地版本
+- 本地包版本低于或等于 GitHub 已有最高版本：使用 GitHub 最高版本最后一段 +1
+
+例如 GitHub 上 `50-mobile` 最新是 `6.1.20`：
+
+- 本地 `6.1.25` → 输出 `50-mobile-6.1.25`
+- 本地 `6.1.18` → 输出 `50-mobile-6.1.21`
+- 本地 `6.1.20` → 输出 `50-mobile-6.1.21`
+
 发布后 GitHub Actions 会自动：
 1. 列出所有 Release 资产
 2. 下载每个 `.ipa` / `.apk`，解析 `Info.plist` / `AndroidManifest`
