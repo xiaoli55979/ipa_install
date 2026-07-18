@@ -65,6 +65,11 @@ function matchPcByFilename(name) {
   return null;
 }
 
+function pcVersion(filename, fallback) {
+  const matched = String(filename).match(/(?:^|[_-])(\d+\.\d+\.\d+)(?=[_.-]|$)/);
+  return matched?.[1] || fallback;
+}
+
 function fetchReleases() {
   const out = sh('gh', ['api', '--paginate', `/repos/${REPO}/releases?per_page=100`]);
   const arr = JSON.parse(out);
@@ -306,7 +311,7 @@ async function main() {
         if (!app.mac) app.mac = [];
         if (!app.win) app.win = [];
         app[platform].push({
-          version: rel.tag_name,
+          version: pcVersion(asset.name, rel.tag_name),
           uploadedAt,
           tag: rel.tag_name,
           releaseName: rel.name || rel.tag_name,
