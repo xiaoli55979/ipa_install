@@ -1,7 +1,7 @@
 {
   "siteTitle": "App 分发",
   "publicUrl": "https://xiaoli55979.github.io/ipa_install",
-  "generatedAt": "2026-07-18T03:45:00.732Z",
+  "generatedAt": "2026-07-18T03:54:48.255Z",
   "apps": [
     {
       "id": "com.tfsystem.cn",
@@ -44,6 +44,26 @@
         }
       ],
       "mac": [
+        {
+          "version": "1.0.6",
+          "uploadedAt": "2026-07-18T03:50:01Z",
+          "tag": "tf-system-desktop-6",
+          "releaseName": "TF管理系统 桌面端 1.0.6",
+          "notes": "桌面端自动打包产物,包含 macOS 和 Windows 版本。分发页:https://xiaoli55979.github.io/ipa_install/",
+          "file": "TFSystem-desktop_1.0.6-arm64.dmg",
+          "size": 120543540,
+          "downloadUrl": "https://github.com/xiaoli55979/ipa_install/releases/download/tf-system-desktop-6/TFSystem-desktop_1.0.6-arm64.dmg"
+        },
+        {
+          "version": "1.0.6",
+          "uploadedAt": "2026-07-18T03:50:01Z",
+          "tag": "tf-system-desktop-6",
+          "releaseName": "TF管理系统 桌面端 1.0.6",
+          "notes": "桌面端自动打包产物,包含 macOS 和 Windows 版本。分发页:https://xiaoli55979.github.io/ipa_install/",
+          "file": "TFSystem-desktop_1.0.6-x64.dmg",
+          "size": 122327611,
+          "downloadUrl": "https://github.com/xiaoli55979/ipa_install/releases/download/tf-system-desktop-6/TFSystem-desktop_1.0.6-x64.dmg"
+        },
         {
           "version": "1.0.5",
           "uploadedAt": "2026-07-18T03:42:14Z",
@@ -107,6 +127,16 @@
       ],
       "win": [
         {
+          "version": "1.0.6",
+          "uploadedAt": "2026-07-18T03:50:00Z",
+          "tag": "tf-system-desktop-6",
+          "releaseName": "TF管理系统 桌面端 1.0.6",
+          "notes": "桌面端自动打包产物,包含 macOS 和 Windows 版本。分发页:https://xiaoli55979.github.io/ipa_install/",
+          "file": "TFSystem-desktop_1.0.6-x64.exe",
+          "size": 99266967,
+          "downloadUrl": "https://github.com/xiaoli55979/ipa_install/releases/download/tf-system-desktop-6/TFSystem-desktop_1.0.6-x64.exe"
+        },
+        {
           "version": "1.0.5",
           "uploadedAt": "2026-07-18T03:42:12Z",
           "tag": "tf-system-desktop-5",
@@ -137,7 +167,7 @@
           "downloadUrl": "https://github.com/xiaoli55979/ipa_install/releases/download/tf-system-desktop-3/TFSystem-desktop_1.0.3-x64.exe"
         }
       ],
-      "latestAt": "2026-07-18T03:42:14Z"
+      "latestAt": "2026-07-18T03:50:01Z"
     },
     {
       "id": "com.jiliaoim.dis.cn",
