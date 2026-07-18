@@ -1,8 +1,84 @@
 {
   "siteTitle": "App 分发",
   "publicUrl": "https://xiaoli55979.github.io/ipa_install",
-  "generatedAt": "2026-07-17T08:49:37.019Z",
+  "generatedAt": "2026-07-18T03:03:31.806Z",
   "apps": [
+    {
+      "id": "com.tfsystem.cn",
+      "name": "TF管理系统",
+      "icon": "https://xiaoli55979.github.io/ipa_install/icons/com.tfsystem.cn-ios.png",
+      "ios": [
+        {
+          "version": "1.0.6",
+          "uploadedAt": "2026-07-17T02:54:17Z",
+          "tag": "tf-system-mobile-6",
+          "releaseName": "TF管理系统 6",
+          "notes": "移动端自动打包产物,分发页:https://xiaoli55979.github.io/ipa_install/",
+          "file": "TFSystem-mobile_6.ipa",
+          "size": 654672,
+          "downloadUrl": "https://github.com/xiaoli55979/ipa_install/releases/download/tf-system-mobile-6/TFSystem-mobile_6.ipa",
+          "manifestUrl": "https://xiaoli55979.github.io/ipa_install/manifest/com.tfsystem.cn-tf-system-mobile-6.plist",
+          "installUrl": "itms-services://?action=download-manifest&url=https%3A%2F%2Fxiaoli55979.github.io%2Fipa_install%2Fmanifest%2Fcom.tfsystem.cn-tf-system-mobile-6.plist"
+        }
+      ],
+      "android": [
+        {
+          "version": "1.0.6",
+          "uploadedAt": "2026-07-17T02:54:17Z",
+          "tag": "tf-system-mobile-6",
+          "releaseName": "TF管理系统 6",
+          "notes": "移动端自动打包产物,分发页:https://xiaoli55979.github.io/ipa_install/",
+          "file": "TFSystem-mobile_6.apk",
+          "size": 4416759,
+          "downloadUrl": "https://github.com/xiaoli55979/ipa_install/releases/download/tf-system-mobile-6/TFSystem-mobile_6.apk"
+        },
+        {
+          "version": "1.0",
+          "uploadedAt": "2026-07-01T07:24:22Z",
+          "tag": "tf-system-mobile-3",
+          "releaseName": "TF管理系统 3",
+          "notes": "移动端 Android 打包产物。",
+          "file": "TFSystem-mobile_3.apk",
+          "size": 4308790,
+          "downloadUrl": "https://github.com/xiaoli55979/ipa_install/releases/download/tf-system-mobile-3/TFSystem-mobile_3.apk"
+        }
+      ],
+      "mac": [
+        {
+          "version": "1.0.3",
+          "uploadedAt": "2026-07-18T02:56:43Z",
+          "tag": "tf-system-desktop-3",
+          "releaseName": "TF管理系统 桌面端 1.0.3",
+          "notes": "桌面端自动打包产物,包含 macOS 和 Windows 版本。分发页:https://xiaoli55979.github.io/ipa_install/",
+          "file": "TFSystem-desktop_1.0.3-x64.dmg",
+          "size": 122327411,
+          "downloadUrl": "https://github.com/xiaoli55979/ipa_install/releases/download/tf-system-desktop-3/TFSystem-desktop_1.0.3-x64.dmg"
+        },
+        {
+          "version": "1.0.3",
+          "uploadedAt": "2026-07-18T02:56:42Z",
+          "tag": "tf-system-desktop-3",
+          "releaseName": "TF管理系统 桌面端 1.0.3",
+          "notes": "桌面端自动打包产物,包含 macOS 和 Windows 版本。分发页:https://xiaoli55979.github.io/ipa_install/",
+          "file": "TFSystem-desktop_1.0.3-arm64.dmg",
+          "size": 120543028,
+          "downloadUrl": "https://github.com/xiaoli55979/ipa_install/releases/download/tf-system-desktop-3/TFSystem-desktop_1.0.3-arm64.dmg"
+        }
+      ],
+      "win": [
+        {
+          "version": "1.0.3",
+          "uploadedAt": "2026-07-18T02:56:42Z",
+          "tag": "tf-system-desktop-3",
+          "releaseName": "TF管理系统 桌面端 1.0.3",
+          "notes": "桌面端自动打包产物,包含 macOS 和 Windows 版本。分发页:https://xiaoli55979.github.io/ipa_install/",
+          "file": "TFSystem-desktop_1.0.3-x64.exe",
+          "size": 99266597,
+          "downloadUrl": "https://github.com/xiaoli55979/ipa_install/releases/download/tf-system-desktop-3/TFSystem-desktop_1.0.3-x64.exe"
+        }
+      ],
+      "latestAt": "2026-07-18T02:56:43Z"
+    },
     {
       "id": "com.jiliaoim.dis.cn",
       "name": "云小聊",
@@ -278,50 +354,6 @@
       "mac": [],
       "win": [],
       "latestAt": "2026-07-17T08:35:54Z"
-    },
-    {
-      "id": "com.tfsystem.cn",
-      "name": "TF管理系统",
-      "icon": "https://xiaoli55979.github.io/ipa_install/icons/com.tfsystem.cn-ios.png",
-      "ios": [
-        {
-          "version": "1.0.6",
-          "uploadedAt": "2026-07-17T02:54:17Z",
-          "tag": "tf-system-mobile-6",
-          "releaseName": "TF管理系统 6",
-          "notes": "移动端自动打包产物,分发页:https://xiaoli55979.github.io/ipa_install/",
-          "file": "TFSystem-mobile_6.ipa",
-          "size": 654672,
-          "downloadUrl": "https://github.com/xiaoli55979/ipa_install/releases/download/tf-system-mobile-6/TFSystem-mobile_6.ipa",
-          "manifestUrl": "https://xiaoli55979.github.io/ipa_install/manifest/com.tfsystem.cn-tf-system-mobile-6.plist",
-          "installUrl": "itms-services://?action=download-manifest&url=https%3A%2F%2Fxiaoli55979.github.io%2Fipa_install%2Fmanifest%2Fcom.tfsystem.cn-tf-system-mobile-6.plist"
-        }
-      ],
-      "android": [
-        {
-          "version": "1.0.6",
-          "uploadedAt": "2026-07-17T02:54:17Z",
-          "tag": "tf-system-mobile-6",
-          "releaseName": "TF管理系统 6",
-          "notes": "移动端自动打包产物,分发页:https://xiaoli55979.github.io/ipa_install/",
-          "file": "TFSystem-mobile_6.apk",
-          "size": 4416759,
-          "downloadUrl": "https://github.com/xiaoli55979/ipa_install/releases/download/tf-system-mobile-6/TFSystem-mobile_6.apk"
-        },
-        {
-          "version": "1.0",
-          "uploadedAt": "2026-07-01T07:24:22Z",
-          "tag": "tf-system-mobile-3",
-          "releaseName": "TF管理系统 3",
-          "notes": "移动端 Android 打包产物。",
-          "file": "TFSystem-mobile_3.apk",
-          "size": 4308790,
-          "downloadUrl": "https://github.com/xiaoli55979/ipa_install/releases/download/tf-system-mobile-3/TFSystem-mobile_3.apk"
-        }
-      ],
-      "mac": [],
-      "win": [],
-      "latestAt": "2026-07-17T02:54:17Z"
     },
     {
       "id": "com.jt8.cn",
@@ -1051,7 +1083,7 @@
           "downloadUrl": "https://github.com/xiaoli55979/ipa_install/releases/download/1.1.17/YunXiaoLiao-1.1.17-arm64.dmg"
         },
         {
-          "version": "1.1.7.2",
+          "version": "1.0.6",
           "uploadedAt": "2026-04-22T13:00:23Z",
           "tag": "1.1.7.2",
           "releaseName": "1.1.7.2",
@@ -1223,7 +1255,7 @@
           "downloadUrl": "https://github.com/xiaoli55979/ipa_install/releases/download/1.1.17/YunXiaoLiao-Setup-1.1.17-x64.exe"
         },
         {
-          "version": "1.1.7.2",
+          "version": "1.0.6",
           "uploadedAt": "2026-04-22T16:06:32Z",
           "tag": "1.1.7.2",
           "releaseName": "1.1.7.2",
@@ -1233,7 +1265,7 @@
           "downloadUrl": "https://github.com/xiaoli55979/ipa_install/releases/download/1.1.7.2/Setup-1.0.6.zip"
         },
         {
-          "version": "1.1.7.2",
+          "version": "1.0.6",
           "uploadedAt": "2026-04-22T16:05:29Z",
           "tag": "1.1.7.2",
           "releaseName": "1.1.7.2",
