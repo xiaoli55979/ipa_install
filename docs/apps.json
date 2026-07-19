@@ -1,8 +1,31 @@
 {
   "siteTitle": "App 分发",
   "publicUrl": "https://xiaoli55979.github.io/ipa_install",
-  "generatedAt": "2026-07-18T03:54:48.255Z",
+  "generatedAt": "2026-07-19T12:27:18.110Z",
   "apps": [
+    {
+      "id": "com.imtest.cnaaaa",
+      "name": "快聊",
+      "icon": "https://xiaoli55979.github.io/ipa_install/icons/com.imtest.cnaaaa-ios.png",
+      "ios": [
+        {
+          "version": "1.0.5",
+          "uploadedAt": "2026-07-19T12:21:41Z",
+          "tag": "KuaiLiao-mobile-1.0.5",
+          "releaseName": "快聊 1.0.5",
+          "notes": "iOS 设备分发版本。适用于已登记的 iPhone 和 iPad，支持简体中文、English 和 Tiếng Việt。",
+          "file": "KuaiLiao-mobile_1.0.5.ipa",
+          "size": 49281563,
+          "downloadUrl": "https://github.com/xiaoli55979/ipa_install/releases/download/KuaiLiao-mobile-1.0.5/KuaiLiao-mobile_1.0.5.ipa",
+          "manifestUrl": "https://xiaoli55979.github.io/ipa_install/manifest/com.imtest.cnaaaa-KuaiLiao-mobile-1.0.5.plist",
+          "installUrl": "itms-services://?action=download-manifest&url=https%3A%2F%2Fxiaoli55979.github.io%2Fipa_install%2Fmanifest%2Fcom.imtest.cnaaaa-KuaiLiao-mobile-1.0.5.plist"
+        }
+      ],
+      "android": [],
+      "mac": [],
+      "win": [],
+      "latestAt": "2026-07-19T12:21:41Z"
+    },
     {
       "id": "com.tfsystem.cn",
       "name": "TF管理系统",
