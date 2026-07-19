@@ -1,7 +1,7 @@
 {
   "siteTitle": "App 分发",
   "publicUrl": "https://xiaoli55979.github.io/ipa_install",
-  "generatedAt": "2026-07-19T14:39:10.694Z",
+  "generatedAt": "2026-07-19T17:51:31.357Z",
   "apps": [
     {
       "id": "quickchat",
@@ -9,6 +9,7 @@
       "icon": "https://xiaoli55979.github.io/ipa_install/icons/quickchat-ios.png",
       "ios": [
         {
+          "bundleId": "com.quickchat.cn.dev",
           "version": "1.0.6",
           "uploadedAt": "2026-07-19T14:28:36Z",
           "tag": "快聊-mobile-1.0.6",
@@ -23,6 +24,7 @@
       ],
       "android": [
         {
+          "bundleId": "com.quickchat.cn",
           "version": "1.0.6",
           "uploadedAt": "2026-07-19T14:28:35Z",
           "tag": "快聊-mobile-1.0.6",
@@ -35,6 +37,7 @@
       ],
       "mac": [],
       "win": [],
+      "showPlatformBundleIds": true,
       "latestAt": "2026-07-19T14:28:36Z"
     },
     {
@@ -43,6 +46,7 @@
       "icon": "https://xiaoli55979.github.io/ipa_install/icons/com.tfsystem.cn-ios.png",
       "ios": [
         {
+          "bundleId": "com.tfsystem.cn",
           "version": "1.0.6",
           "uploadedAt": "2026-07-17T02:54:17Z",
           "tag": "tf-system-mobile-6",
@@ -57,6 +61,7 @@
       ],
       "android": [
         {
+          "bundleId": "com.tfsystem.cn",
           "version": "1.0.6",
           "uploadedAt": "2026-07-17T02:54:17Z",
           "tag": "tf-system-mobile-6",
@@ -67,6 +72,7 @@
           "downloadUrl": "https://github.com/xiaoli55979/ipa_install/releases/download/tf-system-mobile-6/TFSystem-mobile_6.apk"
         },
         {
+          "bundleId": "com.tfsystem.cn",
           "version": "1.0",
           "uploadedAt": "2026-07-01T07:24:22Z",
           "tag": "tf-system-mobile-3",
@@ -79,6 +85,7 @@
       ],
       "mac": [
         {
+          "bundleId": "com.tfsystem.cn",
           "version": "1.0.6",
           "uploadedAt": "2026-07-18T03:50:01Z",
           "tag": "tf-system-desktop-6",
@@ -89,6 +96,7 @@
           "downloadUrl": "https://github.com/xiaoli55979/ipa_install/releases/download/tf-system-desktop-6/TFSystem-desktop_1.0.6-arm64.dmg"
         },
         {
+          "bundleId": "com.tfsystem.cn",
           "version": "1.0.6",
           "uploadedAt": "2026-07-18T03:50:01Z",
           "tag": "tf-system-desktop-6",
@@ -99,6 +107,7 @@
           "downloadUrl": "https://github.com/xiaoli55979/ipa_install/releases/download/tf-system-desktop-6/TFSystem-desktop_1.0.6-x64.dmg"
         },
         {
+          "bundleId": "com.tfsystem.cn",
           "version": "1.0.5",
           "uploadedAt": "2026-07-18T03:42:14Z",
           "tag": "tf-system-desktop-5",
@@ -109,6 +118,7 @@
           "downloadUrl": "https://github.com/xiaoli55979/ipa_install/releases/download/tf-system-desktop-5/TFSystem-desktop_1.0.5-arm64.dmg"
         },
         {
+          "bundleId": "com.tfsystem.cn",
           "version": "1.0.5",
           "uploadedAt": "2026-07-18T03:42:13Z",
           "tag": "tf-system-desktop-5",
@@ -119,6 +129,7 @@
           "downloadUrl": "https://github.com/xiaoli55979/ipa_install/releases/download/tf-system-desktop-5/TFSystem-desktop_1.0.5-x64.dmg"
         },
         {
+          "bundleId": "com.tfsystem.cn",
           "version": "1.0.4",
           "uploadedAt": "2026-07-18T03:19:30Z",
           "tag": "tf-system-desktop-4",
@@ -129,6 +140,7 @@
           "downloadUrl": "https://github.com/xiaoli55979/ipa_install/releases/download/tf-system-desktop-4/TFSystem-desktop_1.0.4-arm64.dmg"
         },
         {
+          "bundleId": "com.tfsystem.cn",
           "version": "1.0.4",
           "uploadedAt": "2026-07-18T03:19:30Z",
           "tag": "tf-system-desktop-4",
@@ -139,6 +151,7 @@
           "downloadUrl": "https://github.com/xiaoli55979/ipa_install/releases/download/tf-system-desktop-4/TFSystem-desktop_1.0.4-x64.dmg"
         },
         {
+          "bundleId": "com.tfsystem.cn",
           "version": "1.0.3",
           "uploadedAt": "2026-07-18T02:56:43Z",
           "tag": "tf-system-desktop-3",
@@ -149,6 +162,7 @@
           "downloadUrl": "https://github.com/xiaoli55979/ipa_install/releases/download/tf-system-desktop-3/TFSystem-desktop_1.0.3-x64.dmg"
         },
         {
+          "bundleId": "com.tfsystem.cn",
           "version": "1.0.3",
           "uploadedAt": "2026-07-18T02:56:42Z",
           "tag": "tf-system-desktop-3",
@@ -161,6 +175,7 @@
       ],
       "win": [
         {
+          "bundleId": "com.tfsystem.cn",
           "version": "1.0.6",
           "uploadedAt": "2026-07-18T03:50:00Z",
           "tag": "tf-system-desktop-6",
@@ -171,6 +186,7 @@
           "downloadUrl": "https://github.com/xiaoli55979/ipa_install/releases/download/tf-system-desktop-6/TFSystem-desktop_1.0.6-x64.exe"
         },
         {
+          "bundleId": "com.tfsystem.cn",
           "version": "1.0.5",
           "uploadedAt": "2026-07-18T03:42:12Z",
           "tag": "tf-system-desktop-5",
@@ -181,6 +197,7 @@
           "downloadUrl": "https://github.com/xiaoli55979/ipa_install/releases/download/tf-system-desktop-5/TFSystem-desktop_1.0.5-x64.exe"
         },
         {
+          "bundleId": "com.tfsystem.cn",
           "version": "1.0.4",
           "uploadedAt": "2026-07-18T03:19:29Z",
           "tag": "tf-system-desktop-4",
@@ -191,6 +208,7 @@
           "downloadUrl": "https://github.com/xiaoli55979/ipa_install/releases/download/tf-system-desktop-4/TFSystem-desktop_1.0.4-x64.exe"
         },
         {
+          "bundleId": "com.tfsystem.cn",
           "version": "1.0.3",
           "uploadedAt": "2026-07-18T02:56:42Z",
           "tag": "tf-system-desktop-3",
@@ -201,6 +219,7 @@
           "downloadUrl": "https://github.com/xiaoli55979/ipa_install/releases/download/tf-system-desktop-3/TFSystem-desktop_1.0.3-x64.exe"
         }
       ],
+      "showPlatformBundleIds": false,
       "latestAt": "2026-07-18T03:50:01Z"
     },
     {
@@ -210,6 +229,7 @@
       "ios": [],
       "android": [
         {
+          "bundleId": "com.jiliaoim.dis.cn",
           "version": "1.1.45",
           "uploadedAt": "2026-07-17T08:37:10Z",
           "tag": "YunXiaoLiao-mobile-1.1.45",
@@ -220,6 +240,7 @@
           "downloadUrl": "https://github.com/xiaoli55979/ipa_install/releases/download/YunXiaoLiao-mobile-1.1.45/YunXiaoLiao-mobile_1.1.45.apk"
         },
         {
+          "bundleId": "com.jiliaoim.dis.cn",
           "version": "1.1.44",
           "uploadedAt": "2026-07-16T16:00:07Z",
           "tag": "YunXiaoLiao-mobile-1.1.44",
@@ -230,6 +251,7 @@
           "downloadUrl": "https://github.com/xiaoli55979/ipa_install/releases/download/YunXiaoLiao-mobile-1.1.44/YunXiaoLiao-mobile_1.1.44.apk"
         },
         {
+          "bundleId": "com.jiliaoim.dis.cn",
           "version": "1.1.43",
           "uploadedAt": "2026-07-07T14:11:12Z",
           "tag": "YunXiaoLiao-mobile-1.1.43",
@@ -240,6 +262,7 @@
           "downloadUrl": "https://github.com/xiaoli55979/ipa_install/releases/download/YunXiaoLiao-mobile-1.1.43/YunXiaoLiao-mobile_1.1.43.apk"
         },
         {
+          "bundleId": "com.jiliaoim.dis.cn",
           "version": "1.1.42",
           "uploadedAt": "2026-07-07T06:55:23Z",
           "tag": "YunXiaoLiao-mobile-1.1.42",
@@ -250,6 +273,7 @@
           "downloadUrl": "https://github.com/xiaoli55979/ipa_install/releases/download/YunXiaoLiao-mobile-1.1.42/YunXiaoLiao-mobile_1.1.42.apk"
         },
         {
+          "bundleId": "com.jiliaoim.dis.cn",
           "version": "1.1.41",
           "uploadedAt": "2026-07-07T06:18:52Z",
           "tag": "YunXiaoLiao-mobile-1.1.41",
@@ -260,6 +284,7 @@
           "downloadUrl": "https://github.com/xiaoli55979/ipa_install/releases/download/YunXiaoLiao-mobile-1.1.41/YunXiaoLiao-mobile_1.1.41.apk"
         },
         {
+          "bundleId": "com.jiliaoim.dis.cn",
           "version": "1.1.40",
           "uploadedAt": "2026-07-03T09:07:27Z",
           "tag": "YunXiaoLiao-mobile-1.1.40",
@@ -270,6 +295,7 @@
           "downloadUrl": "https://github.com/xiaoli55979/ipa_install/releases/download/YunXiaoLiao-mobile-1.1.40/YunXiaoLiao-mobile_1.1.40.apk"
         },
         {
+          "bundleId": "com.jiliaoim.dis.cn",
           "version": "1.1.38",
           "uploadedAt": "2026-07-01T03:02:11Z",
           "tag": "YunXiaoLiao-mobile-1.1.38",
@@ -280,6 +306,7 @@
           "downloadUrl": "https://github.com/xiaoli55979/ipa_install/releases/download/YunXiaoLiao-mobile-1.1.38/YunXiaoLiao-mobile_1.1.38.apk"
         },
         {
+          "bundleId": "com.jiliaoim.dis.cn",
           "version": "1.1.37",
           "uploadedAt": "2026-06-27T01:58:02Z",
           "tag": "YunXiaoLiao-mobile-1.1.37",
@@ -290,6 +317,7 @@
           "downloadUrl": "https://github.com/xiaoli55979/ipa_install/releases/download/YunXiaoLiao-mobile-1.1.37/YunXiaoLiao-mobile_1.1.37.apk"
         },
         {
+          "bundleId": "com.jiliaoim.dis.cn",
           "version": "1.1.36",
           "uploadedAt": "2026-06-25T04:07:34Z",
           "tag": "YunXiaoLiao-mobile-1.1.36",
@@ -300,6 +328,7 @@
           "downloadUrl": "https://github.com/xiaoli55979/ipa_install/releases/download/YunXiaoLiao-mobile-1.1.36/YunXiaoLiao-mobile_1.1.36.apk"
         },
         {
+          "bundleId": "com.jiliaoim.dis.cn",
           "version": "1.1.35",
           "uploadedAt": "2026-06-24T15:01:39Z",
           "tag": "YunXiaoLiao-mobile-1.1.35",
@@ -310,6 +339,7 @@
           "downloadUrl": "https://github.com/xiaoli55979/ipa_install/releases/download/YunXiaoLiao-mobile-1.1.35/YunXiaoLiao-mobile_1.1.35.apk"
         },
         {
+          "bundleId": "com.jiliaoim.dis.cn",
           "version": "1.1.34",
           "uploadedAt": "2026-06-22T09:21:46Z",
           "tag": "YunXiaoLiao-mobile-1.1.34",
@@ -320,6 +350,7 @@
           "downloadUrl": "https://github.com/xiaoli55979/ipa_install/releases/download/YunXiaoLiao-mobile-1.1.34/YunXiaoLiao-mobile_1.1.34.apk"
         },
         {
+          "bundleId": "com.jiliaoim.dis.cn",
           "version": "1.1.33",
           "uploadedAt": "2026-06-22T07:49:40Z",
           "tag": "YunXiaoLiao-mobile-1.1.33",
@@ -330,6 +361,7 @@
           "downloadUrl": "https://github.com/xiaoli55979/ipa_install/releases/download/YunXiaoLiao-mobile-1.1.33/YunXiaoLiao-mobile_1.1.33.apk"
         },
         {
+          "bundleId": "com.jiliaoim.dis.cn",
           "version": "1.1.29",
           "uploadedAt": "2026-06-09T14:12:52Z",
           "tag": "im_chat_manager_plugin_example-mobile-1.1.29",
@@ -340,6 +372,7 @@
           "downloadUrl": "https://github.com/xiaoli55979/ipa_install/releases/download/im_chat_manager_plugin_example-mobile-1.1.29/im_chat_manager_plugin_example-mobile_1.1.29.apk"
         },
         {
+          "bundleId": "com.jiliaoim.dis.cn",
           "version": "1.1.28",
           "uploadedAt": "2026-06-09T01:11:16Z",
           "tag": "im_chat_manager_plugin_example-mobile-1.1.28",
@@ -350,6 +383,7 @@
           "downloadUrl": "https://github.com/xiaoli55979/ipa_install/releases/download/im_chat_manager_plugin_example-mobile-1.1.28/im_chat_manager_plugin_example-mobile_1.1.28.apk"
         },
         {
+          "bundleId": "com.jiliaoim.dis.cn",
           "version": "1.1.27",
           "uploadedAt": "2026-06-08T09:06:30Z",
           "tag": "im_chat_manager_plugin_example-mobile-1.1.27",
@@ -360,6 +394,7 @@
           "downloadUrl": "https://github.com/xiaoli55979/ipa_install/releases/download/im_chat_manager_plugin_example-mobile-1.1.27/im_chat_manager_plugin_example-mobile_1.1.27.apk"
         },
         {
+          "bundleId": "com.jiliaoim.dis.cn",
           "version": "1.1.26",
           "uploadedAt": "2026-06-07T15:25:43Z",
           "tag": "im_chat_manager_plugin_example-mobile-1.1.26",
@@ -370,6 +405,7 @@
           "downloadUrl": "https://github.com/xiaoli55979/ipa_install/releases/download/im_chat_manager_plugin_example-mobile-1.1.26/im_chat_manager_plugin_example-mobile_1.1.26.apk"
         },
         {
+          "bundleId": "com.jiliaoim.dis.cn",
           "version": "1.1.25",
           "uploadedAt": "2026-06-07T14:05:26Z",
           "tag": "im_chat_manager_plugin_example-mobile-1.1.25",
@@ -382,6 +418,7 @@
       ],
       "mac": [],
       "win": [],
+      "showPlatformBundleIds": false,
       "latestAt": "2026-07-17T08:37:10Z"
     },
     {
@@ -390,6 +427,7 @@
       "icon": "https://xiaoli55979.github.io/ipa_install/icons/com.imtest.cn-ios.png",
       "ios": [
         {
+          "bundleId": "com.imtest.cn",
           "version": "1.1.45",
           "uploadedAt": "2026-07-17T08:35:54Z",
           "tag": "YunXiaoLiao-mobile-1.1.45",
@@ -402,6 +440,7 @@
           "installUrl": "itms-services://?action=download-manifest&url=https%3A%2F%2Fxiaoli55979.github.io%2Fipa_install%2Fmanifest%2Fcom.imtest.cn-YunXiaoLiao-mobile-1.1.45.plist"
         },
         {
+          "bundleId": "com.imtest.cn",
           "version": "1.1.44",
           "uploadedAt": "2026-07-16T15:59:20Z",
           "tag": "YunXiaoLiao-mobile-1.1.44",
@@ -414,6 +453,7 @@
           "installUrl": "itms-services://?action=download-manifest&url=https%3A%2F%2Fxiaoli55979.github.io%2Fipa_install%2Fmanifest%2Fcom.imtest.cn-YunXiaoLiao-mobile-1.1.44.plist"
         },
         {
+          "bundleId": "com.imtest.cn",
           "version": "1.1.43",
           "uploadedAt": "2026-07-07T14:06:31Z",
           "tag": "YunXiaoLiao-mobile-1.1.43",
@@ -426,6 +466,7 @@
           "installUrl": "itms-services://?action=download-manifest&url=https%3A%2F%2Fxiaoli55979.github.io%2Fipa_install%2Fmanifest%2Fcom.imtest.cn-YunXiaoLiao-mobile-1.1.43.plist"
         },
         {
+          "bundleId": "com.imtest.cn",
           "version": "1.1.42",
           "uploadedAt": "2026-07-07T06:50:13Z",
           "tag": "YunXiaoLiao-mobile-1.1.42",
@@ -438,6 +479,7 @@
           "installUrl": "itms-services://?action=download-manifest&url=https%3A%2F%2Fxiaoli55979.github.io%2Fipa_install%2Fmanifest%2Fcom.imtest.cn-YunXiaoLiao-mobile-1.1.42.plist"
         },
         {
+          "bundleId": "com.imtest.cn",
           "version": "1.1.41",
           "uploadedAt": "2026-07-07T06:13:51Z",
           "tag": "YunXiaoLiao-mobile-1.1.41",
@@ -450,6 +492,7 @@
           "installUrl": "itms-services://?action=download-manifest&url=https%3A%2F%2Fxiaoli55979.github.io%2Fipa_install%2Fmanifest%2Fcom.imtest.cn-YunXiaoLiao-mobile-1.1.41.plist"
         },
         {
+          "bundleId": "com.imtest.cn",
           "version": "1.1.40",
           "uploadedAt": "2026-07-03T08:58:40Z",
           "tag": "YunXiaoLiao-mobile-1.1.40",
@@ -462,6 +505,7 @@
           "installUrl": "itms-services://?action=download-manifest&url=https%3A%2F%2Fxiaoli55979.github.io%2Fipa_install%2Fmanifest%2Fcom.imtest.cn-YunXiaoLiao-mobile-1.1.40.plist"
         },
         {
+          "bundleId": "com.imtest.cn",
           "version": "1.1.39",
           "uploadedAt": "2026-07-01T04:33:52Z",
           "tag": "YunXiaoLiao-mobile-1.1.39",
@@ -477,6 +521,7 @@
       "android": [],
       "mac": [],
       "win": [],
+      "showPlatformBundleIds": false,
       "latestAt": "2026-07-17T08:35:54Z"
     },
     {
@@ -485,6 +530,7 @@
       "icon": "https://xiaoli55979.github.io/ipa_install/icons/com.jt8.cn-ios.png",
       "ios": [
         {
+          "bundleId": "com.jt8.cn",
           "version": "7.0.12",
           "uploadedAt": "2026-07-17T00:33:46Z",
           "tag": "808-mobile-7.0.12",
@@ -497,6 +543,7 @@
           "installUrl": "itms-services://?action=download-manifest&url=https%3A%2F%2Fxiaoli55979.github.io%2Fipa_install%2Fmanifest%2Fcom.jt8.cn-808-mobile-7.0.12.plist"
         },
         {
+          "bundleId": "com.jt8.cn",
           "version": "7.0.11",
           "uploadedAt": "2026-07-13T05:35:36Z",
           "tag": "808-mobile-7.0.11",
@@ -509,6 +556,7 @@
           "installUrl": "itms-services://?action=download-manifest&url=https%3A%2F%2Fxiaoli55979.github.io%2Fipa_install%2Fmanifest%2Fcom.jt8.cn-808-mobile-7.0.11.plist"
         },
         {
+          "bundleId": "com.jt8.cn",
           "version": "7.0.9",
           "uploadedAt": "2026-06-05T05:29:43Z",
           "tag": "808-mobile-7.0.9",
@@ -521,6 +569,7 @@
           "installUrl": "itms-services://?action=download-manifest&url=https%3A%2F%2Fxiaoli55979.github.io%2Fipa_install%2Fmanifest%2Fcom.jt8.cn-808-mobile-7.0.9.plist"
         },
         {
+          "bundleId": "com.jt8.cn",
           "version": "7.0.8",
           "uploadedAt": "2026-06-04T09:38:07Z",
           "tag": "808-mobile-7.0.8",
@@ -533,6 +582,7 @@
           "installUrl": "itms-services://?action=download-manifest&url=https%3A%2F%2Fxiaoli55979.github.io%2Fipa_install%2Fmanifest%2Fcom.jt8.cn-808-mobile-7.0.8.plist"
         },
         {
+          "bundleId": "com.jt8.cn",
           "version": "7.0.7",
           "uploadedAt": "2026-06-02T09:21:24Z",
           "tag": "808-mobile-7.0.7",
@@ -545,6 +595,7 @@
           "installUrl": "itms-services://?action=download-manifest&url=https%3A%2F%2Fxiaoli55979.github.io%2Fipa_install%2Fmanifest%2Fcom.jt8.cn-808-mobile-7.0.7.plist"
         },
         {
+          "bundleId": "com.jt8.cn",
           "version": "7.0.6",
           "uploadedAt": "2026-05-27T14:14:00Z",
           "tag": "808-mobile-7.0.6",
@@ -557,6 +608,7 @@
           "installUrl": "itms-services://?action=download-manifest&url=https%3A%2F%2Fxiaoli55979.github.io%2Fipa_install%2Fmanifest%2Fcom.jt8.cn-808-mobile-7.0.6.plist"
         },
         {
+          "bundleId": "com.jt8.cn",
           "version": "7.0.5",
           "uploadedAt": "2026-05-27T05:11:28Z",
           "tag": "808-mobile-7.0.5",
@@ -569,6 +621,7 @@
           "installUrl": "itms-services://?action=download-manifest&url=https%3A%2F%2Fxiaoli55979.github.io%2Fipa_install%2Fmanifest%2Fcom.jt8.cn-808-mobile-7.0.5.plist"
         },
         {
+          "bundleId": "com.jt8.cn",
           "version": "7.0.4",
           "uploadedAt": "2026-05-26T08:49:17Z",
           "tag": "808-mobile-7.0.4",
@@ -581,6 +634,7 @@
           "installUrl": "itms-services://?action=download-manifest&url=https%3A%2F%2Fxiaoli55979.github.io%2Fipa_install%2Fmanifest%2Fcom.jt8.cn-808-mobile-7.0.4.plist"
         },
         {
+          "bundleId": "com.jt8.cn",
           "version": "7.0.3",
           "uploadedAt": "2026-05-25T13:52:03Z",
           "tag": "808-mobile-7.0.3",
@@ -593,6 +647,7 @@
           "installUrl": "itms-services://?action=download-manifest&url=https%3A%2F%2Fxiaoli55979.github.io%2Fipa_install%2Fmanifest%2Fcom.jt8.cn-808-mobile-7.0.3.plist"
         },
         {
+          "bundleId": "com.jt8.cn",
           "version": "7.0.2",
           "uploadedAt": "2026-05-25T04:46:07Z",
           "tag": "808-mobile-7.0.2",
@@ -605,6 +660,7 @@
           "installUrl": "itms-services://?action=download-manifest&url=https%3A%2F%2Fxiaoli55979.github.io%2Fipa_install%2Fmanifest%2Fcom.jt8.cn-808-mobile-7.0.2.plist"
         },
         {
+          "bundleId": "com.jt8.cn",
           "version": "1.1.30",
           "uploadedAt": "2026-05-22T15:54:26Z",
           "tag": "808-mobile-7.0.1",
@@ -617,6 +673,7 @@
           "installUrl": "itms-services://?action=download-manifest&url=https%3A%2F%2Fxiaoli55979.github.io%2Fipa_install%2Fmanifest%2Fcom.jt8.cn-808-mobile-7.0.1.plist"
         },
         {
+          "bundleId": "com.jt8.cn",
           "version": "1.1.29",
           "uploadedAt": "2026-05-22T03:02:53Z",
           "tag": "808-mobile-1.1.29",
@@ -629,6 +686,7 @@
           "installUrl": "itms-services://?action=download-manifest&url=https%3A%2F%2Fxiaoli55979.github.io%2Fipa_install%2Fmanifest%2Fcom.jt8.cn-808-mobile-1.1.29.plist"
         },
         {
+          "bundleId": "com.jt8.cn",
           "version": "1.1.28",
           "uploadedAt": "2026-05-21T09:07:04Z",
           "tag": "808-mobile-1.1.28",
@@ -641,6 +699,7 @@
           "installUrl": "itms-services://?action=download-manifest&url=https%3A%2F%2Fxiaoli55979.github.io%2Fipa_install%2Fmanifest%2Fcom.jt8.cn-808-mobile-1.1.28.plist"
         },
         {
+          "bundleId": "com.jt8.cn",
           "version": "1.1.27",
           "uploadedAt": "2026-05-21T01:32:04Z",
           "tag": "808-mobile-1.1.27",
@@ -653,6 +712,7 @@
           "installUrl": "itms-services://?action=download-manifest&url=https%3A%2F%2Fxiaoli55979.github.io%2Fipa_install%2Fmanifest%2Fcom.jt8.cn-808-mobile-1.1.27.plist"
         },
         {
+          "bundleId": "com.jt8.cn",
           "version": "1.1.26",
           "uploadedAt": "2026-05-20T14:30:59Z",
           "tag": "808-mobile-1.1.26",
@@ -665,6 +725,7 @@
           "installUrl": "itms-services://?action=download-manifest&url=https%3A%2F%2Fxiaoli55979.github.io%2Fipa_install%2Fmanifest%2Fcom.jt8.cn-808-mobile-1.1.26.plist"
         },
         {
+          "bundleId": "com.jt8.cn",
           "version": "1.1.25",
           "uploadedAt": "2026-05-13T01:15:11Z",
           "tag": "808-mobile-1.1.25",
@@ -677,6 +738,7 @@
           "installUrl": "itms-services://?action=download-manifest&url=https%3A%2F%2Fxiaoli55979.github.io%2Fipa_install%2Fmanifest%2Fcom.jt8.cn-808-mobile-1.1.25.plist"
         },
         {
+          "bundleId": "com.jt8.cn",
           "version": "1.1.24",
           "uploadedAt": "2026-05-12T13:14:43Z",
           "tag": "808-mobile-1.1.24",
@@ -689,6 +751,7 @@
           "installUrl": "itms-services://?action=download-manifest&url=https%3A%2F%2Fxiaoli55979.github.io%2Fipa_install%2Fmanifest%2Fcom.jt8.cn-808-mobile-1.1.24.plist"
         },
         {
+          "bundleId": "com.jt8.cn",
           "version": "1.1.23",
           "uploadedAt": "2026-05-11T11:57:15Z",
           "tag": "808-mobile-1.1.23",
@@ -703,6 +766,7 @@
       ],
       "android": [
         {
+          "bundleId": "com.jt8.cn",
           "version": "7.0.12",
           "uploadedAt": "2026-07-17T00:34:29Z",
           "tag": "808-mobile-7.0.12",
@@ -713,6 +777,7 @@
           "downloadUrl": "https://github.com/xiaoli55979/ipa_install/releases/download/808-mobile-7.0.12/808-mobile_7.0.12.apk"
         },
         {
+          "bundleId": "com.jt8.cn",
           "version": "7.0.11",
           "uploadedAt": "2026-07-13T05:37:11Z",
           "tag": "808-mobile-7.0.11",
@@ -723,6 +788,7 @@
           "downloadUrl": "https://github.com/xiaoli55979/ipa_install/releases/download/808-mobile-7.0.11/808-mobile_7.0.11.apk"
         },
         {
+          "bundleId": "com.jt8.cn",
           "version": "7.0.9",
           "uploadedAt": "2026-06-05T05:30:48Z",
           "tag": "808-mobile-7.0.9",
@@ -733,6 +799,7 @@
           "downloadUrl": "https://github.com/xiaoli55979/ipa_install/releases/download/808-mobile-7.0.9/808-mobile_7.0.9.apk"
         },
         {
+          "bundleId": "com.jt8.cn",
           "version": "7.0.8",
           "uploadedAt": "2026-06-04T09:39:17Z",
           "tag": "808-mobile-7.0.8",
@@ -743,6 +810,7 @@
           "downloadUrl": "https://github.com/xiaoli55979/ipa_install/releases/download/808-mobile-7.0.8/808-mobile_7.0.8.apk"
         },
         {
+          "bundleId": "com.jt8.cn",
           "version": "7.0.7",
           "uploadedAt": "2026-06-02T09:22:37Z",
           "tag": "808-mobile-7.0.7",
@@ -753,6 +821,7 @@
           "downloadUrl": "https://github.com/xiaoli55979/ipa_install/releases/download/808-mobile-7.0.7/808-mobile_7.0.7.apk"
         },
         {
+          "bundleId": "com.jt8.cn",
           "version": "7.0.6",
           "uploadedAt": "2026-05-27T14:14:19Z",
           "tag": "808-mobile-7.0.6",
@@ -763,6 +832,7 @@
           "downloadUrl": "https://github.com/xiaoli55979/ipa_install/releases/download/808-mobile-7.0.6/808-mobile_7.0.6.apk"
         },
         {
+          "bundleId": "com.jt8.cn",
           "version": "7.0.5",
           "uploadedAt": "2026-05-27T05:11:41Z",
           "tag": "808-mobile-7.0.5",
@@ -773,6 +843,7 @@
           "downloadUrl": "https://github.com/xiaoli55979/ipa_install/releases/download/808-mobile-7.0.5/808-mobile_7.0.5.apk"
         },
         {
+          "bundleId": "com.jt8.cn",
           "version": "7.0.4",
           "uploadedAt": "2026-05-26T08:49:30Z",
           "tag": "808-mobile-7.0.4",
@@ -783,6 +854,7 @@
           "downloadUrl": "https://github.com/xiaoli55979/ipa_install/releases/download/808-mobile-7.0.4/808-mobile_7.0.4.apk"
         },
         {
+          "bundleId": "com.jt8.cn",
           "version": "7.0.3",
           "uploadedAt": "2026-05-25T13:52:18Z",
           "tag": "808-mobile-7.0.3",
@@ -793,6 +865,7 @@
           "downloadUrl": "https://github.com/xiaoli55979/ipa_install/releases/download/808-mobile-7.0.3/808-mobile_7.0.3.apk"
         },
         {
+          "bundleId": "com.jt8.cn",
           "version": "7.0.2",
           "uploadedAt": "2026-05-25T04:46:36Z",
           "tag": "808-mobile-7.0.2",
@@ -803,6 +876,7 @@
           "downloadUrl": "https://github.com/xiaoli55979/ipa_install/releases/download/808-mobile-7.0.2/808-mobile_7.0.2.apk"
         },
         {
+          "bundleId": "com.jt8.cn",
           "version": "1.1.30",
           "uploadedAt": "2026-05-22T15:54:40Z",
           "tag": "808-mobile-7.0.1",
@@ -813,6 +887,7 @@
           "downloadUrl": "https://github.com/xiaoli55979/ipa_install/releases/download/808-mobile-7.0.1/808-mobile_1.1.30.apk"
         },
         {
+          "bundleId": "com.jt8.cn",
           "version": "1.1.29",
           "uploadedAt": "2026-05-22T03:03:06Z",
           "tag": "808-mobile-1.1.29",
@@ -823,6 +898,7 @@
           "downloadUrl": "https://github.com/xiaoli55979/ipa_install/releases/download/808-mobile-1.1.29/808-mobile_1.1.29.apk"
         },
         {
+          "bundleId": "com.jt8.cn",
           "version": "1.1.28",
           "uploadedAt": "2026-05-21T09:07:19Z",
           "tag": "808-mobile-1.1.28",
@@ -833,6 +909,7 @@
           "downloadUrl": "https://github.com/xiaoli55979/ipa_install/releases/download/808-mobile-1.1.28/808-mobile_1.1.28.apk"
         },
         {
+          "bundleId": "com.jt8.cn",
           "version": "1.1.27",
           "uploadedAt": "2026-05-21T01:32:17Z",
           "tag": "808-mobile-1.1.27",
@@ -843,6 +920,7 @@
           "downloadUrl": "https://github.com/xiaoli55979/ipa_install/releases/download/808-mobile-1.1.27/808-mobile_1.1.27.apk"
         },
         {
+          "bundleId": "com.jt8.cn",
           "version": "1.1.26",
           "uploadedAt": "2026-05-20T14:31:13Z",
           "tag": "808-mobile-1.1.26",
@@ -853,6 +931,7 @@
           "downloadUrl": "https://github.com/xiaoli55979/ipa_install/releases/download/808-mobile-1.1.26/808-mobile_1.1.26.apk"
         },
         {
+          "bundleId": "com.jt8.cn",
           "version": "1.1.25",
           "uploadedAt": "2026-05-13T01:16:41Z",
           "tag": "808-mobile-1.1.25",
@@ -863,6 +942,7 @@
           "downloadUrl": "https://github.com/xiaoli55979/ipa_install/releases/download/808-mobile-1.1.25/808-mobile_1.1.25.apk"
         },
         {
+          "bundleId": "com.jt8.cn",
           "version": "1.1.24",
           "uploadedAt": "2026-05-12T13:15:50Z",
           "tag": "808-mobile-1.1.24",
@@ -873,6 +953,7 @@
           "downloadUrl": "https://github.com/xiaoli55979/ipa_install/releases/download/808-mobile-1.1.24/808-mobile_1.1.24.apk"
         },
         {
+          "bundleId": "com.jt8.cn",
           "version": "1.1.23",
           "uploadedAt": "2026-05-11T11:58:48Z",
           "tag": "808-mobile-1.1.23",
@@ -885,6 +966,7 @@
       ],
       "mac": [],
       "win": [],
+      "showPlatformBundleIds": false,
       "latestAt": "2026-07-17T00:34:29Z"
     },
     {
@@ -893,6 +975,7 @@
       "icon": "https://xiaoli55979.github.io/ipa_install/icons/com.jiliaoim.cn-ios.png",
       "ios": [
         {
+          "bundleId": "com.jiliaoim.cn",
           "version": "1.1.20",
           "uploadedAt": "2026-05-06T02:01:16Z",
           "tag": "1.1.20",
@@ -905,6 +988,7 @@
           "installUrl": "itms-services://?action=download-manifest&url=https%3A%2F%2Fxiaoli55979.github.io%2Fipa_install%2Fmanifest%2Fcom.jiliaoim.cn-1.1.20.plist"
         },
         {
+          "bundleId": "com.jiliaoim.cn",
           "version": "1.1.16",
           "uploadedAt": "2026-04-26T08:01:37Z",
           "tag": "1.1.16",
@@ -917,6 +1001,7 @@
           "installUrl": "itms-services://?action=download-manifest&url=https%3A%2F%2Fxiaoli55979.github.io%2Fipa_install%2Fmanifest%2Fcom.jiliaoim.cn-1.1.16.plist"
         },
         {
+          "bundleId": "com.jiliaoim.cn",
           "version": "1.1.7",
           "uploadedAt": "2026-04-22T12:44:44Z",
           "tag": "1.1.7.2",
@@ -929,6 +1014,7 @@
           "installUrl": "itms-services://?action=download-manifest&url=https%3A%2F%2Fxiaoli55979.github.io%2Fipa_install%2Fmanifest%2Fcom.jiliaoim.cn-1.1.7.2.plist"
         },
         {
+          "bundleId": "com.jiliaoim.cn",
           "version": "1.1.7",
           "uploadedAt": "2026-04-22T09:24:02Z",
           "tag": "1.1.7",
@@ -941,6 +1027,7 @@
           "installUrl": "itms-services://?action=download-manifest&url=https%3A%2F%2Fxiaoli55979.github.io%2Fipa_install%2Fmanifest%2Fcom.jiliaoim.cn-1.1.7.plist"
         },
         {
+          "bundleId": "com.jiliaoim.cn",
           "version": "1.1.6",
           "uploadedAt": "2026-04-22T06:27:03Z",
           "tag": "1.1.6.1",
@@ -955,6 +1042,7 @@
       ],
       "android": [
         {
+          "bundleId": "com.jiliaoim.cn",
           "version": "1.1.7",
           "uploadedAt": "2026-05-13T01:21:08Z",
           "tag": "1.1.7.2",
@@ -965,6 +1053,7 @@
           "downloadUrl": "https://github.com/xiaoli55979/ipa_install/releases/download/1.1.7.2/ipa_install_1.1.7.2.apk"
         },
         {
+          "bundleId": "com.jiliaoim.cn",
           "version": "1.1.7",
           "uploadedAt": "2026-05-13T01:21:07Z",
           "tag": "1.1.7",
@@ -975,6 +1064,7 @@
           "downloadUrl": "https://github.com/xiaoli55979/ipa_install/releases/download/1.1.7/ipa_install_1.1.7.apk"
         },
         {
+          "bundleId": "com.jiliaoim.cn",
           "version": "1.1.20",
           "uploadedAt": "2026-05-06T02:01:45Z",
           "tag": "1.1.20",
@@ -985,6 +1075,7 @@
           "downloadUrl": "https://github.com/xiaoli55979/ipa_install/releases/download/1.1.20/im_chat_manager_plugin_example_1.1.20.apk"
         },
         {
+          "bundleId": "com.jiliaoim.cn",
           "version": "1.1.16",
           "uploadedAt": "2026-04-26T08:02:00Z",
           "tag": "1.1.16",
@@ -995,6 +1086,7 @@
           "downloadUrl": "https://github.com/xiaoli55979/ipa_install/releases/download/1.1.16/im_chat_manager_plugin_example_1.1.16.apk"
         },
         {
+          "bundleId": "com.jiliaoim.cn",
           "version": "1.1.6",
           "uploadedAt": "2026-04-22T06:28:38Z",
           "tag": "1.1.6.1",
@@ -1007,6 +1099,7 @@
       ],
       "mac": [
         {
+          "bundleId": "com.jiliaoim.cn",
           "version": "1.1.33",
           "uploadedAt": "2026-07-15T13:59:31Z",
           "tag": "1.1.33",
@@ -1017,6 +1110,7 @@
           "downloadUrl": "https://github.com/xiaoli55979/ipa_install/releases/download/1.1.33/YunXiaoLiao-1.1.33-x64.dmg"
         },
         {
+          "bundleId": "com.jiliaoim.cn",
           "version": "1.1.32",
           "uploadedAt": "2026-07-12T01:41:32Z",
           "tag": "1.1.32",
@@ -1027,6 +1121,7 @@
           "downloadUrl": "https://github.com/xiaoli55979/ipa_install/releases/download/1.1.32/YunXiaoLiao-1.1.32-x64.dmg"
         },
         {
+          "bundleId": "com.jiliaoim.cn",
           "version": "1.1.31",
           "uploadedAt": "2026-07-03T12:07:23Z",
           "tag": "1.1.31",
@@ -1037,6 +1132,7 @@
           "downloadUrl": "https://github.com/xiaoli55979/ipa_install/releases/download/1.1.31/YunXiaoLiao-1.1.31-x64.dmg"
         },
         {
+          "bundleId": "com.jiliaoim.cn",
           "version": "1.1.30",
           "uploadedAt": "2026-06-25T06:39:42Z",
           "tag": "1.1.30",
@@ -1047,6 +1143,7 @@
           "downloadUrl": "https://github.com/xiaoli55979/ipa_install/releases/download/1.1.30/YunXiaoLiao-1.1.30-x64.dmg"
         },
         {
+          "bundleId": "com.jiliaoim.cn",
           "version": "1.1.29",
           "uploadedAt": "2026-06-20T07:22:43Z",
           "tag": "1.1.29",
@@ -1057,6 +1154,7 @@
           "downloadUrl": "https://github.com/xiaoli55979/ipa_install/releases/download/1.1.29/YunXiaoLiao-1.1.29-x64.dmg"
         },
         {
+          "bundleId": "com.jiliaoim.cn",
           "version": "1.1.28",
           "uploadedAt": "2026-06-18T04:26:57Z",
           "tag": "1.1.28",
@@ -1067,6 +1165,7 @@
           "downloadUrl": "https://github.com/xiaoli55979/ipa_install/releases/download/1.1.28/YunXiaoLiao-1.1.28-x64.dmg"
         },
         {
+          "bundleId": "com.jiliaoim.cn",
           "version": "1.1.27",
           "uploadedAt": "2026-06-14T14:34:19Z",
           "tag": "1.1.27",
@@ -1077,6 +1176,7 @@
           "downloadUrl": "https://github.com/xiaoli55979/ipa_install/releases/download/1.1.27/YunXiaoLiao-1.1.27-x64.dmg"
         },
         {
+          "bundleId": "com.jiliaoim.cn",
           "version": "1.1.26",
           "uploadedAt": "2026-06-04T12:27:53Z",
           "tag": "1.1.26",
@@ -1087,6 +1187,7 @@
           "downloadUrl": "https://github.com/xiaoli55979/ipa_install/releases/download/1.1.26/YunXiaoLiao-1.1.26-x64.dmg"
         },
         {
+          "bundleId": "com.jiliaoim.cn",
           "version": "1.1.25",
           "uploadedAt": "2026-06-03T06:02:19Z",
           "tag": "1.1.25",
@@ -1097,6 +1198,7 @@
           "downloadUrl": "https://github.com/xiaoli55979/ipa_install/releases/download/1.1.25/YunXiaoLiao-1.1.25-x64.dmg"
         },
         {
+          "bundleId": "com.jiliaoim.cn",
           "version": "1.1.24",
           "uploadedAt": "2026-06-02T13:07:09Z",
           "tag": "1.1.24",
@@ -1107,6 +1209,7 @@
           "downloadUrl": "https://github.com/xiaoli55979/ipa_install/releases/download/1.1.24/YunXiaoLiao-1.1.24-x64.dmg"
         },
         {
+          "bundleId": "com.jiliaoim.cn",
           "version": "1.1.23",
           "uploadedAt": "2026-05-29T17:39:37Z",
           "tag": "1.1.23",
@@ -1117,6 +1220,7 @@
           "downloadUrl": "https://github.com/xiaoli55979/ipa_install/releases/download/1.1.23/YunXiaoLiao-1.1.23-x64.dmg"
         },
         {
+          "bundleId": "com.jiliaoim.cn",
           "version": "1.1.23",
           "uploadedAt": "2026-05-29T17:39:36Z",
           "tag": "1.1.23",
@@ -1127,6 +1231,7 @@
           "downloadUrl": "https://github.com/xiaoli55979/ipa_install/releases/download/1.1.23/YunXiaoLiao-1.1.23-arm64.dmg"
         },
         {
+          "bundleId": "com.jiliaoim.cn",
           "version": "1.1.21",
           "uploadedAt": "2026-05-28T13:00:45Z",
           "tag": "1.1.21",
@@ -1137,6 +1242,7 @@
           "downloadUrl": "https://github.com/xiaoli55979/ipa_install/releases/download/1.1.21/YunXiaoLiao-1.1.21-x64.dmg"
         },
         {
+          "bundleId": "com.jiliaoim.cn",
           "version": "1.1.21",
           "uploadedAt": "2026-05-28T13:00:44Z",
           "tag": "1.1.21",
@@ -1147,6 +1253,7 @@
           "downloadUrl": "https://github.com/xiaoli55979/ipa_install/releases/download/1.1.21/YunXiaoLiao-1.1.21-arm64.dmg"
         },
         {
+          "bundleId": "com.jiliaoim.cn",
           "version": "1.1.20",
           "uploadedAt": "2026-05-06T01:35:50Z",
           "tag": "1.1.20",
@@ -1157,6 +1264,7 @@
           "downloadUrl": "https://github.com/xiaoli55979/ipa_install/releases/download/1.1.20/YunXiaoLiao-1.1.20-x64.dmg"
         },
         {
+          "bundleId": "com.jiliaoim.cn",
           "version": "1.1.20",
           "uploadedAt": "2026-05-06T01:35:47Z",
           "tag": "1.1.20",
@@ -1167,6 +1275,7 @@
           "downloadUrl": "https://github.com/xiaoli55979/ipa_install/releases/download/1.1.20/YunXiaoLiao-1.1.20-arm64.dmg"
         },
         {
+          "bundleId": "com.jiliaoim.cn",
           "version": "1.1.19",
           "uploadedAt": "2026-04-30T09:09:29Z",
           "tag": "1.1.19",
@@ -1177,6 +1286,7 @@
           "downloadUrl": "https://github.com/xiaoli55979/ipa_install/releases/download/1.1.19/YunXiaoLiao-1.1.19-arm64.dmg"
         },
         {
+          "bundleId": "com.jiliaoim.cn",
           "version": "1.1.19",
           "uploadedAt": "2026-04-30T09:09:28Z",
           "tag": "1.1.19",
@@ -1187,6 +1297,7 @@
           "downloadUrl": "https://github.com/xiaoli55979/ipa_install/releases/download/1.1.19/YunXiaoLiao-1.1.19-x64.dmg"
         },
         {
+          "bundleId": "com.jiliaoim.cn",
           "version": "1.1.17",
           "uploadedAt": "2026-04-26T13:39:19Z",
           "tag": "1.1.17",
@@ -1197,6 +1308,7 @@
           "downloadUrl": "https://github.com/xiaoli55979/ipa_install/releases/download/1.1.17/YunXiaoLiao-1.1.17-x64.dmg"
         },
         {
+          "bundleId": "com.jiliaoim.cn",
           "version": "1.1.17",
           "uploadedAt": "2026-04-26T13:39:17Z",
           "tag": "1.1.17",
@@ -1207,6 +1319,7 @@
           "downloadUrl": "https://github.com/xiaoli55979/ipa_install/releases/download/1.1.17/YunXiaoLiao-1.1.17-arm64.dmg"
         },
         {
+          "bundleId": "com.jiliaoim.cn",
           "version": "1.0.6",
           "uploadedAt": "2026-04-22T13:00:23Z",
           "tag": "1.1.7.2",
@@ -1219,6 +1332,7 @@
       ],
       "win": [
         {
+          "bundleId": "com.jiliaoim.cn",
           "version": "1.1.33",
           "uploadedAt": "2026-07-15T13:59:34Z",
           "tag": "1.1.33",
@@ -1229,6 +1343,7 @@
           "downloadUrl": "https://github.com/xiaoli55979/ipa_install/releases/download/1.1.33/YunXiaoLiao-Setup-1.1.33-x64.zip"
         },
         {
+          "bundleId": "com.jiliaoim.cn",
           "version": "1.1.32",
           "uploadedAt": "2026-07-12T01:41:33Z",
           "tag": "1.1.32",
@@ -1239,6 +1354,7 @@
           "downloadUrl": "https://github.com/xiaoli55979/ipa_install/releases/download/1.1.32/YunXiaoLiao-Setup-1.1.32-x64.zip"
         },
         {
+          "bundleId": "com.jiliaoim.cn",
           "version": "1.1.31",
           "uploadedAt": "2026-07-03T12:07:26Z",
           "tag": "1.1.31",
@@ -1249,6 +1365,7 @@
           "downloadUrl": "https://github.com/xiaoli55979/ipa_install/releases/download/1.1.31/YunXiaoLiao-Setup-1.1.31-x64.zip"
         },
         {
+          "bundleId": "com.jiliaoim.cn",
           "version": "1.1.30",
           "uploadedAt": "2026-06-25T06:39:47Z",
           "tag": "1.1.30",
@@ -1259,6 +1376,7 @@
           "downloadUrl": "https://github.com/xiaoli55979/ipa_install/releases/download/1.1.30/YunXiaoLiao-Setup-1.1.30-x64.zip"
         },
         {
+          "bundleId": "com.jiliaoim.cn",
           "version": "1.1.29",
           "uploadedAt": "2026-06-20T07:22:42Z",
           "tag": "1.1.29",
@@ -1269,6 +1387,7 @@
           "downloadUrl": "https://github.com/xiaoli55979/ipa_install/releases/download/1.1.29/YunXiaoLiao-Setup-1.1.29-x64.zip"
         },
         {
+          "bundleId": "com.jiliaoim.cn",
           "version": "1.1.28",
           "uploadedAt": "2026-06-18T04:26:47Z",
           "tag": "1.1.28",
@@ -1279,6 +1398,7 @@
           "downloadUrl": "https://github.com/xiaoli55979/ipa_install/releases/download/1.1.28/YunXiaoLiao-Setup-1.1.28-x64.zip"
         },
         {
+          "bundleId": "com.jiliaoim.cn",
           "version": "1.1.27",
           "uploadedAt": "2026-06-14T14:34:17Z",
           "tag": "1.1.27",
@@ -1289,6 +1409,7 @@
           "downloadUrl": "https://github.com/xiaoli55979/ipa_install/releases/download/1.1.27/YunXiaoLiao-Setup-1.1.27-x64.zip"
         },
         {
+          "bundleId": "com.jiliaoim.cn",
           "version": "1.1.26",
           "uploadedAt": "2026-06-04T12:27:52Z",
           "tag": "1.1.26",
@@ -1299,6 +1420,7 @@
           "downloadUrl": "https://github.com/xiaoli55979/ipa_install/releases/download/1.1.26/YunXiaoLiao-Setup-1.1.26-x64.zip"
         },
         {
+          "bundleId": "com.jiliaoim.cn",
           "version": "1.1.25",
           "uploadedAt": "2026-06-03T06:02:18Z",
           "tag": "1.1.25",
@@ -1309,6 +1431,7 @@
           "downloadUrl": "https://github.com/xiaoli55979/ipa_install/releases/download/1.1.25/YunXiaoLiao-Setup-1.1.25-x64.zip"
         },
         {
+          "bundleId": "com.jiliaoim.cn",
           "version": "1.1.24",
           "uploadedAt": "2026-06-02T13:07:10Z",
           "tag": "1.1.24",
@@ -1319,6 +1442,7 @@
           "downloadUrl": "https://github.com/xiaoli55979/ipa_install/releases/download/1.1.24/YunXiaoLiao-Setup-1.1.24-x64.zip"
         },
         {
+          "bundleId": "com.jiliaoim.cn",
           "version": "1.1.23",
           "uploadedAt": "2026-05-29T17:39:36Z",
           "tag": "1.1.23",
@@ -1329,6 +1453,7 @@
           "downloadUrl": "https://github.com/xiaoli55979/ipa_install/releases/download/1.1.23/YunXiaoLiao-Setup-1.1.23-x64.zip"
         },
         {
+          "bundleId": "com.jiliaoim.cn",
           "version": "1.1.23",
           "uploadedAt": "2026-05-29T17:39:19Z",
           "tag": "1.1.23",
@@ -1339,6 +1464,7 @@
           "downloadUrl": "https://github.com/xiaoli55979/ipa_install/releases/download/1.1.23/YunXiaoLiao-Setup-1.1.23-x64.exe"
         },
         {
+          "bundleId": "com.jiliaoim.cn",
           "version": "1.1.21",
           "uploadedAt": "2026-05-28T13:00:24Z",
           "tag": "1.1.21",
@@ -1349,6 +1475,7 @@
           "downloadUrl": "https://github.com/xiaoli55979/ipa_install/releases/download/1.1.21/YunXiaoLiao-Setup-1.1.21-x64.exe"
         },
         {
+          "bundleId": "com.jiliaoim.cn",
           "version": "1.1.20",
           "uploadedAt": "2026-05-06T01:35:27Z",
           "tag": "1.1.20",
@@ -1359,6 +1486,7 @@
           "downloadUrl": "https://github.com/xiaoli55979/ipa_install/releases/download/1.1.20/YunXiaoLiao-Setup-1.1.20-x64.exe"
         },
         {
+          "bundleId": "com.jiliaoim.cn",
           "version": "1.1.19",
           "uploadedAt": "2026-04-30T09:09:02Z",
           "tag": "1.1.19",
@@ -1369,6 +1497,7 @@
           "downloadUrl": "https://github.com/xiaoli55979/ipa_install/releases/download/1.1.19/YunXiaoLiao-Setup-1.1.19-x64.exe"
         },
         {
+          "bundleId": "com.jiliaoim.cn",
           "version": "1.1.17",
           "uploadedAt": "2026-04-26T13:39:09Z",
           "tag": "1.1.17",
@@ -1379,6 +1508,7 @@
           "downloadUrl": "https://github.com/xiaoli55979/ipa_install/releases/download/1.1.17/YunXiaoLiao-Setup-1.1.17-x64.exe"
         },
         {
+          "bundleId": "com.jiliaoim.cn",
           "version": "1.0.6",
           "uploadedAt": "2026-04-22T16:06:32Z",
           "tag": "1.1.7.2",
@@ -1389,6 +1519,7 @@
           "downloadUrl": "https://github.com/xiaoli55979/ipa_install/releases/download/1.1.7.2/Setup-1.0.6.zip"
         },
         {
+          "bundleId": "com.jiliaoim.cn",
           "version": "1.0.6",
           "uploadedAt": "2026-04-22T16:05:29Z",
           "tag": "1.1.7.2",
@@ -1399,6 +1530,7 @@
           "downloadUrl": "https://github.com/xiaoli55979/ipa_install/releases/download/1.1.7.2/Setup-1.0.6-x64.exe"
         }
       ],
+      "showPlatformBundleIds": false,
       "latestAt": "2026-07-15T13:59:34Z"
     },
     {
@@ -1407,6 +1539,7 @@
       "icon": "https://xiaoli55979.github.io/ipa_install/icons/com.lianfu.cn-ios.png",
       "ios": [
         {
+          "bundleId": "com.lianfu.cn",
           "version": "7.0.11",
           "uploadedAt": "2026-07-13T05:16:22Z",
           "tag": "988-mobile-7.0.11",
@@ -1419,6 +1552,7 @@
           "installUrl": "itms-services://?action=download-manifest&url=https%3A%2F%2Fxiaoli55979.github.io%2Fipa_install%2Fmanifest%2Fcom.lianfu.cn-988-mobile-7.0.11.plist"
         },
         {
+          "bundleId": "com.lianfu.cn",
           "version": "7.0.9",
           "uploadedAt": "2026-06-05T05:50:35Z",
           "tag": "988-mobile-7.0.9",
@@ -1431,6 +1565,7 @@
           "installUrl": "itms-services://?action=download-manifest&url=https%3A%2F%2Fxiaoli55979.github.io%2Fipa_install%2Fmanifest%2Fcom.lianfu.cn-988-mobile-7.0.9.plist"
         },
         {
+          "bundleId": "com.lianfu.cn",
           "version": "7.0.8",
           "uploadedAt": "2026-06-04T09:25:49Z",
           "tag": "988-mobile-7.0.8",
@@ -1443,6 +1578,7 @@
           "installUrl": "itms-services://?action=download-manifest&url=https%3A%2F%2Fxiaoli55979.github.io%2Fipa_install%2Fmanifest%2Fcom.lianfu.cn-988-mobile-7.0.8.plist"
         },
         {
+          "bundleId": "com.lianfu.cn",
           "version": "7.0.7",
           "uploadedAt": "2026-06-02T09:20:37Z",
           "tag": "988-mobile-7.0.7",
@@ -1455,6 +1591,7 @@
           "installUrl": "itms-services://?action=download-manifest&url=https%3A%2F%2Fxiaoli55979.github.io%2Fipa_install%2Fmanifest%2Fcom.lianfu.cn-988-mobile-7.0.7.plist"
         },
         {
+          "bundleId": "com.lianfu.cn",
           "version": "7.0.6",
           "uploadedAt": "2026-05-27T14:13:54Z",
           "tag": "988-mobile-7.0.6",
@@ -1467,6 +1604,7 @@
           "installUrl": "itms-services://?action=download-manifest&url=https%3A%2F%2Fxiaoli55979.github.io%2Fipa_install%2Fmanifest%2Fcom.lianfu.cn-988-mobile-7.0.6.plist"
         },
         {
+          "bundleId": "com.lianfu.cn",
           "version": "7.0.5",
           "uploadedAt": "2026-05-27T05:00:13Z",
           "tag": "988-mobile-7.0.5",
@@ -1479,6 +1617,7 @@
           "installUrl": "itms-services://?action=download-manifest&url=https%3A%2F%2Fxiaoli55979.github.io%2Fipa_install%2Fmanifest%2Fcom.lianfu.cn-988-mobile-7.0.5.plist"
         },
         {
+          "bundleId": "com.lianfu.cn",
           "version": "7.0.4",
           "uploadedAt": "2026-05-26T08:36:48Z",
           "tag": "988-mobile-7.0.4",
@@ -1491,6 +1630,7 @@
           "installUrl": "itms-services://?action=download-manifest&url=https%3A%2F%2Fxiaoli55979.github.io%2Fipa_install%2Fmanifest%2Fcom.lianfu.cn-988-mobile-7.0.4.plist"
         },
         {
+          "bundleId": "com.lianfu.cn",
           "version": "7.0.3",
           "uploadedAt": "2026-05-25T14:20:59Z",
           "tag": "988-mobile-7.0.3",
@@ -1503,6 +1643,7 @@
           "installUrl": "itms-services://?action=download-manifest&url=https%3A%2F%2Fxiaoli55979.github.io%2Fipa_install%2Fmanifest%2Fcom.lianfu.cn-988-mobile-7.0.3.plist"
         },
         {
+          "bundleId": "com.lianfu.cn",
           "version": "7.0.2",
           "uploadedAt": "2026-05-25T04:34:07Z",
           "tag": "988-mobile-7.0.2",
@@ -1515,6 +1656,7 @@
           "installUrl": "itms-services://?action=download-manifest&url=https%3A%2F%2Fxiaoli55979.github.io%2Fipa_install%2Fmanifest%2Fcom.lianfu.cn-988-mobile-7.0.2.plist"
         },
         {
+          "bundleId": "com.lianfu.cn",
           "version": "2.0.7",
           "uploadedAt": "2026-05-22T15:37:58Z",
           "tag": "988-mobile-7.0.1",
@@ -1527,6 +1669,7 @@
           "installUrl": "itms-services://?action=download-manifest&url=https%3A%2F%2Fxiaoli55979.github.io%2Fipa_install%2Fmanifest%2Fcom.lianfu.cn-988-mobile-7.0.1.plist"
         },
         {
+          "bundleId": "com.lianfu.cn",
           "version": "2.0.6",
           "uploadedAt": "2026-05-22T14:35:20Z",
           "tag": "988-mobile-2.0.6",
@@ -1539,6 +1682,7 @@
           "installUrl": "itms-services://?action=download-manifest&url=https%3A%2F%2Fxiaoli55979.github.io%2Fipa_install%2Fmanifest%2Fcom.lianfu.cn-988-mobile-2.0.6.plist"
         },
         {
+          "bundleId": "com.lianfu.cn",
           "version": "2.0.5",
           "uploadedAt": "2026-05-22T13:19:09Z",
           "tag": "988-mobile-2.0.5",
@@ -1551,6 +1695,7 @@
           "installUrl": "itms-services://?action=download-manifest&url=https%3A%2F%2Fxiaoli55979.github.io%2Fipa_install%2Fmanifest%2Fcom.lianfu.cn-988-mobile-2.0.5.plist"
         },
         {
+          "bundleId": "com.lianfu.cn",
           "version": "2.0.5",
           "uploadedAt": "2026-05-21T13:24:57Z",
           "tag": "6.2.1",
@@ -1563,6 +1708,7 @@
           "installUrl": "itms-services://?action=download-manifest&url=https%3A%2F%2Fxiaoli55979.github.io%2Fipa_install%2Fmanifest%2Fcom.lianfu.cn-6.2.1.plist"
         },
         {
+          "bundleId": "com.lianfu.cn",
           "version": "2.0.4",
           "uploadedAt": "2026-05-21T02:45:05Z",
           "tag": "988-mobile-2.0.4",
@@ -1575,6 +1721,7 @@
           "installUrl": "itms-services://?action=download-manifest&url=https%3A%2F%2Fxiaoli55979.github.io%2Fipa_install%2Fmanifest%2Fcom.lianfu.cn-988-mobile-2.0.4.plist"
         },
         {
+          "bundleId": "com.lianfu.cn",
           "version": "2.0.3",
           "uploadedAt": "2026-05-14T02:18:36Z",
           "tag": "988-mobile-2.0.3",
@@ -1587,6 +1734,7 @@
           "installUrl": "itms-services://?action=download-manifest&url=https%3A%2F%2Fxiaoli55979.github.io%2Fipa_install%2Fmanifest%2Fcom.lianfu.cn-988-mobile-2.0.3.plist"
         },
         {
+          "bundleId": "com.lianfu.cn",
           "version": "2.0.2",
           "uploadedAt": "2026-05-13T12:51:31Z",
           "tag": "988-mobile-2.0.2",
@@ -1601,6 +1749,7 @@
       ],
       "android": [
         {
+          "bundleId": "com.lianfu.cn",
           "version": "7.0.11",
           "uploadedAt": "2026-07-13T05:17:20Z",
           "tag": "988-mobile-7.0.11",
@@ -1611,6 +1760,7 @@
           "downloadUrl": "https://github.com/xiaoli55979/ipa_install/releases/download/988-mobile-7.0.11/988-mobile_7.0.11.apk"
         },
         {
+          "bundleId": "com.lianfu.cn",
           "version": "7.0.10",
           "uploadedAt": "2026-06-08T08:42:44Z",
           "tag": "988-mobile-7.0.10",
@@ -1621,6 +1771,7 @@
           "downloadUrl": "https://github.com/xiaoli55979/ipa_install/releases/download/988-mobile-7.0.10/988-mobile_7.0.10.apk"
         },
         {
+          "bundleId": "com.lianfu.cn",
           "version": "7.0.9",
           "uploadedAt": "2026-06-05T05:51:56Z",
           "tag": "988-mobile-7.0.9",
@@ -1631,6 +1782,7 @@
           "downloadUrl": "https://github.com/xiaoli55979/ipa_install/releases/download/988-mobile-7.0.9/988-mobile_7.0.9.apk"
         },
         {
+          "bundleId": "com.lianfu.cn",
           "version": "7.0.8",
           "uploadedAt": "2026-06-04T09:27:13Z",
           "tag": "988-mobile-7.0.8",
@@ -1641,6 +1793,7 @@
           "downloadUrl": "https://github.com/xiaoli55979/ipa_install/releases/download/988-mobile-7.0.8/988-mobile_7.0.8.apk"
         },
         {
+          "bundleId": "com.lianfu.cn",
           "version": "7.0.7",
           "uploadedAt": "2026-06-02T09:20:51Z",
           "tag": "988-mobile-7.0.7",
@@ -1651,6 +1804,7 @@
           "downloadUrl": "https://github.com/xiaoli55979/ipa_install/releases/download/988-mobile-7.0.7/988-mobile_7.0.7.apk"
         },
         {
+          "bundleId": "com.lianfu.cn",
           "version": "7.0.6",
           "uploadedAt": "2026-05-27T14:14:17Z",
           "tag": "988-mobile-7.0.6",
@@ -1661,6 +1815,7 @@
           "downloadUrl": "https://github.com/xiaoli55979/ipa_install/releases/download/988-mobile-7.0.6/988-mobile_7.0.6.apk"
         },
         {
+          "bundleId": "com.lianfu.cn",
           "version": "7.0.5",
           "uploadedAt": "2026-05-27T05:00:27Z",
           "tag": "988-mobile-7.0.5",
@@ -1671,6 +1826,7 @@
           "downloadUrl": "https://github.com/xiaoli55979/ipa_install/releases/download/988-mobile-7.0.5/988-mobile_7.0.5.apk"
         },
         {
+          "bundleId": "com.lianfu.cn",
           "version": "7.0.4",
           "uploadedAt": "2026-05-26T08:37:34Z",
           "tag": "988-mobile-7.0.4",
@@ -1681,6 +1837,7 @@
           "downloadUrl": "https://github.com/xiaoli55979/ipa_install/releases/download/988-mobile-7.0.4/988-mobile_7.0.4.apk"
         },
         {
+          "bundleId": "com.lianfu.cn",
           "version": "7.0.3",
           "uploadedAt": "2026-05-25T14:21:13Z",
           "tag": "988-mobile-7.0.3",
@@ -1691,6 +1848,7 @@
           "downloadUrl": "https://github.com/xiaoli55979/ipa_install/releases/download/988-mobile-7.0.3/988-mobile_7.0.3.apk"
         },
         {
+          "bundleId": "com.lianfu.cn",
           "version": "7.0.2",
           "uploadedAt": "2026-05-25T04:34:45Z",
           "tag": "988-mobile-7.0.2",
@@ -1701,6 +1859,7 @@
           "downloadUrl": "https://github.com/xiaoli55979/ipa_install/releases/download/988-mobile-7.0.2/988-mobile_7.0.2.apk"
         },
         {
+          "bundleId": "com.lianfu.cn",
           "version": "2.0.7",
           "uploadedAt": "2026-05-22T15:38:11Z",
           "tag": "988-mobile-7.0.1",
@@ -1711,6 +1870,7 @@
           "downloadUrl": "https://github.com/xiaoli55979/ipa_install/releases/download/988-mobile-7.0.1/988-mobile_2.0.7.apk"
         },
         {
+          "bundleId": "com.lianfu.cn",
           "version": "2.0.6",
           "uploadedAt": "2026-05-22T14:35:35Z",
           "tag": "988-mobile-2.0.6",
@@ -1721,6 +1881,7 @@
           "downloadUrl": "https://github.com/xiaoli55979/ipa_install/releases/download/988-mobile-2.0.6/988-mobile_2.0.6.apk"
         },
         {
+          "bundleId": "com.lianfu.cn",
           "version": "2.0.5",
           "uploadedAt": "2026-05-22T13:19:22Z",
           "tag": "988-mobile-2.0.5",
@@ -1731,6 +1892,7 @@
           "downloadUrl": "https://github.com/xiaoli55979/ipa_install/releases/download/988-mobile-2.0.5/988-mobile_2.0.5.apk"
         },
         {
+          "bundleId": "com.lianfu.cn",
           "version": "2.0.5",
           "uploadedAt": "2026-05-21T13:25:10Z",
           "tag": "6.2.1",
@@ -1741,6 +1903,7 @@
           "downloadUrl": "https://github.com/xiaoli55979/ipa_install/releases/download/6.2.1/988-mobile_2.0.5.apk"
         },
         {
+          "bundleId": "com.lianfu.cn",
           "version": "2.0.4",
           "uploadedAt": "2026-05-21T02:45:19Z",
           "tag": "988-mobile-2.0.4",
@@ -1751,6 +1914,7 @@
           "downloadUrl": "https://github.com/xiaoli55979/ipa_install/releases/download/988-mobile-2.0.4/988-mobile_2.0.4.apk"
         },
         {
+          "bundleId": "com.lianfu.cn",
           "version": "2.0.3",
           "uploadedAt": "2026-05-14T02:23:51Z",
           "tag": "988-mobile-2.0.3",
@@ -1761,6 +1925,7 @@
           "downloadUrl": "https://github.com/xiaoli55979/ipa_install/releases/download/988-mobile-2.0.3/988-mobile_2.0.3.apk"
         },
         {
+          "bundleId": "com.lianfu.cn",
           "version": "2.0.2",
           "uploadedAt": "2026-05-13T12:52:47Z",
           "tag": "988-mobile-2.0.2",
@@ -1773,6 +1938,7 @@
       ],
       "mac": [],
       "win": [],
+      "showPlatformBundleIds": false,
       "latestAt": "2026-07-13T05:17:20Z"
     },
     {
@@ -1781,6 +1947,7 @@
       "icon": "https://xiaoli55979.github.io/ipa_install/icons/com.ams.cn-ios.png",
       "ios": [
         {
+          "bundleId": "com.ams.cn",
           "version": "6.1.19",
           "uploadedAt": "2026-07-13T04:16:46Z",
           "tag": "234-mobile-7.0.1",
@@ -1793,6 +1960,7 @@
           "installUrl": "itms-services://?action=download-manifest&url=https%3A%2F%2Fxiaoli55979.github.io%2Fipa_install%2Fmanifest%2Fcom.ams.cn-234-mobile-7.0.1.plist"
         },
         {
+          "bundleId": "com.ams.cn",
           "version": "6.1.18",
           "uploadedAt": "2026-06-02T08:14:55Z",
           "tag": "234-mobile-6.1.18",
@@ -1805,6 +1973,7 @@
           "installUrl": "itms-services://?action=download-manifest&url=https%3A%2F%2Fxiaoli55979.github.io%2Fipa_install%2Fmanifest%2Fcom.ams.cn-234-mobile-6.1.18.plist"
         },
         {
+          "bundleId": "com.ams.cn",
           "version": "6.1.17",
           "uploadedAt": "2026-05-28T09:36:15Z",
           "tag": "234-mobile-6.1.17",
@@ -1817,6 +1986,7 @@
           "installUrl": "itms-services://?action=download-manifest&url=https%3A%2F%2Fxiaoli55979.github.io%2Fipa_install%2Fmanifest%2Fcom.ams.cn-234-mobile-6.1.17.plist"
         },
         {
+          "bundleId": "com.ams.cn",
           "version": "6.1.16",
           "uploadedAt": "2026-05-27T05:46:56Z",
           "tag": "234-mobile-6.1.16",
@@ -1829,6 +1999,7 @@
           "installUrl": "itms-services://?action=download-manifest&url=https%3A%2F%2Fxiaoli55979.github.io%2Fipa_install%2Fmanifest%2Fcom.ams.cn-234-mobile-6.1.16.plist"
         },
         {
+          "bundleId": "com.ams.cn",
           "version": "6.1.15",
           "uploadedAt": "2026-05-26T09:26:14Z",
           "tag": "234-mobile-6.1.15",
@@ -1841,6 +2012,7 @@
           "installUrl": "itms-services://?action=download-manifest&url=https%3A%2F%2Fxiaoli55979.github.io%2Fipa_install%2Fmanifest%2Fcom.ams.cn-234-mobile-6.1.15.plist"
         },
         {
+          "bundleId": "com.ams.cn",
           "version": "6.1.14",
           "uploadedAt": "2026-05-25T13:28:25Z",
           "tag": "234-mobile-6.1.14",
@@ -1853,6 +2025,7 @@
           "installUrl": "itms-services://?action=download-manifest&url=https%3A%2F%2Fxiaoli55979.github.io%2Fipa_install%2Fmanifest%2Fcom.ams.cn-234-mobile-6.1.14.plist"
         },
         {
+          "bundleId": "com.ams.cn",
           "version": "6.1.13",
           "uploadedAt": "2026-05-22T16:11:40Z",
           "tag": "234-mobile-6.1.13",
@@ -1865,6 +2038,7 @@
           "installUrl": "itms-services://?action=download-manifest&url=https%3A%2F%2Fxiaoli55979.github.io%2Fipa_install%2Fmanifest%2Fcom.ams.cn-234-mobile-6.1.13.plist"
         },
         {
+          "bundleId": "com.ams.cn",
           "version": "6.1.12",
           "uploadedAt": "2026-05-20T13:57:59Z",
           "tag": "234-mobile-6.1.12",
@@ -1879,6 +2053,7 @@
       ],
       "android": [
         {
+          "bundleId": "com.ams.cn",
           "version": "6.1.19",
           "uploadedAt": "2026-07-13T04:18:01Z",
           "tag": "234-mobile-7.0.1",
@@ -1889,6 +2064,7 @@
           "downloadUrl": "https://github.com/xiaoli55979/ipa_install/releases/download/234-mobile-7.0.1/234-mobile_6.1.19.apk"
         },
         {
+          "bundleId": "com.ams.cn",
           "version": "6.1.18",
           "uploadedAt": "2026-06-02T08:16:15Z",
           "tag": "234-mobile-6.1.18",
@@ -1899,6 +2075,7 @@
           "downloadUrl": "https://github.com/xiaoli55979/ipa_install/releases/download/234-mobile-6.1.18/234-mobile_6.1.18.apk"
         },
         {
+          "bundleId": "com.ams.cn",
           "version": "6.1.17",
           "uploadedAt": "2026-05-28T09:36:39Z",
           "tag": "234-mobile-6.1.17",
@@ -1909,6 +2086,7 @@
           "downloadUrl": "https://github.com/xiaoli55979/ipa_install/releases/download/234-mobile-6.1.17/234-mobile_6.1.17.apk"
         },
         {
+          "bundleId": "com.ams.cn",
           "version": "6.1.16",
           "uploadedAt": "2026-05-27T05:47:20Z",
           "tag": "234-mobile-6.1.16",
@@ -1919,6 +2097,7 @@
           "downloadUrl": "https://github.com/xiaoli55979/ipa_install/releases/download/234-mobile-6.1.16/234-mobile_6.1.16.apk"
         },
         {
+          "bundleId": "com.ams.cn",
           "version": "6.1.15",
           "uploadedAt": "2026-05-26T09:26:36Z",
           "tag": "234-mobile-6.1.15",
@@ -1929,6 +2108,7 @@
           "downloadUrl": "https://github.com/xiaoli55979/ipa_install/releases/download/234-mobile-6.1.15/234-mobile_6.1.15.apk"
         },
         {
+          "bundleId": "com.ams.cn",
           "version": "6.1.14",
           "uploadedAt": "2026-05-25T13:28:47Z",
           "tag": "234-mobile-6.1.14",
@@ -1939,6 +2119,7 @@
           "downloadUrl": "https://github.com/xiaoli55979/ipa_install/releases/download/234-mobile-6.1.14/234-mobile_6.1.14.apk"
         },
         {
+          "bundleId": "com.ams.cn",
           "version": "6.1.13",
           "uploadedAt": "2026-05-22T16:12:02Z",
           "tag": "234-mobile-6.1.13",
@@ -1949,6 +2130,7 @@
           "downloadUrl": "https://github.com/xiaoli55979/ipa_install/releases/download/234-mobile-6.1.13/234-mobile_6.1.13.apk"
         },
         {
+          "bundleId": "com.ams.cn",
           "version": "6.1.12",
           "uploadedAt": "2026-05-20T13:58:21Z",
           "tag": "234-mobile-6.1.12",
@@ -1961,6 +2143,7 @@
       ],
       "mac": [],
       "win": [],
+      "showPlatformBundleIds": false,
       "latestAt": "2026-07-13T04:18:01Z"
     },
     {
@@ -1969,6 +2152,7 @@
       "icon": "https://xiaoli55979.github.io/ipa_install/icons/com.wlp.com.cn-ios.png",
       "ios": [
         {
+          "bundleId": "com.wlp.com.cn",
           "version": "6.1.27",
           "uploadedAt": "2026-07-11T14:47:17Z",
           "tag": "50-mobile-7.0.1",
@@ -1981,6 +2165,7 @@
           "installUrl": "itms-services://?action=download-manifest&url=https%3A%2F%2Fxiaoli55979.github.io%2Fipa_install%2Fmanifest%2Fcom.wlp.com.cn-50-mobile-7.0.1.plist"
         },
         {
+          "bundleId": "com.wlp.com.cn",
           "version": "6.1.26",
           "uploadedAt": "2026-07-11T06:09:02Z",
           "tag": "50-mobile-6.1.26",
@@ -1993,6 +2178,7 @@
           "installUrl": "itms-services://?action=download-manifest&url=https%3A%2F%2Fxiaoli55979.github.io%2Fipa_install%2Fmanifest%2Fcom.wlp.com.cn-50-mobile-6.1.26.plist"
         },
         {
+          "bundleId": "com.wlp.com.cn",
           "version": "6.1.25",
           "uploadedAt": "2026-07-11T05:43:47Z",
           "tag": "50-mobile-6.1.25",
@@ -2005,6 +2191,7 @@
           "installUrl": "itms-services://?action=download-manifest&url=https%3A%2F%2Fxiaoli55979.github.io%2Fipa_install%2Fmanifest%2Fcom.wlp.com.cn-50-mobile-6.1.25.plist"
         },
         {
+          "bundleId": "com.wlp.com.cn",
           "version": "6.1.20",
           "uploadedAt": "2026-06-02T08:04:12Z",
           "tag": "50-mobile-6.1.20",
@@ -2017,6 +2204,7 @@
           "installUrl": "itms-services://?action=download-manifest&url=https%3A%2F%2Fxiaoli55979.github.io%2Fipa_install%2Fmanifest%2Fcom.wlp.com.cn-50-mobile-6.1.20.plist"
         },
         {
+          "bundleId": "com.wlp.com.cn",
           "version": "6.1.19",
           "uploadedAt": "2026-06-02T04:08:53Z",
           "tag": "50-mobile-6.1.19",
@@ -2029,6 +2217,7 @@
           "installUrl": "itms-services://?action=download-manifest&url=https%3A%2F%2Fxiaoli55979.github.io%2Fipa_install%2Fmanifest%2Fcom.wlp.com.cn-50-mobile-6.1.19.plist"
         },
         {
+          "bundleId": "com.wlp.com.cn",
           "version": "6.1.18",
           "uploadedAt": "2026-05-28T09:32:49Z",
           "tag": "50-mobile-6.1.18",
@@ -2041,6 +2230,7 @@
           "installUrl": "itms-services://?action=download-manifest&url=https%3A%2F%2Fxiaoli55979.github.io%2Fipa_install%2Fmanifest%2Fcom.wlp.com.cn-50-mobile-6.1.18.plist"
         },
         {
+          "bundleId": "com.wlp.com.cn",
           "version": "6.1.17",
           "uploadedAt": "2026-05-27T05:58:48Z",
           "tag": "50-mobile-6.1.17",
@@ -2053,6 +2243,7 @@
           "installUrl": "itms-services://?action=download-manifest&url=https%3A%2F%2Fxiaoli55979.github.io%2Fipa_install%2Fmanifest%2Fcom.wlp.com.cn-50-mobile-6.1.17.plist"
         },
         {
+          "bundleId": "com.wlp.com.cn",
           "version": "6.1.16",
           "uploadedAt": "2026-05-26T09:08:15Z",
           "tag": "50-mobile-6.1.16",
@@ -2065,6 +2256,7 @@
           "installUrl": "itms-services://?action=download-manifest&url=https%3A%2F%2Fxiaoli55979.github.io%2Fipa_install%2Fmanifest%2Fcom.wlp.com.cn-50-mobile-6.1.16.plist"
         },
         {
+          "bundleId": "com.wlp.com.cn",
           "version": "6.1.15",
           "uploadedAt": "2026-05-25T13:10:04Z",
           "tag": "50-mobile-6.1.15",
@@ -2077,6 +2269,7 @@
           "installUrl": "itms-services://?action=download-manifest&url=https%3A%2F%2Fxiaoli55979.github.io%2Fipa_install%2Fmanifest%2Fcom.wlp.com.cn-50-mobile-6.1.15.plist"
         },
         {
+          "bundleId": "com.wlp.com.cn",
           "version": "6.1.14",
           "uploadedAt": "2026-05-22T16:34:39Z",
           "tag": "50-mobile-6.1.14",
@@ -2089,6 +2282,7 @@
           "installUrl": "itms-services://?action=download-manifest&url=https%3A%2F%2Fxiaoli55979.github.io%2Fipa_install%2Fmanifest%2Fcom.wlp.com.cn-50-mobile-6.1.14.plist"
         },
         {
+          "bundleId": "com.wlp.com.cn",
           "version": "6.1.13",
           "uploadedAt": "2026-05-20T02:58:31Z",
           "tag": "50-mobile-6.1.13",
@@ -2101,6 +2295,7 @@
           "installUrl": "itms-services://?action=download-manifest&url=https%3A%2F%2Fxiaoli55979.github.io%2Fipa_install%2Fmanifest%2Fcom.wlp.com.cn-50-mobile-6.1.13.plist"
         },
         {
+          "bundleId": "com.wlp.com.cn",
           "version": "6.1.12",
           "uploadedAt": "2026-05-19T09:14:09Z",
           "tag": "50-mobile-6.1.12",
@@ -2113,6 +2308,7 @@
           "installUrl": "itms-services://?action=download-manifest&url=https%3A%2F%2Fxiaoli55979.github.io%2Fipa_install%2Fmanifest%2Fcom.wlp.com.cn-50-mobile-6.1.12.plist"
         },
         {
+          "bundleId": "com.wlp.com.cn",
           "version": "6.1.11",
           "uploadedAt": "2026-05-19T00:41:11Z",
           "tag": "50-mobile-6.1.11",
@@ -2127,6 +2323,7 @@
       ],
       "android": [
         {
+          "bundleId": "com.wlp.com.cn",
           "version": "6.1.27",
           "uploadedAt": "2026-07-11T14:53:20Z",
           "tag": "50-mobile-7.0.1",
@@ -2137,6 +2334,7 @@
           "downloadUrl": "https://github.com/xiaoli55979/ipa_install/releases/download/50-mobile-7.0.1/50-mobile_6.1.27.apk"
         },
         {
+          "bundleId": "com.wlp.com.cn",
           "version": "6.1.26",
           "uploadedAt": "2026-07-11T06:13:16Z",
           "tag": "50-mobile-6.1.26",
@@ -2147,6 +2345,7 @@
           "downloadUrl": "https://github.com/xiaoli55979/ipa_install/releases/download/50-mobile-6.1.26/50-mobile_6.1.26.apk"
         },
         {
+          "bundleId": "com.wlp.com.cn",
           "version": "6.1.25",
           "uploadedAt": "2026-07-11T05:49:57Z",
           "tag": "50-mobile-6.1.25",
@@ -2157,6 +2356,7 @@
           "downloadUrl": "https://github.com/xiaoli55979/ipa_install/releases/download/50-mobile-6.1.25/50-mobile_6.1.25.apk"
         },
         {
+          "bundleId": "com.wlp.com.cn",
           "version": "6.1.24",
           "uploadedAt": "2026-06-10T04:15:48Z",
           "tag": "50-mobile-6.1.24",
@@ -2167,6 +2367,7 @@
           "downloadUrl": "https://github.com/xiaoli55979/ipa_install/releases/download/50-mobile-6.1.24/50-mobile_6.1.24.apk"
         },
         {
+          "bundleId": "com.wlp.com.cn",
           "version": "6.1.22",
           "uploadedAt": "2026-06-05T14:08:45Z",
           "tag": "50-mobile-6.1.22",
@@ -2177,6 +2378,7 @@
           "downloadUrl": "https://github.com/xiaoli55979/ipa_install/releases/download/50-mobile-6.1.22/50-mobile_6.1.22.apk"
         },
         {
+          "bundleId": "com.wlp.com.cn",
           "version": "6.1.20",
           "uploadedAt": "2026-06-02T08:06:19Z",
           "tag": "50-mobile-6.1.20",
@@ -2187,6 +2389,7 @@
           "downloadUrl": "https://github.com/xiaoli55979/ipa_install/releases/download/50-mobile-6.1.20/50-mobile_6.1.20.apk"
         },
         {
+          "bundleId": "com.wlp.com.cn",
           "version": "6.1.19",
           "uploadedAt": "2026-06-02T04:15:05Z",
           "tag": "50-mobile-6.1.19",
@@ -2197,6 +2400,7 @@
           "downloadUrl": "https://github.com/xiaoli55979/ipa_install/releases/download/50-mobile-6.1.19/50-mobile_6.1.19.apk"
         },
         {
+          "bundleId": "com.wlp.com.cn",
           "version": "6.1.18",
           "uploadedAt": "2026-05-28T09:33:10Z",
           "tag": "50-mobile-6.1.18",
@@ -2207,6 +2411,7 @@
           "downloadUrl": "https://github.com/xiaoli55979/ipa_install/releases/download/50-mobile-6.1.18/50-mobile_6.1.18.apk"
         },
         {
+          "bundleId": "com.wlp.com.cn",
           "version": "6.1.17",
           "uploadedAt": "2026-05-27T05:59:12Z",
           "tag": "50-mobile-6.1.17",
@@ -2217,6 +2422,7 @@
           "downloadUrl": "https://github.com/xiaoli55979/ipa_install/releases/download/50-mobile-6.1.17/50-mobile_6.1.17.apk"
         },
         {
+          "bundleId": "com.wlp.com.cn",
           "version": "6.1.16",
           "uploadedAt": "2026-05-26T09:08:36Z",
           "tag": "50-mobile-6.1.16",
@@ -2227,6 +2433,7 @@
           "downloadUrl": "https://github.com/xiaoli55979/ipa_install/releases/download/50-mobile-6.1.16/50-mobile_6.1.16.apk"
         },
         {
+          "bundleId": "com.wlp.com.cn",
           "version": "6.1.15",
           "uploadedAt": "2026-05-25T13:10:26Z",
           "tag": "50-mobile-6.1.15",
@@ -2237,6 +2444,7 @@
           "downloadUrl": "https://github.com/xiaoli55979/ipa_install/releases/download/50-mobile-6.1.15/50-mobile_6.1.15.apk"
         },
         {
+          "bundleId": "com.wlp.com.cn",
           "version": "6.1.14",
           "uploadedAt": "2026-05-22T16:35:00Z",
           "tag": "50-mobile-6.1.14",
@@ -2247,6 +2455,7 @@
           "downloadUrl": "https://github.com/xiaoli55979/ipa_install/releases/download/50-mobile-6.1.14/50-mobile_6.1.14.apk"
         },
         {
+          "bundleId": "com.wlp.com.cn",
           "version": "6.1.13",
           "uploadedAt": "2026-05-20T02:58:56Z",
           "tag": "50-mobile-6.1.13",
@@ -2257,6 +2466,7 @@
           "downloadUrl": "https://github.com/xiaoli55979/ipa_install/releases/download/50-mobile-6.1.13/50-mobile_6.1.13.apk"
         },
         {
+          "bundleId": "com.wlp.com.cn",
           "version": "6.1.12",
           "uploadedAt": "2026-05-19T09:14:29Z",
           "tag": "50-mobile-6.1.12",
@@ -2267,6 +2477,7 @@
           "downloadUrl": "https://github.com/xiaoli55979/ipa_install/releases/download/50-mobile-6.1.12/50-mobile_6.1.12.apk"
         },
         {
+          "bundleId": "com.wlp.com.cn",
           "version": "6.1.11",
           "uploadedAt": "2026-05-19T00:41:32Z",
           "tag": "50-mobile-6.1.11",
@@ -2279,6 +2490,7 @@
       ],
       "mac": [],
       "win": [],
+      "showPlatformBundleIds": false,
       "latestAt": "2026-07-11T14:53:20Z"
     },
     {
@@ -2287,6 +2499,7 @@
       "icon": "https://xiaoli55979.github.io/ipa_install/icons/com.flutterChatSupport-ios.png",
       "ios": [
         {
+          "bundleId": "com.flutterChatSupport",
           "version": "1.1.18",
           "uploadedAt": "2026-05-25T14:09:47Z",
           "tag": "chat_support-1.1.18",
@@ -2299,6 +2512,7 @@
           "installUrl": "itms-services://?action=download-manifest&url=https%3A%2F%2Fxiaoli55979.github.io%2Fipa_install%2Fmanifest%2Fcom.flutterChatSupport-chat_support-1.1.18.plist"
         },
         {
+          "bundleId": "com.flutterChatSupport",
           "version": "1.1.16",
           "uploadedAt": "2026-04-30T02:57:28Z",
           "tag": "chat_support-1.1.16",
@@ -2311,6 +2525,7 @@
           "installUrl": "itms-services://?action=download-manifest&url=https%3A%2F%2Fxiaoli55979.github.io%2Fipa_install%2Fmanifest%2Fcom.flutterChatSupport-chat_support-1.1.16.plist"
         },
         {
+          "bundleId": "com.flutterChatSupport",
           "version": "1.1.15",
           "uploadedAt": "2026-04-25T08:15:52Z",
           "tag": "1.1.15",
@@ -2323,6 +2538,7 @@
           "installUrl": "itms-services://?action=download-manifest&url=https%3A%2F%2Fxiaoli55979.github.io%2Fipa_install%2Fmanifest%2Fcom.flutterChatSupport-1.1.15.plist"
         },
         {
+          "bundleId": "com.flutterChatSupport",
           "version": "1.1.14",
           "uploadedAt": "2026-04-25T04:24:40Z",
           "tag": "1.1.14",
@@ -2335,6 +2551,7 @@
           "installUrl": "itms-services://?action=download-manifest&url=https%3A%2F%2Fxiaoli55979.github.io%2Fipa_install%2Fmanifest%2Fcom.flutterChatSupport-1.1.14.plist"
         },
         {
+          "bundleId": "com.flutterChatSupport",
           "version": "1.1.13",
           "uploadedAt": "2026-04-25T04:20:46Z",
           "tag": "1.1.13",
@@ -2347,6 +2564,7 @@
           "installUrl": "itms-services://?action=download-manifest&url=https%3A%2F%2Fxiaoli55979.github.io%2Fipa_install%2Fmanifest%2Fcom.flutterChatSupport-1.1.13.plist"
         },
         {
+          "bundleId": "com.flutterChatSupport",
           "version": "1.1.12",
           "uploadedAt": "2026-04-25T04:12:41Z",
           "tag": "1.1.12",
@@ -2361,6 +2579,7 @@
       ],
       "android": [
         {
+          "bundleId": "com.flutterChatSupport",
           "version": "1.1.23",
           "uploadedAt": "2026-07-10T13:05:55Z",
           "tag": "chat_support-1.1.23",
@@ -2371,6 +2590,7 @@
           "downloadUrl": "https://github.com/xiaoli55979/ipa_install/releases/download/chat_support-1.1.23/chat_support_1.1.23.apk"
         },
         {
+          "bundleId": "com.flutterChatSupport",
           "version": "1.1.22",
           "uploadedAt": "2026-07-09T02:08:58Z",
           "tag": "chat_support-1.1.22",
@@ -2381,6 +2601,7 @@
           "downloadUrl": "https://github.com/xiaoli55979/ipa_install/releases/download/chat_support-1.1.22/chat_support_1.1.22.apk"
         },
         {
+          "bundleId": "com.flutterChatSupport",
           "version": "1.1.21",
           "uploadedAt": "2026-07-09T01:57:10Z",
           "tag": "chat_support-1.1.21",
@@ -2391,6 +2612,7 @@
           "downloadUrl": "https://github.com/xiaoli55979/ipa_install/releases/download/chat_support-1.1.21/chat_support_1.1.21.apk"
         },
         {
+          "bundleId": "com.flutterChatSupport",
           "version": "1.1.20",
           "uploadedAt": "2026-06-08T05:13:14Z",
           "tag": "chat_support-1.1.20",
@@ -2401,6 +2623,7 @@
           "downloadUrl": "https://github.com/xiaoli55979/ipa_install/releases/download/chat_support-1.1.20/chat_support_1.1.20.apk"
         },
         {
+          "bundleId": "com.flutterChatSupport",
           "version": "1.1.19",
           "uploadedAt": "2026-06-08T03:53:17Z",
           "tag": "chat_support-1.1.19",
@@ -2411,6 +2634,7 @@
           "downloadUrl": "https://github.com/xiaoli55979/ipa_install/releases/download/chat_support-1.1.19/chat_support_1.1.19.apk"
         },
         {
+          "bundleId": "com.flutterChatSupport",
           "version": "1.1.18",
           "uploadedAt": "2026-05-25T14:09:58Z",
           "tag": "chat_support-1.1.18",
@@ -2421,6 +2645,7 @@
           "downloadUrl": "https://github.com/xiaoli55979/ipa_install/releases/download/chat_support-1.1.18/chat_support_1.1.18.apk"
         },
         {
+          "bundleId": "com.flutterChatSupport",
           "version": "1.1.19",
           "uploadedAt": "2026-05-22T14:25:41Z",
           "tag": "chat-mobile-1.1.19",
@@ -2431,6 +2656,7 @@
           "downloadUrl": "https://github.com/xiaoli55979/ipa_install/releases/download/chat-mobile-1.1.19/chat-mobile_1.1.19.apk"
         },
         {
+          "bundleId": "com.flutterChatSupport",
           "version": "1.1.16",
           "uploadedAt": "2026-04-30T02:57:38Z",
           "tag": "chat_support-1.1.16",
@@ -2441,6 +2667,7 @@
           "downloadUrl": "https://github.com/xiaoli55979/ipa_install/releases/download/chat_support-1.1.16/chat_support_1.1.16.apk"
         },
         {
+          "bundleId": "com.flutterChatSupport",
           "version": "1.1.15",
           "uploadedAt": "2026-04-25T08:16:02Z",
           "tag": "1.1.15",
@@ -2451,6 +2678,7 @@
           "downloadUrl": "https://github.com/xiaoli55979/ipa_install/releases/download/1.1.15/flutter_chat_support_example_1.1.15.apk"
         },
         {
+          "bundleId": "com.flutterChatSupport",
           "version": "1.1.14",
           "uploadedAt": "2026-04-25T04:24:50Z",
           "tag": "1.1.14",
@@ -2461,6 +2689,7 @@
           "downloadUrl": "https://github.com/xiaoli55979/ipa_install/releases/download/1.1.14/flutter_chat_support_example_1.1.14.apk"
         },
         {
+          "bundleId": "com.flutterChatSupport",
           "version": "1.1.13",
           "uploadedAt": "2026-04-25T04:20:56Z",
           "tag": "1.1.13",
@@ -2471,6 +2700,7 @@
           "downloadUrl": "https://github.com/xiaoli55979/ipa_install/releases/download/1.1.13/flutter_chat_support_example_1.1.13.apk"
         },
         {
+          "bundleId": "com.flutterChatSupport",
           "version": "1.1.10",
           "uploadedAt": "2026-04-25T04:12:50Z",
           "tag": "1.1.12",
@@ -2483,6 +2713,7 @@
       ],
       "mac": [],
       "win": [],
+      "showPlatformBundleIds": false,
       "latestAt": "2026-07-10T13:05:55Z"
     },
     {
@@ -2491,6 +2722,7 @@
       "icon": "https://xiaoli55979.github.io/ipa_install/icons/com.kc535.eg.260607-ios.png",
       "ios": [
         {
+          "bundleId": "com.kc535.eg.260607",
           "version": "5.5.13",
           "uploadedAt": "2026-07-08T08:54:18Z",
           "tag": "3636-mobile-5.6.13",
@@ -2503,6 +2735,7 @@
           "installUrl": "itms-services://?action=download-manifest&url=https%3A%2F%2Fxiaoli55979.github.io%2Fipa_install%2Fmanifest%2Fcom.kc535.eg.260607-3636-mobile-5.6.13.plist"
         },
         {
+          "bundleId": "com.kc535.eg.260607",
           "version": "5.5.13",
           "uploadedAt": "2026-07-08T08:40:10Z",
           "tag": "3636-mobile-5.6.12",
@@ -2518,6 +2751,7 @@
       "android": [],
       "mac": [],
       "win": [],
+      "showPlatformBundleIds": false,
       "latestAt": "2026-07-08T08:54:18Z"
     },
     {
@@ -2527,6 +2761,7 @@
       "ios": [],
       "android": [
         {
+          "bundleId": "com.jiliao.im",
           "version": "7.0.3",
           "uploadedAt": "2026-06-20T12:48:12Z",
           "tag": "jiliao-mobile-7.0.3",
@@ -2539,6 +2774,7 @@
       ],
       "mac": [],
       "win": [],
+      "showPlatformBundleIds": false,
       "latestAt": "2026-06-20T12:48:12Z"
     },
     {
@@ -2547,6 +2783,7 @@
       "icon": "https://xiaoli55979.github.io/ipa_install/icons/com.ttm.sport.cn-ios.png",
       "ios": [
         {
+          "bundleId": "com.ttm.sport.cn",
           "version": "2.3.0514",
           "uploadedAt": "2026-05-14T13:26:41Z",
           "tag": "d2A102bnD_2_3_0514",
@@ -2559,6 +2796,7 @@
           "installUrl": "itms-services://?action=download-manifest&url=https%3A%2F%2Fxiaoli55979.github.io%2Fipa_install%2Fmanifest%2Fcom.ttm.sport.cn-d2A102bnD_2_3_0514.plist"
         },
         {
+          "bundleId": "com.ttm.sport.cn",
           "version": "2.3.0123",
           "uploadedAt": "2026-05-11T11:34:42Z",
           "tag": "1.1.22",
@@ -2574,6 +2812,7 @@
       "android": [],
       "mac": [],
       "win": [],
+      "showPlatformBundleIds": false,
       "latestAt": "2026-05-14T13:26:41Z"
     }
   ]
