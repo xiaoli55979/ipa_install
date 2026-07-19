@@ -93,7 +93,7 @@
 
 #### 6. 归组规则
 
-同 `bundleId` = 同一张卡，不管有多少平台、多少版本。所以只要保证 iOS `CFBundleIdentifier` 和 Android `package` 一致，就能自动聚合到一起。
+默认同 `bundleId` = 同一张卡；Release notes 带相同 `Distribution-Group-ID` 时优先按该 ID 归组，因此不同平台包名不一致也能聚合。
 
 ### 和其它方案对比
 
@@ -162,7 +162,7 @@ npm run resolve-version -- --local-version 6.1.18 --prefix 50-mobile
 发布后 GitHub Actions 会自动：
 1. 列出所有 Release 资产
 2. 下载每个 `.ipa` / `.apk`，解析 `Info.plist` / `AndroidManifest`
-3. 按**包名**（`CFBundleIdentifier` / `package`）归组；`.dmg` / `.exe` / `.zip` 不解析，用同 Release 里 ipa/apk 的包名挂过去
+3. 优先按 Release 的 `Distribution-Group-ID` 归组，未配置时按**包名**（`CFBundleIdentifier` / `package`）归组；`.dmg` / `.exe` / `.zip` 不解析，用同 Release 里的分组信息挂载
 4. 生成 `docs/manifest/*.plist` + 重建 `docs/apps.json`
 5. commit 回 `main`，Pages 重新部署
 
@@ -172,6 +172,14 @@ npm run resolve-version -- --local-version 6.1.18 --prefix 50-mobile
 
 - iOS `CFBundleIdentifier` 和 Android `package` **完全一致** → 同一张卡片，两个平台各自一个安装按钮
 - 不一致 → 分成两张卡片
+- iOS / Android 包名不一致时，在发布脚本的 `.release.env` 中配置相同的 `DISTRIBUTION_GROUP_ID`，Release 元数据会让它们合并为一张卡片
+- 未配置 `DISTRIBUTION_GROUP_ID` 时，继续默认按真实包名归组
+
+```bash
+DISTRIBUTION_GROUP_ID="quickchat"
+```
+
+分组 ID 只控制页面归组；iOS Manifest 和 Android 安装包仍保留各自的真实包名。
 
 同一个 App 可以有多个版本（多个 Release），按上传时间倒序显示，最新版显示在卡片上，"历史版本"折叠展开看老版。
 

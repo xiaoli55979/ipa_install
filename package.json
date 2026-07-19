@@ -6,7 +6,7 @@
   "description": "Self-hosted iOS/Android OTA distribution page on GitHub Pages",
   "scripts": {
     "build": "node scripts/build-metadata.mjs",
-    "resolve-version": "node scripts/resolve-release-version.mjs"
+    "test": "node --test tests/*.test.mjs"
   },
   "dependencies": {
     "adm-zip": "^0.5.16",

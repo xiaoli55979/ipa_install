@@ -1,714 +1,173 @@
 {
   "siteTitle": "App 分发",
   "publicUrl": "https://xiaoli55979.github.io/ipa_install",
-  "generatedAt": "2026-06-21T02:13:35.978Z",
+  "generatedAt": "2026-07-19T13:13:30.862Z",
   "apps": [
     {
-      "id": "com.jiliao.im",
-      "name": "即聊",
-      "icon": "https://xiaoli55979.github.io/ipa_install/icons/com.jiliao.im-android.png",
-      "ios": [],
-      "android": [
-        {
-          "version": "7.0.3",
-          "uploadedAt": "2026-06-20T12:48:12Z",
-          "tag": "jiliao-mobile-7.0.3",
-          "releaseName": "jiliao-mobile-7.0.3",
-          "notes": "自动发布 jiliao-mobile-7.0.3\n\n- `jiliao-mobile_7.0.3_26062004.apk`\n\n构建时间: 2026-06-20 21:46:47 JST",
-          "file": "jiliao-mobile_7.0.3_26062004.apk",
-          "size": 165475236,
-          "downloadUrl": "https://github.com/xiaoli55979/ipa_install/releases/download/jiliao-mobile-7.0.3/jiliao-mobile_7.0.3_26062004.apk"
-        }
-      ],
-      "mac": [],
-      "win": [],
-      "latestAt": "2026-06-20T12:48:12Z"
-    },
-    {
-      "id": "com.jiliaoim.cn",
-      "name": "云小聊",
-      "icon": "https://xiaoli55979.github.io/ipa_install/icons/com.jiliaoim.cn-ios.png",
+      "id": "com.tfsystem.cn",
+      "name": "TF管理系统",
+      "icon": "https://xiaoli55979.github.io/ipa_install/icons/com.tfsystem.cn-ios.png",
       "ios": [
         {
-          "version": "1.1.20",
-          "uploadedAt": "2026-05-06T02:01:16Z",
-          "tag": "1.1.20",
-          "releaseName": "1.1.20",
-          "notes": "自动发布 PC 版本 1.1.20\n\n- `YunXiaoLiao-1.1.20-arm64.dmg`\n- `YunXiaoLiao-1.1.20-x64.dmg`\n- `YunXiaoLiao-Setup-1.1.20-x64.exe`\n\n构建时间: 2026-05-06 10:34:27 JST",
-          "file": "im_chat_manager_plugin_example_1.1.20_test.ipa",
-          "size": 43998008,
-          "downloadUrl": "https://github.com/xiaoli55979/ipa_install/releases/download/1.1.20/im_chat_manager_plugin_example_1.1.20_test.ipa",
-          "manifestUrl": "https://xiaoli55979.github.io/ipa_install/manifest/com.jiliaoim.cn-1.1.20.plist",
-          "installUrl": "itms-services://?action=download-manifest&url=https%3A%2F%2Fxiaoli55979.github.io%2Fipa_install%2Fmanifest%2Fcom.jiliaoim.cn-1.1.20.plist"
-        },
-        {
-          "version": "1.1.16",
-          "uploadedAt": "2026-04-26T08:01:37Z",
-          "tag": "1.1.16",
-          "releaseName": "1.1.16",
-          "notes": "自动发布 1.1.16\n\n- `im_chat_manager_plugin_example_1.1.16_test.ipa`\n- `im_chat_manager_plugin_example_1.1.16.apk`\n\n构建时间: 2026-04-26 17:01:23 JST",
-          "file": "im_chat_manager_plugin_example_1.1.16_test.ipa",
-          "size": 43956875,
-          "downloadUrl": "https://github.com/xiaoli55979/ipa_install/releases/download/1.1.16/im_chat_manager_plugin_example_1.1.16_test.ipa",
-          "manifestUrl": "https://xiaoli55979.github.io/ipa_install/manifest/com.jiliaoim.cn-1.1.16.plist",
-          "installUrl": "itms-services://?action=download-manifest&url=https%3A%2F%2Fxiaoli55979.github.io%2Fipa_install%2Fmanifest%2Fcom.jiliaoim.cn-1.1.16.plist"
-        },
-        {
-          "version": "1.1.7",
-          "uploadedAt": "2026-04-22T12:44:44Z",
-          "tag": "1.1.7.2",
-          "releaseName": "1.1.7.2",
-          "notes": "",
-          "file": "upload_test.ipa",
-          "size": 43911149,
-          "downloadUrl": "https://github.com/xiaoli55979/ipa_install/releases/download/1.1.7.2/upload_test.ipa",
-          "manifestUrl": "https://xiaoli55979.github.io/ipa_install/manifest/com.jiliaoim.cn-1.1.7.2.plist",
-          "installUrl": "itms-services://?action=download-manifest&url=https%3A%2F%2Fxiaoli55979.github.io%2Fipa_install%2Fmanifest%2Fcom.jiliaoim.cn-1.1.7.2.plist"
-        },
-        {
-          "version": "1.1.7",
-          "uploadedAt": "2026-04-22T09:24:02Z",
-          "tag": "1.1.7",
-          "releaseName": "1.1.7",
-          "notes": "修复视频通话断开问题",
-          "file": "upload.ipa",
-          "size": 40995757,
-          "downloadUrl": "https://github.com/xiaoli55979/ipa_install/releases/download/1.1.7/upload.ipa",
-          "manifestUrl": "https://xiaoli55979.github.io/ipa_install/manifest/com.jiliaoim.cn-1.1.7.plist",
-          "installUrl": "itms-services://?action=download-manifest&url=https%3A%2F%2Fxiaoli55979.github.io%2Fipa_install%2Fmanifest%2Fcom.jiliaoim.cn-1.1.7.plist"
-        },
-        {
-          "version": "1.1.6",
-          "uploadedAt": "2026-04-22T06:27:03Z",
-          "tag": "1.1.6.1",
-          "releaseName": "1.1.6.1",
-          "notes": "add",
-          "file": "1.1.6.1.ipa",
-          "size": 40986069,
-          "downloadUrl": "https://github.com/xiaoli55979/ipa_install/releases/download/1.1.6.1/1.1.6.1.ipa",
-          "manifestUrl": "https://xiaoli55979.github.io/ipa_install/manifest/com.jiliaoim.cn-1.1.6.1.plist",
-          "installUrl": "itms-services://?action=download-manifest&url=https%3A%2F%2Fxiaoli55979.github.io%2Fipa_install%2Fmanifest%2Fcom.jiliaoim.cn-1.1.6.1.plist"
+          "version": "1.0.6",
+          "uploadedAt": "2026-07-17T02:54:17Z",
+          "tag": "tf-system-mobile-6",
+          "releaseName": "TF管理系统 6",
+          "notes": "移动端自动打包产物,分发页:https://xiaoli55979.github.io/ipa_install/",
+          "file": "TFSystem-mobile_6.ipa",
+          "size": 654672,
+          "downloadUrl": "https://github.com/xiaoli55979/ipa_install/releases/download/tf-system-mobile-6/TFSystem-mobile_6.ipa",
+          "manifestUrl": "https://xiaoli55979.github.io/ipa_install/manifest/com.tfsystem.cn-tf-system-mobile-6.plist",
+          "installUrl": "itms-services://?action=download-manifest&url=https%3A%2F%2Fxiaoli55979.github.io%2Fipa_install%2Fmanifest%2Fcom.tfsystem.cn-tf-system-mobile-6.plist"
         }
       ],
       "android": [
         {
-          "version": "1.1.7",
-          "uploadedAt": "2026-05-13T01:21:08Z",
-          "tag": "1.1.7.2",
-          "releaseName": "1.1.7.2",
-          "notes": "",
-          "file": "ipa_install_1.1.7.2.apk",
-          "size": 229851063,
-          "downloadUrl": "https://github.com/xiaoli55979/ipa_install/releases/download/1.1.7.2/ipa_install_1.1.7.2.apk"
+          "version": "1.0.6",
+          "uploadedAt": "2026-07-17T02:54:17Z",
+          "tag": "tf-system-mobile-6",
+          "releaseName": "TF管理系统 6",
+          "notes": "移动端自动打包产物,分发页:https://xiaoli55979.github.io/ipa_install/",
+          "file": "TFSystem-mobile_6.apk",
+          "size": 4416759,
+          "downloadUrl": "https://github.com/xiaoli55979/ipa_install/releases/download/tf-system-mobile-6/TFSystem-mobile_6.apk"
         },
         {
-          "version": "1.1.7",
-          "uploadedAt": "2026-05-13T01:21:07Z",
-          "tag": "1.1.7",
-          "releaseName": "1.1.7",
-          "notes": "修复视频通话断开问题",
-          "file": "ipa_install_1.1.7.apk",
-          "size": 229703607,
-          "downloadUrl": "https://github.com/xiaoli55979/ipa_install/releases/download/1.1.7/ipa_install_1.1.7.apk"
-        },
-        {
-          "version": "1.1.20",
-          "uploadedAt": "2026-05-06T02:01:45Z",
-          "tag": "1.1.20",
-          "releaseName": "1.1.20",
-          "notes": "自动发布 PC 版本 1.1.20\n\n- `YunXiaoLiao-1.1.20-arm64.dmg`\n- `YunXiaoLiao-1.1.20-x64.dmg`\n- `YunXiaoLiao-Setup-1.1.20-x64.exe`\n\n构建时间: 2026-05-06 10:34:27 JST",
-          "file": "im_chat_manager_plugin_example_1.1.20.apk",
-          "size": 230375848,
-          "downloadUrl": "https://github.com/xiaoli55979/ipa_install/releases/download/1.1.20/im_chat_manager_plugin_example_1.1.20.apk"
-        },
-        {
-          "version": "1.1.16",
-          "uploadedAt": "2026-04-26T08:02:00Z",
-          "tag": "1.1.16",
-          "releaseName": "1.1.16",
-          "notes": "自动发布 1.1.16\n\n- `im_chat_manager_plugin_example_1.1.16_test.ipa`\n- `im_chat_manager_plugin_example_1.1.16.apk`\n\n构建时间: 2026-04-26 17:01:23 JST",
-          "file": "im_chat_manager_plugin_example_1.1.16.apk",
-          "size": 230195624,
-          "downloadUrl": "https://github.com/xiaoli55979/ipa_install/releases/download/1.1.16/im_chat_manager_plugin_example_1.1.16.apk"
-        },
-        {
-          "version": "1.1.6",
-          "uploadedAt": "2026-04-22T06:28:38Z",
-          "tag": "1.1.6.1",
-          "releaseName": "1.1.6.1",
-          "notes": "add",
-          "file": "1.1.6.1.apk",
-          "size": 249036307,
-          "downloadUrl": "https://github.com/xiaoli55979/ipa_install/releases/download/1.1.6.1/1.1.6.1.apk"
+          "version": "1.0",
+          "uploadedAt": "2026-07-01T07:24:22Z",
+          "tag": "tf-system-mobile-3",
+          "releaseName": "TF管理系统 3",
+          "notes": "移动端 Android 打包产物。",
+          "file": "TFSystem-mobile_3.apk",
+          "size": 4308790,
+          "downloadUrl": "https://github.com/xiaoli55979/ipa_install/releases/download/tf-system-mobile-3/TFSystem-mobile_3.apk"
         }
       ],
       "mac": [
         {
-          "version": "1.1.29",
-          "uploadedAt": "2026-06-20T07:22:43Z",
-          "tag": "1.1.29",
-          "releaseName": "1.1.29",
-          "notes": "Auto published PC version 1.1.29\n\n- `YunXiaoLiao-1.1.29-x64.dmg`\n- `YunXiaoLiao-Setup-1.1.29-x64.zip`\n\nSource branch: release\nSource commit: 1475e5af02393b25ba68b17ae2d211a738d7f25b\nBuild time: 2026-06-20 16:22:38 JST\n",
-          "file": "YunXiaoLiao-1.1.29-x64.dmg",
-          "size": 133886723,
-          "downloadUrl": "https://github.com/xiaoli55979/ipa_install/releases/download/1.1.29/YunXiaoLiao-1.1.29-x64.dmg"
+          "version": "1.0.6",
+          "uploadedAt": "2026-07-18T03:50:01Z",
+          "tag": "tf-system-desktop-6",
+          "releaseName": "TF管理系统 桌面端 1.0.6",
+          "notes": "桌面端自动打包产物,包含 macOS 和 Windows 版本。分发页:https://xiaoli55979.github.io/ipa_install/",
+          "file": "TFSystem-desktop_1.0.6-arm64.dmg",
+          "size": 120543540,
+          "downloadUrl": "https://github.com/xiaoli55979/ipa_install/releases/download/tf-system-desktop-6/TFSystem-desktop_1.0.6-arm64.dmg"
         },
         {
-          "version": "1.1.28",
-          "uploadedAt": "2026-06-18T04:26:57Z",
-          "tag": "1.1.28",
-          "releaseName": "1.1.28",
-          "notes": "自动发布 PC 版本 1.1.28\n\n- `YunXiaoLiao-1.1.28-x64.dmg`\n- `YunXiaoLiao-Setup-1.1.28-x64.zip`\n\n构建时间: 2026-06-18 13:25:13 JST",
-          "file": "YunXiaoLiao-1.1.28-x64.dmg",
-          "size": 135665969,
-          "downloadUrl": "https://github.com/xiaoli55979/ipa_install/releases/download/1.1.28/YunXiaoLiao-1.1.28-x64.dmg"
+          "version": "1.0.6",
+          "uploadedAt": "2026-07-18T03:50:01Z",
+          "tag": "tf-system-desktop-6",
+          "releaseName": "TF管理系统 桌面端 1.0.6",
+          "notes": "桌面端自动打包产物,包含 macOS 和 Windows 版本。分发页:https://xiaoli55979.github.io/ipa_install/",
+          "file": "TFSystem-desktop_1.0.6-x64.dmg",
+          "size": 122327611,
+          "downloadUrl": "https://github.com/xiaoli55979/ipa_install/releases/download/tf-system-desktop-6/TFSystem-desktop_1.0.6-x64.dmg"
         },
         {
-          "version": "1.1.27",
-          "uploadedAt": "2026-06-14T14:34:19Z",
-          "tag": "1.1.27",
-          "releaseName": "1.1.27",
-          "notes": "自动发布 PC 版本 1.1.27\n\n- `YunXiaoLiao-1.1.27-x64.dmg`\n- `YunXiaoLiao-Setup-1.1.27-x64.zip`\n\n构建时间: 2026-06-14 23:33:33 JST",
-          "file": "YunXiaoLiao-1.1.27-x64.dmg",
-          "size": 135666320,
-          "downloadUrl": "https://github.com/xiaoli55979/ipa_install/releases/download/1.1.27/YunXiaoLiao-1.1.27-x64.dmg"
+          "version": "1.0.5",
+          "uploadedAt": "2026-07-18T03:42:14Z",
+          "tag": "tf-system-desktop-5",
+          "releaseName": "TF管理系统 桌面端 1.0.5",
+          "notes": "桌面端自动打包产物,包含 macOS 和 Windows 版本。分发页:https://xiaoli55979.github.io/ipa_install/",
+          "file": "TFSystem-desktop_1.0.5-arm64.dmg",
+          "size": 120543465,
+          "downloadUrl": "https://github.com/xiaoli55979/ipa_install/releases/download/tf-system-desktop-5/TFSystem-desktop_1.0.5-arm64.dmg"
         },
         {
-          "version": "1.1.26",
-          "uploadedAt": "2026-06-04T12:27:53Z",
-          "tag": "1.1.26",
-          "releaseName": "1.1.26",
-          "notes": "自动发布 PC 版本 1.1.26\n\n- `YunXiaoLiao-1.1.26-x64.dmg`\n- `YunXiaoLiao-Setup-1.1.26-x64.zip`\n\n构建时间: 2026-06-04 21:24:38 JST",
-          "file": "YunXiaoLiao-1.1.26-x64.dmg",
-          "size": 135663049,
-          "downloadUrl": "https://github.com/xiaoli55979/ipa_install/releases/download/1.1.26/YunXiaoLiao-1.1.26-x64.dmg"
+          "version": "1.0.5",
+          "uploadedAt": "2026-07-18T03:42:13Z",
+          "tag": "tf-system-desktop-5",
+          "releaseName": "TF管理系统 桌面端 1.0.5",
+          "notes": "桌面端自动打包产物,包含 macOS 和 Windows 版本。分发页:https://xiaoli55979.github.io/ipa_install/",
+          "file": "TFSystem-desktop_1.0.5-x64.dmg",
+          "size": 122327657,
+          "downloadUrl": "https://github.com/xiaoli55979/ipa_install/releases/download/tf-system-desktop-5/TFSystem-desktop_1.0.5-x64.dmg"
         },
         {
-          "version": "1.1.25",
-          "uploadedAt": "2026-06-03T06:02:19Z",
-          "tag": "1.1.25",
-          "releaseName": "1.1.25",
-          "notes": "自动发布 PC 版本 1.1.25\n\n- `YunXiaoLiao-1.1.25-x64.dmg`\n- `YunXiaoLiao-Setup-1.1.25-x64.zip`\n\n构建时间: 2026-06-03 14:58:18 JST",
-          "file": "YunXiaoLiao-1.1.25-x64.dmg",
-          "size": 135662722,
-          "downloadUrl": "https://github.com/xiaoli55979/ipa_install/releases/download/1.1.25/YunXiaoLiao-1.1.25-x64.dmg"
+          "version": "1.0.4",
+          "uploadedAt": "2026-07-18T03:19:30Z",
+          "tag": "tf-system-desktop-4",
+          "releaseName": "TF管理系统 桌面端 1.0.4",
+          "notes": "桌面端自动打包产物,包含 macOS 和 Windows 版本。分发页:https://xiaoli55979.github.io/ipa_install/",
+          "file": "TFSystem-desktop_1.0.4-arm64.dmg",
+          "size": 120543208,
+          "downloadUrl": "https://github.com/xiaoli55979/ipa_install/releases/download/tf-system-desktop-4/TFSystem-desktop_1.0.4-arm64.dmg"
         },
         {
-          "version": "1.1.24",
-          "uploadedAt": "2026-06-02T13:07:09Z",
-          "tag": "1.1.24",
-          "releaseName": "1.1.24",
-          "notes": "自动发布 PC 版本 1.1.24\n\n- `YunXiaoLiao-1.1.24-x64.dmg`\n- `YunXiaoLiao-Setup-1.1.24-x64.zip`\n\n构建时间: 2026-06-02 22:04:21 JST",
-          "file": "YunXiaoLiao-1.1.24-x64.dmg",
-          "size": 135670580,
-          "downloadUrl": "https://github.com/xiaoli55979/ipa_install/releases/download/1.1.24/YunXiaoLiao-1.1.24-x64.dmg"
+          "version": "1.0.4",
+          "uploadedAt": "2026-07-18T03:19:30Z",
+          "tag": "tf-system-desktop-4",
+          "releaseName": "TF管理系统 桌面端 1.0.4",
+          "notes": "桌面端自动打包产物,包含 macOS 和 Windows 版本。分发页:https://xiaoli55979.github.io/ipa_install/",
+          "file": "TFSystem-desktop_1.0.4-x64.dmg",
+          "size": 122327229,
+          "downloadUrl": "https://github.com/xiaoli55979/ipa_install/releases/download/tf-system-desktop-4/TFSystem-desktop_1.0.4-x64.dmg"
         },
         {
-          "version": "1.1.23",
-          "uploadedAt": "2026-05-29T17:39:37Z",
-          "tag": "1.1.23",
-          "releaseName": "1.1.23",
-          "notes": "自动发布 PC 版本 1.1.23\n\n- `YunXiaoLiao-1.1.23-arm64.dmg`\n- `YunXiaoLiao-1.1.23-x64.dmg`\n- `YunXiaoLiao-Setup-1.1.23-x64.exe`\n- `YunXiaoLiao-Setup-1.1.23-x64.zip`\n\n构建时间: 2026-05-30 02:38:16 JST",
-          "file": "YunXiaoLiao-1.1.23-x64.dmg",
-          "size": 135688171,
-          "downloadUrl": "https://github.com/xiaoli55979/ipa_install/releases/download/1.1.23/YunXiaoLiao-1.1.23-x64.dmg"
+          "version": "1.0.3",
+          "uploadedAt": "2026-07-18T02:56:43Z",
+          "tag": "tf-system-desktop-3",
+          "releaseName": "TF管理系统 桌面端 1.0.3",
+          "notes": "桌面端自动打包产物,包含 macOS 和 Windows 版本。分发页:https://xiaoli55979.github.io/ipa_install/",
+          "file": "TFSystem-desktop_1.0.3-x64.dmg",
+          "size": 122327411,
+          "downloadUrl": "https://github.com/xiaoli55979/ipa_install/releases/download/tf-system-desktop-3/TFSystem-desktop_1.0.3-x64.dmg"
         },
         {
-          "version": "1.1.23",
-          "uploadedAt": "2026-05-29T17:39:36Z",
-          "tag": "1.1.23",
-          "releaseName": "1.1.23",
-          "notes": "自动发布 PC 版本 1.1.23\n\n- `YunXiaoLiao-1.1.23-arm64.dmg`\n- `YunXiaoLiao-1.1.23-x64.dmg`\n- `YunXiaoLiao-Setup-1.1.23-x64.exe`\n- `YunXiaoLiao-Setup-1.1.23-x64.zip`\n\n构建时间: 2026-05-30 02:38:16 JST",
-          "file": "YunXiaoLiao-1.1.23-arm64.dmg",
-          "size": 129397010,
-          "downloadUrl": "https://github.com/xiaoli55979/ipa_install/releases/download/1.1.23/YunXiaoLiao-1.1.23-arm64.dmg"
-        },
-        {
-          "version": "1.1.21",
-          "uploadedAt": "2026-05-28T13:00:45Z",
-          "tag": "1.1.21",
-          "releaseName": "1.1.21",
-          "notes": "自动发布 PC 版本 1.1.21\n\n- `YunXiaoLiao-1.1.21-arm64.dmg`\n- `YunXiaoLiao-1.1.21-x64.dmg`\n- `YunXiaoLiao-Setup-1.1.21-x64.exe`\n\n构建时间: 2026-05-28 21:59:19 JST",
-          "file": "YunXiaoLiao-1.1.21-x64.dmg",
-          "size": 135687680,
-          "downloadUrl": "https://github.com/xiaoli55979/ipa_install/releases/download/1.1.21/YunXiaoLiao-1.1.21-x64.dmg"
-        },
-        {
-          "version": "1.1.21",
-          "uploadedAt": "2026-05-28T13:00:44Z",
-          "tag": "1.1.21",
-          "releaseName": "1.1.21",
-          "notes": "自动发布 PC 版本 1.1.21\n\n- `YunXiaoLiao-1.1.21-arm64.dmg`\n- `YunXiaoLiao-1.1.21-x64.dmg`\n- `YunXiaoLiao-Setup-1.1.21-x64.exe`\n\n构建时间: 2026-05-28 21:59:19 JST",
-          "file": "YunXiaoLiao-1.1.21-arm64.dmg",
-          "size": 129397256,
-          "downloadUrl": "https://github.com/xiaoli55979/ipa_install/releases/download/1.1.21/YunXiaoLiao-1.1.21-arm64.dmg"
-        },
-        {
-          "version": "1.1.20",
-          "uploadedAt": "2026-05-06T01:35:50Z",
-          "tag": "1.1.20",
-          "releaseName": "1.1.20",
-          "notes": "自动发布 PC 版本 1.1.20\n\n- `YunXiaoLiao-1.1.20-arm64.dmg`\n- `YunXiaoLiao-1.1.20-x64.dmg`\n- `YunXiaoLiao-Setup-1.1.20-x64.exe`\n\n构建时间: 2026-05-06 10:34:27 JST",
-          "file": "YunXiaoLiao-1.1.20-x64.dmg",
-          "size": 135628524,
-          "downloadUrl": "https://github.com/xiaoli55979/ipa_install/releases/download/1.1.20/YunXiaoLiao-1.1.20-x64.dmg"
-        },
-        {
-          "version": "1.1.20",
-          "uploadedAt": "2026-05-06T01:35:47Z",
-          "tag": "1.1.20",
-          "releaseName": "1.1.20",
-          "notes": "自动发布 PC 版本 1.1.20\n\n- `YunXiaoLiao-1.1.20-arm64.dmg`\n- `YunXiaoLiao-1.1.20-x64.dmg`\n- `YunXiaoLiao-Setup-1.1.20-x64.exe`\n\n构建时间: 2026-05-06 10:34:27 JST",
-          "file": "YunXiaoLiao-1.1.20-arm64.dmg",
-          "size": 130348060,
-          "downloadUrl": "https://github.com/xiaoli55979/ipa_install/releases/download/1.1.20/YunXiaoLiao-1.1.20-arm64.dmg"
-        },
-        {
-          "version": "1.1.19",
-          "uploadedAt": "2026-04-30T09:09:29Z",
-          "tag": "1.1.19",
-          "releaseName": "1.1.19",
-          "notes": "自动发布 PC 版本 1.1.19\n\n- `YunXiaoLiao-1.1.19-arm64.dmg`\n- `YunXiaoLiao-1.1.19-x64.dmg`\n- `YunXiaoLiao-Setup-1.1.19-x64.exe`\n\n构建时间: 2026-04-30 18:06:09 JST",
-          "file": "YunXiaoLiao-1.1.19-arm64.dmg",
-          "size": 130857720,
-          "downloadUrl": "https://github.com/xiaoli55979/ipa_install/releases/download/1.1.19/YunXiaoLiao-1.1.19-arm64.dmg"
-        },
-        {
-          "version": "1.1.19",
-          "uploadedAt": "2026-04-30T09:09:28Z",
-          "tag": "1.1.19",
-          "releaseName": "1.1.19",
-          "notes": "自动发布 PC 版本 1.1.19\n\n- `YunXiaoLiao-1.1.19-arm64.dmg`\n- `YunXiaoLiao-1.1.19-x64.dmg`\n- `YunXiaoLiao-Setup-1.1.19-x64.exe`\n\n构建时间: 2026-04-30 18:06:09 JST",
-          "file": "YunXiaoLiao-1.1.19-x64.dmg",
-          "size": 136080366,
-          "downloadUrl": "https://github.com/xiaoli55979/ipa_install/releases/download/1.1.19/YunXiaoLiao-1.1.19-x64.dmg"
-        },
-        {
-          "version": "1.1.17",
-          "uploadedAt": "2026-04-26T13:39:19Z",
-          "tag": "1.1.17",
-          "releaseName": "1.1.17",
-          "notes": "云小聊 PC 版本 1.1.17\n\n- `YunXiaoLiao-1.1.17-arm64.dmg`\n- `YunXiaoLiao-1.1.17-x64.dmg`\n- `YunXiaoLiao-Setup-1.1.17-x64.exe`\n\n构建时间: 2026-04-26 22:38:24 JST",
-          "file": "YunXiaoLiao-1.1.17-x64.dmg",
-          "size": 135730453,
-          "downloadUrl": "https://github.com/xiaoli55979/ipa_install/releases/download/1.1.17/YunXiaoLiao-1.1.17-x64.dmg"
-        },
-        {
-          "version": "1.1.17",
-          "uploadedAt": "2026-04-26T13:39:17Z",
-          "tag": "1.1.17",
-          "releaseName": "1.1.17",
-          "notes": "云小聊 PC 版本 1.1.17\n\n- `YunXiaoLiao-1.1.17-arm64.dmg`\n- `YunXiaoLiao-1.1.17-x64.dmg`\n- `YunXiaoLiao-Setup-1.1.17-x64.exe`\n\n构建时间: 2026-04-26 22:38:24 JST",
-          "file": "YunXiaoLiao-1.1.17-arm64.dmg",
-          "size": 130438842,
-          "downloadUrl": "https://github.com/xiaoli55979/ipa_install/releases/download/1.1.17/YunXiaoLiao-1.1.17-arm64.dmg"
-        },
-        {
-          "version": "1.1.7.2",
-          "uploadedAt": "2026-04-22T13:00:23Z",
-          "tag": "1.1.7.2",
-          "releaseName": "1.1.7.2",
-          "notes": "",
-          "file": "-1.0.6-arm64.dmg",
-          "size": 130359509,
-          "downloadUrl": "https://github.com/xiaoli55979/ipa_install/releases/download/1.1.7.2/-1.0.6-arm64.dmg"
+          "version": "1.0.3",
+          "uploadedAt": "2026-07-18T02:56:42Z",
+          "tag": "tf-system-desktop-3",
+          "releaseName": "TF管理系统 桌面端 1.0.3",
+          "notes": "桌面端自动打包产物,包含 macOS 和 Windows 版本。分发页:https://xiaoli55979.github.io/ipa_install/",
+          "file": "TFSystem-desktop_1.0.3-arm64.dmg",
+          "size": 120543028,
+          "downloadUrl": "https://github.com/xiaoli55979/ipa_install/releases/download/tf-system-desktop-3/TFSystem-desktop_1.0.3-arm64.dmg"
         }
       ],
       "win": [
         {
-          "version": "1.1.29",
-          "uploadedAt": "2026-06-20T07:22:42Z",
-          "tag": "1.1.29",
-          "releaseName": "1.1.29",
-          "notes": "Auto published PC version 1.1.29\n\n- `YunXiaoLiao-1.1.29-x64.dmg`\n- `YunXiaoLiao-Setup-1.1.29-x64.zip`\n\nSource branch: release\nSource commit: 1475e5af02393b25ba68b17ae2d211a738d7f25b\nBuild time: 2026-06-20 16:22:38 JST\n",
-          "file": "YunXiaoLiao-Setup-1.1.29-x64.zip",
-          "size": 137103776,
-          "downloadUrl": "https://github.com/xiaoli55979/ipa_install/releases/download/1.1.29/YunXiaoLiao-Setup-1.1.29-x64.zip"
+          "version": "1.0.6",
+          "uploadedAt": "2026-07-18T03:50:00Z",
+          "tag": "tf-system-desktop-6",
+          "releaseName": "TF管理系统 桌面端 1.0.6",
+          "notes": "桌面端自动打包产物,包含 macOS 和 Windows 版本。分发页:https://xiaoli55979.github.io/ipa_install/",
+          "file": "TFSystem-desktop_1.0.6-x64.exe",
+          "size": 99266967,
+          "downloadUrl": "https://github.com/xiaoli55979/ipa_install/releases/download/tf-system-desktop-6/TFSystem-desktop_1.0.6-x64.exe"
         },
         {
-          "version": "1.1.28",
-          "uploadedAt": "2026-06-18T04:26:47Z",
-          "tag": "1.1.28",
-          "releaseName": "1.1.28",
-          "notes": "自动发布 PC 版本 1.1.28\n\n- `YunXiaoLiao-1.1.28-x64.dmg`\n- `YunXiaoLiao-Setup-1.1.28-x64.zip`\n\n构建时间: 2026-06-18 13:25:13 JST",
-          "file": "YunXiaoLiao-Setup-1.1.28-x64.zip",
-          "size": 137100454,
-          "downloadUrl": "https://github.com/xiaoli55979/ipa_install/releases/download/1.1.28/YunXiaoLiao-Setup-1.1.28-x64.zip"
+          "version": "1.0.5",
+          "uploadedAt": "2026-07-18T03:42:12Z",
+          "tag": "tf-system-desktop-5",
+          "releaseName": "TF管理系统 桌面端 1.0.5",
+          "notes": "桌面端自动打包产物,包含 macOS 和 Windows 版本。分发页:https://xiaoli55979.github.io/ipa_install/",
+          "file": "TFSystem-desktop_1.0.5-x64.exe",
+          "size": 99266965,
+          "downloadUrl": "https://github.com/xiaoli55979/ipa_install/releases/download/tf-system-desktop-5/TFSystem-desktop_1.0.5-x64.exe"
         },
         {
-          "version": "1.1.27",
-          "uploadedAt": "2026-06-14T14:34:17Z",
-          "tag": "1.1.27",
-          "releaseName": "1.1.27",
-          "notes": "自动发布 PC 版本 1.1.27\n\n- `YunXiaoLiao-1.1.27-x64.dmg`\n- `YunXiaoLiao-Setup-1.1.27-x64.zip`\n\n构建时间: 2026-06-14 23:33:33 JST",
-          "file": "YunXiaoLiao-Setup-1.1.27-x64.zip",
-          "size": 137100658,
-          "downloadUrl": "https://github.com/xiaoli55979/ipa_install/releases/download/1.1.27/YunXiaoLiao-Setup-1.1.27-x64.zip"
+          "version": "1.0.4",
+          "uploadedAt": "2026-07-18T03:19:29Z",
+          "tag": "tf-system-desktop-4",
+          "releaseName": "TF管理系统 桌面端 1.0.4",
+          "notes": "桌面端自动打包产物,包含 macOS 和 Windows 版本。分发页:https://xiaoli55979.github.io/ipa_install/",
+          "file": "TFSystem-desktop_1.0.4-x64.exe",
+          "size": 99266746,
+          "downloadUrl": "https://github.com/xiaoli55979/ipa_install/releases/download/tf-system-desktop-4/TFSystem-desktop_1.0.4-x64.exe"
         },
         {
-          "version": "1.1.26",
-          "uploadedAt": "2026-06-04T12:27:52Z",
-          "tag": "1.1.26",
-          "releaseName": "1.1.26",
-          "notes": "自动发布 PC 版本 1.1.26\n\n- `YunXiaoLiao-1.1.26-x64.dmg`\n- `YunXiaoLiao-Setup-1.1.26-x64.zip`\n\n构建时间: 2026-06-04 21:24:38 JST",
-          "file": "YunXiaoLiao-Setup-1.1.26-x64.zip",
-          "size": 137099118,
-          "downloadUrl": "https://github.com/xiaoli55979/ipa_install/releases/download/1.1.26/YunXiaoLiao-Setup-1.1.26-x64.zip"
-        },
-        {
-          "version": "1.1.25",
-          "uploadedAt": "2026-06-03T06:02:18Z",
-          "tag": "1.1.25",
-          "releaseName": "1.1.25",
-          "notes": "自动发布 PC 版本 1.1.25\n\n- `YunXiaoLiao-1.1.25-x64.dmg`\n- `YunXiaoLiao-Setup-1.1.25-x64.zip`\n\n构建时间: 2026-06-03 14:58:18 JST",
-          "file": "YunXiaoLiao-Setup-1.1.25-x64.zip",
-          "size": 137099139,
-          "downloadUrl": "https://github.com/xiaoli55979/ipa_install/releases/download/1.1.25/YunXiaoLiao-Setup-1.1.25-x64.zip"
-        },
-        {
-          "version": "1.1.24",
-          "uploadedAt": "2026-06-02T13:07:10Z",
-          "tag": "1.1.24",
-          "releaseName": "1.1.24",
-          "notes": "自动发布 PC 版本 1.1.24\n\n- `YunXiaoLiao-1.1.24-x64.dmg`\n- `YunXiaoLiao-Setup-1.1.24-x64.zip`\n\n构建时间: 2026-06-02 22:04:21 JST",
-          "file": "YunXiaoLiao-Setup-1.1.24-x64.zip",
-          "size": 137099070,
-          "downloadUrl": "https://github.com/xiaoli55979/ipa_install/releases/download/1.1.24/YunXiaoLiao-Setup-1.1.24-x64.zip"
-        },
-        {
-          "version": "1.1.23",
-          "uploadedAt": "2026-05-29T17:39:36Z",
-          "tag": "1.1.23",
-          "releaseName": "1.1.23",
-          "notes": "自动发布 PC 版本 1.1.23\n\n- `YunXiaoLiao-1.1.23-arm64.dmg`\n- `YunXiaoLiao-1.1.23-x64.dmg`\n- `YunXiaoLiao-Setup-1.1.23-x64.exe`\n- `YunXiaoLiao-Setup-1.1.23-x64.zip`\n\n构建时间: 2026-05-30 02:38:16 JST",
-          "file": "YunXiaoLiao-Setup-1.1.23-x64.zip",
-          "size": 137091722,
-          "downloadUrl": "https://github.com/xiaoli55979/ipa_install/releases/download/1.1.23/YunXiaoLiao-Setup-1.1.23-x64.zip"
-        },
-        {
-          "version": "1.1.23",
-          "uploadedAt": "2026-05-29T17:39:19Z",
-          "tag": "1.1.23",
-          "releaseName": "1.1.23",
-          "notes": "自动发布 PC 版本 1.1.23\n\n- `YunXiaoLiao-1.1.23-arm64.dmg`\n- `YunXiaoLiao-1.1.23-x64.dmg`\n- `YunXiaoLiao-Setup-1.1.23-x64.exe`\n- `YunXiaoLiao-Setup-1.1.23-x64.zip`\n\n构建时间: 2026-05-30 02:38:16 JST",
-          "file": "YunXiaoLiao-Setup-1.1.23-x64.exe",
-          "size": 98924657,
-          "downloadUrl": "https://github.com/xiaoli55979/ipa_install/releases/download/1.1.23/YunXiaoLiao-Setup-1.1.23-x64.exe"
-        },
-        {
-          "version": "1.1.21",
-          "uploadedAt": "2026-05-28T13:00:24Z",
-          "tag": "1.1.21",
-          "releaseName": "1.1.21",
-          "notes": "自动发布 PC 版本 1.1.21\n\n- `YunXiaoLiao-1.1.21-arm64.dmg`\n- `YunXiaoLiao-1.1.21-x64.dmg`\n- `YunXiaoLiao-Setup-1.1.21-x64.exe`\n\n构建时间: 2026-05-28 21:59:19 JST",
-          "file": "YunXiaoLiao-Setup-1.1.21-x64.exe",
-          "size": 98924541,
-          "downloadUrl": "https://github.com/xiaoli55979/ipa_install/releases/download/1.1.21/YunXiaoLiao-Setup-1.1.21-x64.exe"
-        },
-        {
-          "version": "1.1.20",
-          "uploadedAt": "2026-05-06T01:35:27Z",
-          "tag": "1.1.20",
-          "releaseName": "1.1.20",
-          "notes": "自动发布 PC 版本 1.1.20\n\n- `YunXiaoLiao-1.1.20-arm64.dmg`\n- `YunXiaoLiao-1.1.20-x64.dmg`\n- `YunXiaoLiao-Setup-1.1.20-x64.exe`\n\n构建时间: 2026-05-06 10:34:27 JST",
-          "file": "YunXiaoLiao-Setup-1.1.20-x64.exe",
-          "size": 98937935,
-          "downloadUrl": "https://github.com/xiaoli55979/ipa_install/releases/download/1.1.20/YunXiaoLiao-Setup-1.1.20-x64.exe"
-        },
-        {
-          "version": "1.1.19",
-          "uploadedAt": "2026-04-30T09:09:02Z",
-          "tag": "1.1.19",
-          "releaseName": "1.1.19",
-          "notes": "自动发布 PC 版本 1.1.19\n\n- `YunXiaoLiao-1.1.19-arm64.dmg`\n- `YunXiaoLiao-1.1.19-x64.dmg`\n- `YunXiaoLiao-Setup-1.1.19-x64.exe`\n\n构建时间: 2026-04-30 18:06:09 JST",
-          "file": "YunXiaoLiao-Setup-1.1.19-x64.exe",
-          "size": 99267224,
-          "downloadUrl": "https://github.com/xiaoli55979/ipa_install/releases/download/1.1.19/YunXiaoLiao-Setup-1.1.19-x64.exe"
-        },
-        {
-          "version": "1.1.17",
-          "uploadedAt": "2026-04-26T13:39:09Z",
-          "tag": "1.1.17",
-          "releaseName": "1.1.17",
-          "notes": "云小聊 PC 版本 1.1.17\n\n- `YunXiaoLiao-1.1.17-arm64.dmg`\n- `YunXiaoLiao-1.1.17-x64.dmg`\n- `YunXiaoLiao-Setup-1.1.17-x64.exe`\n\n构建时间: 2026-04-26 22:38:24 JST",
-          "file": "YunXiaoLiao-Setup-1.1.17-x64.exe",
-          "size": 98985525,
-          "downloadUrl": "https://github.com/xiaoli55979/ipa_install/releases/download/1.1.17/YunXiaoLiao-Setup-1.1.17-x64.exe"
-        },
-        {
-          "version": "1.1.7.2",
-          "uploadedAt": "2026-04-22T16:06:32Z",
-          "tag": "1.1.7.2",
-          "releaseName": "1.1.7.2",
-          "notes": "",
-          "file": "Setup-1.0.6.zip",
-          "size": 137052566,
-          "downloadUrl": "https://github.com/xiaoli55979/ipa_install/releases/download/1.1.7.2/Setup-1.0.6.zip"
-        },
-        {
-          "version": "1.1.7.2",
-          "uploadedAt": "2026-04-22T16:05:29Z",
-          "tag": "1.1.7.2",
-          "releaseName": "1.1.7.2",
-          "notes": "",
-          "file": "Setup-1.0.6-x64.exe",
-          "size": 98928977,
-          "downloadUrl": "https://github.com/xiaoli55979/ipa_install/releases/download/1.1.7.2/Setup-1.0.6-x64.exe"
+          "version": "1.0.3",
+          "uploadedAt": "2026-07-18T02:56:42Z",
+          "tag": "tf-system-desktop-3",
+          "releaseName": "TF管理系统 桌面端 1.0.3",
+          "notes": "桌面端自动打包产物,包含 macOS 和 Windows 版本。分发页:https://xiaoli55979.github.io/ipa_install/",
+          "file": "TFSystem-desktop_1.0.3-x64.exe",
+          "size": 99266597,
+          "downloadUrl": "https://github.com/xiaoli55979/ipa_install/releases/download/tf-system-desktop-3/TFSystem-desktop_1.0.3-x64.exe"
         }
       ],
-      "latestAt": "2026-06-20T07:22:43Z"
-    },
-    {
-      "id": "com.wlp.com.cn",
-      "name": "50",
-      "icon": "https://xiaoli55979.github.io/ipa_install/icons/com.wlp.com.cn-ios.png",
-      "ios": [
-        {
-          "version": "6.1.20",
-          "uploadedAt": "2026-06-02T08:04:12Z",
-          "tag": "50-mobile-6.1.20",
-          "releaseName": "50-mobile-6.1.20",
-          "notes": "自动发布 50-mobile-6.1.20\n\n- `50-mobile_6.1.20_test.ipa`\n- `50-mobile_6.1.20.apk`\n\n构建时间: 2026-06-02 17:03:22 JST",
-          "file": "50-mobile_6.1.20_test.ipa",
-          "size": 52991891,
-          "downloadUrl": "https://github.com/xiaoli55979/ipa_install/releases/download/50-mobile-6.1.20/50-mobile_6.1.20_test.ipa",
-          "manifestUrl": "https://xiaoli55979.github.io/ipa_install/manifest/com.wlp.com.cn-50-mobile-6.1.20.plist",
-          "installUrl": "itms-services://?action=download-manifest&url=https%3A%2F%2Fxiaoli55979.github.io%2Fipa_install%2Fmanifest%2Fcom.wlp.com.cn-50-mobile-6.1.20.plist"
-        },
-        {
-          "version": "6.1.19",
-          "uploadedAt": "2026-06-02T04:08:53Z",
-          "tag": "50-mobile-6.1.19",
-          "releaseName": "50-mobile-6.1.19",
-          "notes": "自动发布 50-mobile-6.1.19\n\n- `50-mobile_6.1.19_test.ipa`\n- `50-mobile_6.1.19.apk`\n\n构建时间: 2026-06-02 13:07:12 JST",
-          "file": "50-mobile_6.1.19_test.ipa",
-          "size": 53002500,
-          "downloadUrl": "https://github.com/xiaoli55979/ipa_install/releases/download/50-mobile-6.1.19/50-mobile_6.1.19_test.ipa",
-          "manifestUrl": "https://xiaoli55979.github.io/ipa_install/manifest/com.wlp.com.cn-50-mobile-6.1.19.plist",
-          "installUrl": "itms-services://?action=download-manifest&url=https%3A%2F%2Fxiaoli55979.github.io%2Fipa_install%2Fmanifest%2Fcom.wlp.com.cn-50-mobile-6.1.19.plist"
-        },
-        {
-          "version": "6.1.18",
-          "uploadedAt": "2026-05-28T09:32:49Z",
-          "tag": "50-mobile-6.1.18",
-          "releaseName": "50-mobile-6.1.18",
-          "notes": "自动发布 50-mobile-6.1.18\n\n- `50-mobile_6.1.18_test.ipa`\n- `50-mobile_6.1.18.apk`\n\n构建时间: 2026-05-28 18:32:34 JST",
-          "file": "50-mobile_6.1.18_test.ipa",
-          "size": 53002573,
-          "downloadUrl": "https://github.com/xiaoli55979/ipa_install/releases/download/50-mobile-6.1.18/50-mobile_6.1.18_test.ipa",
-          "manifestUrl": "https://xiaoli55979.github.io/ipa_install/manifest/com.wlp.com.cn-50-mobile-6.1.18.plist",
-          "installUrl": "itms-services://?action=download-manifest&url=https%3A%2F%2Fxiaoli55979.github.io%2Fipa_install%2Fmanifest%2Fcom.wlp.com.cn-50-mobile-6.1.18.plist"
-        },
-        {
-          "version": "6.1.17",
-          "uploadedAt": "2026-05-27T05:58:48Z",
-          "tag": "50-mobile-6.1.17",
-          "releaseName": "50-mobile-6.1.17",
-          "notes": "自动发布 50-mobile-6.1.17\n\n- `50-mobile_6.1.17_test.ipa`\n- `50-mobile_6.1.17.apk`\n\n构建时间: 2026-05-27 14:58:35 JST",
-          "file": "50-mobile_6.1.17_test.ipa",
-          "size": 52975674,
-          "downloadUrl": "https://github.com/xiaoli55979/ipa_install/releases/download/50-mobile-6.1.17/50-mobile_6.1.17_test.ipa",
-          "manifestUrl": "https://xiaoli55979.github.io/ipa_install/manifest/com.wlp.com.cn-50-mobile-6.1.17.plist",
-          "installUrl": "itms-services://?action=download-manifest&url=https%3A%2F%2Fxiaoli55979.github.io%2Fipa_install%2Fmanifest%2Fcom.wlp.com.cn-50-mobile-6.1.17.plist"
-        },
-        {
-          "version": "6.1.16",
-          "uploadedAt": "2026-05-26T09:08:15Z",
-          "tag": "50-mobile-6.1.16",
-          "releaseName": "50-mobile-6.1.16",
-          "notes": "自动发布 50-mobile-6.1.16\n\n- `50-mobile_6.1.16_test.ipa`\n- `50-mobile_6.1.16.apk`\n\n构建时间: 2026-05-26 18:08:01 JST",
-          "file": "50-mobile_6.1.16_test.ipa",
-          "size": 52981839,
-          "downloadUrl": "https://github.com/xiaoli55979/ipa_install/releases/download/50-mobile-6.1.16/50-mobile_6.1.16_test.ipa",
-          "manifestUrl": "https://xiaoli55979.github.io/ipa_install/manifest/com.wlp.com.cn-50-mobile-6.1.16.plist",
-          "installUrl": "itms-services://?action=download-manifest&url=https%3A%2F%2Fxiaoli55979.github.io%2Fipa_install%2Fmanifest%2Fcom.wlp.com.cn-50-mobile-6.1.16.plist"
-        },
-        {
-          "version": "6.1.15",
-          "uploadedAt": "2026-05-25T13:10:04Z",
-          "tag": "50-mobile-6.1.15",
-          "releaseName": "50-mobile-6.1.15",
-          "notes": "自动发布 50-mobile-6.1.15\n\n- `50-mobile_6.1.15_test.ipa`\n- `50-mobile_6.1.15.apk`\n\n构建时间: 2026-05-25 22:09:49 JST",
-          "file": "50-mobile_6.1.15_test.ipa",
-          "size": 52979821,
-          "downloadUrl": "https://github.com/xiaoli55979/ipa_install/releases/download/50-mobile-6.1.15/50-mobile_6.1.15_test.ipa",
-          "manifestUrl": "https://xiaoli55979.github.io/ipa_install/manifest/com.wlp.com.cn-50-mobile-6.1.15.plist",
-          "installUrl": "itms-services://?action=download-manifest&url=https%3A%2F%2Fxiaoli55979.github.io%2Fipa_install%2Fmanifest%2Fcom.wlp.com.cn-50-mobile-6.1.15.plist"
-        },
-        {
-          "version": "6.1.14",
-          "uploadedAt": "2026-05-22T16:34:39Z",
-          "tag": "50-mobile-6.1.14",
-          "releaseName": "50-mobile-6.1.14",
-          "notes": "自动发布 50-mobile-6.1.14\n\n- `50-mobile_6.1.14_test.ipa`\n- `50-mobile_6.1.14.apk`\n\n构建时间: 2026-05-23 01:34:24 JST",
-          "file": "50-mobile_6.1.14_test.ipa",
-          "size": 52272160,
-          "downloadUrl": "https://github.com/xiaoli55979/ipa_install/releases/download/50-mobile-6.1.14/50-mobile_6.1.14_test.ipa",
-          "manifestUrl": "https://xiaoli55979.github.io/ipa_install/manifest/com.wlp.com.cn-50-mobile-6.1.14.plist",
-          "installUrl": "itms-services://?action=download-manifest&url=https%3A%2F%2Fxiaoli55979.github.io%2Fipa_install%2Fmanifest%2Fcom.wlp.com.cn-50-mobile-6.1.14.plist"
-        },
-        {
-          "version": "6.1.13",
-          "uploadedAt": "2026-05-20T02:58:31Z",
-          "tag": "50-mobile-6.1.13",
-          "releaseName": "50-mobile-6.1.13",
-          "notes": "自动发布 50-mobile-6.1.13\n\n- `50-mobile_6.1.13_test.ipa`\n- `50-mobile_6.1.13.apk`\n\n构建时间: 2026-05-20 11:58:17 JST",
-          "file": "50-mobile_6.1.13_test.ipa",
-          "size": 52268791,
-          "downloadUrl": "https://github.com/xiaoli55979/ipa_install/releases/download/50-mobile-6.1.13/50-mobile_6.1.13_test.ipa",
-          "manifestUrl": "https://xiaoli55979.github.io/ipa_install/manifest/com.wlp.com.cn-50-mobile-6.1.13.plist",
-          "installUrl": "itms-services://?action=download-manifest&url=https%3A%2F%2Fxiaoli55979.github.io%2Fipa_install%2Fmanifest%2Fcom.wlp.com.cn-50-mobile-6.1.13.plist"
-        },
-        {
-          "version": "6.1.12",
-          "uploadedAt": "2026-05-19T09:14:09Z",
-          "tag": "50-mobile-6.1.12",
-          "releaseName": "50-mobile-6.1.12",
-          "notes": "自动发布 50-mobile-6.1.12\n\n- `50-mobile_6.1.12_test.ipa`\n- `50-mobile_6.1.12.apk`\n\n构建时间: 2026-05-19 18:13:55 JST",
-          "file": "50-mobile_6.1.12_test.ipa",
-          "size": 52262004,
-          "downloadUrl": "https://github.com/xiaoli55979/ipa_install/releases/download/50-mobile-6.1.12/50-mobile_6.1.12_test.ipa",
-          "manifestUrl": "https://xiaoli55979.github.io/ipa_install/manifest/com.wlp.com.cn-50-mobile-6.1.12.plist",
-          "installUrl": "itms-services://?action=download-manifest&url=https%3A%2F%2Fxiaoli55979.github.io%2Fipa_install%2Fmanifest%2Fcom.wlp.com.cn-50-mobile-6.1.12.plist"
-        },
-        {
-          "version": "6.1.11",
-          "uploadedAt": "2026-05-19T00:41:11Z",
-          "tag": "50-mobile-6.1.11",
-          "releaseName": "50-mobile-6.1.11",
-          "notes": "自动发布 50-mobile-6.1.11\n\n- `50-mobile_6.1.11_test.ipa`\n- `50-mobile_6.1.11.apk`\n\n构建时间: 2026-05-19 09:40:58 JST",
-          "file": "50-mobile_6.1.11_test.ipa",
-          "size": 52253353,
-          "downloadUrl": "https://github.com/xiaoli55979/ipa_install/releases/download/50-mobile-6.1.11/50-mobile_6.1.11_test.ipa",
-          "manifestUrl": "https://xiaoli55979.github.io/ipa_install/manifest/com.wlp.com.cn-50-mobile-6.1.11.plist",
-          "installUrl": "itms-services://?action=download-manifest&url=https%3A%2F%2Fxiaoli55979.github.io%2Fipa_install%2Fmanifest%2Fcom.wlp.com.cn-50-mobile-6.1.11.plist"
-        }
-      ],
-      "android": [
-        {
-          "version": "6.1.24",
-          "uploadedAt": "2026-06-10T04:15:48Z",
-          "tag": "50-mobile-6.1.24",
-          "releaseName": "50-mobile-6.1.24",
-          "notes": "自动发布 50-mobile-6.1.24\n\n- `50-mobile_6.1.24.apk`\n\n构建时间: 2026-06-10 13:12:56 JST",
-          "file": "50-mobile_6.1.24.apk",
-          "size": 232650993,
-          "downloadUrl": "https://github.com/xiaoli55979/ipa_install/releases/download/50-mobile-6.1.24/50-mobile_6.1.24.apk"
-        },
-        {
-          "version": "6.1.22",
-          "uploadedAt": "2026-06-05T14:08:45Z",
-          "tag": "50-mobile-6.1.22",
-          "releaseName": "50-mobile-6.1.22",
-          "notes": "自动发布 50-mobile-6.1.22\n\n- `50-mobile_6.1.22.apk`\n\n构建时间: 2026-06-05 23:06:20 JST",
-          "file": "50-mobile_6.1.22.apk",
-          "size": 232028337,
-          "downloadUrl": "https://github.com/xiaoli55979/ipa_install/releases/download/50-mobile-6.1.22/50-mobile_6.1.22.apk"
-        },
-        {
-          "version": "6.1.20",
-          "uploadedAt": "2026-06-02T08:06:19Z",
-          "tag": "50-mobile-6.1.20",
-          "releaseName": "50-mobile-6.1.20",
-          "notes": "自动发布 50-mobile-6.1.20\n\n- `50-mobile_6.1.20_test.ipa`\n- `50-mobile_6.1.20.apk`\n\n构建时间: 2026-06-02 17:03:22 JST",
-          "file": "50-mobile_6.1.20.apk",
-          "size": 231372849,
-          "downloadUrl": "https://github.com/xiaoli55979/ipa_install/releases/download/50-mobile-6.1.20/50-mobile_6.1.20.apk"
-        },
-        {
-          "version": "6.1.19",
-          "uploadedAt": "2026-06-02T04:15:05Z",
-          "tag": "50-mobile-6.1.19",
-          "releaseName": "50-mobile-6.1.19",
-          "notes": "自动发布 50-mobile-6.1.19\n\n- `50-mobile_6.1.19_test.ipa`\n- `50-mobile_6.1.19.apk`\n\n构建时间: 2026-06-02 13:07:12 JST",
-          "file": "50-mobile_6.1.19.apk",
-          "size": 231372849,
-          "downloadUrl": "https://github.com/xiaoli55979/ipa_install/releases/download/50-mobile-6.1.19/50-mobile_6.1.19.apk"
-        },
-        {
-          "version": "6.1.18",
-          "uploadedAt": "2026-05-28T09:33:10Z",
-          "tag": "50-mobile-6.1.18",
-          "releaseName": "50-mobile-6.1.18",
-          "notes": "自动发布 50-mobile-6.1.18\n\n- `50-mobile_6.1.18_test.ipa`\n- `50-mobile_6.1.18.apk`\n\n构建时间: 2026-05-28 18:32:34 JST",
-          "file": "50-mobile_6.1.18.apk",
-          "size": 231372849,
-          "downloadUrl": "https://github.com/xiaoli55979/ipa_install/releases/download/50-mobile-6.1.18/50-mobile_6.1.18.apk"
-        },
-        {
-          "version": "6.1.17",
-          "uploadedAt": "2026-05-27T05:59:12Z",
-          "tag": "50-mobile-6.1.17",
-          "releaseName": "50-mobile-6.1.17",
-          "notes": "自动发布 50-mobile-6.1.17\n\n- `50-mobile_6.1.17_test.ipa`\n- `50-mobile_6.1.17.apk`\n\n构建时间: 2026-05-27 14:58:35 JST",
-          "file": "50-mobile_6.1.17.apk",
-          "size": 231258113,
-          "downloadUrl": "https://github.com/xiaoli55979/ipa_install/releases/download/50-mobile-6.1.17/50-mobile_6.1.17.apk"
-        },
-        {
-          "version": "6.1.16",
-          "uploadedAt": "2026-05-26T09:08:36Z",
-          "tag": "50-mobile-6.1.16",
-          "releaseName": "50-mobile-6.1.16",
-          "notes": "自动发布 50-mobile-6.1.16\n\n- `50-mobile_6.1.16_test.ipa`\n- `50-mobile_6.1.16.apk`\n\n构建时间: 2026-05-26 18:08:01 JST",
-          "file": "50-mobile_6.1.16.apk",
-          "size": 231257913,
-          "downloadUrl": "https://github.com/xiaoli55979/ipa_install/releases/download/50-mobile-6.1.16/50-mobile_6.1.16.apk"
-        },
-        {
-          "version": "6.1.15",
-          "uploadedAt": "2026-05-25T13:10:26Z",
-          "tag": "50-mobile-6.1.15",
-          "releaseName": "50-mobile-6.1.15",
-          "notes": "自动发布 50-mobile-6.1.15\n\n- `50-mobile_6.1.15_test.ipa`\n- `50-mobile_6.1.15.apk`\n\n构建时间: 2026-05-25 22:09:49 JST",
-          "file": "50-mobile_6.1.15.apk",
-          "size": 231257917,
-          "downloadUrl": "https://github.com/xiaoli55979/ipa_install/releases/download/50-mobile-6.1.15/50-mobile_6.1.15.apk"
-        },
-        {
-          "version": "6.1.14",
-          "uploadedAt": "2026-05-22T16:35:00Z",
-          "tag": "50-mobile-6.1.14",
-          "releaseName": "50-mobile-6.1.14",
-          "notes": "自动发布 50-mobile-6.1.14\n\n- `50-mobile_6.1.14_test.ipa`\n- `50-mobile_6.1.14.apk`\n\n构建时间: 2026-05-23 01:34:24 JST",
-          "file": "50-mobile_6.1.14.apk",
-          "size": 231241533,
-          "downloadUrl": "https://github.com/xiaoli55979/ipa_install/releases/download/50-mobile-6.1.14/50-mobile_6.1.14.apk"
-        },
-        {
-          "version": "6.1.13",
-          "uploadedAt": "2026-05-20T02:58:56Z",
-          "tag": "50-mobile-6.1.13",
-          "releaseName": "50-mobile-6.1.13",
-          "notes": "自动发布 50-mobile-6.1.13\n\n- `50-mobile_6.1.13_test.ipa`\n- `50-mobile_6.1.13.apk`\n\n构建时间: 2026-05-20 11:58:17 JST",
-          "file": "50-mobile_6.1.13.apk",
-          "size": 231223569,
-          "downloadUrl": "https://github.com/xiaoli55979/ipa_install/releases/download/50-mobile-6.1.13/50-mobile_6.1.13.apk"
-        },
-        {
-          "version": "6.1.12",
-          "uploadedAt": "2026-05-19T09:14:29Z",
-          "tag": "50-mobile-6.1.12",
-          "releaseName": "50-mobile-6.1.12",
-          "notes": "自动发布 50-mobile-6.1.12\n\n- `50-mobile_6.1.12_test.ipa`\n- `50-mobile_6.1.12.apk`\n\n构建时间: 2026-05-19 18:13:55 JST",
-          "file": "50-mobile_6.1.12.apk",
-          "size": 231239953,
-          "downloadUrl": "https://github.com/xiaoli55979/ipa_install/releases/download/50-mobile-6.1.12/50-mobile_6.1.12.apk"
-        },
-        {
-          "version": "6.1.11",
-          "uploadedAt": "2026-05-19T00:41:32Z",
-          "tag": "50-mobile-6.1.11",
-          "releaseName": "50-mobile-6.1.11",
-          "notes": "自动发布 50-mobile-6.1.11\n\n- `50-mobile_6.1.11_test.ipa`\n- `50-mobile_6.1.11.apk`\n\n构建时间: 2026-05-19 09:40:58 JST",
-          "file": "50-mobile_6.1.11.apk",
-          "size": 231239953,
-          "downloadUrl": "https://github.com/xiaoli55979/ipa_install/releases/download/50-mobile-6.1.11/50-mobile_6.1.11.apk"
-        }
-      ],
-      "mac": [],
-      "win": [],
-      "latestAt": "2026-06-10T04:15:48Z"
+      "latestAt": "2026-07-18T03:50:01Z"
     },
     {
       "id": "com.jiliaoim.dis.cn",
@@ -716,6 +175,126 @@
       "icon": "https://xiaoli55979.github.io/ipa_install/icons/com.jiliaoim.dis.cn-android.png",
       "ios": [],
       "android": [
+        {
+          "version": "1.1.45",
+          "uploadedAt": "2026-07-17T08:37:10Z",
+          "tag": "YunXiaoLiao-mobile-1.1.45",
+          "releaseName": "YunXiaoLiao-mobile-1.1.45",
+          "notes": "自动发布 YunXiaoLiao-mobile-1.1.45\n\n- `YunXiaoLiao-mobile_1.1.45.ipa`\n- `YunXiaoLiao-mobile_1.1.45.apk`\n\n构建时间: 2026-07-17 17:34:37 JST",
+          "file": "YunXiaoLiao-mobile_1.1.45.apk",
+          "size": 134059015,
+          "downloadUrl": "https://github.com/xiaoli55979/ipa_install/releases/download/YunXiaoLiao-mobile-1.1.45/YunXiaoLiao-mobile_1.1.45.apk"
+        },
+        {
+          "version": "1.1.44",
+          "uploadedAt": "2026-07-16T16:00:07Z",
+          "tag": "YunXiaoLiao-mobile-1.1.44",
+          "releaseName": "YunXiaoLiao-mobile-1.1.44",
+          "notes": "自动发布 YunXiaoLiao-mobile-1.1.44\n\n- `YunXiaoLiao-mobile_1.1.44.ipa`\n- `YunXiaoLiao-mobile_1.1.44.apk`\n\n构建时间: 2026-07-17 00:58:21 JST",
+          "file": "YunXiaoLiao-mobile_1.1.44.apk",
+          "size": 134042631,
+          "downloadUrl": "https://github.com/xiaoli55979/ipa_install/releases/download/YunXiaoLiao-mobile-1.1.44/YunXiaoLiao-mobile_1.1.44.apk"
+        },
+        {
+          "version": "1.1.43",
+          "uploadedAt": "2026-07-07T14:11:12Z",
+          "tag": "YunXiaoLiao-mobile-1.1.43",
+          "releaseName": "YunXiaoLiao-mobile-1.1.43",
+          "notes": "自动发布 YunXiaoLiao-mobile-1.1.43\n\n- `YunXiaoLiao-mobile_1.1.43.ipa`\n- `YunXiaoLiao-mobile_1.1.43.apk`\n\n构建时间: 2026-07-07 23:03:10 JST",
+          "file": "YunXiaoLiao-mobile_1.1.43.apk",
+          "size": 131870637,
+          "downloadUrl": "https://github.com/xiaoli55979/ipa_install/releases/download/YunXiaoLiao-mobile-1.1.43/YunXiaoLiao-mobile_1.1.43.apk"
+        },
+        {
+          "version": "1.1.42",
+          "uploadedAt": "2026-07-07T06:55:23Z",
+          "tag": "YunXiaoLiao-mobile-1.1.42",
+          "releaseName": "YunXiaoLiao-mobile-1.1.42",
+          "notes": "自动发布 YunXiaoLiao-mobile-1.1.42\n\n- `YunXiaoLiao-mobile_1.1.42.ipa`\n- `YunXiaoLiao-mobile_1.1.42.apk`\n\n构建时间: 2026-07-07 15:46:01 JST",
+          "file": "YunXiaoLiao-mobile_1.1.42.apk",
+          "size": 131869417,
+          "downloadUrl": "https://github.com/xiaoli55979/ipa_install/releases/download/YunXiaoLiao-mobile-1.1.42/YunXiaoLiao-mobile_1.1.42.apk"
+        },
+        {
+          "version": "1.1.41",
+          "uploadedAt": "2026-07-07T06:18:52Z",
+          "tag": "YunXiaoLiao-mobile-1.1.41",
+          "releaseName": "YunXiaoLiao-mobile-1.1.41",
+          "notes": "自动发布 YunXiaoLiao-mobile-1.1.41\n\n- `YunXiaoLiao-mobile_1.1.41.ipa`\n- `YunXiaoLiao-mobile_1.1.41.apk`\n\n构建时间: 2026-07-07 15:08:44 JST",
+          "file": "YunXiaoLiao-mobile_1.1.41.apk",
+          "size": 131869353,
+          "downloadUrl": "https://github.com/xiaoli55979/ipa_install/releases/download/YunXiaoLiao-mobile-1.1.41/YunXiaoLiao-mobile_1.1.41.apk"
+        },
+        {
+          "version": "1.1.40",
+          "uploadedAt": "2026-07-03T09:07:27Z",
+          "tag": "YunXiaoLiao-mobile-1.1.40",
+          "releaseName": "YunXiaoLiao-mobile-1.1.40",
+          "notes": "自动发布 YunXiaoLiao-mobile-1.1.40\n\n- `YunXiaoLiao-mobile_1.1.40_test.ipa`\n- `YunXiaoLiao-mobile_1.1.40.apk`\n\n构建时间: 2026-07-03 17:48:02 JST",
+          "file": "YunXiaoLiao-mobile_1.1.40.apk",
+          "size": 131851825,
+          "downloadUrl": "https://github.com/xiaoli55979/ipa_install/releases/download/YunXiaoLiao-mobile-1.1.40/YunXiaoLiao-mobile_1.1.40.apk"
+        },
+        {
+          "version": "1.1.38",
+          "uploadedAt": "2026-07-01T03:02:11Z",
+          "tag": "YunXiaoLiao-mobile-1.1.38",
+          "releaseName": "YunXiaoLiao-mobile-1.1.38",
+          "notes": "自动发布 YunXiaoLiao-mobile-1.1.38\n\n- `YunXiaoLiao-mobile_1.1.38.apk`\n\n构建时间: 2026-07-01 12:00:39 JST",
+          "file": "YunXiaoLiao-mobile_1.1.38.apk",
+          "size": 132045111,
+          "downloadUrl": "https://github.com/xiaoli55979/ipa_install/releases/download/YunXiaoLiao-mobile-1.1.38/YunXiaoLiao-mobile_1.1.38.apk"
+        },
+        {
+          "version": "1.1.37",
+          "uploadedAt": "2026-06-27T01:58:02Z",
+          "tag": "YunXiaoLiao-mobile-1.1.37",
+          "releaseName": "YunXiaoLiao-mobile-1.1.37",
+          "notes": "自动发布 YunXiaoLiao-mobile-1.1.37\n\n- `YunXiaoLiao-mobile_1.1.37.apk`\n\n构建时间: 2026-06-27 10:55:57 JST",
+          "file": "YunXiaoLiao-mobile_1.1.37.apk",
+          "size": 131921911,
+          "downloadUrl": "https://github.com/xiaoli55979/ipa_install/releases/download/YunXiaoLiao-mobile-1.1.37/YunXiaoLiao-mobile_1.1.37.apk"
+        },
+        {
+          "version": "1.1.36",
+          "uploadedAt": "2026-06-25T04:07:34Z",
+          "tag": "YunXiaoLiao-mobile-1.1.36",
+          "releaseName": "YunXiaoLiao-mobile-1.1.36",
+          "notes": "自动发布 YunXiaoLiao-mobile-1.1.36\n\n- `YunXiaoLiao-mobile_1.1.36.apk`\n\n构建时间: 2026-06-25 13:05:49 JST",
+          "file": "YunXiaoLiao-mobile_1.1.36.apk",
+          "size": 131839995,
+          "downloadUrl": "https://github.com/xiaoli55979/ipa_install/releases/download/YunXiaoLiao-mobile-1.1.36/YunXiaoLiao-mobile_1.1.36.apk"
+        },
+        {
+          "version": "1.1.35",
+          "uploadedAt": "2026-06-24T15:01:39Z",
+          "tag": "YunXiaoLiao-mobile-1.1.35",
+          "releaseName": "YunXiaoLiao-mobile-1.1.35",
+          "notes": "自动发布 YunXiaoLiao-mobile-1.1.35\n\n- `YunXiaoLiao-mobile_1.1.35.apk`\n\n构建时间: 2026-06-24 23:59:28 JST",
+          "file": "YunXiaoLiao-mobile_1.1.35.apk",
+          "size": 131839991,
+          "downloadUrl": "https://github.com/xiaoli55979/ipa_install/releases/download/YunXiaoLiao-mobile-1.1.35/YunXiaoLiao-mobile_1.1.35.apk"
+        },
+        {
+          "version": "1.1.34",
+          "uploadedAt": "2026-06-22T09:21:46Z",
+          "tag": "YunXiaoLiao-mobile-1.1.34",
+          "releaseName": "YunXiaoLiao-mobile-1.1.34",
+          "notes": "自动发布 YunXiaoLiao-mobile-1.1.34\n\n- `YunXiaoLiao-mobile_1.1.34.apk`\n\n构建时间: 2026-06-22 18:20:35 JST",
+          "file": "YunXiaoLiao-mobile_1.1.34.apk",
+          "size": 131807227,
+          "downloadUrl": "https://github.com/xiaoli55979/ipa_install/releases/download/YunXiaoLiao-mobile-1.1.34/YunXiaoLiao-mobile_1.1.34.apk"
+        },
+        {
+          "version": "1.1.33",
+          "uploadedAt": "2026-06-22T07:49:40Z",
+          "tag": "YunXiaoLiao-mobile-1.1.33",
+          "releaseName": "YunXiaoLiao-mobile-1.1.33",
+          "notes": "自动发布 YunXiaoLiao-mobile-1.1.33\n\n- `YunXiaoLiao-mobile_1.1.33.apk`\n\n构建时间: 2026-06-22 16:47:56 JST",
+          "file": "YunXiaoLiao-mobile_1.1.33.apk",
+          "size": 131807103,
+          "downloadUrl": "https://github.com/xiaoli55979/ipa_install/releases/download/YunXiaoLiao-mobile-1.1.33/YunXiaoLiao-mobile_1.1.33.apk"
+        },
         {
           "version": "1.1.29",
           "uploadedAt": "2026-06-09T14:12:52Z",
@@ -769,539 +348,132 @@
       ],
       "mac": [],
       "win": [],
-      "latestAt": "2026-06-09T14:12:52Z"
+      "latestAt": "2026-07-17T08:37:10Z"
     },
     {
-      "id": "com.lianfu.cn",
-      "name": "988",
-      "icon": "https://xiaoli55979.github.io/ipa_install/icons/com.lianfu.cn-ios.png",
+      "id": "com.imtest.cn",
+      "name": "云小聊",
+      "icon": "https://xiaoli55979.github.io/ipa_install/icons/com.imtest.cn-ios.png",
       "ios": [
         {
-          "version": "7.0.9",
-          "uploadedAt": "2026-06-05T05:50:35Z",
-          "tag": "988-mobile-7.0.9",
-          "releaseName": "988-mobile-7.0.9",
-          "notes": "自动发布 988-mobile-7.0.9\n\n- `988-mobile_7.0.9_test.ipa`\n- `988-mobile_7.0.9.apk`\n\n构建时间: 2026-06-05 14:49:35 JST",
-          "file": "988-mobile_7.0.9_test.ipa",
-          "size": 49167604,
-          "downloadUrl": "https://github.com/xiaoli55979/ipa_install/releases/download/988-mobile-7.0.9/988-mobile_7.0.9_test.ipa",
-          "manifestUrl": "https://xiaoli55979.github.io/ipa_install/manifest/com.lianfu.cn-988-mobile-7.0.9.plist",
-          "installUrl": "itms-services://?action=download-manifest&url=https%3A%2F%2Fxiaoli55979.github.io%2Fipa_install%2Fmanifest%2Fcom.lianfu.cn-988-mobile-7.0.9.plist"
+          "version": "1.1.45",
+          "uploadedAt": "2026-07-17T08:35:54Z",
+          "tag": "YunXiaoLiao-mobile-1.1.45",
+          "releaseName": "YunXiaoLiao-mobile-1.1.45",
+          "notes": "自动发布 YunXiaoLiao-mobile-1.1.45\n\n- `YunXiaoLiao-mobile_1.1.45.ipa`\n- `YunXiaoLiao-mobile_1.1.45.apk`\n\n构建时间: 2026-07-17 17:34:37 JST",
+          "file": "YunXiaoLiao-mobile_1.1.45.ipa",
+          "size": 40681535,
+          "downloadUrl": "https://github.com/xiaoli55979/ipa_install/releases/download/YunXiaoLiao-mobile-1.1.45/YunXiaoLiao-mobile_1.1.45.ipa",
+          "manifestUrl": "https://xiaoli55979.github.io/ipa_install/manifest/com.imtest.cn-YunXiaoLiao-mobile-1.1.45.plist",
+          "installUrl": "itms-services://?action=download-manifest&url=https%3A%2F%2Fxiaoli55979.github.io%2Fipa_install%2Fmanifest%2Fcom.imtest.cn-YunXiaoLiao-mobile-1.1.45.plist"
         },
         {
-          "version": "7.0.8",
-          "uploadedAt": "2026-06-04T09:25:49Z",
-          "tag": "988-mobile-7.0.8",
-          "releaseName": "988-mobile-7.0.8",
-          "notes": "自动发布 988-mobile-7.0.8\n\n- `988-mobile_7.0.8_test.ipa`\n- `988-mobile_7.0.8.apk`\n\n构建时间: 2026-06-04 18:25:05 JST",
-          "file": "988-mobile_7.0.8_test.ipa",
-          "size": 49138608,
-          "downloadUrl": "https://github.com/xiaoli55979/ipa_install/releases/download/988-mobile-7.0.8/988-mobile_7.0.8_test.ipa",
-          "manifestUrl": "https://xiaoli55979.github.io/ipa_install/manifest/com.lianfu.cn-988-mobile-7.0.8.plist",
-          "installUrl": "itms-services://?action=download-manifest&url=https%3A%2F%2Fxiaoli55979.github.io%2Fipa_install%2Fmanifest%2Fcom.lianfu.cn-988-mobile-7.0.8.plist"
+          "version": "1.1.44",
+          "uploadedAt": "2026-07-16T15:59:20Z",
+          "tag": "YunXiaoLiao-mobile-1.1.44",
+          "releaseName": "YunXiaoLiao-mobile-1.1.44",
+          "notes": "自动发布 YunXiaoLiao-mobile-1.1.44\n\n- `YunXiaoLiao-mobile_1.1.44.ipa`\n- `YunXiaoLiao-mobile_1.1.44.apk`\n\n构建时间: 2026-07-17 00:58:21 JST",
+          "file": "YunXiaoLiao-mobile_1.1.44.ipa",
+          "size": 40681389,
+          "downloadUrl": "https://github.com/xiaoli55979/ipa_install/releases/download/YunXiaoLiao-mobile-1.1.44/YunXiaoLiao-mobile_1.1.44.ipa",
+          "manifestUrl": "https://xiaoli55979.github.io/ipa_install/manifest/com.imtest.cn-YunXiaoLiao-mobile-1.1.44.plist",
+          "installUrl": "itms-services://?action=download-manifest&url=https%3A%2F%2Fxiaoli55979.github.io%2Fipa_install%2Fmanifest%2Fcom.imtest.cn-YunXiaoLiao-mobile-1.1.44.plist"
         },
         {
-          "version": "7.0.7",
-          "uploadedAt": "2026-06-02T09:20:37Z",
-          "tag": "988-mobile-7.0.7",
-          "releaseName": "988-mobile-7.0.7",
-          "notes": "自动发布 988-mobile-7.0.7\n\n- `988-mobile_7.0.7_test.ipa`\n- `988-mobile_7.0.7.apk`\n\n构建时间: 2026-06-02 18:19:54 JST",
-          "file": "988-mobile_7.0.7_test.ipa",
-          "size": 48996694,
-          "downloadUrl": "https://github.com/xiaoli55979/ipa_install/releases/download/988-mobile-7.0.7/988-mobile_7.0.7_test.ipa",
-          "manifestUrl": "https://xiaoli55979.github.io/ipa_install/manifest/com.lianfu.cn-988-mobile-7.0.7.plist",
-          "installUrl": "itms-services://?action=download-manifest&url=https%3A%2F%2Fxiaoli55979.github.io%2Fipa_install%2Fmanifest%2Fcom.lianfu.cn-988-mobile-7.0.7.plist"
+          "version": "1.1.43",
+          "uploadedAt": "2026-07-07T14:06:31Z",
+          "tag": "YunXiaoLiao-mobile-1.1.43",
+          "releaseName": "YunXiaoLiao-mobile-1.1.43",
+          "notes": "自动发布 YunXiaoLiao-mobile-1.1.43\n\n- `YunXiaoLiao-mobile_1.1.43.ipa`\n- `YunXiaoLiao-mobile_1.1.43.apk`\n\n构建时间: 2026-07-07 23:03:10 JST",
+          "file": "YunXiaoLiao-mobile_1.1.43.ipa",
+          "size": 39391906,
+          "downloadUrl": "https://github.com/xiaoli55979/ipa_install/releases/download/YunXiaoLiao-mobile-1.1.43/YunXiaoLiao-mobile_1.1.43.ipa",
+          "manifestUrl": "https://xiaoli55979.github.io/ipa_install/manifest/com.imtest.cn-YunXiaoLiao-mobile-1.1.43.plist",
+          "installUrl": "itms-services://?action=download-manifest&url=https%3A%2F%2Fxiaoli55979.github.io%2Fipa_install%2Fmanifest%2Fcom.imtest.cn-YunXiaoLiao-mobile-1.1.43.plist"
         },
         {
-          "version": "7.0.6",
-          "uploadedAt": "2026-05-27T14:13:54Z",
-          "tag": "988-mobile-7.0.6",
-          "releaseName": "988-mobile-7.0.6",
-          "notes": "自动发布 988-mobile-7.0.6\n\n- `988-mobile_7.0.6_test.ipa`\n- `988-mobile_7.0.6.apk`\n\n构建时间: 2026-05-27 23:13:31 JST",
-          "file": "988-mobile_7.0.6_test.ipa",
-          "size": 49049043,
-          "downloadUrl": "https://github.com/xiaoli55979/ipa_install/releases/download/988-mobile-7.0.6/988-mobile_7.0.6_test.ipa",
-          "manifestUrl": "https://xiaoli55979.github.io/ipa_install/manifest/com.lianfu.cn-988-mobile-7.0.6.plist",
-          "installUrl": "itms-services://?action=download-manifest&url=https%3A%2F%2Fxiaoli55979.github.io%2Fipa_install%2Fmanifest%2Fcom.lianfu.cn-988-mobile-7.0.6.plist"
+          "version": "1.1.42",
+          "uploadedAt": "2026-07-07T06:50:13Z",
+          "tag": "YunXiaoLiao-mobile-1.1.42",
+          "releaseName": "YunXiaoLiao-mobile-1.1.42",
+          "notes": "自动发布 YunXiaoLiao-mobile-1.1.42\n\n- `YunXiaoLiao-mobile_1.1.42.ipa`\n- `YunXiaoLiao-mobile_1.1.42.apk`\n\n构建时间: 2026-07-07 15:46:01 JST",
+          "file": "YunXiaoLiao-mobile_1.1.42.ipa",
+          "size": 39390646,
+          "downloadUrl": "https://github.com/xiaoli55979/ipa_install/releases/download/YunXiaoLiao-mobile-1.1.42/YunXiaoLiao-mobile_1.1.42.ipa",
+          "manifestUrl": "https://xiaoli55979.github.io/ipa_install/manifest/com.imtest.cn-YunXiaoLiao-mobile-1.1.42.plist",
+          "installUrl": "itms-services://?action=download-manifest&url=https%3A%2F%2Fxiaoli55979.github.io%2Fipa_install%2Fmanifest%2Fcom.imtest.cn-YunXiaoLiao-mobile-1.1.42.plist"
         },
         {
-          "version": "7.0.5",
-          "uploadedAt": "2026-05-27T05:00:13Z",
-          "tag": "988-mobile-7.0.5",
-          "releaseName": "988-mobile-7.0.5",
-          "notes": "自动发布 988-mobile-7.0.5\n\n- `988-mobile_7.0.5_test.ipa`\n- `988-mobile_7.0.5.apk`\n\n构建时间: 2026-05-27 14:00:01 JST",
-          "file": "988-mobile_7.0.5_test.ipa",
-          "size": 49053391,
-          "downloadUrl": "https://github.com/xiaoli55979/ipa_install/releases/download/988-mobile-7.0.5/988-mobile_7.0.5_test.ipa",
-          "manifestUrl": "https://xiaoli55979.github.io/ipa_install/manifest/com.lianfu.cn-988-mobile-7.0.5.plist",
-          "installUrl": "itms-services://?action=download-manifest&url=https%3A%2F%2Fxiaoli55979.github.io%2Fipa_install%2Fmanifest%2Fcom.lianfu.cn-988-mobile-7.0.5.plist"
+          "version": "1.1.41",
+          "uploadedAt": "2026-07-07T06:13:51Z",
+          "tag": "YunXiaoLiao-mobile-1.1.41",
+          "releaseName": "YunXiaoLiao-mobile-1.1.41",
+          "notes": "自动发布 YunXiaoLiao-mobile-1.1.41\n\n- `YunXiaoLiao-mobile_1.1.41.ipa`\n- `YunXiaoLiao-mobile_1.1.41.apk`\n\n构建时间: 2026-07-07 15:08:44 JST",
+          "file": "YunXiaoLiao-mobile_1.1.41.ipa",
+          "size": 39386431,
+          "downloadUrl": "https://github.com/xiaoli55979/ipa_install/releases/download/YunXiaoLiao-mobile-1.1.41/YunXiaoLiao-mobile_1.1.41.ipa",
+          "manifestUrl": "https://xiaoli55979.github.io/ipa_install/manifest/com.imtest.cn-YunXiaoLiao-mobile-1.1.41.plist",
+          "installUrl": "itms-services://?action=download-manifest&url=https%3A%2F%2Fxiaoli55979.github.io%2Fipa_install%2Fmanifest%2Fcom.imtest.cn-YunXiaoLiao-mobile-1.1.41.plist"
         },
         {
-          "version": "7.0.4",
-          "uploadedAt": "2026-05-26T08:36:48Z",
-          "tag": "988-mobile-7.0.4",
-          "releaseName": "988-mobile-7.0.4",
-          "notes": "自动发布 988-mobile-7.0.4\n\n- `988-mobile_7.0.4_test.ipa`\n- `988-mobile_7.0.4.apk`\n\n构建时间: 2026-05-26 17:36:00 JST",
-          "file": "988-mobile_7.0.4_test.ipa",
-          "size": 49040958,
-          "downloadUrl": "https://github.com/xiaoli55979/ipa_install/releases/download/988-mobile-7.0.4/988-mobile_7.0.4_test.ipa",
-          "manifestUrl": "https://xiaoli55979.github.io/ipa_install/manifest/com.lianfu.cn-988-mobile-7.0.4.plist",
-          "installUrl": "itms-services://?action=download-manifest&url=https%3A%2F%2Fxiaoli55979.github.io%2Fipa_install%2Fmanifest%2Fcom.lianfu.cn-988-mobile-7.0.4.plist"
+          "version": "1.1.40",
+          "uploadedAt": "2026-07-03T08:58:40Z",
+          "tag": "YunXiaoLiao-mobile-1.1.40",
+          "releaseName": "YunXiaoLiao-mobile-1.1.40",
+          "notes": "自动发布 YunXiaoLiao-mobile-1.1.40\n\n- `YunXiaoLiao-mobile_1.1.40_test.ipa`\n- `YunXiaoLiao-mobile_1.1.40.apk`\n\n构建时间: 2026-07-03 17:48:02 JST",
+          "file": "YunXiaoLiao-mobile_1.1.40_test.ipa",
+          "size": 42295649,
+          "downloadUrl": "https://github.com/xiaoli55979/ipa_install/releases/download/YunXiaoLiao-mobile-1.1.40/YunXiaoLiao-mobile_1.1.40_test.ipa",
+          "manifestUrl": "https://xiaoli55979.github.io/ipa_install/manifest/com.imtest.cn-YunXiaoLiao-mobile-1.1.40.plist",
+          "installUrl": "itms-services://?action=download-manifest&url=https%3A%2F%2Fxiaoli55979.github.io%2Fipa_install%2Fmanifest%2Fcom.imtest.cn-YunXiaoLiao-mobile-1.1.40.plist"
         },
         {
-          "version": "7.0.3",
-          "uploadedAt": "2026-05-25T14:20:59Z",
-          "tag": "988-mobile-7.0.3",
-          "releaseName": "988-mobile-7.0.3",
-          "notes": "自动发布 988-mobile-7.0.3\n\n- `988-mobile_7.0.3_test.ipa`\n- `988-mobile_7.0.3.apk`\n\n构建时间: 2026-05-25 23:20:44 JST",
-          "file": "988-mobile_7.0.3_test.ipa",
-          "size": 49050051,
-          "downloadUrl": "https://github.com/xiaoli55979/ipa_install/releases/download/988-mobile-7.0.3/988-mobile_7.0.3_test.ipa",
-          "manifestUrl": "https://xiaoli55979.github.io/ipa_install/manifest/com.lianfu.cn-988-mobile-7.0.3.plist",
-          "installUrl": "itms-services://?action=download-manifest&url=https%3A%2F%2Fxiaoli55979.github.io%2Fipa_install%2Fmanifest%2Fcom.lianfu.cn-988-mobile-7.0.3.plist"
-        },
-        {
-          "version": "7.0.2",
-          "uploadedAt": "2026-05-25T04:34:07Z",
-          "tag": "988-mobile-7.0.2",
-          "releaseName": "988-mobile-7.0.2",
-          "notes": "自动发布 988-mobile-7.0.2\n\n- `988-mobile_7.0.2_test.ipa`\n- `988-mobile_7.0.2.apk`\n\n构建时间: 2026-05-25 13:33:26 JST",
-          "file": "988-mobile_7.0.2_test.ipa",
-          "size": 49051101,
-          "downloadUrl": "https://github.com/xiaoli55979/ipa_install/releases/download/988-mobile-7.0.2/988-mobile_7.0.2_test.ipa",
-          "manifestUrl": "https://xiaoli55979.github.io/ipa_install/manifest/com.lianfu.cn-988-mobile-7.0.2.plist",
-          "installUrl": "itms-services://?action=download-manifest&url=https%3A%2F%2Fxiaoli55979.github.io%2Fipa_install%2Fmanifest%2Fcom.lianfu.cn-988-mobile-7.0.2.plist"
-        },
-        {
-          "version": "2.0.7",
-          "uploadedAt": "2026-05-22T15:37:58Z",
-          "tag": "988-mobile-7.0.1",
-          "releaseName": "988-mobile-2.0.7",
-          "notes": "自动发布 988-mobile-2.0.7\r\n\r\n- `988-mobile_2.0.7_test.ipa`\r\n- `988-mobile_2.0.7.apk`\r\n\r\n构建时间: 2026-05-23 00:37:45 JST",
-          "file": "988-mobile_2.0.7_test.ipa",
-          "size": 48243319,
-          "downloadUrl": "https://github.com/xiaoli55979/ipa_install/releases/download/988-mobile-7.0.1/988-mobile_2.0.7_test.ipa",
-          "manifestUrl": "https://xiaoli55979.github.io/ipa_install/manifest/com.lianfu.cn-988-mobile-7.0.1.plist",
-          "installUrl": "itms-services://?action=download-manifest&url=https%3A%2F%2Fxiaoli55979.github.io%2Fipa_install%2Fmanifest%2Fcom.lianfu.cn-988-mobile-7.0.1.plist"
-        },
-        {
-          "version": "2.0.6",
-          "uploadedAt": "2026-05-22T14:35:20Z",
-          "tag": "988-mobile-2.0.6",
-          "releaseName": "988-mobile-2.0.6",
-          "notes": "自动发布 988-mobile-2.0.6\n\n- `988-mobile_2.0.6_test.ipa`\n- `988-mobile_2.0.6.apk`\n\n构建时间: 2026-05-22 23:35:05 JST",
-          "file": "988-mobile_2.0.6_test.ipa",
-          "size": 48243310,
-          "downloadUrl": "https://github.com/xiaoli55979/ipa_install/releases/download/988-mobile-2.0.6/988-mobile_2.0.6_test.ipa",
-          "manifestUrl": "https://xiaoli55979.github.io/ipa_install/manifest/com.lianfu.cn-988-mobile-2.0.6.plist",
-          "installUrl": "itms-services://?action=download-manifest&url=https%3A%2F%2Fxiaoli55979.github.io%2Fipa_install%2Fmanifest%2Fcom.lianfu.cn-988-mobile-2.0.6.plist"
-        },
-        {
-          "version": "2.0.5",
-          "uploadedAt": "2026-05-22T13:19:09Z",
-          "tag": "988-mobile-2.0.5",
-          "releaseName": "988-mobile-2.0.5",
-          "notes": "自动发布 988-mobile-2.0.5\n\n- `988-mobile_2.0.5_test.ipa`\n- `988-mobile_2.0.5.apk`\n\n构建时间: 2026-05-22 22:18:55 JST",
-          "file": "988-mobile_2.0.5_test.ipa",
-          "size": 48242059,
-          "downloadUrl": "https://github.com/xiaoli55979/ipa_install/releases/download/988-mobile-2.0.5/988-mobile_2.0.5_test.ipa",
-          "manifestUrl": "https://xiaoli55979.github.io/ipa_install/manifest/com.lianfu.cn-988-mobile-2.0.5.plist",
-          "installUrl": "itms-services://?action=download-manifest&url=https%3A%2F%2Fxiaoli55979.github.io%2Fipa_install%2Fmanifest%2Fcom.lianfu.cn-988-mobile-2.0.5.plist"
-        },
-        {
-          "version": "2.0.5",
-          "uploadedAt": "2026-05-21T13:24:57Z",
-          "tag": "6.2.1",
-          "releaseName": "988-mobile-6.2.1",
-          "notes": "自动发布 988-mobile-2.0.5\r\n\r\n- `988-mobile_2.0.5_test.ipa`\r\n- `988-mobile_2.0.5.apk`\r\n\r\n构建时间: 2026-05-21 22:24:43 JST",
-          "file": "988-mobile_2.0.5_test.ipa",
-          "size": 48220296,
-          "downloadUrl": "https://github.com/xiaoli55979/ipa_install/releases/download/6.2.1/988-mobile_2.0.5_test.ipa",
-          "manifestUrl": "https://xiaoli55979.github.io/ipa_install/manifest/com.lianfu.cn-6.2.1.plist",
-          "installUrl": "itms-services://?action=download-manifest&url=https%3A%2F%2Fxiaoli55979.github.io%2Fipa_install%2Fmanifest%2Fcom.lianfu.cn-6.2.1.plist"
-        },
-        {
-          "version": "2.0.4",
-          "uploadedAt": "2026-05-21T02:45:05Z",
-          "tag": "988-mobile-2.0.4",
-          "releaseName": "988-mobile-2.0.4",
-          "notes": "自动发布 988-mobile-2.0.4\n\n- `988-mobile_2.0.4_test.ipa`\n- `988-mobile_2.0.4.apk`\n\n构建时间: 2026-05-21 11:44:51 JST",
-          "file": "988-mobile_2.0.4_test.ipa",
-          "size": 48244761,
-          "downloadUrl": "https://github.com/xiaoli55979/ipa_install/releases/download/988-mobile-2.0.4/988-mobile_2.0.4_test.ipa",
-          "manifestUrl": "https://xiaoli55979.github.io/ipa_install/manifest/com.lianfu.cn-988-mobile-2.0.4.plist",
-          "installUrl": "itms-services://?action=download-manifest&url=https%3A%2F%2Fxiaoli55979.github.io%2Fipa_install%2Fmanifest%2Fcom.lianfu.cn-988-mobile-2.0.4.plist"
-        },
-        {
-          "version": "2.0.3",
-          "uploadedAt": "2026-05-14T02:18:36Z",
-          "tag": "988-mobile-2.0.3",
-          "releaseName": "988-mobile-2.0.3",
-          "notes": "自动发布 988-mobile-2.0.3\n\n- `988-mobile_2.0.3_test.ipa`\n- `988-mobile_2.0.3.apk`\n\n构建时间: 2026-05-14 11:15:40 JST",
-          "file": "988-mobile_2.0.3_test.ipa",
-          "size": 48021770,
-          "downloadUrl": "https://github.com/xiaoli55979/ipa_install/releases/download/988-mobile-2.0.3/988-mobile_2.0.3_test.ipa",
-          "manifestUrl": "https://xiaoli55979.github.io/ipa_install/manifest/com.lianfu.cn-988-mobile-2.0.3.plist",
-          "installUrl": "itms-services://?action=download-manifest&url=https%3A%2F%2Fxiaoli55979.github.io%2Fipa_install%2Fmanifest%2Fcom.lianfu.cn-988-mobile-2.0.3.plist"
-        },
-        {
-          "version": "2.0.2",
-          "uploadedAt": "2026-05-13T12:51:31Z",
-          "tag": "988-mobile-2.0.2",
-          "releaseName": "988-mobile-2.0.2",
-          "notes": "自动发布 988-mobile-2.0.2\n\n- `988-mobile_2.0.2_test.ipa`\n- `988-mobile_2.0.2.apk`\n\n构建时间: 2026-05-13 21:50:05 JST",
-          "file": "988-mobile_2.0.2_test.ipa",
-          "size": 48023732,
-          "downloadUrl": "https://github.com/xiaoli55979/ipa_install/releases/download/988-mobile-2.0.2/988-mobile_2.0.2_test.ipa",
-          "manifestUrl": "https://xiaoli55979.github.io/ipa_install/manifest/com.lianfu.cn-988-mobile-2.0.2.plist",
-          "installUrl": "itms-services://?action=download-manifest&url=https%3A%2F%2Fxiaoli55979.github.io%2Fipa_install%2Fmanifest%2Fcom.lianfu.cn-988-mobile-2.0.2.plist"
+          "version": "1.1.39",
+          "uploadedAt": "2026-07-01T04:33:52Z",
+          "tag": "YunXiaoLiao-mobile-1.1.39",
+          "releaseName": "YunXiaoLiao-mobile-1.1.39",
+          "notes": "自动发布 YunXiaoLiao-mobile-1.1.39\n\n- `YunXiaoLiao-mobile_1.1.39_test.ipa`\n\n构建时间: 2026-07-01 13:33:12 JST",
+          "file": "YunXiaoLiao-mobile_1.1.39_test.ipa",
+          "size": 42355261,
+          "downloadUrl": "https://github.com/xiaoli55979/ipa_install/releases/download/YunXiaoLiao-mobile-1.1.39/YunXiaoLiao-mobile_1.1.39_test.ipa",
+          "manifestUrl": "https://xiaoli55979.github.io/ipa_install/manifest/com.imtest.cn-YunXiaoLiao-mobile-1.1.39.plist",
+          "installUrl": "itms-services://?action=download-manifest&url=https%3A%2F%2Fxiaoli55979.github.io%2Fipa_install%2Fmanifest%2Fcom.imtest.cn-YunXiaoLiao-mobile-1.1.39.plist"
         }
       ],
-      "android": [
-        {
-          "version": "7.0.10",
-          "uploadedAt": "2026-06-08T08:42:44Z",
-          "tag": "988-mobile-7.0.10",
-          "releaseName": "988-mobile-7.0.10",
-          "notes": "自动发布 988-mobile-7.0.10\n\n- `988-mobile_7.0.10.apk`\n\n构建时间: 2026-06-08 17:42:20 JST",
-          "file": "988-mobile_7.0.10.apk",
-          "size": 161124389,
-          "downloadUrl": "https://github.com/xiaoli55979/ipa_install/releases/download/988-mobile-7.0.10/988-mobile_7.0.10.apk"
-        },
-        {
-          "version": "7.0.9",
-          "uploadedAt": "2026-06-05T05:51:56Z",
-          "tag": "988-mobile-7.0.9",
-          "releaseName": "988-mobile-7.0.9",
-          "notes": "自动发布 988-mobile-7.0.9\n\n- `988-mobile_7.0.9_test.ipa`\n- `988-mobile_7.0.9.apk`\n\n构建时间: 2026-06-05 14:49:35 JST",
-          "file": "988-mobile_7.0.9.apk",
-          "size": 160714729,
-          "downloadUrl": "https://github.com/xiaoli55979/ipa_install/releases/download/988-mobile-7.0.9/988-mobile_7.0.9.apk"
-        },
-        {
-          "version": "7.0.8",
-          "uploadedAt": "2026-06-04T09:27:13Z",
-          "tag": "988-mobile-7.0.8",
-          "releaseName": "988-mobile-7.0.8",
-          "notes": "自动发布 988-mobile-7.0.8\n\n- `988-mobile_7.0.8_test.ipa`\n- `988-mobile_7.0.8.apk`\n\n构建时间: 2026-06-04 18:25:05 JST",
-          "file": "988-mobile_7.0.8.apk",
-          "size": 160567213,
-          "downloadUrl": "https://github.com/xiaoli55979/ipa_install/releases/download/988-mobile-7.0.8/988-mobile_7.0.8.apk"
-        },
-        {
-          "version": "7.0.7",
-          "uploadedAt": "2026-06-02T09:20:51Z",
-          "tag": "988-mobile-7.0.7",
-          "releaseName": "988-mobile-7.0.7",
-          "notes": "自动发布 988-mobile-7.0.7\n\n- `988-mobile_7.0.7_test.ipa`\n- `988-mobile_7.0.7.apk`\n\n构建时间: 2026-06-02 18:19:54 JST",
-          "file": "988-mobile_7.0.7.apk",
-          "size": 159879125,
-          "downloadUrl": "https://github.com/xiaoli55979/ipa_install/releases/download/988-mobile-7.0.7/988-mobile_7.0.7.apk"
-        },
-        {
-          "version": "7.0.6",
-          "uploadedAt": "2026-05-27T14:14:17Z",
-          "tag": "988-mobile-7.0.6",
-          "releaseName": "988-mobile-7.0.6",
-          "notes": "自动发布 988-mobile-7.0.6\n\n- `988-mobile_7.0.6_test.ipa`\n- `988-mobile_7.0.6.apk`\n\n构建时间: 2026-05-27 23:13:31 JST",
-          "file": "988-mobile_7.0.6.apk",
-          "size": 160174037,
-          "downloadUrl": "https://github.com/xiaoli55979/ipa_install/releases/download/988-mobile-7.0.6/988-mobile_7.0.6.apk"
-        },
-        {
-          "version": "7.0.5",
-          "uploadedAt": "2026-05-27T05:00:27Z",
-          "tag": "988-mobile-7.0.5",
-          "releaseName": "988-mobile-7.0.5",
-          "notes": "自动发布 988-mobile-7.0.5\n\n- `988-mobile_7.0.5_test.ipa`\n- `988-mobile_7.0.5.apk`\n\n构建时间: 2026-05-27 14:00:01 JST",
-          "file": "988-mobile_7.0.5.apk",
-          "size": 160108369,
-          "downloadUrl": "https://github.com/xiaoli55979/ipa_install/releases/download/988-mobile-7.0.5/988-mobile_7.0.5.apk"
-        },
-        {
-          "version": "7.0.4",
-          "uploadedAt": "2026-05-26T08:37:34Z",
-          "tag": "988-mobile-7.0.4",
-          "releaseName": "988-mobile-7.0.4",
-          "notes": "自动发布 988-mobile-7.0.4\n\n- `988-mobile_7.0.4_test.ipa`\n- `988-mobile_7.0.4.apk`\n\n构建时间: 2026-05-26 17:36:00 JST",
-          "file": "988-mobile_7.0.4.apk",
-          "size": 160108369,
-          "downloadUrl": "https://github.com/xiaoli55979/ipa_install/releases/download/988-mobile-7.0.4/988-mobile_7.0.4.apk"
-        },
-        {
-          "version": "7.0.3",
-          "uploadedAt": "2026-05-25T14:21:13Z",
-          "tag": "988-mobile-7.0.3",
-          "releaseName": "988-mobile-7.0.3",
-          "notes": "自动发布 988-mobile-7.0.3\n\n- `988-mobile_7.0.3_test.ipa`\n- `988-mobile_7.0.3.apk`\n\n构建时间: 2026-05-25 23:20:44 JST",
-          "file": "988-mobile_7.0.3.apk",
-          "size": 160091985,
-          "downloadUrl": "https://github.com/xiaoli55979/ipa_install/releases/download/988-mobile-7.0.3/988-mobile_7.0.3.apk"
-        },
-        {
-          "version": "7.0.2",
-          "uploadedAt": "2026-05-25T04:34:45Z",
-          "tag": "988-mobile-7.0.2",
-          "releaseName": "988-mobile-7.0.2",
-          "notes": "自动发布 988-mobile-7.0.2\n\n- `988-mobile_7.0.2_test.ipa`\n- `988-mobile_7.0.2.apk`\n\n构建时间: 2026-05-25 13:33:26 JST",
-          "file": "988-mobile_7.0.2.apk",
-          "size": 160091985,
-          "downloadUrl": "https://github.com/xiaoli55979/ipa_install/releases/download/988-mobile-7.0.2/988-mobile_7.0.2.apk"
-        },
-        {
-          "version": "2.0.7",
-          "uploadedAt": "2026-05-22T15:38:11Z",
-          "tag": "988-mobile-7.0.1",
-          "releaseName": "988-mobile-2.0.7",
-          "notes": "自动发布 988-mobile-2.0.7\r\n\r\n- `988-mobile_2.0.7_test.ipa`\r\n- `988-mobile_2.0.7.apk`\r\n\r\n构建时间: 2026-05-23 00:37:45 JST",
-          "file": "988-mobile_2.0.7.apk",
-          "size": 159649481,
-          "downloadUrl": "https://github.com/xiaoli55979/ipa_install/releases/download/988-mobile-7.0.1/988-mobile_2.0.7.apk"
-        },
-        {
-          "version": "2.0.6",
-          "uploadedAt": "2026-05-22T14:35:35Z",
-          "tag": "988-mobile-2.0.6",
-          "releaseName": "988-mobile-2.0.6",
-          "notes": "自动发布 988-mobile-2.0.6\n\n- `988-mobile_2.0.6_test.ipa`\n- `988-mobile_2.0.6.apk`\n\n构建时间: 2026-05-22 23:35:05 JST",
-          "file": "988-mobile_2.0.6.apk",
-          "size": 159649481,
-          "downloadUrl": "https://github.com/xiaoli55979/ipa_install/releases/download/988-mobile-2.0.6/988-mobile_2.0.6.apk"
-        },
-        {
-          "version": "2.0.5",
-          "uploadedAt": "2026-05-22T13:19:22Z",
-          "tag": "988-mobile-2.0.5",
-          "releaseName": "988-mobile-2.0.5",
-          "notes": "自动发布 988-mobile-2.0.5\n\n- `988-mobile_2.0.5_test.ipa`\n- `988-mobile_2.0.5.apk`\n\n构建时间: 2026-05-22 22:18:55 JST",
-          "file": "988-mobile_2.0.5.apk",
-          "size": 159649481,
-          "downloadUrl": "https://github.com/xiaoli55979/ipa_install/releases/download/988-mobile-2.0.5/988-mobile_2.0.5.apk"
-        },
-        {
-          "version": "2.0.5",
-          "uploadedAt": "2026-05-21T13:25:10Z",
-          "tag": "6.2.1",
-          "releaseName": "988-mobile-6.2.1",
-          "notes": "自动发布 988-mobile-2.0.5\r\n\r\n- `988-mobile_2.0.5_test.ipa`\r\n- `988-mobile_2.0.5.apk`\r\n\r\n构建时间: 2026-05-21 22:24:43 JST",
-          "file": "988-mobile_2.0.5.apk",
-          "size": 159649481,
-          "downloadUrl": "https://github.com/xiaoli55979/ipa_install/releases/download/6.2.1/988-mobile_2.0.5.apk"
-        },
-        {
-          "version": "2.0.4",
-          "uploadedAt": "2026-05-21T02:45:19Z",
-          "tag": "988-mobile-2.0.4",
-          "releaseName": "988-mobile-2.0.4",
-          "notes": "自动发布 988-mobile-2.0.4\n\n- `988-mobile_2.0.4_test.ipa`\n- `988-mobile_2.0.4.apk`\n\n构建时间: 2026-05-21 11:44:51 JST",
-          "file": "988-mobile_2.0.4.apk",
-          "size": 159649389,
-          "downloadUrl": "https://github.com/xiaoli55979/ipa_install/releases/download/988-mobile-2.0.4/988-mobile_2.0.4.apk"
-        },
-        {
-          "version": "2.0.3",
-          "uploadedAt": "2026-05-14T02:23:51Z",
-          "tag": "988-mobile-2.0.3",
-          "releaseName": "988-mobile-2.0.3",
-          "notes": "自动发布 988-mobile-2.0.3\n\n- `988-mobile_2.0.3_test.ipa`\n- `988-mobile_2.0.3.apk`\n\n构建时间: 2026-05-14 11:15:40 JST",
-          "file": "988-mobile_2.0.3.apk",
-          "size": 159156782,
-          "downloadUrl": "https://github.com/xiaoli55979/ipa_install/releases/download/988-mobile-2.0.3/988-mobile_2.0.3.apk"
-        },
-        {
-          "version": "2.0.2",
-          "uploadedAt": "2026-05-13T12:52:47Z",
-          "tag": "988-mobile-2.0.2",
-          "releaseName": "988-mobile-2.0.2",
-          "notes": "自动发布 988-mobile-2.0.2\n\n- `988-mobile_2.0.2_test.ipa`\n- `988-mobile_2.0.2.apk`\n\n构建时间: 2026-05-13 21:50:05 JST",
-          "file": "988-mobile_2.0.2.apk",
-          "size": 159156782,
-          "downloadUrl": "https://github.com/xiaoli55979/ipa_install/releases/download/988-mobile-2.0.2/988-mobile_2.0.2.apk"
-        }
-      ],
+      "android": [],
       "mac": [],
       "win": [],
-      "latestAt": "2026-06-08T08:42:44Z"
-    },
-    {
-      "id": "com.flutterChatSupport",
-      "name": "客服插件",
-      "icon": "https://xiaoli55979.github.io/ipa_install/icons/com.flutterChatSupport-ios.png",
-      "ios": [
-        {
-          "version": "1.1.18",
-          "uploadedAt": "2026-05-25T14:09:47Z",
-          "tag": "chat_support-1.1.18",
-          "releaseName": "chat_support-1.1.18",
-          "notes": "自动发布 chat_support-1.1.18\n\n- `chat_support_1.1.18_test.ipa`\n- `chat_support_1.1.18.apk`\n\n构建时间: 2026-05-25 23:09:37 JST",
-          "file": "chat_support_1.1.18_test.ipa",
-          "size": 21482528,
-          "downloadUrl": "https://github.com/xiaoli55979/ipa_install/releases/download/chat_support-1.1.18/chat_support_1.1.18_test.ipa",
-          "manifestUrl": "https://xiaoli55979.github.io/ipa_install/manifest/com.flutterChatSupport-chat_support-1.1.18.plist",
-          "installUrl": "itms-services://?action=download-manifest&url=https%3A%2F%2Fxiaoli55979.github.io%2Fipa_install%2Fmanifest%2Fcom.flutterChatSupport-chat_support-1.1.18.plist"
-        },
-        {
-          "version": "1.1.16",
-          "uploadedAt": "2026-04-30T02:57:28Z",
-          "tag": "chat_support-1.1.16",
-          "releaseName": "chat_support-1.1.16",
-          "notes": "自动发布 chat_support-1.1.16\n\n- `chat_support_1.1.16_test.ipa`\n- `chat_support_1.1.16.apk`\n\n构建时间: 2026-04-30 11:57:21 JST",
-          "file": "chat_support_1.1.16_test.ipa",
-          "size": 21307543,
-          "downloadUrl": "https://github.com/xiaoli55979/ipa_install/releases/download/chat_support-1.1.16/chat_support_1.1.16_test.ipa",
-          "manifestUrl": "https://xiaoli55979.github.io/ipa_install/manifest/com.flutterChatSupport-chat_support-1.1.16.plist",
-          "installUrl": "itms-services://?action=download-manifest&url=https%3A%2F%2Fxiaoli55979.github.io%2Fipa_install%2Fmanifest%2Fcom.flutterChatSupport-chat_support-1.1.16.plist"
-        },
-        {
-          "version": "1.1.15",
-          "uploadedAt": "2026-04-25T08:15:52Z",
-          "tag": "1.1.15",
-          "releaseName": "1.1.15",
-          "notes": "自动发布 1.1.15\r\n\r\n- `flutter_chat_support_example_1.1.15_test.ipa`\r\n- `flutter_chat_support_example_1.1.15.apk`\r\n\r\n构建时间: 2026-04-25 17:15:45 JST",
-          "file": "flutter_chat_support_example_1.1.15_test.ipa",
-          "size": 21333045,
-          "downloadUrl": "https://github.com/xiaoli55979/ipa_install/releases/download/1.1.15/flutter_chat_support_example_1.1.15_test.ipa",
-          "manifestUrl": "https://xiaoli55979.github.io/ipa_install/manifest/com.flutterChatSupport-1.1.15.plist",
-          "installUrl": "itms-services://?action=download-manifest&url=https%3A%2F%2Fxiaoli55979.github.io%2Fipa_install%2Fmanifest%2Fcom.flutterChatSupport-1.1.15.plist"
-        },
-        {
-          "version": "1.1.14",
-          "uploadedAt": "2026-04-25T04:24:40Z",
-          "tag": "1.1.14",
-          "releaseName": "1.1.14",
-          "notes": "自动发布 1.1.14\n\n- `flutter_chat_support_example_1.1.14_test.ipa`\n- `flutter_chat_support_example_1.1.14.apk`\n\n构建时间: 2026-04-25 13:24:32 JST",
-          "file": "flutter_chat_support_example_1.1.14_test.ipa",
-          "size": 21302130,
-          "downloadUrl": "https://github.com/xiaoli55979/ipa_install/releases/download/1.1.14/flutter_chat_support_example_1.1.14_test.ipa",
-          "manifestUrl": "https://xiaoli55979.github.io/ipa_install/manifest/com.flutterChatSupport-1.1.14.plist",
-          "installUrl": "itms-services://?action=download-manifest&url=https%3A%2F%2Fxiaoli55979.github.io%2Fipa_install%2Fmanifest%2Fcom.flutterChatSupport-1.1.14.plist"
-        },
-        {
-          "version": "1.1.13",
-          "uploadedAt": "2026-04-25T04:20:46Z",
-          "tag": "1.1.13",
-          "releaseName": "1.1.13",
-          "notes": "自动发布 1.1.13\n\n- `flutter_chat_support_example_1.1.13_test.ipa`\n- `flutter_chat_support_example_1.1.13.apk`\n\n构建时间: 2026-04-25 13:20:38 JST",
-          "file": "flutter_chat_support_example_1.1.13_test.ipa",
-          "size": 21302175,
-          "downloadUrl": "https://github.com/xiaoli55979/ipa_install/releases/download/1.1.13/flutter_chat_support_example_1.1.13_test.ipa",
-          "manifestUrl": "https://xiaoli55979.github.io/ipa_install/manifest/com.flutterChatSupport-1.1.13.plist",
-          "installUrl": "itms-services://?action=download-manifest&url=https%3A%2F%2Fxiaoli55979.github.io%2Fipa_install%2Fmanifest%2Fcom.flutterChatSupport-1.1.13.plist"
-        },
-        {
-          "version": "1.1.12",
-          "uploadedAt": "2026-04-25T04:12:41Z",
-          "tag": "1.1.12",
-          "releaseName": "1.1.12",
-          "notes": "自动发布 1.1.12\n\n- `flutter_chat_support_example_1.1.12_test.ipa`\n- `flutter_chat_support_example_1.1.12.apk`\n\n构建时间: 2026-04-25 13:12:33 JST",
-          "file": "flutter_chat_support_example_1.1.12_test.ipa",
-          "size": 21302343,
-          "downloadUrl": "https://github.com/xiaoli55979/ipa_install/releases/download/1.1.12/flutter_chat_support_example_1.1.12_test.ipa",
-          "manifestUrl": "https://xiaoli55979.github.io/ipa_install/manifest/com.flutterChatSupport-1.1.12.plist",
-          "installUrl": "itms-services://?action=download-manifest&url=https%3A%2F%2Fxiaoli55979.github.io%2Fipa_install%2Fmanifest%2Fcom.flutterChatSupport-1.1.12.plist"
-        }
-      ],
-      "android": [
-        {
-          "version": "1.1.20",
-          "uploadedAt": "2026-06-08T05:13:14Z",
-          "tag": "chat_support-1.1.20",
-          "releaseName": "chat_support-1.1.20",
-          "notes": "自动发布 chat_support-1.1.20\n\n- `chat_support_1.1.20.apk`\n\n构建时间: 2026-06-08 14:12:27 JST",
-          "file": "chat_support_1.1.20.apk",
-          "size": 108866751,
-          "downloadUrl": "https://github.com/xiaoli55979/ipa_install/releases/download/chat_support-1.1.20/chat_support_1.1.20.apk"
-        },
-        {
-          "version": "1.1.19",
-          "uploadedAt": "2026-06-08T03:53:17Z",
-          "tag": "chat_support-1.1.19",
-          "releaseName": "chat_support-1.1.19",
-          "notes": "自动发布 chat_support-1.1.19\n\n- `chat_support_1.1.19.apk`\n\n构建时间: 2026-06-08 12:52:25 JST",
-          "file": "chat_support_1.1.19.apk",
-          "size": 108866747,
-          "downloadUrl": "https://github.com/xiaoli55979/ipa_install/releases/download/chat_support-1.1.19/chat_support_1.1.19.apk"
-        },
-        {
-          "version": "1.1.18",
-          "uploadedAt": "2026-05-25T14:09:58Z",
-          "tag": "chat_support-1.1.18",
-          "releaseName": "chat_support-1.1.18",
-          "notes": "自动发布 chat_support-1.1.18\n\n- `chat_support_1.1.18_test.ipa`\n- `chat_support_1.1.18.apk`\n\n构建时间: 2026-05-25 23:09:37 JST",
-          "file": "chat_support_1.1.18.apk",
-          "size": 108636707,
-          "downloadUrl": "https://github.com/xiaoli55979/ipa_install/releases/download/chat_support-1.1.18/chat_support_1.1.18.apk"
-        },
-        {
-          "version": "1.1.19",
-          "uploadedAt": "2026-05-22T14:25:41Z",
-          "tag": "chat-mobile-1.1.19",
-          "releaseName": "chat-mobile-1.1.19",
-          "notes": "自动发布 chat-mobile-1.1.19\r\n\r\n- `chat-mobile_1.1.19_test.ipa`\r\n- `chat-mobile_1.1.19.apk`\r\n\r\n构建时间: 2026-05-22 23:25:24 JST",
-          "file": "chat-mobile_1.1.19.apk",
-          "size": 108551975,
-          "downloadUrl": "https://github.com/xiaoli55979/ipa_install/releases/download/chat-mobile-1.1.19/chat-mobile_1.1.19.apk"
-        },
-        {
-          "version": "1.1.16",
-          "uploadedAt": "2026-04-30T02:57:38Z",
-          "tag": "chat_support-1.1.16",
-          "releaseName": "chat_support-1.1.16",
-          "notes": "自动发布 chat_support-1.1.16\n\n- `chat_support_1.1.16_test.ipa`\n- `chat_support_1.1.16.apk`\n\n构建时间: 2026-04-30 11:57:21 JST",
-          "file": "chat_support_1.1.16.apk",
-          "size": 107949361,
-          "downloadUrl": "https://github.com/xiaoli55979/ipa_install/releases/download/chat_support-1.1.16/chat_support_1.1.16.apk"
-        },
-        {
-          "version": "1.1.15",
-          "uploadedAt": "2026-04-25T08:16:02Z",
-          "tag": "1.1.15",
-          "releaseName": "1.1.15",
-          "notes": "自动发布 1.1.15\r\n\r\n- `flutter_chat_support_example_1.1.15_test.ipa`\r\n- `flutter_chat_support_example_1.1.15.apk`\r\n\r\n构建时间: 2026-04-25 17:15:45 JST",
-          "file": "flutter_chat_support_example_1.1.15.apk",
-          "size": 107982129,
-          "downloadUrl": "https://github.com/xiaoli55979/ipa_install/releases/download/1.1.15/flutter_chat_support_example_1.1.15.apk"
-        },
-        {
-          "version": "1.1.14",
-          "uploadedAt": "2026-04-25T04:24:50Z",
-          "tag": "1.1.14",
-          "releaseName": "1.1.14",
-          "notes": "自动发布 1.1.14\n\n- `flutter_chat_support_example_1.1.14_test.ipa`\n- `flutter_chat_support_example_1.1.14.apk`\n\n构建时间: 2026-04-25 13:24:32 JST",
-          "file": "flutter_chat_support_example_1.1.14.apk",
-          "size": 107866949,
-          "downloadUrl": "https://github.com/xiaoli55979/ipa_install/releases/download/1.1.14/flutter_chat_support_example_1.1.14.apk"
-        },
-        {
-          "version": "1.1.13",
-          "uploadedAt": "2026-04-25T04:20:56Z",
-          "tag": "1.1.13",
-          "releaseName": "1.1.13",
-          "notes": "自动发布 1.1.13\n\n- `flutter_chat_support_example_1.1.13_test.ipa`\n- `flutter_chat_support_example_1.1.13.apk`\n\n构建时间: 2026-04-25 13:20:38 JST",
-          "file": "flutter_chat_support_example_1.1.13.apk",
-          "size": 107866949,
-          "downloadUrl": "https://github.com/xiaoli55979/ipa_install/releases/download/1.1.13/flutter_chat_support_example_1.1.13.apk"
-        },
-        {
-          "version": "1.1.10",
-          "uploadedAt": "2026-04-25T04:12:50Z",
-          "tag": "1.1.12",
-          "releaseName": "1.1.12",
-          "notes": "自动发布 1.1.12\n\n- `flutter_chat_support_example_1.1.12_test.ipa`\n- `flutter_chat_support_example_1.1.12.apk`\n\n构建时间: 2026-04-25 13:12:33 JST",
-          "file": "flutter_chat_support_example_1.1.12.apk",
-          "size": 107864016,
-          "downloadUrl": "https://github.com/xiaoli55979/ipa_install/releases/download/1.1.12/flutter_chat_support_example_1.1.12.apk"
-        }
-      ],
-      "mac": [],
-      "win": [],
-      "latestAt": "2026-06-08T05:13:14Z"
+      "latestAt": "2026-07-17T08:35:54Z"
     },
     {
       "id": "com.jt8.cn",
       "name": "808",
       "icon": "https://xiaoli55979.github.io/ipa_install/icons/com.jt8.cn-ios.png",
       "ios": [
+        {
+          "version": "7.0.12",
+          "uploadedAt": "2026-07-17T00:33:46Z",
+          "tag": "808-mobile-7.0.12",
+          "releaseName": "808-mobile-7.0.12",
+          "notes": "自动发布 808-mobile-7.0.12\n\n- `808-mobile_7.0.12_test.ipa`\n- `808-mobile_7.0.12.apk`\n\n构建时间: 2026-07-17 09:32:23 JST",
+          "file": "808-mobile_7.0.12_test.ipa",
+          "size": 51192043,
+          "downloadUrl": "https://github.com/xiaoli55979/ipa_install/releases/download/808-mobile-7.0.12/808-mobile_7.0.12_test.ipa",
+          "manifestUrl": "https://xiaoli55979.github.io/ipa_install/manifest/com.jt8.cn-808-mobile-7.0.12.plist",
+          "installUrl": "itms-services://?action=download-manifest&url=https%3A%2F%2Fxiaoli55979.github.io%2Fipa_install%2Fmanifest%2Fcom.jt8.cn-808-mobile-7.0.12.plist"
+        },
+        {
+          "version": "7.0.11",
+          "uploadedAt": "2026-07-13T05:35:36Z",
+          "tag": "808-mobile-7.0.11",
+          "releaseName": "808-mobile-7.0.11",
+          "notes": "自动发布 808-mobile-7.0.11\n\n- `808-mobile_7.0.11_test.ipa`\n- `808-mobile_7.0.11.apk`\n\n构建时间: 2026-07-13 14:33:39 JST",
+          "file": "808-mobile_7.0.11_test.ipa",
+          "size": 51175613,
+          "downloadUrl": "https://github.com/xiaoli55979/ipa_install/releases/download/808-mobile-7.0.11/808-mobile_7.0.11_test.ipa",
+          "manifestUrl": "https://xiaoli55979.github.io/ipa_install/manifest/com.jt8.cn-808-mobile-7.0.11.plist",
+          "installUrl": "itms-services://?action=download-manifest&url=https%3A%2F%2Fxiaoli55979.github.io%2Fipa_install%2Fmanifest%2Fcom.jt8.cn-808-mobile-7.0.11.plist"
+        },
         {
           "version": "7.0.9",
           "uploadedAt": "2026-06-05T05:29:43Z",
@@ -1497,6 +669,26 @@
       ],
       "android": [
         {
+          "version": "7.0.12",
+          "uploadedAt": "2026-07-17T00:34:29Z",
+          "tag": "808-mobile-7.0.12",
+          "releaseName": "808-mobile-7.0.12",
+          "notes": "自动发布 808-mobile-7.0.12\n\n- `808-mobile_7.0.12_test.ipa`\n- `808-mobile_7.0.12.apk`\n\n构建时间: 2026-07-17 09:32:23 JST",
+          "file": "808-mobile_7.0.12.apk",
+          "size": 162338195,
+          "downloadUrl": "https://github.com/xiaoli55979/ipa_install/releases/download/808-mobile-7.0.12/808-mobile_7.0.12.apk"
+        },
+        {
+          "version": "7.0.11",
+          "uploadedAt": "2026-07-13T05:37:11Z",
+          "tag": "808-mobile-7.0.11",
+          "releaseName": "808-mobile-7.0.11",
+          "notes": "自动发布 808-mobile-7.0.11\n\n- `808-mobile_7.0.11_test.ipa`\n- `808-mobile_7.0.11.apk`\n\n构建时间: 2026-07-13 14:33:39 JST",
+          "file": "808-mobile_7.0.11.apk",
+          "size": 162321731,
+          "downloadUrl": "https://github.com/xiaoli55979/ipa_install/releases/download/808-mobile-7.0.11/808-mobile_7.0.11.apk"
+        },
+        {
           "version": "7.0.9",
           "uploadedAt": "2026-06-05T05:30:48Z",
           "tag": "808-mobile-7.0.9",
@@ -1659,13 +851,913 @@
       ],
       "mac": [],
       "win": [],
-      "latestAt": "2026-06-05T05:30:48Z"
+      "latestAt": "2026-07-17T00:34:29Z"
+    },
+    {
+      "id": "com.jiliaoim.cn",
+      "name": "云小聊",
+      "icon": "https://xiaoli55979.github.io/ipa_install/icons/com.jiliaoim.cn-ios.png",
+      "ios": [
+        {
+          "version": "1.1.20",
+          "uploadedAt": "2026-05-06T02:01:16Z",
+          "tag": "1.1.20",
+          "releaseName": "1.1.20",
+          "notes": "自动发布 PC 版本 1.1.20\n\n- `YunXiaoLiao-1.1.20-arm64.dmg`\n- `YunXiaoLiao-1.1.20-x64.dmg`\n- `YunXiaoLiao-Setup-1.1.20-x64.exe`\n\n构建时间: 2026-05-06 10:34:27 JST",
+          "file": "im_chat_manager_plugin_example_1.1.20_test.ipa",
+          "size": 43998008,
+          "downloadUrl": "https://github.com/xiaoli55979/ipa_install/releases/download/1.1.20/im_chat_manager_plugin_example_1.1.20_test.ipa",
+          "manifestUrl": "https://xiaoli55979.github.io/ipa_install/manifest/com.jiliaoim.cn-1.1.20.plist",
+          "installUrl": "itms-services://?action=download-manifest&url=https%3A%2F%2Fxiaoli55979.github.io%2Fipa_install%2Fmanifest%2Fcom.jiliaoim.cn-1.1.20.plist"
+        },
+        {
+          "version": "1.1.16",
+          "uploadedAt": "2026-04-26T08:01:37Z",
+          "tag": "1.1.16",
+          "releaseName": "1.1.16",
+          "notes": "自动发布 1.1.16\n\n- `im_chat_manager_plugin_example_1.1.16_test.ipa`\n- `im_chat_manager_plugin_example_1.1.16.apk`\n\n构建时间: 2026-04-26 17:01:23 JST",
+          "file": "im_chat_manager_plugin_example_1.1.16_test.ipa",
+          "size": 43956875,
+          "downloadUrl": "https://github.com/xiaoli55979/ipa_install/releases/download/1.1.16/im_chat_manager_plugin_example_1.1.16_test.ipa",
+          "manifestUrl": "https://xiaoli55979.github.io/ipa_install/manifest/com.jiliaoim.cn-1.1.16.plist",
+          "installUrl": "itms-services://?action=download-manifest&url=https%3A%2F%2Fxiaoli55979.github.io%2Fipa_install%2Fmanifest%2Fcom.jiliaoim.cn-1.1.16.plist"
+        },
+        {
+          "version": "1.1.7",
+          "uploadedAt": "2026-04-22T12:44:44Z",
+          "tag": "1.1.7.2",
+          "releaseName": "1.1.7.2",
+          "notes": "",
+          "file": "upload_test.ipa",
+          "size": 43911149,
+          "downloadUrl": "https://github.com/xiaoli55979/ipa_install/releases/download/1.1.7.2/upload_test.ipa",
+          "manifestUrl": "https://xiaoli55979.github.io/ipa_install/manifest/com.jiliaoim.cn-1.1.7.2.plist",
+          "installUrl": "itms-services://?action=download-manifest&url=https%3A%2F%2Fxiaoli55979.github.io%2Fipa_install%2Fmanifest%2Fcom.jiliaoim.cn-1.1.7.2.plist"
+        },
+        {
+          "version": "1.1.7",
+          "uploadedAt": "2026-04-22T09:24:02Z",
+          "tag": "1.1.7",
+          "releaseName": "1.1.7",
+          "notes": "修复视频通话断开问题",
+          "file": "upload.ipa",
+          "size": 40995757,
+          "downloadUrl": "https://github.com/xiaoli55979/ipa_install/releases/download/1.1.7/upload.ipa",
+          "manifestUrl": "https://xiaoli55979.github.io/ipa_install/manifest/com.jiliaoim.cn-1.1.7.plist",
+          "installUrl": "itms-services://?action=download-manifest&url=https%3A%2F%2Fxiaoli55979.github.io%2Fipa_install%2Fmanifest%2Fcom.jiliaoim.cn-1.1.7.plist"
+        },
+        {
+          "version": "1.1.6",
+          "uploadedAt": "2026-04-22T06:27:03Z",
+          "tag": "1.1.6.1",
+          "releaseName": "1.1.6.1",
+          "notes": "add",
+          "file": "1.1.6.1.ipa",
+          "size": 40986069,
+          "downloadUrl": "https://github.com/xiaoli55979/ipa_install/releases/download/1.1.6.1/1.1.6.1.ipa",
+          "manifestUrl": "https://xiaoli55979.github.io/ipa_install/manifest/com.jiliaoim.cn-1.1.6.1.plist",
+          "installUrl": "itms-services://?action=download-manifest&url=https%3A%2F%2Fxiaoli55979.github.io%2Fipa_install%2Fmanifest%2Fcom.jiliaoim.cn-1.1.6.1.plist"
+        }
+      ],
+      "android": [
+        {
+          "version": "1.1.7",
+          "uploadedAt": "2026-05-13T01:21:08Z",
+          "tag": "1.1.7.2",
+          "releaseName": "1.1.7.2",
+          "notes": "",
+          "file": "ipa_install_1.1.7.2.apk",
+          "size": 229851063,
+          "downloadUrl": "https://github.com/xiaoli55979/ipa_install/releases/download/1.1.7.2/ipa_install_1.1.7.2.apk"
+        },
+        {
+          "version": "1.1.7",
+          "uploadedAt": "2026-05-13T01:21:07Z",
+          "tag": "1.1.7",
+          "releaseName": "1.1.7",
+          "notes": "修复视频通话断开问题",
+          "file": "ipa_install_1.1.7.apk",
+          "size": 229703607,
+          "downloadUrl": "https://github.com/xiaoli55979/ipa_install/releases/download/1.1.7/ipa_install_1.1.7.apk"
+        },
+        {
+          "version": "1.1.20",
+          "uploadedAt": "2026-05-06T02:01:45Z",
+          "tag": "1.1.20",
+          "releaseName": "1.1.20",
+          "notes": "自动发布 PC 版本 1.1.20\n\n- `YunXiaoLiao-1.1.20-arm64.dmg`\n- `YunXiaoLiao-1.1.20-x64.dmg`\n- `YunXiaoLiao-Setup-1.1.20-x64.exe`\n\n构建时间: 2026-05-06 10:34:27 JST",
+          "file": "im_chat_manager_plugin_example_1.1.20.apk",
+          "size": 230375848,
+          "downloadUrl": "https://github.com/xiaoli55979/ipa_install/releases/download/1.1.20/im_chat_manager_plugin_example_1.1.20.apk"
+        },
+        {
+          "version": "1.1.16",
+          "uploadedAt": "2026-04-26T08:02:00Z",
+          "tag": "1.1.16",
+          "releaseName": "1.1.16",
+          "notes": "自动发布 1.1.16\n\n- `im_chat_manager_plugin_example_1.1.16_test.ipa`\n- `im_chat_manager_plugin_example_1.1.16.apk`\n\n构建时间: 2026-04-26 17:01:23 JST",
+          "file": "im_chat_manager_plugin_example_1.1.16.apk",
+          "size": 230195624,
+          "downloadUrl": "https://github.com/xiaoli55979/ipa_install/releases/download/1.1.16/im_chat_manager_plugin_example_1.1.16.apk"
+        },
+        {
+          "version": "1.1.6",
+          "uploadedAt": "2026-04-22T06:28:38Z",
+          "tag": "1.1.6.1",
+          "releaseName": "1.1.6.1",
+          "notes": "add",
+          "file": "1.1.6.1.apk",
+          "size": 249036307,
+          "downloadUrl": "https://github.com/xiaoli55979/ipa_install/releases/download/1.1.6.1/1.1.6.1.apk"
+        }
+      ],
+      "mac": [
+        {
+          "version": "1.1.33",
+          "uploadedAt": "2026-07-15T13:59:31Z",
+          "tag": "1.1.33",
+          "releaseName": "1.1.33",
+          "notes": "自动发布 PC 版本 1.1.33\n\n- `YunXiaoLiao-1.1.33-x64.dmg`\n- `YunXiaoLiao-Setup-1.1.33-x64.zip`\n\n构建时间: 2026-07-15 22:55:54 JST",
+          "file": "YunXiaoLiao-1.1.33-x64.dmg",
+          "size": 135623121,
+          "downloadUrl": "https://github.com/xiaoli55979/ipa_install/releases/download/1.1.33/YunXiaoLiao-1.1.33-x64.dmg"
+        },
+        {
+          "version": "1.1.32",
+          "uploadedAt": "2026-07-12T01:41:32Z",
+          "tag": "1.1.32",
+          "releaseName": "1.1.32",
+          "notes": "自动发布 PC 版本 1.1.32\n\n- `YunXiaoLiao-1.1.32-x64.dmg`\n- `YunXiaoLiao-Setup-1.1.32-x64.zip`\n\n构建时间: 2026-07-12 10:38:49 JST",
+          "file": "YunXiaoLiao-1.1.32-x64.dmg",
+          "size": 135668589,
+          "downloadUrl": "https://github.com/xiaoli55979/ipa_install/releases/download/1.1.32/YunXiaoLiao-1.1.32-x64.dmg"
+        },
+        {
+          "version": "1.1.31",
+          "uploadedAt": "2026-07-03T12:07:23Z",
+          "tag": "1.1.31",
+          "releaseName": "1.1.31",
+          "notes": "自动发布 PC 版本 1.1.31\n\n- `YunXiaoLiao-1.1.31-x64.dmg`\n- `YunXiaoLiao-Setup-1.1.31-x64.zip`\n\n构建时间: 2026-07-03 20:52:07 JST",
+          "file": "YunXiaoLiao-1.1.31-x64.dmg",
+          "size": 135647420,
+          "downloadUrl": "https://github.com/xiaoli55979/ipa_install/releases/download/1.1.31/YunXiaoLiao-1.1.31-x64.dmg"
+        },
+        {
+          "version": "1.1.30",
+          "uploadedAt": "2026-06-25T06:39:42Z",
+          "tag": "1.1.30",
+          "releaseName": "1.1.30",
+          "notes": "自动发布 PC 版本 1.1.30\n\n- `YunXiaoLiao-1.1.30-x64.dmg`\n- `YunXiaoLiao-Setup-1.1.30-x64.zip`\n\n构建时间: 2026-06-25 15:36:36 JST",
+          "file": "YunXiaoLiao-1.1.30-x64.dmg",
+          "size": 133867491,
+          "downloadUrl": "https://github.com/xiaoli55979/ipa_install/releases/download/1.1.30/YunXiaoLiao-1.1.30-x64.dmg"
+        },
+        {
+          "version": "1.1.29",
+          "uploadedAt": "2026-06-20T07:22:43Z",
+          "tag": "1.1.29",
+          "releaseName": "1.1.29",
+          "notes": "Auto published PC version 1.1.29\n\n- `YunXiaoLiao-1.1.29-x64.dmg`\n- `YunXiaoLiao-Setup-1.1.29-x64.zip`\n\nSource branch: release\nSource commit: 1475e5af02393b25ba68b17ae2d211a738d7f25b\nBuild time: 2026-06-20 16:22:38 JST\n",
+          "file": "YunXiaoLiao-1.1.29-x64.dmg",
+          "size": 133886723,
+          "downloadUrl": "https://github.com/xiaoli55979/ipa_install/releases/download/1.1.29/YunXiaoLiao-1.1.29-x64.dmg"
+        },
+        {
+          "version": "1.1.28",
+          "uploadedAt": "2026-06-18T04:26:57Z",
+          "tag": "1.1.28",
+          "releaseName": "1.1.28",
+          "notes": "自动发布 PC 版本 1.1.28\n\n- `YunXiaoLiao-1.1.28-x64.dmg`\n- `YunXiaoLiao-Setup-1.1.28-x64.zip`\n\n构建时间: 2026-06-18 13:25:13 JST",
+          "file": "YunXiaoLiao-1.1.28-x64.dmg",
+          "size": 135665969,
+          "downloadUrl": "https://github.com/xiaoli55979/ipa_install/releases/download/1.1.28/YunXiaoLiao-1.1.28-x64.dmg"
+        },
+        {
+          "version": "1.1.27",
+          "uploadedAt": "2026-06-14T14:34:19Z",
+          "tag": "1.1.27",
+          "releaseName": "1.1.27",
+          "notes": "自动发布 PC 版本 1.1.27\n\n- `YunXiaoLiao-1.1.27-x64.dmg`\n- `YunXiaoLiao-Setup-1.1.27-x64.zip`\n\n构建时间: 2026-06-14 23:33:33 JST",
+          "file": "YunXiaoLiao-1.1.27-x64.dmg",
+          "size": 135666320,
+          "downloadUrl": "https://github.com/xiaoli55979/ipa_install/releases/download/1.1.27/YunXiaoLiao-1.1.27-x64.dmg"
+        },
+        {
+          "version": "1.1.26",
+          "uploadedAt": "2026-06-04T12:27:53Z",
+          "tag": "1.1.26",
+          "releaseName": "1.1.26",
+          "notes": "自动发布 PC 版本 1.1.26\n\n- `YunXiaoLiao-1.1.26-x64.dmg`\n- `YunXiaoLiao-Setup-1.1.26-x64.zip`\n\n构建时间: 2026-06-04 21:24:38 JST",
+          "file": "YunXiaoLiao-1.1.26-x64.dmg",
+          "size": 135663049,
+          "downloadUrl": "https://github.com/xiaoli55979/ipa_install/releases/download/1.1.26/YunXiaoLiao-1.1.26-x64.dmg"
+        },
+        {
+          "version": "1.1.25",
+          "uploadedAt": "2026-06-03T06:02:19Z",
+          "tag": "1.1.25",
+          "releaseName": "1.1.25",
+          "notes": "自动发布 PC 版本 1.1.25\n\n- `YunXiaoLiao-1.1.25-x64.dmg`\n- `YunXiaoLiao-Setup-1.1.25-x64.zip`\n\n构建时间: 2026-06-03 14:58:18 JST",
+          "file": "YunXiaoLiao-1.1.25-x64.dmg",
+          "size": 135662722,
+          "downloadUrl": "https://github.com/xiaoli55979/ipa_install/releases/download/1.1.25/YunXiaoLiao-1.1.25-x64.dmg"
+        },
+        {
+          "version": "1.1.24",
+          "uploadedAt": "2026-06-02T13:07:09Z",
+          "tag": "1.1.24",
+          "releaseName": "1.1.24",
+          "notes": "自动发布 PC 版本 1.1.24\n\n- `YunXiaoLiao-1.1.24-x64.dmg`\n- `YunXiaoLiao-Setup-1.1.24-x64.zip`\n\n构建时间: 2026-06-02 22:04:21 JST",
+          "file": "YunXiaoLiao-1.1.24-x64.dmg",
+          "size": 135670580,
+          "downloadUrl": "https://github.com/xiaoli55979/ipa_install/releases/download/1.1.24/YunXiaoLiao-1.1.24-x64.dmg"
+        },
+        {
+          "version": "1.1.23",
+          "uploadedAt": "2026-05-29T17:39:37Z",
+          "tag": "1.1.23",
+          "releaseName": "1.1.23",
+          "notes": "自动发布 PC 版本 1.1.23\n\n- `YunXiaoLiao-1.1.23-arm64.dmg`\n- `YunXiaoLiao-1.1.23-x64.dmg`\n- `YunXiaoLiao-Setup-1.1.23-x64.exe`\n- `YunXiaoLiao-Setup-1.1.23-x64.zip`\n\n构建时间: 2026-05-30 02:38:16 JST",
+          "file": "YunXiaoLiao-1.1.23-x64.dmg",
+          "size": 135688171,
+          "downloadUrl": "https://github.com/xiaoli55979/ipa_install/releases/download/1.1.23/YunXiaoLiao-1.1.23-x64.dmg"
+        },
+        {
+          "version": "1.1.23",
+          "uploadedAt": "2026-05-29T17:39:36Z",
+          "tag": "1.1.23",
+          "releaseName": "1.1.23",
+          "notes": "自动发布 PC 版本 1.1.23\n\n- `YunXiaoLiao-1.1.23-arm64.dmg`\n- `YunXiaoLiao-1.1.23-x64.dmg`\n- `YunXiaoLiao-Setup-1.1.23-x64.exe`\n- `YunXiaoLiao-Setup-1.1.23-x64.zip`\n\n构建时间: 2026-05-30 02:38:16 JST",
+          "file": "YunXiaoLiao-1.1.23-arm64.dmg",
+          "size": 129397010,
+          "downloadUrl": "https://github.com/xiaoli55979/ipa_install/releases/download/1.1.23/YunXiaoLiao-1.1.23-arm64.dmg"
+        },
+        {
+          "version": "1.1.21",
+          "uploadedAt": "2026-05-28T13:00:45Z",
+          "tag": "1.1.21",
+          "releaseName": "1.1.21",
+          "notes": "自动发布 PC 版本 1.1.21\n\n- `YunXiaoLiao-1.1.21-arm64.dmg`\n- `YunXiaoLiao-1.1.21-x64.dmg`\n- `YunXiaoLiao-Setup-1.1.21-x64.exe`\n\n构建时间: 2026-05-28 21:59:19 JST",
+          "file": "YunXiaoLiao-1.1.21-x64.dmg",
+          "size": 135687680,
+          "downloadUrl": "https://github.com/xiaoli55979/ipa_install/releases/download/1.1.21/YunXiaoLiao-1.1.21-x64.dmg"
+        },
+        {
+          "version": "1.1.21",
+          "uploadedAt": "2026-05-28T13:00:44Z",
+          "tag": "1.1.21",
+          "releaseName": "1.1.21",
+          "notes": "自动发布 PC 版本 1.1.21\n\n- `YunXiaoLiao-1.1.21-arm64.dmg`\n- `YunXiaoLiao-1.1.21-x64.dmg`\n- `YunXiaoLiao-Setup-1.1.21-x64.exe`\n\n构建时间: 2026-05-28 21:59:19 JST",
+          "file": "YunXiaoLiao-1.1.21-arm64.dmg",
+          "size": 129397256,
+          "downloadUrl": "https://github.com/xiaoli55979/ipa_install/releases/download/1.1.21/YunXiaoLiao-1.1.21-arm64.dmg"
+        },
+        {
+          "version": "1.1.20",
+          "uploadedAt": "2026-05-06T01:35:50Z",
+          "tag": "1.1.20",
+          "releaseName": "1.1.20",
+          "notes": "自动发布 PC 版本 1.1.20\n\n- `YunXiaoLiao-1.1.20-arm64.dmg`\n- `YunXiaoLiao-1.1.20-x64.dmg`\n- `YunXiaoLiao-Setup-1.1.20-x64.exe`\n\n构建时间: 2026-05-06 10:34:27 JST",
+          "file": "YunXiaoLiao-1.1.20-x64.dmg",
+          "size": 135628524,
+          "downloadUrl": "https://github.com/xiaoli55979/ipa_install/releases/download/1.1.20/YunXiaoLiao-1.1.20-x64.dmg"
+        },
+        {
+          "version": "1.1.20",
+          "uploadedAt": "2026-05-06T01:35:47Z",
+          "tag": "1.1.20",
+          "releaseName": "1.1.20",
+          "notes": "自动发布 PC 版本 1.1.20\n\n- `YunXiaoLiao-1.1.20-arm64.dmg`\n- `YunXiaoLiao-1.1.20-x64.dmg`\n- `YunXiaoLiao-Setup-1.1.20-x64.exe`\n\n构建时间: 2026-05-06 10:34:27 JST",
+          "file": "YunXiaoLiao-1.1.20-arm64.dmg",
+          "size": 130348060,
+          "downloadUrl": "https://github.com/xiaoli55979/ipa_install/releases/download/1.1.20/YunXiaoLiao-1.1.20-arm64.dmg"
+        },
+        {
+          "version": "1.1.19",
+          "uploadedAt": "2026-04-30T09:09:29Z",
+          "tag": "1.1.19",
+          "releaseName": "1.1.19",
+          "notes": "自动发布 PC 版本 1.1.19\n\n- `YunXiaoLiao-1.1.19-arm64.dmg`\n- `YunXiaoLiao-1.1.19-x64.dmg`\n- `YunXiaoLiao-Setup-1.1.19-x64.exe`\n\n构建时间: 2026-04-30 18:06:09 JST",
+          "file": "YunXiaoLiao-1.1.19-arm64.dmg",
+          "size": 130857720,
+          "downloadUrl": "https://github.com/xiaoli55979/ipa_install/releases/download/1.1.19/YunXiaoLiao-1.1.19-arm64.dmg"
+        },
+        {
+          "version": "1.1.19",
+          "uploadedAt": "2026-04-30T09:09:28Z",
+          "tag": "1.1.19",
+          "releaseName": "1.1.19",
+          "notes": "自动发布 PC 版本 1.1.19\n\n- `YunXiaoLiao-1.1.19-arm64.dmg`\n- `YunXiaoLiao-1.1.19-x64.dmg`\n- `YunXiaoLiao-Setup-1.1.19-x64.exe`\n\n构建时间: 2026-04-30 18:06:09 JST",
+          "file": "YunXiaoLiao-1.1.19-x64.dmg",
+          "size": 136080366,
+          "downloadUrl": "https://github.com/xiaoli55979/ipa_install/releases/download/1.1.19/YunXiaoLiao-1.1.19-x64.dmg"
+        },
+        {
+          "version": "1.1.17",
+          "uploadedAt": "2026-04-26T13:39:19Z",
+          "tag": "1.1.17",
+          "releaseName": "1.1.17",
+          "notes": "云小聊 PC 版本 1.1.17\n\n- `YunXiaoLiao-1.1.17-arm64.dmg`\n- `YunXiaoLiao-1.1.17-x64.dmg`\n- `YunXiaoLiao-Setup-1.1.17-x64.exe`\n\n构建时间: 2026-04-26 22:38:24 JST",
+          "file": "YunXiaoLiao-1.1.17-x64.dmg",
+          "size": 135730453,
+          "downloadUrl": "https://github.com/xiaoli55979/ipa_install/releases/download/1.1.17/YunXiaoLiao-1.1.17-x64.dmg"
+        },
+        {
+          "version": "1.1.17",
+          "uploadedAt": "2026-04-26T13:39:17Z",
+          "tag": "1.1.17",
+          "releaseName": "1.1.17",
+          "notes": "云小聊 PC 版本 1.1.17\n\n- `YunXiaoLiao-1.1.17-arm64.dmg`\n- `YunXiaoLiao-1.1.17-x64.dmg`\n- `YunXiaoLiao-Setup-1.1.17-x64.exe`\n\n构建时间: 2026-04-26 22:38:24 JST",
+          "file": "YunXiaoLiao-1.1.17-arm64.dmg",
+          "size": 130438842,
+          "downloadUrl": "https://github.com/xiaoli55979/ipa_install/releases/download/1.1.17/YunXiaoLiao-1.1.17-arm64.dmg"
+        },
+        {
+          "version": "1.0.6",
+          "uploadedAt": "2026-04-22T13:00:23Z",
+          "tag": "1.1.7.2",
+          "releaseName": "1.1.7.2",
+          "notes": "",
+          "file": "-1.0.6-arm64.dmg",
+          "size": 130359509,
+          "downloadUrl": "https://github.com/xiaoli55979/ipa_install/releases/download/1.1.7.2/-1.0.6-arm64.dmg"
+        }
+      ],
+      "win": [
+        {
+          "version": "1.1.33",
+          "uploadedAt": "2026-07-15T13:59:34Z",
+          "tag": "1.1.33",
+          "releaseName": "1.1.33",
+          "notes": "自动发布 PC 版本 1.1.33\n\n- `YunXiaoLiao-1.1.33-x64.dmg`\n- `YunXiaoLiao-Setup-1.1.33-x64.zip`\n\n构建时间: 2026-07-15 22:55:54 JST",
+          "file": "YunXiaoLiao-Setup-1.1.33-x64.zip",
+          "size": 137111633,
+          "downloadUrl": "https://github.com/xiaoli55979/ipa_install/releases/download/1.1.33/YunXiaoLiao-Setup-1.1.33-x64.zip"
+        },
+        {
+          "version": "1.1.32",
+          "uploadedAt": "2026-07-12T01:41:33Z",
+          "tag": "1.1.32",
+          "releaseName": "1.1.32",
+          "notes": "自动发布 PC 版本 1.1.32\n\n- `YunXiaoLiao-1.1.32-x64.dmg`\n- `YunXiaoLiao-Setup-1.1.32-x64.zip`\n\n构建时间: 2026-07-12 10:38:49 JST",
+          "file": "YunXiaoLiao-Setup-1.1.32-x64.zip",
+          "size": 137108540,
+          "downloadUrl": "https://github.com/xiaoli55979/ipa_install/releases/download/1.1.32/YunXiaoLiao-Setup-1.1.32-x64.zip"
+        },
+        {
+          "version": "1.1.31",
+          "uploadedAt": "2026-07-03T12:07:26Z",
+          "tag": "1.1.31",
+          "releaseName": "1.1.31",
+          "notes": "自动发布 PC 版本 1.1.31\n\n- `YunXiaoLiao-1.1.31-x64.dmg`\n- `YunXiaoLiao-Setup-1.1.31-x64.zip`\n\n构建时间: 2026-07-03 20:52:07 JST",
+          "file": "YunXiaoLiao-Setup-1.1.31-x64.zip",
+          "size": 137105244,
+          "downloadUrl": "https://github.com/xiaoli55979/ipa_install/releases/download/1.1.31/YunXiaoLiao-Setup-1.1.31-x64.zip"
+        },
+        {
+          "version": "1.1.30",
+          "uploadedAt": "2026-06-25T06:39:47Z",
+          "tag": "1.1.30",
+          "releaseName": "1.1.30",
+          "notes": "自动发布 PC 版本 1.1.30\n\n- `YunXiaoLiao-1.1.30-x64.dmg`\n- `YunXiaoLiao-Setup-1.1.30-x64.zip`\n\n构建时间: 2026-06-25 15:36:36 JST",
+          "file": "YunXiaoLiao-Setup-1.1.30-x64.zip",
+          "size": 137105398,
+          "downloadUrl": "https://github.com/xiaoli55979/ipa_install/releases/download/1.1.30/YunXiaoLiao-Setup-1.1.30-x64.zip"
+        },
+        {
+          "version": "1.1.29",
+          "uploadedAt": "2026-06-20T07:22:42Z",
+          "tag": "1.1.29",
+          "releaseName": "1.1.29",
+          "notes": "Auto published PC version 1.1.29\n\n- `YunXiaoLiao-1.1.29-x64.dmg`\n- `YunXiaoLiao-Setup-1.1.29-x64.zip`\n\nSource branch: release\nSource commit: 1475e5af02393b25ba68b17ae2d211a738d7f25b\nBuild time: 2026-06-20 16:22:38 JST\n",
+          "file": "YunXiaoLiao-Setup-1.1.29-x64.zip",
+          "size": 137103776,
+          "downloadUrl": "https://github.com/xiaoli55979/ipa_install/releases/download/1.1.29/YunXiaoLiao-Setup-1.1.29-x64.zip"
+        },
+        {
+          "version": "1.1.28",
+          "uploadedAt": "2026-06-18T04:26:47Z",
+          "tag": "1.1.28",
+          "releaseName": "1.1.28",
+          "notes": "自动发布 PC 版本 1.1.28\n\n- `YunXiaoLiao-1.1.28-x64.dmg`\n- `YunXiaoLiao-Setup-1.1.28-x64.zip`\n\n构建时间: 2026-06-18 13:25:13 JST",
+          "file": "YunXiaoLiao-Setup-1.1.28-x64.zip",
+          "size": 137100454,
+          "downloadUrl": "https://github.com/xiaoli55979/ipa_install/releases/download/1.1.28/YunXiaoLiao-Setup-1.1.28-x64.zip"
+        },
+        {
+          "version": "1.1.27",
+          "uploadedAt": "2026-06-14T14:34:17Z",
+          "tag": "1.1.27",
+          "releaseName": "1.1.27",
+          "notes": "自动发布 PC 版本 1.1.27\n\n- `YunXiaoLiao-1.1.27-x64.dmg`\n- `YunXiaoLiao-Setup-1.1.27-x64.zip`\n\n构建时间: 2026-06-14 23:33:33 JST",
+          "file": "YunXiaoLiao-Setup-1.1.27-x64.zip",
+          "size": 137100658,
+          "downloadUrl": "https://github.com/xiaoli55979/ipa_install/releases/download/1.1.27/YunXiaoLiao-Setup-1.1.27-x64.zip"
+        },
+        {
+          "version": "1.1.26",
+          "uploadedAt": "2026-06-04T12:27:52Z",
+          "tag": "1.1.26",
+          "releaseName": "1.1.26",
+          "notes": "自动发布 PC 版本 1.1.26\n\n- `YunXiaoLiao-1.1.26-x64.dmg`\n- `YunXiaoLiao-Setup-1.1.26-x64.zip`\n\n构建时间: 2026-06-04 21:24:38 JST",
+          "file": "YunXiaoLiao-Setup-1.1.26-x64.zip",
+          "size": 137099118,
+          "downloadUrl": "https://github.com/xiaoli55979/ipa_install/releases/download/1.1.26/YunXiaoLiao-Setup-1.1.26-x64.zip"
+        },
+        {
+          "version": "1.1.25",
+          "uploadedAt": "2026-06-03T06:02:18Z",
+          "tag": "1.1.25",
+          "releaseName": "1.1.25",
+          "notes": "自动发布 PC 版本 1.1.25\n\n- `YunXiaoLiao-1.1.25-x64.dmg`\n- `YunXiaoLiao-Setup-1.1.25-x64.zip`\n\n构建时间: 2026-06-03 14:58:18 JST",
+          "file": "YunXiaoLiao-Setup-1.1.25-x64.zip",
+          "size": 137099139,
+          "downloadUrl": "https://github.com/xiaoli55979/ipa_install/releases/download/1.1.25/YunXiaoLiao-Setup-1.1.25-x64.zip"
+        },
+        {
+          "version": "1.1.24",
+          "uploadedAt": "2026-06-02T13:07:10Z",
+          "tag": "1.1.24",
+          "releaseName": "1.1.24",
+          "notes": "自动发布 PC 版本 1.1.24\n\n- `YunXiaoLiao-1.1.24-x64.dmg`\n- `YunXiaoLiao-Setup-1.1.24-x64.zip`\n\n构建时间: 2026-06-02 22:04:21 JST",
+          "file": "YunXiaoLiao-Setup-1.1.24-x64.zip",
+          "size": 137099070,
+          "downloadUrl": "https://github.com/xiaoli55979/ipa_install/releases/download/1.1.24/YunXiaoLiao-Setup-1.1.24-x64.zip"
+        },
+        {
+          "version": "1.1.23",
+          "uploadedAt": "2026-05-29T17:39:36Z",
+          "tag": "1.1.23",
+          "releaseName": "1.1.23",
+          "notes": "自动发布 PC 版本 1.1.23\n\n- `YunXiaoLiao-1.1.23-arm64.dmg`\n- `YunXiaoLiao-1.1.23-x64.dmg`\n- `YunXiaoLiao-Setup-1.1.23-x64.exe`\n- `YunXiaoLiao-Setup-1.1.23-x64.zip`\n\n构建时间: 2026-05-30 02:38:16 JST",
+          "file": "YunXiaoLiao-Setup-1.1.23-x64.zip",
+          "size": 137091722,
+          "downloadUrl": "https://github.com/xiaoli55979/ipa_install/releases/download/1.1.23/YunXiaoLiao-Setup-1.1.23-x64.zip"
+        },
+        {
+          "version": "1.1.23",
+          "uploadedAt": "2026-05-29T17:39:19Z",
+          "tag": "1.1.23",
+          "releaseName": "1.1.23",
+          "notes": "自动发布 PC 版本 1.1.23\n\n- `YunXiaoLiao-1.1.23-arm64.dmg`\n- `YunXiaoLiao-1.1.23-x64.dmg`\n- `YunXiaoLiao-Setup-1.1.23-x64.exe`\n- `YunXiaoLiao-Setup-1.1.23-x64.zip`\n\n构建时间: 2026-05-30 02:38:16 JST",
+          "file": "YunXiaoLiao-Setup-1.1.23-x64.exe",
+          "size": 98924657,
+          "downloadUrl": "https://github.com/xiaoli55979/ipa_install/releases/download/1.1.23/YunXiaoLiao-Setup-1.1.23-x64.exe"
+        },
+        {
+          "version": "1.1.21",
+          "uploadedAt": "2026-05-28T13:00:24Z",
+          "tag": "1.1.21",
+          "releaseName": "1.1.21",
+          "notes": "自动发布 PC 版本 1.1.21\n\n- `YunXiaoLiao-1.1.21-arm64.dmg`\n- `YunXiaoLiao-1.1.21-x64.dmg`\n- `YunXiaoLiao-Setup-1.1.21-x64.exe`\n\n构建时间: 2026-05-28 21:59:19 JST",
+          "file": "YunXiaoLiao-Setup-1.1.21-x64.exe",
+          "size": 98924541,
+          "downloadUrl": "https://github.com/xiaoli55979/ipa_install/releases/download/1.1.21/YunXiaoLiao-Setup-1.1.21-x64.exe"
+        },
+        {
+          "version": "1.1.20",
+          "uploadedAt": "2026-05-06T01:35:27Z",
+          "tag": "1.1.20",
+          "releaseName": "1.1.20",
+          "notes": "自动发布 PC 版本 1.1.20\n\n- `YunXiaoLiao-1.1.20-arm64.dmg`\n- `YunXiaoLiao-1.1.20-x64.dmg`\n- `YunXiaoLiao-Setup-1.1.20-x64.exe`\n\n构建时间: 2026-05-06 10:34:27 JST",
+          "file": "YunXiaoLiao-Setup-1.1.20-x64.exe",
+          "size": 98937935,
+          "downloadUrl": "https://github.com/xiaoli55979/ipa_install/releases/download/1.1.20/YunXiaoLiao-Setup-1.1.20-x64.exe"
+        },
+        {
+          "version": "1.1.19",
+          "uploadedAt": "2026-04-30T09:09:02Z",
+          "tag": "1.1.19",
+          "releaseName": "1.1.19",
+          "notes": "自动发布 PC 版本 1.1.19\n\n- `YunXiaoLiao-1.1.19-arm64.dmg`\n- `YunXiaoLiao-1.1.19-x64.dmg`\n- `YunXiaoLiao-Setup-1.1.19-x64.exe`\n\n构建时间: 2026-04-30 18:06:09 JST",
+          "file": "YunXiaoLiao-Setup-1.1.19-x64.exe",
+          "size": 99267224,
+          "downloadUrl": "https://github.com/xiaoli55979/ipa_install/releases/download/1.1.19/YunXiaoLiao-Setup-1.1.19-x64.exe"
+        },
+        {
+          "version": "1.1.17",
+          "uploadedAt": "2026-04-26T13:39:09Z",
+          "tag": "1.1.17",
+          "releaseName": "1.1.17",
+          "notes": "云小聊 PC 版本 1.1.17\n\n- `YunXiaoLiao-1.1.17-arm64.dmg`\n- `YunXiaoLiao-1.1.17-x64.dmg`\n- `YunXiaoLiao-Setup-1.1.17-x64.exe`\n\n构建时间: 2026-04-26 22:38:24 JST",
+          "file": "YunXiaoLiao-Setup-1.1.17-x64.exe",
+          "size": 98985525,
+          "downloadUrl": "https://github.com/xiaoli55979/ipa_install/releases/download/1.1.17/YunXiaoLiao-Setup-1.1.17-x64.exe"
+        },
+        {
+          "version": "1.0.6",
+          "uploadedAt": "2026-04-22T16:06:32Z",
+          "tag": "1.1.7.2",
+          "releaseName": "1.1.7.2",
+          "notes": "",
+          "file": "Setup-1.0.6.zip",
+          "size": 137052566,
+          "downloadUrl": "https://github.com/xiaoli55979/ipa_install/releases/download/1.1.7.2/Setup-1.0.6.zip"
+        },
+        {
+          "version": "1.0.6",
+          "uploadedAt": "2026-04-22T16:05:29Z",
+          "tag": "1.1.7.2",
+          "releaseName": "1.1.7.2",
+          "notes": "",
+          "file": "Setup-1.0.6-x64.exe",
+          "size": 98928977,
+          "downloadUrl": "https://github.com/xiaoli55979/ipa_install/releases/download/1.1.7.2/Setup-1.0.6-x64.exe"
+        }
+      ],
+      "latestAt": "2026-07-15T13:59:34Z"
+    },
+    {
+      "id": "com.lianfu.cn",
+      "name": "988",
+      "icon": "https://xiaoli55979.github.io/ipa_install/icons/com.lianfu.cn-ios.png",
+      "ios": [
+        {
+          "version": "7.0.11",
+          "uploadedAt": "2026-07-13T05:16:22Z",
+          "tag": "988-mobile-7.0.11",
+          "releaseName": "988-mobile-7.0.11",
+          "notes": "自动发布 988-mobile-7.0.11\n\n- `988-mobile_7.0.11_test.ipa`\n- `988-mobile_7.0.11.apk`\n\n构建时间: 2026-07-13 14:15:12 JST",
+          "file": "988-mobile_7.0.11_test.ipa",
+          "size": 49413505,
+          "downloadUrl": "https://github.com/xiaoli55979/ipa_install/releases/download/988-mobile-7.0.11/988-mobile_7.0.11_test.ipa",
+          "manifestUrl": "https://xiaoli55979.github.io/ipa_install/manifest/com.lianfu.cn-988-mobile-7.0.11.plist",
+          "installUrl": "itms-services://?action=download-manifest&url=https%3A%2F%2Fxiaoli55979.github.io%2Fipa_install%2Fmanifest%2Fcom.lianfu.cn-988-mobile-7.0.11.plist"
+        },
+        {
+          "version": "7.0.9",
+          "uploadedAt": "2026-06-05T05:50:35Z",
+          "tag": "988-mobile-7.0.9",
+          "releaseName": "988-mobile-7.0.9",
+          "notes": "自动发布 988-mobile-7.0.9\n\n- `988-mobile_7.0.9_test.ipa`\n- `988-mobile_7.0.9.apk`\n\n构建时间: 2026-06-05 14:49:35 JST",
+          "file": "988-mobile_7.0.9_test.ipa",
+          "size": 49167604,
+          "downloadUrl": "https://github.com/xiaoli55979/ipa_install/releases/download/988-mobile-7.0.9/988-mobile_7.0.9_test.ipa",
+          "manifestUrl": "https://xiaoli55979.github.io/ipa_install/manifest/com.lianfu.cn-988-mobile-7.0.9.plist",
+          "installUrl": "itms-services://?action=download-manifest&url=https%3A%2F%2Fxiaoli55979.github.io%2Fipa_install%2Fmanifest%2Fcom.lianfu.cn-988-mobile-7.0.9.plist"
+        },
+        {
+          "version": "7.0.8",
+          "uploadedAt": "2026-06-04T09:25:49Z",
+          "tag": "988-mobile-7.0.8",
+          "releaseName": "988-mobile-7.0.8",
+          "notes": "自动发布 988-mobile-7.0.8\n\n- `988-mobile_7.0.8_test.ipa`\n- `988-mobile_7.0.8.apk`\n\n构建时间: 2026-06-04 18:25:05 JST",
+          "file": "988-mobile_7.0.8_test.ipa",
+          "size": 49138608,
+          "downloadUrl": "https://github.com/xiaoli55979/ipa_install/releases/download/988-mobile-7.0.8/988-mobile_7.0.8_test.ipa",
+          "manifestUrl": "https://xiaoli55979.github.io/ipa_install/manifest/com.lianfu.cn-988-mobile-7.0.8.plist",
+          "installUrl": "itms-services://?action=download-manifest&url=https%3A%2F%2Fxiaoli55979.github.io%2Fipa_install%2Fmanifest%2Fcom.lianfu.cn-988-mobile-7.0.8.plist"
+        },
+        {
+          "version": "7.0.7",
+          "uploadedAt": "2026-06-02T09:20:37Z",
+          "tag": "988-mobile-7.0.7",
+          "releaseName": "988-mobile-7.0.7",
+          "notes": "自动发布 988-mobile-7.0.7\n\n- `988-mobile_7.0.7_test.ipa`\n- `988-mobile_7.0.7.apk`\n\n构建时间: 2026-06-02 18:19:54 JST",
+          "file": "988-mobile_7.0.7_test.ipa",
+          "size": 48996694,
+          "downloadUrl": "https://github.com/xiaoli55979/ipa_install/releases/download/988-mobile-7.0.7/988-mobile_7.0.7_test.ipa",
+          "manifestUrl": "https://xiaoli55979.github.io/ipa_install/manifest/com.lianfu.cn-988-mobile-7.0.7.plist",
+          "installUrl": "itms-services://?action=download-manifest&url=https%3A%2F%2Fxiaoli55979.github.io%2Fipa_install%2Fmanifest%2Fcom.lianfu.cn-988-mobile-7.0.7.plist"
+        },
+        {
+          "version": "7.0.6",
+          "uploadedAt": "2026-05-27T14:13:54Z",
+          "tag": "988-mobile-7.0.6",
+          "releaseName": "988-mobile-7.0.6",
+          "notes": "自动发布 988-mobile-7.0.6\n\n- `988-mobile_7.0.6_test.ipa`\n- `988-mobile_7.0.6.apk`\n\n构建时间: 2026-05-27 23:13:31 JST",
+          "file": "988-mobile_7.0.6_test.ipa",
+          "size": 49049043,
+          "downloadUrl": "https://github.com/xiaoli55979/ipa_install/releases/download/988-mobile-7.0.6/988-mobile_7.0.6_test.ipa",
+          "manifestUrl": "https://xiaoli55979.github.io/ipa_install/manifest/com.lianfu.cn-988-mobile-7.0.6.plist",
+          "installUrl": "itms-services://?action=download-manifest&url=https%3A%2F%2Fxiaoli55979.github.io%2Fipa_install%2Fmanifest%2Fcom.lianfu.cn-988-mobile-7.0.6.plist"
+        },
+        {
+          "version": "7.0.5",
+          "uploadedAt": "2026-05-27T05:00:13Z",
+          "tag": "988-mobile-7.0.5",
+          "releaseName": "988-mobile-7.0.5",
+          "notes": "自动发布 988-mobile-7.0.5\n\n- `988-mobile_7.0.5_test.ipa`\n- `988-mobile_7.0.5.apk`\n\n构建时间: 2026-05-27 14:00:01 JST",
+          "file": "988-mobile_7.0.5_test.ipa",
+          "size": 49053391,
+          "downloadUrl": "https://github.com/xiaoli55979/ipa_install/releases/download/988-mobile-7.0.5/988-mobile_7.0.5_test.ipa",
+          "manifestUrl": "https://xiaoli55979.github.io/ipa_install/manifest/com.lianfu.cn-988-mobile-7.0.5.plist",
+          "installUrl": "itms-services://?action=download-manifest&url=https%3A%2F%2Fxiaoli55979.github.io%2Fipa_install%2Fmanifest%2Fcom.lianfu.cn-988-mobile-7.0.5.plist"
+        },
+        {
+          "version": "7.0.4",
+          "uploadedAt": "2026-05-26T08:36:48Z",
+          "tag": "988-mobile-7.0.4",
+          "releaseName": "988-mobile-7.0.4",
+          "notes": "自动发布 988-mobile-7.0.4\n\n- `988-mobile_7.0.4_test.ipa`\n- `988-mobile_7.0.4.apk`\n\n构建时间: 2026-05-26 17:36:00 JST",
+          "file": "988-mobile_7.0.4_test.ipa",
+          "size": 49040958,
+          "downloadUrl": "https://github.com/xiaoli55979/ipa_install/releases/download/988-mobile-7.0.4/988-mobile_7.0.4_test.ipa",
+          "manifestUrl": "https://xiaoli55979.github.io/ipa_install/manifest/com.lianfu.cn-988-mobile-7.0.4.plist",
+          "installUrl": "itms-services://?action=download-manifest&url=https%3A%2F%2Fxiaoli55979.github.io%2Fipa_install%2Fmanifest%2Fcom.lianfu.cn-988-mobile-7.0.4.plist"
+        },
+        {
+          "version": "7.0.3",
+          "uploadedAt": "2026-05-25T14:20:59Z",
+          "tag": "988-mobile-7.0.3",
+          "releaseName": "988-mobile-7.0.3",
+          "notes": "自动发布 988-mobile-7.0.3\n\n- `988-mobile_7.0.3_test.ipa`\n- `988-mobile_7.0.3.apk`\n\n构建时间: 2026-05-25 23:20:44 JST",
+          "file": "988-mobile_7.0.3_test.ipa",
+          "size": 49050051,
+          "downloadUrl": "https://github.com/xiaoli55979/ipa_install/releases/download/988-mobile-7.0.3/988-mobile_7.0.3_test.ipa",
+          "manifestUrl": "https://xiaoli55979.github.io/ipa_install/manifest/com.lianfu.cn-988-mobile-7.0.3.plist",
+          "installUrl": "itms-services://?action=download-manifest&url=https%3A%2F%2Fxiaoli55979.github.io%2Fipa_install%2Fmanifest%2Fcom.lianfu.cn-988-mobile-7.0.3.plist"
+        },
+        {
+          "version": "7.0.2",
+          "uploadedAt": "2026-05-25T04:34:07Z",
+          "tag": "988-mobile-7.0.2",
+          "releaseName": "988-mobile-7.0.2",
+          "notes": "自动发布 988-mobile-7.0.2\n\n- `988-mobile_7.0.2_test.ipa`\n- `988-mobile_7.0.2.apk`\n\n构建时间: 2026-05-25 13:33:26 JST",
+          "file": "988-mobile_7.0.2_test.ipa",
+          "size": 49051101,
+          "downloadUrl": "https://github.com/xiaoli55979/ipa_install/releases/download/988-mobile-7.0.2/988-mobile_7.0.2_test.ipa",
+          "manifestUrl": "https://xiaoli55979.github.io/ipa_install/manifest/com.lianfu.cn-988-mobile-7.0.2.plist",
+          "installUrl": "itms-services://?action=download-manifest&url=https%3A%2F%2Fxiaoli55979.github.io%2Fipa_install%2Fmanifest%2Fcom.lianfu.cn-988-mobile-7.0.2.plist"
+        },
+        {
+          "version": "2.0.7",
+          "uploadedAt": "2026-05-22T15:37:58Z",
+          "tag": "988-mobile-7.0.1",
+          "releaseName": "988-mobile-2.0.7",
+          "notes": "自动发布 988-mobile-2.0.7\r\n\r\n- `988-mobile_2.0.7_test.ipa`\r\n- `988-mobile_2.0.7.apk`\r\n\r\n构建时间: 2026-05-23 00:37:45 JST",
+          "file": "988-mobile_2.0.7_test.ipa",
+          "size": 48243319,
+          "downloadUrl": "https://github.com/xiaoli55979/ipa_install/releases/download/988-mobile-7.0.1/988-mobile_2.0.7_test.ipa",
+          "manifestUrl": "https://xiaoli55979.github.io/ipa_install/manifest/com.lianfu.cn-988-mobile-7.0.1.plist",
+          "installUrl": "itms-services://?action=download-manifest&url=https%3A%2F%2Fxiaoli55979.github.io%2Fipa_install%2Fmanifest%2Fcom.lianfu.cn-988-mobile-7.0.1.plist"
+        },
+        {
+          "version": "2.0.6",
+          "uploadedAt": "2026-05-22T14:35:20Z",
+          "tag": "988-mobile-2.0.6",
+          "releaseName": "988-mobile-2.0.6",
+          "notes": "自动发布 988-mobile-2.0.6\n\n- `988-mobile_2.0.6_test.ipa`\n- `988-mobile_2.0.6.apk`\n\n构建时间: 2026-05-22 23:35:05 JST",
+          "file": "988-mobile_2.0.6_test.ipa",
+          "size": 48243310,
+          "downloadUrl": "https://github.com/xiaoli55979/ipa_install/releases/download/988-mobile-2.0.6/988-mobile_2.0.6_test.ipa",
+          "manifestUrl": "https://xiaoli55979.github.io/ipa_install/manifest/com.lianfu.cn-988-mobile-2.0.6.plist",
+          "installUrl": "itms-services://?action=download-manifest&url=https%3A%2F%2Fxiaoli55979.github.io%2Fipa_install%2Fmanifest%2Fcom.lianfu.cn-988-mobile-2.0.6.plist"
+        },
+        {
+          "version": "2.0.5",
+          "uploadedAt": "2026-05-22T13:19:09Z",
+          "tag": "988-mobile-2.0.5",
+          "releaseName": "988-mobile-2.0.5",
+          "notes": "自动发布 988-mobile-2.0.5\n\n- `988-mobile_2.0.5_test.ipa`\n- `988-mobile_2.0.5.apk`\n\n构建时间: 2026-05-22 22:18:55 JST",
+          "file": "988-mobile_2.0.5_test.ipa",
+          "size": 48242059,
+          "downloadUrl": "https://github.com/xiaoli55979/ipa_install/releases/download/988-mobile-2.0.5/988-mobile_2.0.5_test.ipa",
+          "manifestUrl": "https://xiaoli55979.github.io/ipa_install/manifest/com.lianfu.cn-988-mobile-2.0.5.plist",
+          "installUrl": "itms-services://?action=download-manifest&url=https%3A%2F%2Fxiaoli55979.github.io%2Fipa_install%2Fmanifest%2Fcom.lianfu.cn-988-mobile-2.0.5.plist"
+        },
+        {
+          "version": "2.0.5",
+          "uploadedAt": "2026-05-21T13:24:57Z",
+          "tag": "6.2.1",
+          "releaseName": "988-mobile-6.2.1",
+          "notes": "自动发布 988-mobile-2.0.5\r\n\r\n- `988-mobile_2.0.5_test.ipa`\r\n- `988-mobile_2.0.5.apk`\r\n\r\n构建时间: 2026-05-21 22:24:43 JST",
+          "file": "988-mobile_2.0.5_test.ipa",
+          "size": 48220296,
+          "downloadUrl": "https://github.com/xiaoli55979/ipa_install/releases/download/6.2.1/988-mobile_2.0.5_test.ipa",
+          "manifestUrl": "https://xiaoli55979.github.io/ipa_install/manifest/com.lianfu.cn-6.2.1.plist",
+          "installUrl": "itms-services://?action=download-manifest&url=https%3A%2F%2Fxiaoli55979.github.io%2Fipa_install%2Fmanifest%2Fcom.lianfu.cn-6.2.1.plist"
+        },
+        {
+          "version": "2.0.4",
+          "uploadedAt": "2026-05-21T02:45:05Z",
+          "tag": "988-mobile-2.0.4",
+          "releaseName": "988-mobile-2.0.4",
+          "notes": "自动发布 988-mobile-2.0.4\n\n- `988-mobile_2.0.4_test.ipa`\n- `988-mobile_2.0.4.apk`\n\n构建时间: 2026-05-21 11:44:51 JST",
+          "file": "988-mobile_2.0.4_test.ipa",
+          "size": 48244761,
+          "downloadUrl": "https://github.com/xiaoli55979/ipa_install/releases/download/988-mobile-2.0.4/988-mobile_2.0.4_test.ipa",
+          "manifestUrl": "https://xiaoli55979.github.io/ipa_install/manifest/com.lianfu.cn-988-mobile-2.0.4.plist",
+          "installUrl": "itms-services://?action=download-manifest&url=https%3A%2F%2Fxiaoli55979.github.io%2Fipa_install%2Fmanifest%2Fcom.lianfu.cn-988-mobile-2.0.4.plist"
+        },
+        {
+          "version": "2.0.3",
+          "uploadedAt": "2026-05-14T02:18:36Z",
+          "tag": "988-mobile-2.0.3",
+          "releaseName": "988-mobile-2.0.3",
+          "notes": "自动发布 988-mobile-2.0.3\n\n- `988-mobile_2.0.3_test.ipa`\n- `988-mobile_2.0.3.apk`\n\n构建时间: 2026-05-14 11:15:40 JST",
+          "file": "988-mobile_2.0.3_test.ipa",
+          "size": 48021770,
+          "downloadUrl": "https://github.com/xiaoli55979/ipa_install/releases/download/988-mobile-2.0.3/988-mobile_2.0.3_test.ipa",
+          "manifestUrl": "https://xiaoli55979.github.io/ipa_install/manifest/com.lianfu.cn-988-mobile-2.0.3.plist",
+          "installUrl": "itms-services://?action=download-manifest&url=https%3A%2F%2Fxiaoli55979.github.io%2Fipa_install%2Fmanifest%2Fcom.lianfu.cn-988-mobile-2.0.3.plist"
+        },
+        {
+          "version": "2.0.2",
+          "uploadedAt": "2026-05-13T12:51:31Z",
+          "tag": "988-mobile-2.0.2",
+          "releaseName": "988-mobile-2.0.2",
+          "notes": "自动发布 988-mobile-2.0.2\n\n- `988-mobile_2.0.2_test.ipa`\n- `988-mobile_2.0.2.apk`\n\n构建时间: 2026-05-13 21:50:05 JST",
+          "file": "988-mobile_2.0.2_test.ipa",
+          "size": 48023732,
+          "downloadUrl": "https://github.com/xiaoli55979/ipa_install/releases/download/988-mobile-2.0.2/988-mobile_2.0.2_test.ipa",
+          "manifestUrl": "https://xiaoli55979.github.io/ipa_install/manifest/com.lianfu.cn-988-mobile-2.0.2.plist",
+          "installUrl": "itms-services://?action=download-manifest&url=https%3A%2F%2Fxiaoli55979.github.io%2Fipa_install%2Fmanifest%2Fcom.lianfu.cn-988-mobile-2.0.2.plist"
+        }
+      ],
+      "android": [
+        {
+          "version": "7.0.11",
+          "uploadedAt": "2026-07-13T05:17:20Z",
+          "tag": "988-mobile-7.0.11",
+          "releaseName": "988-mobile-7.0.11",
+          "notes": "自动发布 988-mobile-7.0.11\n\n- `988-mobile_7.0.11_test.ipa`\n- `988-mobile_7.0.11.apk`\n\n构建时间: 2026-07-13 14:15:12 JST",
+          "file": "988-mobile_7.0.11.apk",
+          "size": 160132256,
+          "downloadUrl": "https://github.com/xiaoli55979/ipa_install/releases/download/988-mobile-7.0.11/988-mobile_7.0.11.apk"
+        },
+        {
+          "version": "7.0.10",
+          "uploadedAt": "2026-06-08T08:42:44Z",
+          "tag": "988-mobile-7.0.10",
+          "releaseName": "988-mobile-7.0.10",
+          "notes": "自动发布 988-mobile-7.0.10\n\n- `988-mobile_7.0.10.apk`\n\n构建时间: 2026-06-08 17:42:20 JST",
+          "file": "988-mobile_7.0.10.apk",
+          "size": 161124389,
+          "downloadUrl": "https://github.com/xiaoli55979/ipa_install/releases/download/988-mobile-7.0.10/988-mobile_7.0.10.apk"
+        },
+        {
+          "version": "7.0.9",
+          "uploadedAt": "2026-06-05T05:51:56Z",
+          "tag": "988-mobile-7.0.9",
+          "releaseName": "988-mobile-7.0.9",
+          "notes": "自动发布 988-mobile-7.0.9\n\n- `988-mobile_7.0.9_test.ipa`\n- `988-mobile_7.0.9.apk`\n\n构建时间: 2026-06-05 14:49:35 JST",
+          "file": "988-mobile_7.0.9.apk",
+          "size": 160714729,
+          "downloadUrl": "https://github.com/xiaoli55979/ipa_install/releases/download/988-mobile-7.0.9/988-mobile_7.0.9.apk"
+        },
+        {
+          "version": "7.0.8",
+          "uploadedAt": "2026-06-04T09:27:13Z",
+          "tag": "988-mobile-7.0.8",
+          "releaseName": "988-mobile-7.0.8",
+          "notes": "自动发布 988-mobile-7.0.8\n\n- `988-mobile_7.0.8_test.ipa`\n- `988-mobile_7.0.8.apk`\n\n构建时间: 2026-06-04 18:25:05 JST",
+          "file": "988-mobile_7.0.8.apk",
+          "size": 160567213,
+          "downloadUrl": "https://github.com/xiaoli55979/ipa_install/releases/download/988-mobile-7.0.8/988-mobile_7.0.8.apk"
+        },
+        {
+          "version": "7.0.7",
+          "uploadedAt": "2026-06-02T09:20:51Z",
+          "tag": "988-mobile-7.0.7",
+          "releaseName": "988-mobile-7.0.7",
+          "notes": "自动发布 988-mobile-7.0.7\n\n- `988-mobile_7.0.7_test.ipa`\n- `988-mobile_7.0.7.apk`\n\n构建时间: 2026-06-02 18:19:54 JST",
+          "file": "988-mobile_7.0.7.apk",
+          "size": 159879125,
+          "downloadUrl": "https://github.com/xiaoli55979/ipa_install/releases/download/988-mobile-7.0.7/988-mobile_7.0.7.apk"
+        },
+        {
+          "version": "7.0.6",
+          "uploadedAt": "2026-05-27T14:14:17Z",
+          "tag": "988-mobile-7.0.6",
+          "releaseName": "988-mobile-7.0.6",
+          "notes": "自动发布 988-mobile-7.0.6\n\n- `988-mobile_7.0.6_test.ipa`\n- `988-mobile_7.0.6.apk`\n\n构建时间: 2026-05-27 23:13:31 JST",
+          "file": "988-mobile_7.0.6.apk",
+          "size": 160174037,
+          "downloadUrl": "https://github.com/xiaoli55979/ipa_install/releases/download/988-mobile-7.0.6/988-mobile_7.0.6.apk"
+        },
+        {
+          "version": "7.0.5",
+          "uploadedAt": "2026-05-27T05:00:27Z",
+          "tag": "988-mobile-7.0.5",
+          "releaseName": "988-mobile-7.0.5",
+          "notes": "自动发布 988-mobile-7.0.5\n\n- `988-mobile_7.0.5_test.ipa`\n- `988-mobile_7.0.5.apk`\n\n构建时间: 2026-05-27 14:00:01 JST",
+          "file": "988-mobile_7.0.5.apk",
+          "size": 160108369,
+          "downloadUrl": "https://github.com/xiaoli55979/ipa_install/releases/download/988-mobile-7.0.5/988-mobile_7.0.5.apk"
+        },
+        {
+          "version": "7.0.4",
+          "uploadedAt": "2026-05-26T08:37:34Z",
+          "tag": "988-mobile-7.0.4",
+          "releaseName": "988-mobile-7.0.4",
+          "notes": "自动发布 988-mobile-7.0.4\n\n- `988-mobile_7.0.4_test.ipa`\n- `988-mobile_7.0.4.apk`\n\n构建时间: 2026-05-26 17:36:00 JST",
+          "file": "988-mobile_7.0.4.apk",
+          "size": 160108369,
+          "downloadUrl": "https://github.com/xiaoli55979/ipa_install/releases/download/988-mobile-7.0.4/988-mobile_7.0.4.apk"
+        },
+        {
+          "version": "7.0.3",
+          "uploadedAt": "2026-05-25T14:21:13Z",
+          "tag": "988-mobile-7.0.3",
+          "releaseName": "988-mobile-7.0.3",
+          "notes": "自动发布 988-mobile-7.0.3\n\n- `988-mobile_7.0.3_test.ipa`\n- `988-mobile_7.0.3.apk`\n\n构建时间: 2026-05-25 23:20:44 JST",
+          "file": "988-mobile_7.0.3.apk",
+          "size": 160091985,
+          "downloadUrl": "https://github.com/xiaoli55979/ipa_install/releases/download/988-mobile-7.0.3/988-mobile_7.0.3.apk"
+        },
+        {
+          "version": "7.0.2",
+          "uploadedAt": "2026-05-25T04:34:45Z",
+          "tag": "988-mobile-7.0.2",
+          "releaseName": "988-mobile-7.0.2",
+          "notes": "自动发布 988-mobile-7.0.2\n\n- `988-mobile_7.0.2_test.ipa`\n- `988-mobile_7.0.2.apk`\n\n构建时间: 2026-05-25 13:33:26 JST",
+          "file": "988-mobile_7.0.2.apk",
+          "size": 160091985,
+          "downloadUrl": "https://github.com/xiaoli55979/ipa_install/releases/download/988-mobile-7.0.2/988-mobile_7.0.2.apk"
+        },
+        {
+          "version": "2.0.7",
+          "uploadedAt": "2026-05-22T15:38:11Z",
+          "tag": "988-mobile-7.0.1",
+          "releaseName": "988-mobile-2.0.7",
+          "notes": "自动发布 988-mobile-2.0.7\r\n\r\n- `988-mobile_2.0.7_test.ipa`\r\n- `988-mobile_2.0.7.apk`\r\n\r\n构建时间: 2026-05-23 00:37:45 JST",
+          "file": "988-mobile_2.0.7.apk",
+          "size": 159649481,
+          "downloadUrl": "https://github.com/xiaoli55979/ipa_install/releases/download/988-mobile-7.0.1/988-mobile_2.0.7.apk"
+        },
+        {
+          "version": "2.0.6",
+          "uploadedAt": "2026-05-22T14:35:35Z",
+          "tag": "988-mobile-2.0.6",
+          "releaseName": "988-mobile-2.0.6",
+          "notes": "自动发布 988-mobile-2.0.6\n\n- `988-mobile_2.0.6_test.ipa`\n- `988-mobile_2.0.6.apk`\n\n构建时间: 2026-05-22 23:35:05 JST",
+          "file": "988-mobile_2.0.6.apk",
+          "size": 159649481,
+          "downloadUrl": "https://github.com/xiaoli55979/ipa_install/releases/download/988-mobile-2.0.6/988-mobile_2.0.6.apk"
+        },
+        {
+          "version": "2.0.5",
+          "uploadedAt": "2026-05-22T13:19:22Z",
+          "tag": "988-mobile-2.0.5",
+          "releaseName": "988-mobile-2.0.5",
+          "notes": "自动发布 988-mobile-2.0.5\n\n- `988-mobile_2.0.5_test.ipa`\n- `988-mobile_2.0.5.apk`\n\n构建时间: 2026-05-22 22:18:55 JST",
+          "file": "988-mobile_2.0.5.apk",
+          "size": 159649481,
+          "downloadUrl": "https://github.com/xiaoli55979/ipa_install/releases/download/988-mobile-2.0.5/988-mobile_2.0.5.apk"
+        },
+        {
+          "version": "2.0.5",
+          "uploadedAt": "2026-05-21T13:25:10Z",
+          "tag": "6.2.1",
+          "releaseName": "988-mobile-6.2.1",
+          "notes": "自动发布 988-mobile-2.0.5\r\n\r\n- `988-mobile_2.0.5_test.ipa`\r\n- `988-mobile_2.0.5.apk`\r\n\r\n构建时间: 2026-05-21 22:24:43 JST",
+          "file": "988-mobile_2.0.5.apk",
+          "size": 159649481,
+          "downloadUrl": "https://github.com/xiaoli55979/ipa_install/releases/download/6.2.1/988-mobile_2.0.5.apk"
+        },
+        {
+          "version": "2.0.4",
+          "uploadedAt": "2026-05-21T02:45:19Z",
+          "tag": "988-mobile-2.0.4",
+          "releaseName": "988-mobile-2.0.4",
+          "notes": "自动发布 988-mobile-2.0.4\n\n- `988-mobile_2.0.4_test.ipa`\n- `988-mobile_2.0.4.apk`\n\n构建时间: 2026-05-21 11:44:51 JST",
+          "file": "988-mobile_2.0.4.apk",
+          "size": 159649389,
+          "downloadUrl": "https://github.com/xiaoli55979/ipa_install/releases/download/988-mobile-2.0.4/988-mobile_2.0.4.apk"
+        },
+        {
+          "version": "2.0.3",
+          "uploadedAt": "2026-05-14T02:23:51Z",
+          "tag": "988-mobile-2.0.3",
+          "releaseName": "988-mobile-2.0.3",
+          "notes": "自动发布 988-mobile-2.0.3\n\n- `988-mobile_2.0.3_test.ipa`\n- `988-mobile_2.0.3.apk`\n\n构建时间: 2026-05-14 11:15:40 JST",
+          "file": "988-mobile_2.0.3.apk",
+          "size": 159156782,
+          "downloadUrl": "https://github.com/xiaoli55979/ipa_install/releases/download/988-mobile-2.0.3/988-mobile_2.0.3.apk"
+        },
+        {
+          "version": "2.0.2",
+          "uploadedAt": "2026-05-13T12:52:47Z",
+          "tag": "988-mobile-2.0.2",
+          "releaseName": "988-mobile-2.0.2",
+          "notes": "自动发布 988-mobile-2.0.2\n\n- `988-mobile_2.0.2_test.ipa`\n- `988-mobile_2.0.2.apk`\n\n构建时间: 2026-05-13 21:50:05 JST",
+          "file": "988-mobile_2.0.2.apk",
+          "size": 159156782,
+          "downloadUrl": "https://github.com/xiaoli55979/ipa_install/releases/download/988-mobile-2.0.2/988-mobile_2.0.2.apk"
+        }
+      ],
+      "mac": [],
+      "win": [],
+      "latestAt": "2026-07-13T05:17:20Z"
     },
     {
       "id": "com.ams.cn",
       "name": "234",
       "icon": "https://xiaoli55979.github.io/ipa_install/icons/com.ams.cn-ios.png",
       "ios": [
+        {
+          "version": "6.1.19",
+          "uploadedAt": "2026-07-13T04:16:46Z",
+          "tag": "234-mobile-7.0.1",
+          "releaseName": "234-mobile-7.0.1",
+          "notes": "自动发布 234-mobile-6.1.19\r\n\r\n- `234-mobile_6.1.19_test.ipa`\r\n- `234-mobile_6.1.19.apk`\r\n\r\n构建时间: 2026-07-13 13:15:33 JST",
+          "file": "234-mobile_6.1.19_test.ipa",
+          "size": 48848372,
+          "downloadUrl": "https://github.com/xiaoli55979/ipa_install/releases/download/234-mobile-7.0.1/234-mobile_6.1.19_test.ipa",
+          "manifestUrl": "https://xiaoli55979.github.io/ipa_install/manifest/com.ams.cn-234-mobile-7.0.1.plist",
+          "installUrl": "itms-services://?action=download-manifest&url=https%3A%2F%2Fxiaoli55979.github.io%2Fipa_install%2Fmanifest%2Fcom.ams.cn-234-mobile-7.0.1.plist"
+        },
         {
           "version": "6.1.18",
           "uploadedAt": "2026-06-02T08:14:55Z",
@@ -1753,6 +1845,16 @@
       ],
       "android": [
         {
+          "version": "6.1.19",
+          "uploadedAt": "2026-07-13T04:18:01Z",
+          "tag": "234-mobile-7.0.1",
+          "releaseName": "234-mobile-7.0.1",
+          "notes": "自动发布 234-mobile-6.1.19\r\n\r\n- `234-mobile_6.1.19_test.ipa`\r\n- `234-mobile_6.1.19.apk`\r\n\r\n构建时间: 2026-07-13 13:15:33 JST",
+          "file": "234-mobile_6.1.19.apk",
+          "size": 179615923,
+          "downloadUrl": "https://github.com/xiaoli55979/ipa_install/releases/download/234-mobile-7.0.1/234-mobile_6.1.19.apk"
+        },
+        {
           "version": "6.1.18",
           "uploadedAt": "2026-06-02T08:16:15Z",
           "tag": "234-mobile-6.1.18",
@@ -1825,7 +1927,585 @@
       ],
       "mac": [],
       "win": [],
-      "latestAt": "2026-06-02T08:16:15Z"
+      "latestAt": "2026-07-13T04:18:01Z"
+    },
+    {
+      "id": "com.wlp.com.cn",
+      "name": "50",
+      "icon": "https://xiaoli55979.github.io/ipa_install/icons/com.wlp.com.cn-ios.png",
+      "ios": [
+        {
+          "version": "6.1.27",
+          "uploadedAt": "2026-07-11T14:47:17Z",
+          "tag": "50-mobile-7.0.1",
+          "releaseName": "50-mobile-7.0.1",
+          "notes": "自动发布 50-mobile-6.1.27\r\n\r\n- `50-mobile_6.1.27_test.ipa`\r\n- `50-mobile_6.1.27.apk`\r\n\r\n构建时间: 2026-07-11 23:42:49 JST",
+          "file": "50-mobile_6.1.27_test.ipa",
+          "size": 53366005,
+          "downloadUrl": "https://github.com/xiaoli55979/ipa_install/releases/download/50-mobile-7.0.1/50-mobile_6.1.27_test.ipa",
+          "manifestUrl": "https://xiaoli55979.github.io/ipa_install/manifest/com.wlp.com.cn-50-mobile-7.0.1.plist",
+          "installUrl": "itms-services://?action=download-manifest&url=https%3A%2F%2Fxiaoli55979.github.io%2Fipa_install%2Fmanifest%2Fcom.wlp.com.cn-50-mobile-7.0.1.plist"
+        },
+        {
+          "version": "6.1.26",
+          "uploadedAt": "2026-07-11T06:09:02Z",
+          "tag": "50-mobile-6.1.26",
+          "releaseName": "50-mobile-6.1.26",
+          "notes": "自动发布 50-mobile-6.1.26\n\n- `50-mobile_6.1.26_test.ipa`\n- `50-mobile_6.1.26.apk`\n\n构建时间: 2026-07-11 15:04:09 JST",
+          "file": "50-mobile_6.1.26_test.ipa",
+          "size": 53371633,
+          "downloadUrl": "https://github.com/xiaoli55979/ipa_install/releases/download/50-mobile-6.1.26/50-mobile_6.1.26_test.ipa",
+          "manifestUrl": "https://xiaoli55979.github.io/ipa_install/manifest/com.wlp.com.cn-50-mobile-6.1.26.plist",
+          "installUrl": "itms-services://?action=download-manifest&url=https%3A%2F%2Fxiaoli55979.github.io%2Fipa_install%2Fmanifest%2Fcom.wlp.com.cn-50-mobile-6.1.26.plist"
+        },
+        {
+          "version": "6.1.25",
+          "uploadedAt": "2026-07-11T05:43:47Z",
+          "tag": "50-mobile-6.1.25",
+          "releaseName": "50-mobile-6.1.25",
+          "notes": "自动发布 50-mobile-6.1.25\n\n- `50-mobile_6.1.25_test.ipa`\n- `50-mobile_6.1.25.apk`\n\n构建时间: 2026-07-11 14:38:22 JST",
+          "file": "50-mobile_6.1.25_test.ipa",
+          "size": 53359343,
+          "downloadUrl": "https://github.com/xiaoli55979/ipa_install/releases/download/50-mobile-6.1.25/50-mobile_6.1.25_test.ipa",
+          "manifestUrl": "https://xiaoli55979.github.io/ipa_install/manifest/com.wlp.com.cn-50-mobile-6.1.25.plist",
+          "installUrl": "itms-services://?action=download-manifest&url=https%3A%2F%2Fxiaoli55979.github.io%2Fipa_install%2Fmanifest%2Fcom.wlp.com.cn-50-mobile-6.1.25.plist"
+        },
+        {
+          "version": "6.1.20",
+          "uploadedAt": "2026-06-02T08:04:12Z",
+          "tag": "50-mobile-6.1.20",
+          "releaseName": "50-mobile-6.1.20",
+          "notes": "自动发布 50-mobile-6.1.20\n\n- `50-mobile_6.1.20_test.ipa`\n- `50-mobile_6.1.20.apk`\n\n构建时间: 2026-06-02 17:03:22 JST",
+          "file": "50-mobile_6.1.20_test.ipa",
+          "size": 52991891,
+          "downloadUrl": "https://github.com/xiaoli55979/ipa_install/releases/download/50-mobile-6.1.20/50-mobile_6.1.20_test.ipa",
+          "manifestUrl": "https://xiaoli55979.github.io/ipa_install/manifest/com.wlp.com.cn-50-mobile-6.1.20.plist",
+          "installUrl": "itms-services://?action=download-manifest&url=https%3A%2F%2Fxiaoli55979.github.io%2Fipa_install%2Fmanifest%2Fcom.wlp.com.cn-50-mobile-6.1.20.plist"
+        },
+        {
+          "version": "6.1.19",
+          "uploadedAt": "2026-06-02T04:08:53Z",
+          "tag": "50-mobile-6.1.19",
+          "releaseName": "50-mobile-6.1.19",
+          "notes": "自动发布 50-mobile-6.1.19\n\n- `50-mobile_6.1.19_test.ipa`\n- `50-mobile_6.1.19.apk`\n\n构建时间: 2026-06-02 13:07:12 JST",
+          "file": "50-mobile_6.1.19_test.ipa",
+          "size": 53002500,
+          "downloadUrl": "https://github.com/xiaoli55979/ipa_install/releases/download/50-mobile-6.1.19/50-mobile_6.1.19_test.ipa",
+          "manifestUrl": "https://xiaoli55979.github.io/ipa_install/manifest/com.wlp.com.cn-50-mobile-6.1.19.plist",
+          "installUrl": "itms-services://?action=download-manifest&url=https%3A%2F%2Fxiaoli55979.github.io%2Fipa_install%2Fmanifest%2Fcom.wlp.com.cn-50-mobile-6.1.19.plist"
+        },
+        {
+          "version": "6.1.18",
+          "uploadedAt": "2026-05-28T09:32:49Z",
+          "tag": "50-mobile-6.1.18",
+          "releaseName": "50-mobile-6.1.18",
+          "notes": "自动发布 50-mobile-6.1.18\n\n- `50-mobile_6.1.18_test.ipa`\n- `50-mobile_6.1.18.apk`\n\n构建时间: 2026-05-28 18:32:34 JST",
+          "file": "50-mobile_6.1.18_test.ipa",
+          "size": 53002573,
+          "downloadUrl": "https://github.com/xiaoli55979/ipa_install/releases/download/50-mobile-6.1.18/50-mobile_6.1.18_test.ipa",
+          "manifestUrl": "https://xiaoli55979.github.io/ipa_install/manifest/com.wlp.com.cn-50-mobile-6.1.18.plist",
+          "installUrl": "itms-services://?action=download-manifest&url=https%3A%2F%2Fxiaoli55979.github.io%2Fipa_install%2Fmanifest%2Fcom.wlp.com.cn-50-mobile-6.1.18.plist"
+        },
+        {
+          "version": "6.1.17",
+          "uploadedAt": "2026-05-27T05:58:48Z",
+          "tag": "50-mobile-6.1.17",
+          "releaseName": "50-mobile-6.1.17",
+          "notes": "自动发布 50-mobile-6.1.17\n\n- `50-mobile_6.1.17_test.ipa`\n- `50-mobile_6.1.17.apk`\n\n构建时间: 2026-05-27 14:58:35 JST",
+          "file": "50-mobile_6.1.17_test.ipa",
+          "size": 52975674,
+          "downloadUrl": "https://github.com/xiaoli55979/ipa_install/releases/download/50-mobile-6.1.17/50-mobile_6.1.17_test.ipa",
+          "manifestUrl": "https://xiaoli55979.github.io/ipa_install/manifest/com.wlp.com.cn-50-mobile-6.1.17.plist",
+          "installUrl": "itms-services://?action=download-manifest&url=https%3A%2F%2Fxiaoli55979.github.io%2Fipa_install%2Fmanifest%2Fcom.wlp.com.cn-50-mobile-6.1.17.plist"
+        },
+        {
+          "version": "6.1.16",
+          "uploadedAt": "2026-05-26T09:08:15Z",
+          "tag": "50-mobile-6.1.16",
+          "releaseName": "50-mobile-6.1.16",
+          "notes": "自动发布 50-mobile-6.1.16\n\n- `50-mobile_6.1.16_test.ipa`\n- `50-mobile_6.1.16.apk`\n\n构建时间: 2026-05-26 18:08:01 JST",
+          "file": "50-mobile_6.1.16_test.ipa",
+          "size": 52981839,
+          "downloadUrl": "https://github.com/xiaoli55979/ipa_install/releases/download/50-mobile-6.1.16/50-mobile_6.1.16_test.ipa",
+          "manifestUrl": "https://xiaoli55979.github.io/ipa_install/manifest/com.wlp.com.cn-50-mobile-6.1.16.plist",
+          "installUrl": "itms-services://?action=download-manifest&url=https%3A%2F%2Fxiaoli55979.github.io%2Fipa_install%2Fmanifest%2Fcom.wlp.com.cn-50-mobile-6.1.16.plist"
+        },
+        {
+          "version": "6.1.15",
+          "uploadedAt": "2026-05-25T13:10:04Z",
+          "tag": "50-mobile-6.1.15",
+          "releaseName": "50-mobile-6.1.15",
+          "notes": "自动发布 50-mobile-6.1.15\n\n- `50-mobile_6.1.15_test.ipa`\n- `50-mobile_6.1.15.apk`\n\n构建时间: 2026-05-25 22:09:49 JST",
+          "file": "50-mobile_6.1.15_test.ipa",
+          "size": 52979821,
+          "downloadUrl": "https://github.com/xiaoli55979/ipa_install/releases/download/50-mobile-6.1.15/50-mobile_6.1.15_test.ipa",
+          "manifestUrl": "https://xiaoli55979.github.io/ipa_install/manifest/com.wlp.com.cn-50-mobile-6.1.15.plist",
+          "installUrl": "itms-services://?action=download-manifest&url=https%3A%2F%2Fxiaoli55979.github.io%2Fipa_install%2Fmanifest%2Fcom.wlp.com.cn-50-mobile-6.1.15.plist"
+        },
+        {
+          "version": "6.1.14",
+          "uploadedAt": "2026-05-22T16:34:39Z",
+          "tag": "50-mobile-6.1.14",
+          "releaseName": "50-mobile-6.1.14",
+          "notes": "自动发布 50-mobile-6.1.14\n\n- `50-mobile_6.1.14_test.ipa`\n- `50-mobile_6.1.14.apk`\n\n构建时间: 2026-05-23 01:34:24 JST",
+          "file": "50-mobile_6.1.14_test.ipa",
+          "size": 52272160,
+          "downloadUrl": "https://github.com/xiaoli55979/ipa_install/releases/download/50-mobile-6.1.14/50-mobile_6.1.14_test.ipa",
+          "manifestUrl": "https://xiaoli55979.github.io/ipa_install/manifest/com.wlp.com.cn-50-mobile-6.1.14.plist",
+          "installUrl": "itms-services://?action=download-manifest&url=https%3A%2F%2Fxiaoli55979.github.io%2Fipa_install%2Fmanifest%2Fcom.wlp.com.cn-50-mobile-6.1.14.plist"
+        },
+        {
+          "version": "6.1.13",
+          "uploadedAt": "2026-05-20T02:58:31Z",
+          "tag": "50-mobile-6.1.13",
+          "releaseName": "50-mobile-6.1.13",
+          "notes": "自动发布 50-mobile-6.1.13\n\n- `50-mobile_6.1.13_test.ipa`\n- `50-mobile_6.1.13.apk`\n\n构建时间: 2026-05-20 11:58:17 JST",
+          "file": "50-mobile_6.1.13_test.ipa",
+          "size": 52268791,
+          "downloadUrl": "https://github.com/xiaoli55979/ipa_install/releases/download/50-mobile-6.1.13/50-mobile_6.1.13_test.ipa",
+          "manifestUrl": "https://xiaoli55979.github.io/ipa_install/manifest/com.wlp.com.cn-50-mobile-6.1.13.plist",
+          "installUrl": "itms-services://?action=download-manifest&url=https%3A%2F%2Fxiaoli55979.github.io%2Fipa_install%2Fmanifest%2Fcom.wlp.com.cn-50-mobile-6.1.13.plist"
+        },
+        {
+          "version": "6.1.12",
+          "uploadedAt": "2026-05-19T09:14:09Z",
+          "tag": "50-mobile-6.1.12",
+          "releaseName": "50-mobile-6.1.12",
+          "notes": "自动发布 50-mobile-6.1.12\n\n- `50-mobile_6.1.12_test.ipa`\n- `50-mobile_6.1.12.apk`\n\n构建时间: 2026-05-19 18:13:55 JST",
+          "file": "50-mobile_6.1.12_test.ipa",
+          "size": 52262004,
+          "downloadUrl": "https://github.com/xiaoli55979/ipa_install/releases/download/50-mobile-6.1.12/50-mobile_6.1.12_test.ipa",
+          "manifestUrl": "https://xiaoli55979.github.io/ipa_install/manifest/com.wlp.com.cn-50-mobile-6.1.12.plist",
+          "installUrl": "itms-services://?action=download-manifest&url=https%3A%2F%2Fxiaoli55979.github.io%2Fipa_install%2Fmanifest%2Fcom.wlp.com.cn-50-mobile-6.1.12.plist"
+        },
+        {
+          "version": "6.1.11",
+          "uploadedAt": "2026-05-19T00:41:11Z",
+          "tag": "50-mobile-6.1.11",
+          "releaseName": "50-mobile-6.1.11",
+          "notes": "自动发布 50-mobile-6.1.11\n\n- `50-mobile_6.1.11_test.ipa`\n- `50-mobile_6.1.11.apk`\n\n构建时间: 2026-05-19 09:40:58 JST",
+          "file": "50-mobile_6.1.11_test.ipa",
+          "size": 52253353,
+          "downloadUrl": "https://github.com/xiaoli55979/ipa_install/releases/download/50-mobile-6.1.11/50-mobile_6.1.11_test.ipa",
+          "manifestUrl": "https://xiaoli55979.github.io/ipa_install/manifest/com.wlp.com.cn-50-mobile-6.1.11.plist",
+          "installUrl": "itms-services://?action=download-manifest&url=https%3A%2F%2Fxiaoli55979.github.io%2Fipa_install%2Fmanifest%2Fcom.wlp.com.cn-50-mobile-6.1.11.plist"
+        }
+      ],
+      "android": [
+        {
+          "version": "6.1.27",
+          "uploadedAt": "2026-07-11T14:53:20Z",
+          "tag": "50-mobile-7.0.1",
+          "releaseName": "50-mobile-7.0.1",
+          "notes": "自动发布 50-mobile-6.1.27\r\n\r\n- `50-mobile_6.1.27_test.ipa`\r\n- `50-mobile_6.1.27.apk`\r\n\r\n构建时间: 2026-07-11 23:42:49 JST",
+          "file": "50-mobile_6.1.27.apk",
+          "size": 183866684,
+          "downloadUrl": "https://github.com/xiaoli55979/ipa_install/releases/download/50-mobile-7.0.1/50-mobile_6.1.27.apk"
+        },
+        {
+          "version": "6.1.26",
+          "uploadedAt": "2026-07-11T06:13:16Z",
+          "tag": "50-mobile-6.1.26",
+          "releaseName": "50-mobile-6.1.26",
+          "notes": "自动发布 50-mobile-6.1.26\n\n- `50-mobile_6.1.26_test.ipa`\n- `50-mobile_6.1.26.apk`\n\n构建时间: 2026-07-11 15:04:09 JST",
+          "file": "50-mobile_6.1.26.apk",
+          "size": 183866680,
+          "downloadUrl": "https://github.com/xiaoli55979/ipa_install/releases/download/50-mobile-6.1.26/50-mobile_6.1.26.apk"
+        },
+        {
+          "version": "6.1.25",
+          "uploadedAt": "2026-07-11T05:49:57Z",
+          "tag": "50-mobile-6.1.25",
+          "releaseName": "50-mobile-6.1.25",
+          "notes": "自动发布 50-mobile-6.1.25\n\n- `50-mobile_6.1.25_test.ipa`\n- `50-mobile_6.1.25.apk`\n\n构建时间: 2026-07-11 14:38:22 JST",
+          "file": "50-mobile_6.1.25.apk",
+          "size": 183833916,
+          "downloadUrl": "https://github.com/xiaoli55979/ipa_install/releases/download/50-mobile-6.1.25/50-mobile_6.1.25.apk"
+        },
+        {
+          "version": "6.1.24",
+          "uploadedAt": "2026-06-10T04:15:48Z",
+          "tag": "50-mobile-6.1.24",
+          "releaseName": "50-mobile-6.1.24",
+          "notes": "自动发布 50-mobile-6.1.24\n\n- `50-mobile_6.1.24.apk`\n\n构建时间: 2026-06-10 13:12:56 JST",
+          "file": "50-mobile_6.1.24.apk",
+          "size": 232650993,
+          "downloadUrl": "https://github.com/xiaoli55979/ipa_install/releases/download/50-mobile-6.1.24/50-mobile_6.1.24.apk"
+        },
+        {
+          "version": "6.1.22",
+          "uploadedAt": "2026-06-05T14:08:45Z",
+          "tag": "50-mobile-6.1.22",
+          "releaseName": "50-mobile-6.1.22",
+          "notes": "自动发布 50-mobile-6.1.22\n\n- `50-mobile_6.1.22.apk`\n\n构建时间: 2026-06-05 23:06:20 JST",
+          "file": "50-mobile_6.1.22.apk",
+          "size": 232028337,
+          "downloadUrl": "https://github.com/xiaoli55979/ipa_install/releases/download/50-mobile-6.1.22/50-mobile_6.1.22.apk"
+        },
+        {
+          "version": "6.1.20",
+          "uploadedAt": "2026-06-02T08:06:19Z",
+          "tag": "50-mobile-6.1.20",
+          "releaseName": "50-mobile-6.1.20",
+          "notes": "自动发布 50-mobile-6.1.20\n\n- `50-mobile_6.1.20_test.ipa`\n- `50-mobile_6.1.20.apk`\n\n构建时间: 2026-06-02 17:03:22 JST",
+          "file": "50-mobile_6.1.20.apk",
+          "size": 231372849,
+          "downloadUrl": "https://github.com/xiaoli55979/ipa_install/releases/download/50-mobile-6.1.20/50-mobile_6.1.20.apk"
+        },
+        {
+          "version": "6.1.19",
+          "uploadedAt": "2026-06-02T04:15:05Z",
+          "tag": "50-mobile-6.1.19",
+          "releaseName": "50-mobile-6.1.19",
+          "notes": "自动发布 50-mobile-6.1.19\n\n- `50-mobile_6.1.19_test.ipa`\n- `50-mobile_6.1.19.apk`\n\n构建时间: 2026-06-02 13:07:12 JST",
+          "file": "50-mobile_6.1.19.apk",
+          "size": 231372849,
+          "downloadUrl": "https://github.com/xiaoli55979/ipa_install/releases/download/50-mobile-6.1.19/50-mobile_6.1.19.apk"
+        },
+        {
+          "version": "6.1.18",
+          "uploadedAt": "2026-05-28T09:33:10Z",
+          "tag": "50-mobile-6.1.18",
+          "releaseName": "50-mobile-6.1.18",
+          "notes": "自动发布 50-mobile-6.1.18\n\n- `50-mobile_6.1.18_test.ipa`\n- `50-mobile_6.1.18.apk`\n\n构建时间: 2026-05-28 18:32:34 JST",
+          "file": "50-mobile_6.1.18.apk",
+          "size": 231372849,
+          "downloadUrl": "https://github.com/xiaoli55979/ipa_install/releases/download/50-mobile-6.1.18/50-mobile_6.1.18.apk"
+        },
+        {
+          "version": "6.1.17",
+          "uploadedAt": "2026-05-27T05:59:12Z",
+          "tag": "50-mobile-6.1.17",
+          "releaseName": "50-mobile-6.1.17",
+          "notes": "自动发布 50-mobile-6.1.17\n\n- `50-mobile_6.1.17_test.ipa`\n- `50-mobile_6.1.17.apk`\n\n构建时间: 2026-05-27 14:58:35 JST",
+          "file": "50-mobile_6.1.17.apk",
+          "size": 231258113,
+          "downloadUrl": "https://github.com/xiaoli55979/ipa_install/releases/download/50-mobile-6.1.17/50-mobile_6.1.17.apk"
+        },
+        {
+          "version": "6.1.16",
+          "uploadedAt": "2026-05-26T09:08:36Z",
+          "tag": "50-mobile-6.1.16",
+          "releaseName": "50-mobile-6.1.16",
+          "notes": "自动发布 50-mobile-6.1.16\n\n- `50-mobile_6.1.16_test.ipa`\n- `50-mobile_6.1.16.apk`\n\n构建时间: 2026-05-26 18:08:01 JST",
+          "file": "50-mobile_6.1.16.apk",
+          "size": 231257913,
+          "downloadUrl": "https://github.com/xiaoli55979/ipa_install/releases/download/50-mobile-6.1.16/50-mobile_6.1.16.apk"
+        },
+        {
+          "version": "6.1.15",
+          "uploadedAt": "2026-05-25T13:10:26Z",
+          "tag": "50-mobile-6.1.15",
+          "releaseName": "50-mobile-6.1.15",
+          "notes": "自动发布 50-mobile-6.1.15\n\n- `50-mobile_6.1.15_test.ipa`\n- `50-mobile_6.1.15.apk`\n\n构建时间: 2026-05-25 22:09:49 JST",
+          "file": "50-mobile_6.1.15.apk",
+          "size": 231257917,
+          "downloadUrl": "https://github.com/xiaoli55979/ipa_install/releases/download/50-mobile-6.1.15/50-mobile_6.1.15.apk"
+        },
+        {
+          "version": "6.1.14",
+          "uploadedAt": "2026-05-22T16:35:00Z",
+          "tag": "50-mobile-6.1.14",
+          "releaseName": "50-mobile-6.1.14",
+          "notes": "自动发布 50-mobile-6.1.14\n\n- `50-mobile_6.1.14_test.ipa`\n- `50-mobile_6.1.14.apk`\n\n构建时间: 2026-05-23 01:34:24 JST",
+          "file": "50-mobile_6.1.14.apk",
+          "size": 231241533,
+          "downloadUrl": "https://github.com/xiaoli55979/ipa_install/releases/download/50-mobile-6.1.14/50-mobile_6.1.14.apk"
+        },
+        {
+          "version": "6.1.13",
+          "uploadedAt": "2026-05-20T02:58:56Z",
+          "tag": "50-mobile-6.1.13",
+          "releaseName": "50-mobile-6.1.13",
+          "notes": "自动发布 50-mobile-6.1.13\n\n- `50-mobile_6.1.13_test.ipa`\n- `50-mobile_6.1.13.apk`\n\n构建时间: 2026-05-20 11:58:17 JST",
+          "file": "50-mobile_6.1.13.apk",
+          "size": 231223569,
+          "downloadUrl": "https://github.com/xiaoli55979/ipa_install/releases/download/50-mobile-6.1.13/50-mobile_6.1.13.apk"
+        },
+        {
+          "version": "6.1.12",
+          "uploadedAt": "2026-05-19T09:14:29Z",
+          "tag": "50-mobile-6.1.12",
+          "releaseName": "50-mobile-6.1.12",
+          "notes": "自动发布 50-mobile-6.1.12\n\n- `50-mobile_6.1.12_test.ipa`\n- `50-mobile_6.1.12.apk`\n\n构建时间: 2026-05-19 18:13:55 JST",
+          "file": "50-mobile_6.1.12.apk",
+          "size": 231239953,
+          "downloadUrl": "https://github.com/xiaoli55979/ipa_install/releases/download/50-mobile-6.1.12/50-mobile_6.1.12.apk"
+        },
+        {
+          "version": "6.1.11",
+          "uploadedAt": "2026-05-19T00:41:32Z",
+          "tag": "50-mobile-6.1.11",
+          "releaseName": "50-mobile-6.1.11",
+          "notes": "自动发布 50-mobile-6.1.11\n\n- `50-mobile_6.1.11_test.ipa`\n- `50-mobile_6.1.11.apk`\n\n构建时间: 2026-05-19 09:40:58 JST",
+          "file": "50-mobile_6.1.11.apk",
+          "size": 231239953,
+          "downloadUrl": "https://github.com/xiaoli55979/ipa_install/releases/download/50-mobile-6.1.11/50-mobile_6.1.11.apk"
+        }
+      ],
+      "mac": [],
+      "win": [],
+      "latestAt": "2026-07-11T14:53:20Z"
+    },
+    {
+      "id": "com.flutterChatSupport",
+      "name": "客服插件",
+      "icon": "https://xiaoli55979.github.io/ipa_install/icons/com.flutterChatSupport-ios.png",
+      "ios": [
+        {
+          "version": "1.1.18",
+          "uploadedAt": "2026-05-25T14:09:47Z",
+          "tag": "chat_support-1.1.18",
+          "releaseName": "chat_support-1.1.18",
+          "notes": "自动发布 chat_support-1.1.18\n\n- `chat_support_1.1.18_test.ipa`\n- `chat_support_1.1.18.apk`\n\n构建时间: 2026-05-25 23:09:37 JST",
+          "file": "chat_support_1.1.18_test.ipa",
+          "size": 21482528,
+          "downloadUrl": "https://github.com/xiaoli55979/ipa_install/releases/download/chat_support-1.1.18/chat_support_1.1.18_test.ipa",
+          "manifestUrl": "https://xiaoli55979.github.io/ipa_install/manifest/com.flutterChatSupport-chat_support-1.1.18.plist",
+          "installUrl": "itms-services://?action=download-manifest&url=https%3A%2F%2Fxiaoli55979.github.io%2Fipa_install%2Fmanifest%2Fcom.flutterChatSupport-chat_support-1.1.18.plist"
+        },
+        {
+          "version": "1.1.16",
+          "uploadedAt": "2026-04-30T02:57:28Z",
+          "tag": "chat_support-1.1.16",
+          "releaseName": "chat_support-1.1.16",
+          "notes": "自动发布 chat_support-1.1.16\n\n- `chat_support_1.1.16_test.ipa`\n- `chat_support_1.1.16.apk`\n\n构建时间: 2026-04-30 11:57:21 JST",
+          "file": "chat_support_1.1.16_test.ipa",
+          "size": 21307543,
+          "downloadUrl": "https://github.com/xiaoli55979/ipa_install/releases/download/chat_support-1.1.16/chat_support_1.1.16_test.ipa",
+          "manifestUrl": "https://xiaoli55979.github.io/ipa_install/manifest/com.flutterChatSupport-chat_support-1.1.16.plist",
+          "installUrl": "itms-services://?action=download-manifest&url=https%3A%2F%2Fxiaoli55979.github.io%2Fipa_install%2Fmanifest%2Fcom.flutterChatSupport-chat_support-1.1.16.plist"
+        },
+        {
+          "version": "1.1.15",
+          "uploadedAt": "2026-04-25T08:15:52Z",
+          "tag": "1.1.15",
+          "releaseName": "1.1.15",
+          "notes": "自动发布 1.1.15\r\n\r\n- `flutter_chat_support_example_1.1.15_test.ipa`\r\n- `flutter_chat_support_example_1.1.15.apk`\r\n\r\n构建时间: 2026-04-25 17:15:45 JST",
+          "file": "flutter_chat_support_example_1.1.15_test.ipa",
+          "size": 21333045,
+          "downloadUrl": "https://github.com/xiaoli55979/ipa_install/releases/download/1.1.15/flutter_chat_support_example_1.1.15_test.ipa",
+          "manifestUrl": "https://xiaoli55979.github.io/ipa_install/manifest/com.flutterChatSupport-1.1.15.plist",
+          "installUrl": "itms-services://?action=download-manifest&url=https%3A%2F%2Fxiaoli55979.github.io%2Fipa_install%2Fmanifest%2Fcom.flutterChatSupport-1.1.15.plist"
+        },
+        {
+          "version": "1.1.14",
+          "uploadedAt": "2026-04-25T04:24:40Z",
+          "tag": "1.1.14",
+          "releaseName": "1.1.14",
+          "notes": "自动发布 1.1.14\n\n- `flutter_chat_support_example_1.1.14_test.ipa`\n- `flutter_chat_support_example_1.1.14.apk`\n\n构建时间: 2026-04-25 13:24:32 JST",
+          "file": "flutter_chat_support_example_1.1.14_test.ipa",
+          "size": 21302130,
+          "downloadUrl": "https://github.com/xiaoli55979/ipa_install/releases/download/1.1.14/flutter_chat_support_example_1.1.14_test.ipa",
+          "manifestUrl": "https://xiaoli55979.github.io/ipa_install/manifest/com.flutterChatSupport-1.1.14.plist",
+          "installUrl": "itms-services://?action=download-manifest&url=https%3A%2F%2Fxiaoli55979.github.io%2Fipa_install%2Fmanifest%2Fcom.flutterChatSupport-1.1.14.plist"
+        },
+        {
+          "version": "1.1.13",
+          "uploadedAt": "2026-04-25T04:20:46Z",
+          "tag": "1.1.13",
+          "releaseName": "1.1.13",
+          "notes": "自动发布 1.1.13\n\n- `flutter_chat_support_example_1.1.13_test.ipa`\n- `flutter_chat_support_example_1.1.13.apk`\n\n构建时间: 2026-04-25 13:20:38 JST",
+          "file": "flutter_chat_support_example_1.1.13_test.ipa",
+          "size": 21302175,
+          "downloadUrl": "https://github.com/xiaoli55979/ipa_install/releases/download/1.1.13/flutter_chat_support_example_1.1.13_test.ipa",
+          "manifestUrl": "https://xiaoli55979.github.io/ipa_install/manifest/com.flutterChatSupport-1.1.13.plist",
+          "installUrl": "itms-services://?action=download-manifest&url=https%3A%2F%2Fxiaoli55979.github.io%2Fipa_install%2Fmanifest%2Fcom.flutterChatSupport-1.1.13.plist"
+        },
+        {
+          "version": "1.1.12",
+          "uploadedAt": "2026-04-25T04:12:41Z",
+          "tag": "1.1.12",
+          "releaseName": "1.1.12",
+          "notes": "自动发布 1.1.12\n\n- `flutter_chat_support_example_1.1.12_test.ipa`\n- `flutter_chat_support_example_1.1.12.apk`\n\n构建时间: 2026-04-25 13:12:33 JST",
+          "file": "flutter_chat_support_example_1.1.12_test.ipa",
+          "size": 21302343,
+          "downloadUrl": "https://github.com/xiaoli55979/ipa_install/releases/download/1.1.12/flutter_chat_support_example_1.1.12_test.ipa",
+          "manifestUrl": "https://xiaoli55979.github.io/ipa_install/manifest/com.flutterChatSupport-1.1.12.plist",
+          "installUrl": "itms-services://?action=download-manifest&url=https%3A%2F%2Fxiaoli55979.github.io%2Fipa_install%2Fmanifest%2Fcom.flutterChatSupport-1.1.12.plist"
+        }
+      ],
+      "android": [
+        {
+          "version": "1.1.23",
+          "uploadedAt": "2026-07-10T13:05:55Z",
+          "tag": "chat_support-1.1.23",
+          "releaseName": "chat_support-1.1.23",
+          "notes": "自动发布 chat_support-1.1.23\n\n- `chat_support_1.1.23.apk`\n\n构建时间: 2026-07-10 22:04:20 JST",
+          "file": "chat_support_1.1.23.apk",
+          "size": 108948695,
+          "downloadUrl": "https://github.com/xiaoli55979/ipa_install/releases/download/chat_support-1.1.23/chat_support_1.1.23.apk"
+        },
+        {
+          "version": "1.1.22",
+          "uploadedAt": "2026-07-09T02:08:58Z",
+          "tag": "chat_support-1.1.22",
+          "releaseName": "chat_support-1.1.22",
+          "notes": "自动发布 chat_support-1.1.22\n\n- `chat_support_1.1.22.apk`\n\n构建时间: 2026-07-09 11:07:35 JST",
+          "file": "chat_support_1.1.22.apk",
+          "size": 108883159,
+          "downloadUrl": "https://github.com/xiaoli55979/ipa_install/releases/download/chat_support-1.1.22/chat_support_1.1.22.apk"
+        },
+        {
+          "version": "1.1.21",
+          "uploadedAt": "2026-07-09T01:57:10Z",
+          "tag": "chat_support-1.1.21",
+          "releaseName": "chat_support-1.1.21",
+          "notes": "自动发布 chat_support-1.1.21\n\n- `chat_support_1.1.21.apk`\n\n构建时间: 2026-07-09 10:55:30 JST",
+          "file": "chat_support_1.1.21.apk",
+          "size": 108866775,
+          "downloadUrl": "https://github.com/xiaoli55979/ipa_install/releases/download/chat_support-1.1.21/chat_support_1.1.21.apk"
+        },
+        {
+          "version": "1.1.20",
+          "uploadedAt": "2026-06-08T05:13:14Z",
+          "tag": "chat_support-1.1.20",
+          "releaseName": "chat_support-1.1.20",
+          "notes": "自动发布 chat_support-1.1.20\n\n- `chat_support_1.1.20.apk`\n\n构建时间: 2026-06-08 14:12:27 JST",
+          "file": "chat_support_1.1.20.apk",
+          "size": 108866751,
+          "downloadUrl": "https://github.com/xiaoli55979/ipa_install/releases/download/chat_support-1.1.20/chat_support_1.1.20.apk"
+        },
+        {
+          "version": "1.1.19",
+          "uploadedAt": "2026-06-08T03:53:17Z",
+          "tag": "chat_support-1.1.19",
+          "releaseName": "chat_support-1.1.19",
+          "notes": "自动发布 chat_support-1.1.19\n\n- `chat_support_1.1.19.apk`\n\n构建时间: 2026-06-08 12:52:25 JST",
+          "file": "chat_support_1.1.19.apk",
+          "size": 108866747,
+          "downloadUrl": "https://github.com/xiaoli55979/ipa_install/releases/download/chat_support-1.1.19/chat_support_1.1.19.apk"
+        },
+        {
+          "version": "1.1.18",
+          "uploadedAt": "2026-05-25T14:09:58Z",
+          "tag": "chat_support-1.1.18",
+          "releaseName": "chat_support-1.1.18",
+          "notes": "自动发布 chat_support-1.1.18\n\n- `chat_support_1.1.18_test.ipa`\n- `chat_support_1.1.18.apk`\n\n构建时间: 2026-05-25 23:09:37 JST",
+          "file": "chat_support_1.1.18.apk",
+          "size": 108636707,
+          "downloadUrl": "https://github.com/xiaoli55979/ipa_install/releases/download/chat_support-1.1.18/chat_support_1.1.18.apk"
+        },
+        {
+          "version": "1.1.19",
+          "uploadedAt": "2026-05-22T14:25:41Z",
+          "tag": "chat-mobile-1.1.19",
+          "releaseName": "chat-mobile-1.1.19",
+          "notes": "自动发布 chat-mobile-1.1.19\r\n\r\n- `chat-mobile_1.1.19_test.ipa`\r\n- `chat-mobile_1.1.19.apk`\r\n\r\n构建时间: 2026-05-22 23:25:24 JST",
+          "file": "chat-mobile_1.1.19.apk",
+          "size": 108551975,
+          "downloadUrl": "https://github.com/xiaoli55979/ipa_install/releases/download/chat-mobile-1.1.19/chat-mobile_1.1.19.apk"
+        },
+        {
+          "version": "1.1.16",
+          "uploadedAt": "2026-04-30T02:57:38Z",
+          "tag": "chat_support-1.1.16",
+          "releaseName": "chat_support-1.1.16",
+          "notes": "自动发布 chat_support-1.1.16\n\n- `chat_support_1.1.16_test.ipa`\n- `chat_support_1.1.16.apk`\n\n构建时间: 2026-04-30 11:57:21 JST",
+          "file": "chat_support_1.1.16.apk",
+          "size": 107949361,
+          "downloadUrl": "https://github.com/xiaoli55979/ipa_install/releases/download/chat_support-1.1.16/chat_support_1.1.16.apk"
+        },
+        {
+          "version": "1.1.15",
+          "uploadedAt": "2026-04-25T08:16:02Z",
+          "tag": "1.1.15",
+          "releaseName": "1.1.15",
+          "notes": "自动发布 1.1.15\r\n\r\n- `flutter_chat_support_example_1.1.15_test.ipa`\r\n- `flutter_chat_support_example_1.1.15.apk`\r\n\r\n构建时间: 2026-04-25 17:15:45 JST",
+          "file": "flutter_chat_support_example_1.1.15.apk",
+          "size": 107982129,
+          "downloadUrl": "https://github.com/xiaoli55979/ipa_install/releases/download/1.1.15/flutter_chat_support_example_1.1.15.apk"
+        },
+        {
+          "version": "1.1.14",
+          "uploadedAt": "2026-04-25T04:24:50Z",
+          "tag": "1.1.14",
+          "releaseName": "1.1.14",
+          "notes": "自动发布 1.1.14\n\n- `flutter_chat_support_example_1.1.14_test.ipa`\n- `flutter_chat_support_example_1.1.14.apk`\n\n构建时间: 2026-04-25 13:24:32 JST",
+          "file": "flutter_chat_support_example_1.1.14.apk",
+          "size": 107866949,
+          "downloadUrl": "https://github.com/xiaoli55979/ipa_install/releases/download/1.1.14/flutter_chat_support_example_1.1.14.apk"
+        },
+        {
+          "version": "1.1.13",
+          "uploadedAt": "2026-04-25T04:20:56Z",
+          "tag": "1.1.13",
+          "releaseName": "1.1.13",
+          "notes": "自动发布 1.1.13\n\n- `flutter_chat_support_example_1.1.13_test.ipa`\n- `flutter_chat_support_example_1.1.13.apk`\n\n构建时间: 2026-04-25 13:20:38 JST",
+          "file": "flutter_chat_support_example_1.1.13.apk",
+          "size": 107866949,
+          "downloadUrl": "https://github.com/xiaoli55979/ipa_install/releases/download/1.1.13/flutter_chat_support_example_1.1.13.apk"
+        },
+        {
+          "version": "1.1.10",
+          "uploadedAt": "2026-04-25T04:12:50Z",
+          "tag": "1.1.12",
+          "releaseName": "1.1.12",
+          "notes": "自动发布 1.1.12\n\n- `flutter_chat_support_example_1.1.12_test.ipa`\n- `flutter_chat_support_example_1.1.12.apk`\n\n构建时间: 2026-04-25 13:12:33 JST",
+          "file": "flutter_chat_support_example_1.1.12.apk",
+          "size": 107864016,
+          "downloadUrl": "https://github.com/xiaoli55979/ipa_install/releases/download/1.1.12/flutter_chat_support_example_1.1.12.apk"
+        }
+      ],
+      "mac": [],
+      "win": [],
+      "latestAt": "2026-07-10T13:05:55Z"
+    },
+    {
+      "id": "com.kc535.eg.260607",
+      "name": "皇冠体育",
+      "icon": "https://xiaoli55979.github.io/ipa_install/icons/com.kc535.eg.260607-ios.png",
+      "ios": [
+        {
+          "version": "5.5.13",
+          "uploadedAt": "2026-07-08T08:54:18Z",
+          "tag": "3636-mobile-5.6.13",
+          "releaseName": "3636-mobile-5.6.13",
+          "notes": "3636-mobile-5.6.13",
+          "file": "0708c535-5.6.12.3-resigned.ipa",
+          "size": 88470734,
+          "downloadUrl": "https://github.com/xiaoli55979/ipa_install/releases/download/3636-mobile-5.6.13/0708c535-5.6.12.3-resigned.ipa",
+          "manifestUrl": "https://xiaoli55979.github.io/ipa_install/manifest/com.kc535.eg.260607-3636-mobile-5.6.13.plist",
+          "installUrl": "itms-services://?action=download-manifest&url=https%3A%2F%2Fxiaoli55979.github.io%2Fipa_install%2Fmanifest%2Fcom.kc535.eg.260607-3636-mobile-5.6.13.plist"
+        },
+        {
+          "version": "5.5.13",
+          "uploadedAt": "2026-07-08T08:40:10Z",
+          "tag": "3636-mobile-5.6.12",
+          "releaseName": "3636-mobile-5.6.12",
+          "notes": "3636-mobile-5.6.12",
+          "file": "0708c535-5.6.12.3-noext.ipa",
+          "size": 82795461,
+          "downloadUrl": "https://github.com/xiaoli55979/ipa_install/releases/download/3636-mobile-5.6.12/0708c535-5.6.12.3-noext.ipa",
+          "manifestUrl": "https://xiaoli55979.github.io/ipa_install/manifest/com.kc535.eg.260607-3636-mobile-5.6.12.plist",
+          "installUrl": "itms-services://?action=download-manifest&url=https%3A%2F%2Fxiaoli55979.github.io%2Fipa_install%2Fmanifest%2Fcom.kc535.eg.260607-3636-mobile-5.6.12.plist"
+        }
+      ],
+      "android": [],
+      "mac": [],
+      "win": [],
+      "latestAt": "2026-07-08T08:54:18Z"
+    },
+    {
+      "id": "com.jiliao.im",
+      "name": "即聊",
+      "icon": "https://xiaoli55979.github.io/ipa_install/icons/com.jiliao.im-android.png",
+      "ios": [],
+      "android": [
+        {
+          "version": "7.0.3",
+          "uploadedAt": "2026-06-20T12:48:12Z",
+          "tag": "jiliao-mobile-7.0.3",
+          "releaseName": "jiliao-mobile-7.0.3",
+          "notes": "自动发布 jiliao-mobile-7.0.3\n\n- `jiliao-mobile_7.0.3_26062004.apk`\n\n构建时间: 2026-06-20 21:46:47 JST",
+          "file": "jiliao-mobile_7.0.3_26062004.apk",
+          "size": 165475236,
+          "downloadUrl": "https://github.com/xiaoli55979/ipa_install/releases/download/jiliao-mobile-7.0.3/jiliao-mobile_7.0.3_26062004.apk"
+        }
+      ],
+      "mac": [],
+      "win": [],
+      "latestAt": "2026-06-20T12:48:12Z"
     },
     {
       "id": "com.ttm.sport.cn",
