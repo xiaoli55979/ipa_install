@@ -47,6 +47,11 @@ export function distributionGroup(bundleId, groupId) {
     : { key: bundleId, id: bundleId };
 }
 
+export function platformBundleIdsDiffer(app) {
+  const bundleIds = [app?.ios?.[0]?.bundleId, app?.android?.[0]?.bundleId].filter(Boolean);
+  return bundleIds.length > 1 && new Set(bundleIds).size > 1;
+}
+
 const MANIFEST_DIR = path.join(ROOT, 'docs/manifest');
 const ICON_DIR = path.join(ROOT, 'docs/icons');
 const APPS_JSON = path.join(ROOT, 'docs/apps.json');
@@ -326,6 +331,7 @@ async function main() {
         if (!app.mac) app.mac = [];
         if (!app.win) app.win = [];
         app[platform].push({
+          bundleId: rawTargetBundleId,
           version: pcVersion(asset.name, rel.tag_name),
           uploadedAt,
           tag: rel.tag_name,
@@ -398,6 +404,7 @@ async function main() {
       if (parsed.name && parsed.name !== parsed.bundleId) app.name = parsed.name;
 
       const entry = {
+        bundleId: parsed.bundleId,
         version: parsed.version,
         uploadedAt,
         tag: rel.tag_name,
@@ -431,6 +438,7 @@ async function main() {
     a.android.sort((x, y) => y.uploadedAt.localeCompare(x.uploadedAt));
     a.mac.sort((x, y) => y.uploadedAt.localeCompare(x.uploadedAt));
     a.win.sort((x, y) => y.uploadedAt.localeCompare(x.uploadedAt));
+    a.showPlatformBundleIds = platformBundleIdsDiffer(a);
     const times = [a.ios[0]?.uploadedAt, a.android[0]?.uploadedAt, a.mac[0]?.uploadedAt, a.win[0]?.uploadedAt].filter(Boolean);
     a.latestAt = times.sort().pop() || null;
     delete a._iconRank;

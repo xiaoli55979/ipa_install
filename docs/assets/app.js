@@ -51,7 +51,7 @@
     return iconFallback(app.name);
   }
 
-  function platformBtn(platform, entry, override) {
+  function platformBtn(platform, entry, override, showBundleId = false) {
     const meta = { ...PLATFORM_META[platform], ...(override || {}) };
     const wrap = document.createElement('div');
     wrap.className = `btn-group btn-group-${platform}`;
@@ -62,6 +62,13 @@
     const timeLine = fmtTime(entry.uploadedAt);
     a.innerHTML = `<span class="btn-label">${meta.btnLabel}</span>`
       + `<small class="btn-meta">${metaLine}${timeLine ? `<br>更新于 ${timeLine}` : ''}</small>`;
+    if (showBundleId && entry.bundleId) {
+      const bundle = document.createElement('small');
+      bundle.className = 'btn-bundle';
+      bundle.textContent = `包名: ${entry.bundleId}`;
+      bundle.title = entry.bundleId;
+      a.appendChild(bundle);
+    }
     const url = entryUrl(platform, entry);
     a.href = url;
     // 安卓:用 download 属性 + rel 把链接锁定为"下载该文件",避免某些浏览器顺手预读其它链接
@@ -153,8 +160,8 @@
     const winOther = win.filter(e => !isExe(e) && !isZip(e));
     const platforms = document.createElement('div');
     platforms.className = 'platforms';
-    if (app.ios[0]) platforms.appendChild(platformBtn('ios', app.ios[0]));
-    if (app.android[0]) platforms.appendChild(platformBtn('android', app.android[0]));
+    if (app.ios[0]) platforms.appendChild(platformBtn('ios', app.ios[0], null, app.showPlatformBundleIds));
+    if (app.android[0]) platforms.appendChild(platformBtn('android', app.android[0], null, app.showPlatformBundleIds));
     if (mac[0]) platforms.appendChild(platformBtn('mac', mac[0]));
     if (winExe[0]) platforms.appendChild(platformBtn('win', winExe[0], WIN_EXE_META));
     if (winZip[0]) platforms.appendChild(platformBtn('win', winZip[0], WIN_ZIP_META));
