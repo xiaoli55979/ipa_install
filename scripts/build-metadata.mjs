@@ -34,6 +34,19 @@ const PUBLIC_URL = CONFIG.publicUrl.replace(/\/$/, '');
 const REPO = CONFIG.repo;
 if (!REPO) { console.error('config.json 缺少 "repo" 字段'); process.exit(1); }
 
+export function parseDistributionGroupId(releaseBody) {
+  const match = String(releaseBody || '').match(
+    /^\s*Distribution-Group-ID:\s*([a-zA-Z0-9._-]+)\s*$/im,
+  );
+  return match?.[1] || null;
+}
+
+export function distributionGroup(bundleId, groupId) {
+  return groupId
+    ? { key: `group:${groupId}`, id: groupId }
+    : { key: bundleId, id: bundleId };
+}
+
 const MANIFEST_DIR = path.join(ROOT, 'docs/manifest');
 const ICON_DIR = path.join(ROOT, 'docs/icons');
 const APPS_JSON = path.join(ROOT, 'docs/apps.json');
@@ -281,6 +294,7 @@ async function main() {
       : (ext === 'exe' || ext === 'zip') ? 'win' : null;
     const rank = (n) => { const p = platformOf(extOf(n)); return (p === 'ios' || p === 'android') ? 0 : p ? 1 : 2; };
     const orderedAssets = rawAssets.slice().sort((a, b) => rank(a.name) - rank(b.name));
+    const releaseGroupId = parseDistributionGroupId(rel.body);
 
     let releaseBundleId = null;
     let releaseAppName = null;
@@ -293,21 +307,22 @@ async function main() {
       if (platform === 'mac' || platform === 'win') {
         // 优先用文件名前缀匹配,跨 release 也能正确归组;匹配不上再用同 release 的 ipa/apk 兜底
         const matchedBundleId = matchPcByFilename(asset.name);
-        const targetBundleId = matchedBundleId || releaseBundleId;
-        if (!targetBundleId) {
+        const rawTargetBundleId = matchedBundleId || releaseBundleId;
+        if (!rawTargetBundleId) {
           console.warn(`[skip] ${ext} ${asset.name}: 文件名前缀不在 pcMatchers 中,且 release ${rel.tag_name} 没有 ipa/apk 提供 bundleId`);
           continue;
         }
+        const target = distributionGroup(rawTargetBundleId, releaseGroupId);
         const pkgUrl = asset.browser_download_url;
         const uploadedAt = asset.updated_at || asset.created_at || rel.published_at;
-        if (!apps.has(targetBundleId)) {
-          apps.set(targetBundleId, {
-            id: targetBundleId,
-            name: matchedBundleId ? targetBundleId : (releaseAppName || targetBundleId),
+        if (!apps.has(target.key)) {
+          apps.set(target.key, {
+            id: target.id,
+            name: matchedBundleId ? target.id : (releaseAppName || target.id),
             icon: null, ios: [], android: [], mac: [], win: []
           });
         }
-        const app = apps.get(targetBundleId);
+        const app = apps.get(target.key);
         if (!app.mac) app.mac = [];
         if (!app.win) app.win = [];
         app[platform].push({
@@ -331,7 +346,7 @@ async function main() {
           }
           if (exePath) {
             const got = parseExeIcon(exePath);
-            if (got) maybeSetIcon(app, targetBundleId, 'win', got.data, got.ext);
+            if (got) maybeSetIcon(app, target.id, 'win', got.data, got.ext);
             else console.warn(`[skip-icon] no icon resource in ${asset.name}`);
             try { fs.unlinkSync(exePath); } catch {}
           }
@@ -359,10 +374,11 @@ async function main() {
 
       const pkgUrl = asset.browser_download_url;
       const uploadedAt = asset.updated_at || asset.created_at || rel.published_at;
+      const target = distributionGroup(parsed.bundleId, releaseGroupId);
 
-      if (!apps.has(parsed.bundleId)) {
-        apps.set(parsed.bundleId, {
-          id: parsed.bundleId,
+      if (!apps.has(target.key)) {
+        apps.set(target.key, {
+          id: target.id,
           name: parsed.name,
           icon: null,
           ios: [],
@@ -371,14 +387,14 @@ async function main() {
           win: []
         });
       }
-      const app = apps.get(parsed.bundleId);
+      const app = apps.get(target.key);
       if (!app.mac) app.mac = [];
       if (!app.win) app.win = [];
 
       if (!releaseBundleId) { releaseBundleId = parsed.bundleId; releaseAppName = parsed.name; }
 
       // 图标来源优先级由 maybeSetIcon 控制:iOS 可覆盖 Android,Android 可覆盖 Windows
-      maybeSetIcon(app, parsed.bundleId, platform, parsed.iconData, parsed.iconExt);
+      maybeSetIcon(app, target.id, platform, parsed.iconData, parsed.iconExt);
       if (parsed.name && parsed.name !== parsed.bundleId) app.name = parsed.name;
 
       const entry = {
@@ -432,4 +448,6 @@ async function main() {
   console.log(`Built ${out.length} app(s).`);
 }
 
-main().catch(e => { console.error(e); process.exit(1); });
+if (process.argv[1] && path.resolve(process.argv[1]) === fileURLToPath(import.meta.url)) {
+  main().catch(e => { console.error(e); process.exit(1); });
+}
