@@ -1,7 +1,7 @@
 {
   "siteTitle": "App 分发",
   "publicUrl": "https://xiaoli55979.github.io/ipa_install",
-  "generatedAt": "2026-08-12T07:11:26.840Z",
+  "generatedAt": "2026-08-12T07:23:07.208Z",
   "apps": [
     {
       "id": "com.ams.cn",
@@ -111,19 +111,6 @@
           "downloadUrl": "https://github.com/xiaoli55979/ipa_install/releases/download/234-mobile-6.1.13/234-mobile_6.1.13_test.ipa",
           "manifestUrl": "https://xiaoli55979.github.io/ipa_install/manifest/com.ams.cn-234-mobile-6.1.13.plist",
           "installUrl": "itms-services://?action=download-manifest&url=https%3A%2F%2Fxiaoli55979.github.io%2Fipa_install%2Fmanifest%2Fcom.ams.cn-234-mobile-6.1.13.plist"
-        },
-        {
-          "bundleId": "com.ams.cn",
-          "version": "6.1.12",
-          "uploadedAt": "2026-05-20T13:57:59Z",
-          "tag": "234-mobile-6.1.12",
-          "releaseName": "234-mobile-6.1.12",
-          "notes": "自动发布 234-mobile-6.1.12\n\n- `234-mobile_6.1.12_test.ipa`\n- `234-mobile_6.1.12.apk`\n\n构建时间: 2026-05-20 22:57:46 JST",
-          "file": "234-mobile_6.1.12_test.ipa",
-          "size": 47755609,
-          "downloadUrl": "https://github.com/xiaoli55979/ipa_install/releases/download/234-mobile-6.1.12/234-mobile_6.1.12_test.ipa",
-          "manifestUrl": "https://xiaoli55979.github.io/ipa_install/manifest/com.ams.cn-234-mobile-6.1.12.plist",
-          "installUrl": "itms-services://?action=download-manifest&url=https%3A%2F%2Fxiaoli55979.github.io%2Fipa_install%2Fmanifest%2Fcom.ams.cn-234-mobile-6.1.12.plist"
         }
       ],
       "android": [
@@ -2210,17 +2197,6 @@
           "file": "808-mobile_1.1.24.apk",
           "size": 222956476,
           "downloadUrl": "https://github.com/xiaoli55979/ipa_install/releases/download/808-mobile-1.1.24/808-mobile_1.1.24.apk"
-        },
-        {
-          "bundleId": "com.jt8.cn",
-          "version": "1.1.23",
-          "uploadedAt": "2026-05-11T11:58:48Z",
-          "tag": "808-mobile-1.1.23",
-          "releaseName": "808-mobile-1.1.23",
-          "notes": "自动发布 808-mobile-1.1.23\n\n- `808-mobile_1.1.23_test.ipa`\n- `808-mobile_1.1.23.apk`\n\n构建时间: 2026-05-11 20:56:42 JST",
-          "file": "808-mobile_1.1.23.apk",
-          "size": 222940092,
-          "downloadUrl": "https://github.com/xiaoli55979/ipa_install/releases/download/808-mobile-1.1.23/808-mobile_1.1.23.apk"
         }
       ],
       "mac": [],
