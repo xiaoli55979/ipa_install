@@ -24,7 +24,7 @@
        ┌─────────────────────────────────────┐
        │        GitHub Actions (免费 CI)      │
        │  build-metadata.mjs                  │
-       │  ① 拉所有 Release 资产               │
+       │  ① 每个项目只取最近 3 个 Release      │
        │  ② 解析 ipa Info.plist / apk manifest│
        │  ③ 按 bundleId 归组，挂载 dmg/exe    │
        │  ④ 生成 manifest.plist + apps.json   │
@@ -64,7 +64,7 @@
 
 - 监听 `release` 事件 + 手动触发。
 - 核心脚本 `scripts/build-metadata.mjs` 干 3 件事：
-  - `gh api /repos/OWNER/REPO/releases` 拉所有 release 列表
+  - `gh api /repos/OWNER/REPO/releases` 拉 release 列表，默认只保留并解析每个项目最近 3 个版本
   - 每个 `.ipa` 下载后用 `adm-zip` 拆开读 `Info.plist`；每个 `.apk` 用 `app-info-parser` 读 `AndroidManifest`
   - 按 `CFBundleIdentifier` / `package` 归组 → 生成 `apps.json` + `manifest/*.plist` → commit 回 `docs/`
 - **dmg/exe/zip 不解析**，只在同一个 Release 里蹭 ipa/apk 的 bundleId 做归组。
@@ -161,10 +161,11 @@ npm run resolve-version -- --local-version 6.1.18 --prefix 50-mobile
 
 发布后 GitHub Actions 会自动：
 1. 列出所有 Release 资产
-2. 下载每个 `.ipa` / `.apk`，解析 `Info.plist` / `AndroidManifest`
-3. 优先按 Release 的 `Distribution-Group-ID` 归组，未配置时按**包名**（`CFBundleIdentifier` / `package`）归组；`.dmg` / `.exe` / `.zip` 不解析，用同 Release 里的分组信息挂载
-4. 生成 `docs/manifest/*.plist` + 重建 `docs/apps.json`
-5. commit 回 `main`，Pages 重新部署
+2. 删除每个项目第 4 个及更旧的 GitHub Release、附件和对应 tag
+3. 下载保留版本的 `.ipa` / `.apk`，解析 `Info.plist` / `AndroidManifest`
+4. 优先按 Release 的 `Distribution-Group-ID` 归组，未配置时按**包名**（`CFBundleIdentifier` / `package`）归组；`.dmg` / `.exe` / `.zip` 不解析，用同 Release 里的分组信息挂载
+5. 生成 `docs/manifest/*.plist` + 重建 `docs/apps.json`
+6. commit 回 `main`，Pages 重新部署
 
 1~2 分钟后手机刷新页面即可看到。
 
@@ -181,7 +182,7 @@ DISTRIBUTION_GROUP_ID="quickchat"
 
 分组 ID 只控制页面归组；iOS Manifest 和 Android 安装包仍保留各自的真实包名。
 
-同一个 App 可以有多个版本（多个 Release），按上传时间倒序显示，最新版显示在卡片上，"历史版本"折叠展开看老版。
+同一个 App 默认最多保留 3 个版本（可通过 `config.json` 的 `maxVersionsPerApp` 调整），按上传时间倒序显示，最新版显示在卡片上，"历史版本"折叠展开看另外两个版本。每次工作流运行都会删除 GitHub 上第 4 个及更旧的 Release、附件和对应 tag；无法可靠识别项目的 Release 会保留并输出警告，避免误删。
 
 ## 每次发布可以传什么
 
@@ -199,7 +200,7 @@ DISTRIBUTION_GROUP_ID="quickchat"
 | iOS 签名 | 必须有效 | 未签名/过期的 IPA 装不上 |
 | UDID 白名单 | Ad-Hoc 100 台/类/年 | 苹果开发者账号限制 |
 | 图标提取 | Assets.car 不支持 | 用 Assets.car 打包的 IPA 会没图标，兜底显示首字母 |
-| Release 数量 | 建议 ≤ 100 个 | 每次构建要下载所有资产解析，太多会慢 |
+| 在线版本数 | 默认每个 App 3 个 | `config.json` 的 `maxVersionsPerApp` 可调整；更旧 Release、附件和 tag 自动删除 |
 
 ## 基于本项目克隆一套新分发（给另一批 App 用）
 

@@ -1,5 +1,5 @@
 #!/usr/bin/env node
-// 从 GitHub Releases 拉取所有 IPA/APK/DMG/EXE/ZIP 资产，解析元数据并生成 apps.json + manifest.plist
+// 从 GitHub Releases 拉取每个项目最近的 IPA/APK/DMG/EXE/ZIP 资产，解析元数据并生成 apps.json + manifest.plist
 // DMG(mac) / EXE|ZIP(win) 不解析内容，归组优先级:
 //   1) config.json 的 pcMatchers 按文件名前缀匹配 bundleId
 //   2) 同 Release 里 IPA/APK 解析出的 bundleId 兜底
@@ -31,8 +31,12 @@ function normalizeIpaPng(buf) {
 const ROOT = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
 const CONFIG = JSON.parse(fs.readFileSync(path.join(ROOT, 'config.json'), 'utf-8'));
 const PUBLIC_URL = CONFIG.publicUrl.replace(/\/$/, '');
-const REPO = CONFIG.repo;
+export const REPO = CONFIG.repo;
 if (!REPO) { console.error('config.json 缺少 "repo" 字段'); process.exit(1); }
+const DEFAULT_MAX_VERSIONS_PER_APP = 3;
+export const MAX_VERSIONS_PER_APP = Number.isInteger(CONFIG.maxVersionsPerApp) && CONFIG.maxVersionsPerApp > 0
+  ? CONFIG.maxVersionsPerApp
+  : DEFAULT_MAX_VERSIONS_PER_APP;
 
 export function parseDistributionGroupId(releaseBody) {
   const match = String(releaseBody || '').match(
@@ -67,6 +71,94 @@ function escapeXml(s) {
 }
 function slugify(s) { return String(s).replace(/[^a-zA-Z0-9._-]/g, '_'); }
 
+const PACKAGE_EXT_RE = /\.(ipa|apk|dmg|exe|zip)$/i;
+
+export function packageExtension(name) {
+  return (String(name).match(PACKAGE_EXT_RE) || [])[1]?.toLowerCase() || '';
+}
+
+// 发布脚本的文件名通常是 <project>_<version>.<ext>。先用这个无需下载即可取得的
+// 项目标识裁掉老 Release；无法识别的资产保持独立，避免误删。
+export function artifactProjectKey(name) {
+  const stem = String(name).replace(PACKAGE_EXT_RE, '');
+  const match = stem.match(/^(.*?)(?:[_-])v?\d+(?:\.\d+){0,3}(?=$|[_-])/i);
+  const prefix = match?.[1]
+    ?.replace(/(?:[_-]setup)$/i, '')
+    .replace(/[_-]+$/, '')
+    .trim();
+  return prefix ? prefix.toLowerCase() : null;
+}
+
+export function assetProjectKeyForRelease(release, asset) {
+  const groupId = parseDistributionGroupId(release?.body);
+  if (groupId) return `group:${groupId.toLowerCase()}`;
+  return artifactProjectKey(asset?.name) || `asset:${String(asset?.name || '').toLowerCase()}`;
+}
+
+export function releaseProjectKeys(release) {
+  const assets = (release?.assets || []).filter(asset => packageExtension(asset?.name));
+  if (!assets.length) return [];
+  const keys = new Set(assets.map(asset => assetProjectKeyForRelease(release, asset)));
+  return [...keys];
+}
+
+function releaseIdentity(release) {
+  return String(release.id ?? release.tag_name);
+}
+
+export function retainedProjectKeysByRelease(releases, maxVersions = DEFAULT_MAX_VERSIONS_PER_APP) {
+  const limit = Number.isInteger(maxVersions) && maxVersions > 0
+    ? maxVersions
+    : DEFAULT_MAX_VERSIONS_PER_APP;
+  const counts = new Map();
+  const retained = new Map();
+  const ordered = releases.slice().sort((a, b) => {
+    const aTime = a.published_at || a.created_at || '';
+    const bTime = b.published_at || b.created_at || '';
+    return bTime.localeCompare(aTime);
+  });
+
+  for (const release of ordered) {
+    const keptKeys = new Set();
+    for (const key of releaseProjectKeys(release)) {
+      const count = counts.get(key) || 0;
+      if (count >= limit) continue;
+      counts.set(key, count + 1);
+      keptKeys.add(key);
+    }
+    if (keptKeys.size) retained.set(releaseIdentity(release), keptKeys);
+  }
+  return retained;
+}
+
+export function selectRecentProjectReleases(releases, maxVersions = DEFAULT_MAX_VERSIONS_PER_APP) {
+  const retained = retainedProjectKeysByRelease(releases, maxVersions);
+  const ordered = releases.slice().sort((a, b) => {
+    const aTime = a.published_at || a.created_at || '';
+    const bTime = b.published_at || b.created_at || '';
+    return bTime.localeCompare(aTime);
+  });
+  return ordered.filter(release => retained.has(releaseIdentity(release)));
+}
+
+export function retainLatestVersions(entries, maxVersions = DEFAULT_MAX_VERSIONS_PER_APP) {
+  const limit = Number.isInteger(maxVersions) && maxVersions > 0
+    ? maxVersions
+    : DEFAULT_MAX_VERSIONS_PER_APP;
+  const versions = new Set();
+  const kept = [];
+
+  for (const entry of entries) {
+    const key = String(entry.version || entry.tag || entry.file || '');
+    if (!versions.has(key)) {
+      if (versions.size >= limit) continue;
+      versions.add(key);
+    }
+    kept.push(entry);
+  }
+  return kept;
+}
+
 // pcMatchers: [{ bundleId, prefixes: [...] }] —— 按文件名前缀把 dmg/exe/zip 归到指定 bundleId
 // 长前缀优先,大小写不敏感
 const PC_MATCHERS = (() => {
@@ -88,7 +180,7 @@ function pcVersion(filename, fallback) {
   return matched?.[1] || fallback;
 }
 
-function fetchReleases() {
+export function fetchReleases() {
   const out = sh('gh', ['api', '--paginate', `/repos/${REPO}/releases?per_page=100`]);
   const arr = JSON.parse(out);
   return arr.filter(r => !r.draft);
@@ -284,15 +376,16 @@ async function main() {
   cleanDir(MANIFEST_DIR);
   cleanDir(ICON_DIR);
 
-  const releases = fetchReleases();
-  console.log(`Found ${releases.length} release(s).`);
+  const allReleases = fetchReleases();
+  const releases = selectRecentProjectReleases(allReleases, MAX_VERSIONS_PER_APP);
+  console.log(`Found ${allReleases.length} release(s); processing ${releases.length} recent release(s) (max ${MAX_VERSIONS_PER_APP} version(s) per app).`);
 
   const apps = new Map();
 
   for (const rel of releases) {
     // 先处理 ipa/apk 拿到 bundleId,再处理 dmg/exe/zip 挂到同一 app
     const rawAssets = rel.assets || [];
-    const extOf = (n) => (n.match(/\.(ipa|apk|dmg|exe|zip)$/i) || [])[1]?.toLowerCase() || '';
+    const extOf = packageExtension;
     const platformOf = (ext) => ext === 'ipa' ? 'ios'
       : ext === 'apk' ? 'android'
       : ext === 'dmg' ? 'mac'
@@ -438,6 +531,10 @@ async function main() {
     a.android.sort((x, y) => y.uploadedAt.localeCompare(x.uploadedAt));
     a.mac.sort((x, y) => y.uploadedAt.localeCompare(x.uploadedAt));
     a.win.sort((x, y) => y.uploadedAt.localeCompare(x.uploadedAt));
+    a.ios = retainLatestVersions(a.ios, MAX_VERSIONS_PER_APP);
+    a.android = retainLatestVersions(a.android, MAX_VERSIONS_PER_APP);
+    a.mac = retainLatestVersions(a.mac, MAX_VERSIONS_PER_APP);
+    a.win = retainLatestVersions(a.win, MAX_VERSIONS_PER_APP);
     a.showPlatformBundleIds = platformBundleIdsDiffer(a);
     const times = [a.ios[0]?.uploadedAt, a.android[0]?.uploadedAt, a.mac[0]?.uploadedAt, a.win[0]?.uploadedAt].filter(Boolean);
     a.latestAt = times.sort().pop() || null;

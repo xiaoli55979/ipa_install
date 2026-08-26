@@ -6,6 +6,7 @@
   "description": "Self-hosted iOS/Android OTA distribution page on GitHub Pages",
   "scripts": {
     "build": "node scripts/build-metadata.mjs",
+    "prune-releases": "node scripts/prune-releases.mjs",
     "test": "node --test tests/*.test.mjs"
   },
   "dependencies": {
