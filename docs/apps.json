@@ -1,27 +1,13 @@
 {
   "siteTitle": "App 分发",
   "publicUrl": "https://xiaoli55979.github.io/ipa_install",
-  "generatedAt": "2026-08-28T13:55:05.320Z",
+  "generatedAt": "2026-08-28T14:12:19.281Z",
   "apps": [
     {
       "id": "com.jiliaoim.dis.cn",
       "name": "云小聊",
-      "icon": "https://xiaoli55979.github.io/ipa_install/icons/com.jiliaoim.dis.cn-ios.png",
-      "ios": [
-        {
-          "bundleId": "com.jiliaoim.dis.cn",
-          "version": "1.1.54",
-          "uploadedAt": "2026-08-28T13:50:00Z",
-          "tag": "YunXiaoLiao-mobile-1.1.54",
-          "releaseName": "YunXiaoLiao-mobile-1.1.54",
-          "notes": "自动发布 YunXiaoLiao-mobile-1.1.54\n\n- `YunXiaoLiao-mobile_1.1.54_release.ipa`\n- `YunXiaoLiao-mobile_1.1.54_26082809.apk`\n\n构建时间: 2026-08-28 SGT",
-          "file": "YunXiaoLiao-mobile_1.1.54_release.ipa",
-          "size": 38019489,
-          "downloadUrl": "https://github.com/xiaoli55979/ipa_install/releases/download/YunXiaoLiao-mobile-1.1.54/YunXiaoLiao-mobile_1.1.54_release.ipa",
-          "manifestUrl": "https://xiaoli55979.github.io/ipa_install/manifest/com.jiliaoim.dis.cn-YunXiaoLiao-mobile-1.1.54.plist",
-          "installUrl": "itms-services://?action=download-manifest&url=https%3A%2F%2Fxiaoli55979.github.io%2Fipa_install%2Fmanifest%2Fcom.jiliaoim.dis.cn-YunXiaoLiao-mobile-1.1.54.plist"
-        }
-      ],
+      "icon": "https://xiaoli55979.github.io/ipa_install/icons/com.jiliaoim.dis.cn-android.png",
+      "ios": [],
       "android": [
         {
           "bundleId": "com.jiliaoim.dis.cn",
