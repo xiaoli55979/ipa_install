@@ -1,7 +1,7 @@
 {
   "siteTitle": "App 分发",
   "publicUrl": "https://xiaoli55979.github.io/ipa_install",
-  "generatedAt": "2026-08-31T04:13:12.201Z",
+  "generatedAt": "2026-08-31T04:21:33.061Z",
   "apps": [
     {
       "id": "com.imtest.cn",
@@ -10,16 +10,16 @@
       "ios": [
         {
           "bundleId": "com.imtest.cn",
-          "version": "1.1.55",
-          "uploadedAt": "2026-08-31T04:07:52Z",
-          "tag": "YunXiaoLiao-mobile-1.1.55",
-          "releaseName": "YunXiaoLiao-mobile-1.1.55",
-          "notes": "自动发布 YunXiaoLiao-mobile-1.1.55\n\n- `YunXiaoLiao-mobile_1.1.55.ipa`\n\n构建时间: 2026-08-31 12:58:57 JST",
-          "file": "YunXiaoLiao-mobile_1.1.55.ipa",
-          "size": 41246803,
-          "downloadUrl": "https://github.com/xiaoli55979/ipa_install/releases/download/YunXiaoLiao-mobile-1.1.55/YunXiaoLiao-mobile_1.1.55.ipa",
-          "manifestUrl": "https://xiaoli55979.github.io/ipa_install/manifest/com.imtest.cn-YunXiaoLiao-mobile-1.1.55.plist",
-          "installUrl": "itms-services://?action=download-manifest&url=https%3A%2F%2Fxiaoli55979.github.io%2Fipa_install%2Fmanifest%2Fcom.imtest.cn-YunXiaoLiao-mobile-1.1.55.plist"
+          "version": "1.1.54",
+          "uploadedAt": "2026-08-28T14:20:07Z",
+          "tag": "YunXiaoLiao-mobile-1.1.54",
+          "releaseName": "YunXiaoLiao-mobile-1.1.54",
+          "notes": "自动发布 YunXiaoLiao-mobile-1.1.54\n\n- `YunXiaoLiao-mobile_1.1.54.ipa`\n- `YunXiaoLiao-mobile_1.1.54_26082809.apk`\n\n构建时间: 2026-08-28 SGT",
+          "file": "YunXiaoLiao-mobile_1.1.54.ipa",
+          "size": 41107310,
+          "downloadUrl": "https://github.com/xiaoli55979/ipa_install/releases/download/YunXiaoLiao-mobile-1.1.54/YunXiaoLiao-mobile_1.1.54.ipa",
+          "manifestUrl": "https://xiaoli55979.github.io/ipa_install/manifest/com.imtest.cn-YunXiaoLiao-mobile-1.1.54.plist",
+          "installUrl": "itms-services://?action=download-manifest&url=https%3A%2F%2Fxiaoli55979.github.io%2Fipa_install%2Fmanifest%2Fcom.imtest.cn-YunXiaoLiao-mobile-1.1.54.plist"
         },
         {
           "bundleId": "com.imtest.cn",
@@ -39,7 +39,7 @@
       "mac": [],
       "win": [],
       "showPlatformBundleIds": false,
-      "latestAt": "2026-08-31T04:07:52Z"
+      "latestAt": "2026-08-28T14:20:07Z"
     },
     {
       "id": "com.jiliaoim.dis.cn",
@@ -60,6 +60,17 @@
         },
         {
           "bundleId": "com.jiliaoim.dis.cn",
+          "version": "1.1.53",
+          "uploadedAt": "2026-08-26T10:49:48Z",
+          "tag": "YunXiaoLiao-mobile-1.1.53",
+          "releaseName": "YunXiaoLiao-mobile-1.1.53",
+          "notes": "自动发布 YunXiaoLiao-mobile-1.1.53\n\n- `YunXiaoLiao-mobile_1.1.53.ipa`\n- `YunXiaoLiao-mobile_1.1.53.apk`\n\n构建时间: 2026-08-26 19:49:07 JST",
+          "file": "YunXiaoLiao-mobile_1.1.53.apk",
+          "size": 133999520,
+          "downloadUrl": "https://github.com/xiaoli55979/ipa_install/releases/download/YunXiaoLiao-mobile-1.1.53/YunXiaoLiao-mobile_1.1.53.apk"
+        },
+        {
+          "bundleId": "com.jiliaoim.dis.cn",
           "version": "1.1.29",
           "uploadedAt": "2026-06-09T14:12:52Z",
           "tag": "im_chat_manager_plugin_example-mobile-1.1.29",
@@ -68,17 +79,6 @@
           "file": "im_chat_manager_plugin_example-mobile_1.1.29.apk",
           "size": 131399134,
           "downloadUrl": "https://github.com/xiaoli55979/ipa_install/releases/download/im_chat_manager_plugin_example-mobile-1.1.29/im_chat_manager_plugin_example-mobile_1.1.29.apk"
-        },
-        {
-          "bundleId": "com.jiliaoim.dis.cn",
-          "version": "1.1.28",
-          "uploadedAt": "2026-06-09T01:11:16Z",
-          "tag": "im_chat_manager_plugin_example-mobile-1.1.28",
-          "releaseName": "im_chat_manager_plugin_example-mobile-1.1.28",
-          "notes": "自动发布 im_chat_manager_plugin_example-mobile-1.1.28\n\n- `im_chat_manager_plugin_example-mobile_1.1.28.apk`\n\n构建时间: 2026-06-09 10:09:47 JST",
-          "file": "im_chat_manager_plugin_example-mobile_1.1.28.apk",
-          "size": 131382750,
-          "downloadUrl": "https://github.com/xiaoli55979/ipa_install/releases/download/im_chat_manager_plugin_example-mobile-1.1.28/im_chat_manager_plugin_example-mobile_1.1.28.apk"
         }
       ],
       "mac": [],
@@ -154,6 +154,19 @@
       "ios": [
         {
           "bundleId": "com.ams.cn",
+          "version": "7.1.3",
+          "uploadedAt": "2026-08-17T01:32:22Z",
+          "tag": "234-mobile-7.1.3",
+          "releaseName": "234-mobile-7.1.3",
+          "notes": "自动发布 234-mobile-7.1.3\n\n- `234-mobile_7.1.3_test.ipa`\n- `234-mobile_7.1.3_26081701.apk`\n\n构建时间: 2026-08-17 10:31:03 JST",
+          "file": "234-mobile_7.1.3_test.ipa",
+          "size": 46237373,
+          "downloadUrl": "https://github.com/xiaoli55979/ipa_install/releases/download/234-mobile-7.1.3/234-mobile_7.1.3_test.ipa",
+          "manifestUrl": "https://xiaoli55979.github.io/ipa_install/manifest/com.ams.cn-234-mobile-7.1.3.plist",
+          "installUrl": "itms-services://?action=download-manifest&url=https%3A%2F%2Fxiaoli55979.github.io%2Fipa_install%2Fmanifest%2Fcom.ams.cn-234-mobile-7.1.3.plist"
+        },
+        {
+          "bundleId": "com.ams.cn",
           "version": "7.1.2",
           "uploadedAt": "2026-08-14T09:59:31Z",
           "tag": "234-mobile-7.1.2",
@@ -182,6 +195,17 @@
       "android": [
         {
           "bundleId": "com.ams.cn",
+          "version": "7.1.3",
+          "uploadedAt": "2026-08-17T01:33:10Z",
+          "tag": "234-mobile-7.1.3",
+          "releaseName": "234-mobile-7.1.3",
+          "notes": "自动发布 234-mobile-7.1.3\n\n- `234-mobile_7.1.3_test.ipa`\n- `234-mobile_7.1.3_26081701.apk`\n\n构建时间: 2026-08-17 10:31:03 JST",
+          "file": "234-mobile_7.1.3_26081701.apk",
+          "size": 180451875,
+          "downloadUrl": "https://github.com/xiaoli55979/ipa_install/releases/download/234-mobile-7.1.3/234-mobile_7.1.3_26081701.apk"
+        },
+        {
+          "bundleId": "com.ams.cn",
           "version": "7.1.2",
           "uploadedAt": "2026-08-14T10:00:12Z",
           "tag": "234-mobile-7.1.2",
@@ -206,7 +230,7 @@
       "mac": [],
       "win": [],
       "showPlatformBundleIds": false,
-      "latestAt": "2026-08-14T10:00:12Z"
+      "latestAt": "2026-08-17T01:33:10Z"
     },
     {
       "id": "com.wlp.com.cn",
@@ -238,6 +262,19 @@
           "downloadUrl": "https://github.com/xiaoli55979/ipa_install/releases/download/50-mobile-7.1.3/50-mobile_7.1.3_test.ipa",
           "manifestUrl": "https://xiaoli55979.github.io/ipa_install/manifest/com.wlp.com.cn-50-mobile-7.1.3.plist",
           "installUrl": "itms-services://?action=download-manifest&url=https%3A%2F%2Fxiaoli55979.github.io%2Fipa_install%2Fmanifest%2Fcom.wlp.com.cn-50-mobile-7.1.3.plist"
+        },
+        {
+          "bundleId": "com.wlp.com.cn",
+          "version": "7.1.2",
+          "uploadedAt": "2026-08-12T06:34:10Z",
+          "tag": "50-mobile-7.1.2",
+          "releaseName": "50-mobile-7.1.2",
+          "notes": "自动发布 50-mobile-7.1.2\n\n- `50-mobile_7.1.2_test.ipa`\n- `50-mobile_7.1.2_26081204.apk`\n\n构建时间: 2026-08-12 15:32:54 JST",
+          "file": "50-mobile_7.1.2_test.ipa",
+          "size": 50714507,
+          "downloadUrl": "https://github.com/xiaoli55979/ipa_install/releases/download/50-mobile-7.1.2/50-mobile_7.1.2_test.ipa",
+          "manifestUrl": "https://xiaoli55979.github.io/ipa_install/manifest/com.wlp.com.cn-50-mobile-7.1.2.plist",
+          "installUrl": "itms-services://?action=download-manifest&url=https%3A%2F%2Fxiaoli55979.github.io%2Fipa_install%2Fmanifest%2Fcom.wlp.com.cn-50-mobile-7.1.2.plist"
         }
       ],
       "android": [
@@ -323,6 +360,17 @@
           "file": "988-mobile_7.1.1_26081203.apk",
           "size": 160328956,
           "downloadUrl": "https://github.com/xiaoli55979/ipa_install/releases/download/988-mobile-7.1.1/988-mobile_7.1.1_26081203.apk"
+        },
+        {
+          "bundleId": "com.lianfu.cn",
+          "version": "7.0.11",
+          "uploadedAt": "2026-07-13T05:17:20Z",
+          "tag": "988-mobile-7.0.11",
+          "releaseName": "988-mobile-7.0.11",
+          "notes": "自动发布 988-mobile-7.0.11\n\n- `988-mobile_7.0.11_test.ipa`\n- `988-mobile_7.0.11.apk`\n\n构建时间: 2026-07-13 14:15:12 JST",
+          "file": "988-mobile_7.0.11.apk",
+          "size": 160132256,
+          "downloadUrl": "https://github.com/xiaoli55979/ipa_install/releases/download/988-mobile-7.0.11/988-mobile_7.0.11.apk"
         },
         {
           "bundleId": "com.lianfu.cn",
@@ -520,14 +568,14 @@
         },
         {
           "bundleId": "com.jiliaoim.cn",
-          "version": "1.1.6",
-          "uploadedAt": "2026-04-22T06:28:38Z",
-          "tag": "1.1.6.1",
-          "releaseName": "1.1.6.1",
-          "notes": "add",
-          "file": "1.1.6.1.apk",
-          "size": 249036307,
-          "downloadUrl": "https://github.com/xiaoli55979/ipa_install/releases/download/1.1.6.1/1.1.6.1.apk"
+          "version": "1.1.16",
+          "uploadedAt": "2026-04-26T08:02:00Z",
+          "tag": "1.1.16",
+          "releaseName": "1.1.16",
+          "notes": "自动发布 1.1.16\n\n- `im_chat_manager_plugin_example_1.1.16_test.ipa`\n- `im_chat_manager_plugin_example_1.1.16.apk`\n\n构建时间: 2026-04-26 17:01:23 JST",
+          "file": "im_chat_manager_plugin_example_1.1.16.apk",
+          "size": 230195624,
+          "downloadUrl": "https://github.com/xiaoli55979/ipa_install/releases/download/1.1.16/im_chat_manager_plugin_example_1.1.16.apk"
         }
       ],
       "mac": [
@@ -876,6 +924,19 @@
           "downloadUrl": "https://github.com/xiaoli55979/ipa_install/releases/download/3636-mobile-5.6.13/0708c535-5.6.12.3-resigned.ipa",
           "manifestUrl": "https://xiaoli55979.github.io/ipa_install/manifest/com.kc535.eg.260607-3636-mobile-5.6.13.plist",
           "installUrl": "itms-services://?action=download-manifest&url=https%3A%2F%2Fxiaoli55979.github.io%2Fipa_install%2Fmanifest%2Fcom.kc535.eg.260607-3636-mobile-5.6.13.plist"
+        },
+        {
+          "bundleId": "com.kc535.eg.260607",
+          "version": "5.5.13",
+          "uploadedAt": "2026-07-08T08:40:10Z",
+          "tag": "3636-mobile-5.6.12",
+          "releaseName": "3636-mobile-5.6.12",
+          "notes": "3636-mobile-5.6.12",
+          "file": "0708c535-5.6.12.3-noext.ipa",
+          "size": 82795461,
+          "downloadUrl": "https://github.com/xiaoli55979/ipa_install/releases/download/3636-mobile-5.6.12/0708c535-5.6.12.3-noext.ipa",
+          "manifestUrl": "https://xiaoli55979.github.io/ipa_install/manifest/com.kc535.eg.260607-3636-mobile-5.6.12.plist",
+          "installUrl": "itms-services://?action=download-manifest&url=https%3A%2F%2Fxiaoli55979.github.io%2Fipa_install%2Fmanifest%2Fcom.kc535.eg.260607-3636-mobile-5.6.12.plist"
         }
       ],
       "android": [],
