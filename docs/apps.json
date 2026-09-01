@@ -1,13 +1,71 @@
 {
   "siteTitle": "App 分发",
   "publicUrl": "https://xiaoli55979.github.io/ipa_install",
-  "generatedAt": "2026-08-31T04:34:11.809Z",
+  "generatedAt": "2026-09-01T10:34:46.177Z",
   "apps": [
+    {
+      "id": "com.jiliaoim.dis.cn",
+      "name": "云小聊",
+      "icon": "https://xiaoli55979.github.io/ipa_install/icons/com.jiliaoim.dis.cn-android.png",
+      "ios": [],
+      "android": [
+        {
+          "bundleId": "com.jiliaoim.dis.cn",
+          "version": "1.1.56",
+          "uploadedAt": "2026-09-01T10:30:15Z",
+          "tag": "YunXiaoLiao-mobile-1.1.56",
+          "releaseName": "YunXiaoLiao-mobile-1.1.56",
+          "notes": "自动发布 YunXiaoLiao-mobile-1.1.56\n\n- `YunXiaoLiao-mobile_1.1.56.ipa`\n- `YunXiaoLiao-mobile_1.1.56.apk`\n\n构建时间: 2026-09-01 19:28:32 JST",
+          "file": "YunXiaoLiao-mobile_1.1.56.apk",
+          "size": 134428269,
+          "downloadUrl": "https://github.com/xiaoli55979/ipa_install/releases/download/YunXiaoLiao-mobile-1.1.56/YunXiaoLiao-mobile_1.1.56.apk"
+        },
+        {
+          "bundleId": "com.jiliaoim.dis.cn",
+          "version": "1.1.54",
+          "uploadedAt": "2026-08-28T13:50:38Z",
+          "tag": "YunXiaoLiao-mobile-1.1.54",
+          "releaseName": "YunXiaoLiao-mobile-1.1.54",
+          "notes": "自动发布 YunXiaoLiao-mobile-1.1.54\n\n- `YunXiaoLiao-mobile_1.1.54.ipa`\n- `YunXiaoLiao-mobile_1.1.54_26082809.apk`\n\n构建时间: 2026-08-28 SGT",
+          "file": "YunXiaoLiao-mobile_1.1.54_26082809.apk",
+          "size": 134411965,
+          "downloadUrl": "https://github.com/xiaoli55979/ipa_install/releases/download/YunXiaoLiao-mobile-1.1.54/YunXiaoLiao-mobile_1.1.54_26082809.apk"
+        },
+        {
+          "bundleId": "com.jiliaoim.dis.cn",
+          "version": "1.1.29",
+          "uploadedAt": "2026-06-09T14:12:52Z",
+          "tag": "im_chat_manager_plugin_example-mobile-1.1.29",
+          "releaseName": "im_chat_manager_plugin_example-mobile-1.1.29",
+          "notes": "自动发布 im_chat_manager_plugin_example-mobile-1.1.29\n\n- `im_chat_manager_plugin_example-mobile_1.1.29.apk`\n\n构建时间: 2026-06-09 22:57:45 JST",
+          "file": "im_chat_manager_plugin_example-mobile_1.1.29.apk",
+          "size": 131399134,
+          "downloadUrl": "https://github.com/xiaoli55979/ipa_install/releases/download/im_chat_manager_plugin_example-mobile-1.1.29/im_chat_manager_plugin_example-mobile_1.1.29.apk"
+        }
+      ],
+      "mac": [],
+      "win": [],
+      "showPlatformBundleIds": false,
+      "latestAt": "2026-09-01T10:30:15Z"
+    },
     {
       "id": "com.imtest.cn",
       "name": "云小聊",
       "icon": "https://xiaoli55979.github.io/ipa_install/icons/com.imtest.cn-ios.png",
       "ios": [
+        {
+          "bundleId": "com.imtest.cn",
+          "version": "1.1.56",
+          "uploadedAt": "2026-09-01T10:29:17Z",
+          "tag": "YunXiaoLiao-mobile-1.1.56",
+          "releaseName": "YunXiaoLiao-mobile-1.1.56",
+          "notes": "自动发布 YunXiaoLiao-mobile-1.1.56\n\n- `YunXiaoLiao-mobile_1.1.56.ipa`\n- `YunXiaoLiao-mobile_1.1.56.apk`\n\n构建时间: 2026-09-01 19:28:32 JST",
+          "file": "YunXiaoLiao-mobile_1.1.56.ipa",
+          "size": 41134450,
+          "downloadUrl": "https://github.com/xiaoli55979/ipa_install/releases/download/YunXiaoLiao-mobile-1.1.56/YunXiaoLiao-mobile_1.1.56.ipa",
+          "manifestUrl": "https://xiaoli55979.github.io/ipa_install/manifest/com.imtest.cn-YunXiaoLiao-mobile-1.1.56.plist",
+          "installUrl": "itms-services://?action=download-manifest&url=https%3A%2F%2Fxiaoli55979.github.io%2Fipa_install%2Fmanifest%2Fcom.imtest.cn-YunXiaoLiao-mobile-1.1.56.plist"
+        },
         {
           "bundleId": "com.imtest.cn",
           "version": "1.1.55",
@@ -33,71 +91,13 @@
           "downloadUrl": "https://github.com/xiaoli55979/ipa_install/releases/download/YunXiaoLiao-mobile-1.1.54/YunXiaoLiao-mobile_1.1.54.ipa",
           "manifestUrl": "https://xiaoli55979.github.io/ipa_install/manifest/com.imtest.cn-YunXiaoLiao-mobile-1.1.54.plist",
           "installUrl": "itms-services://?action=download-manifest&url=https%3A%2F%2Fxiaoli55979.github.io%2Fipa_install%2Fmanifest%2Fcom.imtest.cn-YunXiaoLiao-mobile-1.1.54.plist"
-        },
-        {
-          "bundleId": "com.imtest.cn",
-          "version": "1.1.53",
-          "uploadedAt": "2026-08-26T10:49:28Z",
-          "tag": "YunXiaoLiao-mobile-1.1.53",
-          "releaseName": "YunXiaoLiao-mobile-1.1.53",
-          "notes": "自动发布 YunXiaoLiao-mobile-1.1.53\n\n- `YunXiaoLiao-mobile_1.1.53.ipa`\n- `YunXiaoLiao-mobile_1.1.53.apk`\n\n构建时间: 2026-08-26 19:49:07 JST",
-          "file": "YunXiaoLiao-mobile_1.1.53.ipa",
-          "size": 41085599,
-          "downloadUrl": "https://github.com/xiaoli55979/ipa_install/releases/download/YunXiaoLiao-mobile-1.1.53/YunXiaoLiao-mobile_1.1.53.ipa",
-          "manifestUrl": "https://xiaoli55979.github.io/ipa_install/manifest/com.imtest.cn-YunXiaoLiao-mobile-1.1.53.plist",
-          "installUrl": "itms-services://?action=download-manifest&url=https%3A%2F%2Fxiaoli55979.github.io%2Fipa_install%2Fmanifest%2Fcom.imtest.cn-YunXiaoLiao-mobile-1.1.53.plist"
         }
       ],
       "android": [],
       "mac": [],
       "win": [],
       "showPlatformBundleIds": false,
-      "latestAt": "2026-08-31T04:33:03Z"
-    },
-    {
-      "id": "com.jiliaoim.dis.cn",
-      "name": "云小聊",
-      "icon": "https://xiaoli55979.github.io/ipa_install/icons/com.jiliaoim.dis.cn-android.png",
-      "ios": [],
-      "android": [
-        {
-          "bundleId": "com.jiliaoim.dis.cn",
-          "version": "1.1.54",
-          "uploadedAt": "2026-08-28T13:50:38Z",
-          "tag": "YunXiaoLiao-mobile-1.1.54",
-          "releaseName": "YunXiaoLiao-mobile-1.1.54",
-          "notes": "自动发布 YunXiaoLiao-mobile-1.1.54\n\n- `YunXiaoLiao-mobile_1.1.54.ipa`\n- `YunXiaoLiao-mobile_1.1.54_26082809.apk`\n\n构建时间: 2026-08-28 SGT",
-          "file": "YunXiaoLiao-mobile_1.1.54_26082809.apk",
-          "size": 134411965,
-          "downloadUrl": "https://github.com/xiaoli55979/ipa_install/releases/download/YunXiaoLiao-mobile-1.1.54/YunXiaoLiao-mobile_1.1.54_26082809.apk"
-        },
-        {
-          "bundleId": "com.jiliaoim.dis.cn",
-          "version": "1.1.53",
-          "uploadedAt": "2026-08-26T10:49:48Z",
-          "tag": "YunXiaoLiao-mobile-1.1.53",
-          "releaseName": "YunXiaoLiao-mobile-1.1.53",
-          "notes": "自动发布 YunXiaoLiao-mobile-1.1.53\n\n- `YunXiaoLiao-mobile_1.1.53.ipa`\n- `YunXiaoLiao-mobile_1.1.53.apk`\n\n构建时间: 2026-08-26 19:49:07 JST",
-          "file": "YunXiaoLiao-mobile_1.1.53.apk",
-          "size": 133999520,
-          "downloadUrl": "https://github.com/xiaoli55979/ipa_install/releases/download/YunXiaoLiao-mobile-1.1.53/YunXiaoLiao-mobile_1.1.53.apk"
-        },
-        {
-          "bundleId": "com.jiliaoim.dis.cn",
-          "version": "1.1.29",
-          "uploadedAt": "2026-06-09T14:12:52Z",
-          "tag": "im_chat_manager_plugin_example-mobile-1.1.29",
-          "releaseName": "im_chat_manager_plugin_example-mobile-1.1.29",
-          "notes": "自动发布 im_chat_manager_plugin_example-mobile-1.1.29\n\n- `im_chat_manager_plugin_example-mobile_1.1.29.apk`\n\n构建时间: 2026-06-09 22:57:45 JST",
-          "file": "im_chat_manager_plugin_example-mobile_1.1.29.apk",
-          "size": 131399134,
-          "downloadUrl": "https://github.com/xiaoli55979/ipa_install/releases/download/im_chat_manager_plugin_example-mobile-1.1.29/im_chat_manager_plugin_example-mobile_1.1.29.apk"
-        }
-      ],
-      "mac": [],
-      "win": [],
-      "showPlatformBundleIds": false,
-      "latestAt": "2026-08-28T13:50:38Z"
+      "latestAt": "2026-09-01T10:29:17Z"
     },
     {
       "id": "quickchat",
