@@ -1,7 +1,7 @@
 {
   "siteTitle": "App 分发",
   "publicUrl": "https://xiaoli55979.github.io/ipa_install",
-  "generatedAt": "2026-09-08T08:23:24.613Z",
+  "generatedAt": "2026-09-08T12:04:01.092Z",
   "apps": [
     {
       "id": "com.jiliaoim.cn",
@@ -10,6 +10,17 @@
       "ios": [],
       "android": [],
       "mac": [
+        {
+          "bundleId": "com.jiliaoim.cn",
+          "version": "1.1.38",
+          "uploadedAt": "2026-09-08T12:02:48Z",
+          "tag": "1.1.38",
+          "releaseName": "1.1.38",
+          "notes": "Auto published PC version 1.1.38\n\n- `YunXiaoLiao-1.1.38-x64.dmg`\n- `YunXiaoLiao-Setup-1.1.38-x64.zip`\n\nSource branch: release\nSource commit: 532bf4db3588d42b0b31e6b3763c33041677c1de\nBuild time: 2026-09-08 21:02:42 JST\n",
+          "file": "YunXiaoLiao-1.1.38-x64.dmg",
+          "size": 135380235,
+          "downloadUrl": "https://github.com/xiaoli55979/ipa_install/releases/download/1.1.38/YunXiaoLiao-1.1.38-x64.dmg"
+        },
         {
           "bundleId": "com.jiliaoim.cn",
           "version": "1.1.37",
@@ -31,20 +42,20 @@
           "file": "YunXiaoLiao-1.1.36-x64.dmg",
           "size": 135382352,
           "downloadUrl": "https://github.com/xiaoli55979/ipa_install/releases/download/1.1.36/YunXiaoLiao-1.1.36-x64.dmg"
-        },
-        {
-          "bundleId": "com.jiliaoim.cn",
-          "version": "1.1.35",
-          "uploadedAt": "2026-09-07T11:56:41Z",
-          "tag": "1.1.35",
-          "releaseName": "1.1.35",
-          "notes": "Auto published PC version 1.1.35\n\n- `YunXiaoLiao-1.1.35-x64.dmg`\n- `YunXiaoLiao-Setup-1.1.35-x64.zip`\n\nSource branch: release\nSource commit: 3d19aeb7553ee7dfc4ccd697a708e99bc20c5def\nBuild time: 2026-09-07 20:56:35 JST\n",
-          "file": "YunXiaoLiao-1.1.35-x64.dmg",
-          "size": 135383132,
-          "downloadUrl": "https://github.com/xiaoli55979/ipa_install/releases/download/1.1.35/YunXiaoLiao-1.1.35-x64.dmg"
         }
       ],
       "win": [
+        {
+          "bundleId": "com.jiliaoim.cn",
+          "version": "1.1.38",
+          "uploadedAt": "2026-09-08T12:02:47Z",
+          "tag": "1.1.38",
+          "releaseName": "1.1.38",
+          "notes": "Auto published PC version 1.1.38\n\n- `YunXiaoLiao-1.1.38-x64.dmg`\n- `YunXiaoLiao-Setup-1.1.38-x64.zip`\n\nSource branch: release\nSource commit: 532bf4db3588d42b0b31e6b3763c33041677c1de\nBuild time: 2026-09-08 21:02:42 JST\n",
+          "file": "YunXiaoLiao-Setup-1.1.38-x64.zip",
+          "size": 137176559,
+          "downloadUrl": "https://github.com/xiaoli55979/ipa_install/releases/download/1.1.38/YunXiaoLiao-Setup-1.1.38-x64.zip"
+        },
         {
           "bundleId": "com.jiliaoim.cn",
           "version": "1.1.37",
@@ -66,21 +77,10 @@
           "file": "YunXiaoLiao-Setup-1.1.36-x64.zip",
           "size": 137167194,
           "downloadUrl": "https://github.com/xiaoli55979/ipa_install/releases/download/1.1.36/YunXiaoLiao-Setup-1.1.36-x64.zip"
-        },
-        {
-          "bundleId": "com.jiliaoim.cn",
-          "version": "1.1.35",
-          "uploadedAt": "2026-09-07T11:56:42Z",
-          "tag": "1.1.35",
-          "releaseName": "1.1.35",
-          "notes": "Auto published PC version 1.1.35\n\n- `YunXiaoLiao-1.1.35-x64.dmg`\n- `YunXiaoLiao-Setup-1.1.35-x64.zip`\n\nSource branch: release\nSource commit: 3d19aeb7553ee7dfc4ccd697a708e99bc20c5def\nBuild time: 2026-09-07 20:56:35 JST\n",
-          "file": "YunXiaoLiao-Setup-1.1.35-x64.zip",
-          "size": 137166574,
-          "downloadUrl": "https://github.com/xiaoli55979/ipa_install/releases/download/1.1.35/YunXiaoLiao-Setup-1.1.35-x64.zip"
         }
       ],
       "showPlatformBundleIds": false,
-      "latestAt": "2026-09-08T07:28:46Z"
+      "latestAt": "2026-09-08T12:02:48Z"
     },
     {
       "id": "com.jiliaoim.dis.cn",
