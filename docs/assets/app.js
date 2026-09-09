@@ -43,15 +43,6 @@
     return `${label} ${n.toLocaleString('zh-CN')} 次`;
   }
 
-  function appTotalDownloads(app) {
-    const explicit = countValue(app.downloadCount);
-    if (explicit !== null) return explicit;
-    return ['ios', 'android', 'mac', 'win'].reduce((sum, platform) => {
-      const entries = Array.isArray(app[platform]) ? app[platform] : [];
-      return sum + entries.reduce((inner, entry) => inner + (countValue(entry.downloadCount) || 0), 0);
-    }, 0);
-  }
-
   function iconFallback(name) {
     const div = document.createElement('div');
     div.className = 'icon icon-fallback';
@@ -172,10 +163,7 @@
     const bid = document.createElement('p');
     bid.className = 'bundle-id';
     bid.textContent = app.id;
-    const stats = document.createElement('p');
-    stats.className = 'download-stat';
-    stats.textContent = fmtDownloads(appTotalDownloads(app), '总下载');
-    titleWrap.append(name, bid, stats);
+    titleWrap.append(name, bid);
     head.appendChild(titleWrap);
     card.appendChild(head);
 

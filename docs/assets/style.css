@@ -96,12 +96,6 @@ html, body {
   text-overflow: ellipsis;
   white-space: nowrap;
 }
-.download-stat {
-  margin: 2px 0 0;
-  font-size: 12px;
-  color: #4b5563;
-}
-
 .platforms {
   display: grid;
   grid-template-columns: 1fr 1fr;

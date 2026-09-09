@@ -215,13 +215,6 @@ export function assetDownloadCount(asset) {
   return Number.isFinite(value) && value > 0 ? value : 0;
 }
 
-export function appDownloadCount(app) {
-  return ['ios', 'android', 'mac', 'win'].reduce((sum, platform) => {
-    const entries = Array.isArray(app?.[platform]) ? app[platform] : [];
-    return sum + entries.reduce((inner, entry) => inner + assetDownloadCount(entry), 0);
-  }, 0);
-}
-
 const DISPLAY_RANK = { ios: 1, android: 2, win: 3, mac: 4 };
 
 function maybeSetName(app, platform, name, bundleId) {
@@ -631,7 +624,6 @@ async function main() {
     a.mac = retainLatestVersions(a.mac, MAX_VERSIONS_PER_APP);
     a.win = retainLatestVersions(a.win, MAX_VERSIONS_PER_APP);
     applyAppMetadata(a);
-    a.downloadCount = appDownloadCount(a);
     a.showPlatformBundleIds = platformBundleIdsDiffer(a);
     const times = [a.ios[0]?.uploadedAt, a.android[0]?.uploadedAt, a.mac[0]?.uploadedAt, a.win[0]?.uploadedAt].filter(Boolean);
     a.latestAt = times.sort().pop() || null;
