@@ -164,13 +164,90 @@ export function retainLatestVersions(entries, maxVersions = DEFAULT_MAX_VERSIONS
 const PC_MATCHERS = (() => {
   const raw = Array.isArray(CONFIG.pcMatchers) ? CONFIG.pcMatchers : [];
   return raw
-    .flatMap(m => (m.prefixes || []).map(p => ({ bundleId: m.bundleId, prefix: String(p).toLowerCase() })))
+    .flatMap(m => (m.prefixes || []).map(p => ({
+      bundleId: m.bundleId,
+      prefix: String(p).toLowerCase(),
+      name: m.name,
+      icon: m.icon || m.iconUrl,
+    })))
     .sort((a, b) => b.prefix.length - a.prefix.length);
 })();
+
+const APP_METADATA = (() => {
+  const raw = Array.isArray(CONFIG.appMetadata) ? CONFIG.appMetadata : [];
+  const entries = [];
+  for (const item of raw) {
+    const ids = [item.id, item.bundleId, ...(Array.isArray(item.bundleIds) ? item.bundleIds : [])]
+      .filter(Boolean)
+      .map(id => String(id));
+    for (const id of ids) entries.push([id, item]);
+  }
+  return new Map(entries);
+})();
+
+function appMetadataFor(...ids) {
+  for (const id of ids) {
+    const meta = APP_METADATA.get(String(id || ''));
+    if (meta) return meta;
+  }
+  return null;
+}
+
+function publicAssetUrl(value) {
+  const raw = String(value || '').trim();
+  if (!raw) return null;
+  if (/^(?:https?:)?\/\//i.test(raw) || raw.startsWith('data:')) return raw;
+  const rel = raw.replace(/^docs\//, '').replace(/^\/+/, '');
+  return `${PUBLIC_URL}/${rel}`;
+}
+
+function applyAppMetadata(app) {
+  const meta = appMetadataFor(app?.id);
+  if (!meta) return app;
+  if (meta.name && (!app.name || app.name === app.id)) app.name = String(meta.name);
+  const icon = publicAssetUrl(meta.icon || meta.iconUrl);
+  if (!app.icon && icon) app.icon = icon;
+  return app;
+}
+
+export function assetDownloadCount(asset) {
+  const value = Number(asset?.download_count ?? asset?.downloadCount ?? 0);
+  return Number.isFinite(value) && value > 0 ? value : 0;
+}
+
+export function appDownloadCount(app) {
+  return ['ios', 'android', 'mac', 'win'].reduce((sum, platform) => {
+    const entries = Array.isArray(app?.[platform]) ? app[platform] : [];
+    return sum + entries.reduce((inner, entry) => inner + assetDownloadCount(entry), 0);
+  }, 0);
+}
+
+const DISPLAY_RANK = { ios: 1, android: 2, win: 3, mac: 4 };
+
+function maybeSetName(app, platform, name, bundleId) {
+  const value = String(name || '').trim();
+  if (!value || value === bundleId) return;
+  const rank = DISPLAY_RANK[platform];
+  if (!rank) return;
+  if (app._nameRank != null && rank >= app._nameRank) return;
+  app.name = value;
+  app._nameRank = rank;
+}
+
+function maybeSetIconUrl(app, platform, iconUrl) {
+  const icon = publicAssetUrl(iconUrl);
+  if (!icon) return;
+  const rank = ICON_RANK[platform];
+  if (!rank) return;
+  if (app._iconRank != null && rank >= app._iconRank) return;
+  app.icon = icon;
+  app._iconRank = rank;
+}
+
 function matchPcByFilename(name) {
   const lower = String(name).toLowerCase();
-  for (const { bundleId, prefix } of PC_MATCHERS) {
-    if (lower.startsWith(prefix)) return bundleId;
+  for (const matcher of PC_MATCHERS) {
+    if (lower.startsWith(matcher.prefix)) return matcher;
   }
   return null;
 }
@@ -178,6 +255,16 @@ function matchPcByFilename(name) {
 function pcVersion(filename, fallback) {
   const matched = String(filename).match(/(?:^|[_-])(\d+\.\d+\.\d+)(?=[_.-]|$)/);
   return matched?.[1] || fallback;
+}
+
+function pcNameFromFilename(filename) {
+  const stem = path.basename(String(filename)).replace(PACKAGE_EXT_RE, '');
+  const withoutVersion = stem.replace(/(?:[_-])v?\d+(?:\.\d+){0,3}.*$/i, '');
+  const cleaned = withoutVersion
+    .replace(/(?:[_-])setup$/i, '')
+    .replace(/[_-]+$/, '')
+    .trim();
+  return cleaned || null;
 }
 
 export function fetchReleases() {
@@ -301,8 +388,8 @@ function buildSingleIco(c) {
   return Buffer.concat([header, c.bin]);
 }
 
-// 图标来源优先级:iOS=1,Android=2,Windows=3;数字越小越优先,可覆盖
-const ICON_RANK = { ios: 1, android: 2, win: 3 };
+// 图标来源优先级:iOS=1,Android=2,Windows=3,Mac=4;数字越小越优先,可覆盖
+const ICON_RANK = { ios: 1, android: 2, win: 3, mac: 4 };
 
 function maybeSetIcon(app, bundleId, platform, iconData, iconExt) {
   if (!iconData) return;
@@ -404,7 +491,8 @@ async function main() {
 
       if (platform === 'mac' || platform === 'win') {
         // 优先用文件名前缀匹配,跨 release 也能正确归组;匹配不上再用同 release 的 ipa/apk 兜底
-        const matchedBundleId = matchPcByFilename(asset.name);
+        const matcher = matchPcByFilename(asset.name);
+        const matchedBundleId = matcher?.bundleId;
         const rawTargetBundleId = matchedBundleId || releaseBundleId;
         if (!rawTargetBundleId) {
           console.warn(`[skip] ${ext} ${asset.name}: 文件名前缀不在 pcMatchers 中,且 release ${rel.tag_name} 没有 ipa/apk 提供 bundleId`);
@@ -423,6 +511,11 @@ async function main() {
         const app = apps.get(target.key);
         if (!app.mac) app.mac = [];
         if (!app.win) app.win = [];
+        const configuredMeta = appMetadataFor(target.id, rawTargetBundleId);
+        const pcName = matcher?.name || configuredMeta?.name || pcNameFromFilename(asset.name) || releaseAppName;
+        const pcIcon = matcher?.icon || configuredMeta?.icon || configuredMeta?.iconUrl;
+        maybeSetName(app, platform, pcName, rawTargetBundleId);
+        maybeSetIconUrl(app, platform, pcIcon);
         app[platform].push({
           bundleId: rawTargetBundleId,
           version: pcVersion(asset.name, rel.tag_name),
@@ -432,6 +525,7 @@ async function main() {
           notes: rel.body || '',
           file: asset.name,
           size: asset.size,
+          downloadCount: assetDownloadCount(asset),
           downloadUrl: pkgUrl
         });
 
@@ -478,7 +572,7 @@ async function main() {
       if (!apps.has(target.key)) {
         apps.set(target.key, {
           id: target.id,
-          name: parsed.name,
+          name: target.id,
           icon: null,
           ios: [],
           android: [],
@@ -494,7 +588,7 @@ async function main() {
 
       // 图标来源优先级由 maybeSetIcon 控制:iOS 可覆盖 Android,Android 可覆盖 Windows
       maybeSetIcon(app, target.id, platform, parsed.iconData, parsed.iconExt);
-      if (parsed.name && parsed.name !== parsed.bundleId) app.name = parsed.name;
+      maybeSetName(app, platform, parsed.name, parsed.bundleId);
 
       const entry = {
         bundleId: parsed.bundleId,
@@ -505,6 +599,7 @@ async function main() {
         notes: rel.body || '',
         file: asset.name,
         size: asset.size,
+        downloadCount: assetDownloadCount(asset),
         downloadUrl: pkgUrl
       };
 
@@ -535,10 +630,13 @@ async function main() {
     a.android = retainLatestVersions(a.android, MAX_VERSIONS_PER_APP);
     a.mac = retainLatestVersions(a.mac, MAX_VERSIONS_PER_APP);
     a.win = retainLatestVersions(a.win, MAX_VERSIONS_PER_APP);
+    applyAppMetadata(a);
+    a.downloadCount = appDownloadCount(a);
     a.showPlatformBundleIds = platformBundleIdsDiffer(a);
     const times = [a.ios[0]?.uploadedAt, a.android[0]?.uploadedAt, a.mac[0]?.uploadedAt, a.win[0]?.uploadedAt].filter(Boolean);
     a.latestAt = times.sort().pop() || null;
     delete a._iconRank;
+    delete a._nameRank;
     return a;
   });
   out.sort((a, b) => (b.latestAt || '').localeCompare(a.latestAt || ''));

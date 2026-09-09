@@ -32,6 +32,26 @@
     return `${v.toFixed(v >= 10 ? 0 : 1)} ${units[i]}`;
   }
 
+  function countValue(value) {
+    const n = Number(value);
+    return Number.isFinite(n) && n >= 0 ? n : null;
+  }
+
+  function fmtDownloads(count, label = '下载') {
+    const n = countValue(count);
+    if (n === null) return '';
+    return `${label} ${n.toLocaleString('zh-CN')} 次`;
+  }
+
+  function appTotalDownloads(app) {
+    const explicit = countValue(app.downloadCount);
+    if (explicit !== null) return explicit;
+    return ['ios', 'android', 'mac', 'win'].reduce((sum, platform) => {
+      const entries = Array.isArray(app[platform]) ? app[platform] : [];
+      return sum + entries.reduce((inner, entry) => inner + (countValue(entry.downloadCount) || 0), 0);
+    }, 0);
+  }
+
   function iconFallback(name) {
     const div = document.createElement('div');
     div.className = 'icon icon-fallback';
@@ -60,8 +80,9 @@
     a.className = `btn btn-${platform}`;
     const metaLine = [`v${entry.version}`, fmtSize(entry.size)].filter(Boolean).join(' · ');
     const timeLine = fmtTime(entry.uploadedAt);
+    const downloadLine = fmtDownloads(entry.downloadCount);
     a.innerHTML = `<span class="btn-label">${meta.btnLabel}</span>`
-      + `<small class="btn-meta">${metaLine}${timeLine ? `<br>更新于 ${timeLine}` : ''}</small>`;
+      + `<small class="btn-meta">${metaLine}${timeLine ? `<br>更新于 ${timeLine}` : ''}${downloadLine ? `<br>${downloadLine}` : ''}</small>`;
     if (showBundleId && entry.bundleId) {
       const bundle = document.createElement('small');
       bundle.className = 'btn-bundle';
@@ -111,7 +132,9 @@
       ver.textContent = 'v' + e.version;
       const when = document.createElement('span');
       when.className = 'when';
-      when.textContent = fmtTime(e.uploadedAt) + ' · ' + fmtSize(e.size);
+      when.textContent = [fmtTime(e.uploadedAt), fmtSize(e.size), fmtDownloads(e.downloadCount)]
+        .filter(Boolean)
+        .join(' · ');
       const url = entryUrl(platform, e);
       const a = document.createElement('a');
       a.textContent = meta.histLabel;
@@ -149,7 +172,10 @@
     const bid = document.createElement('p');
     bid.className = 'bundle-id';
     bid.textContent = app.id;
-    titleWrap.append(name, bid);
+    const stats = document.createElement('p');
+    stats.className = 'download-stat';
+    stats.textContent = fmtDownloads(appTotalDownloads(app), '总下载');
+    titleWrap.append(name, bid, stats);
     head.appendChild(titleWrap);
     card.appendChild(head);
 

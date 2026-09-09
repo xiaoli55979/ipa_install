@@ -1,7 +1,9 @@
 import assert from 'node:assert/strict';
 import test from 'node:test';
 import {
+  appDownloadCount,
   artifactProjectKey,
+  assetDownloadCount,
   distributionGroup,
   parseDistributionGroupId,
   platformBundleIdsDiffer,
@@ -100,6 +102,22 @@ test('retains three distinct versions while preserving same-version variants', (
   assert.deepEqual(retainLatestVersions(entries, 3).map(entry => entry.version), [
     '4.0.0', '4.0.0', '3.0.0', '2.0.0',
   ]);
+});
+
+test('normalizes GitHub asset download counts', () => {
+  assert.equal(assetDownloadCount({ download_count: 12 }), 12);
+  assert.equal(assetDownloadCount({ downloadCount: 7 }), 7);
+  assert.equal(assetDownloadCount({ download_count: -1 }), 0);
+  assert.equal(assetDownloadCount({}), 0);
+});
+
+test('sums app download counts across displayed assets', () => {
+  assert.equal(appDownloadCount({
+    ios: [{ downloadCount: 2 }],
+    android: [{ downloadCount: 3 }],
+    mac: [{ downloadCount: 5 }],
+    win: [{ downloadCount: 7 }, { downloadCount: 11 }],
+  }), 28);
 });
 
 test('plans deletion of the fourth and older online release per project', () => {
