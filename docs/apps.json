@@ -1,7 +1,7 @@
 {
   "siteTitle": "App 分发",
   "publicUrl": "https://xiaoli55979.github.io/ipa_install",
-  "generatedAt": "2026-09-09T08:25:20.797Z",
+  "generatedAt": "2026-09-09T09:09:01.070Z",
   "apps": [
     {
       "id": "com.jiliaoim.dis.cn",
@@ -9,6 +9,17 @@
       "icon": "https://xiaoli55979.github.io/ipa_install/icons/com.jiliaoim.dis.cn-android.png",
       "ios": [],
       "android": [
+        {
+          "bundleId": "com.jiliaoim.dis.cn",
+          "version": "1.1.61",
+          "uploadedAt": "2026-09-09T09:07:57Z",
+          "tag": "YunXiaoLiao-mobile-1.1.61",
+          "releaseName": "YunXiaoLiao-mobile-1.1.61",
+          "notes": "自动发布 YunXiaoLiao-mobile-1.1.61\n\n- `YunXiaoLiao-mobile_1.1.61_test.ipa`\n- `YunXiaoLiao-mobile_1.1.61_26090904.apk`\n\n构建时间: 2026-09-09 18:06:09 JST",
+          "file": "YunXiaoLiao-mobile_1.1.61_26090904.apk",
+          "size": 133393415,
+          "downloadUrl": "https://github.com/xiaoli55979/ipa_install/releases/download/YunXiaoLiao-mobile-1.1.61/YunXiaoLiao-mobile_1.1.61_26090904.apk"
+        },
         {
           "bundleId": "com.jiliaoim.dis.cn",
           "version": "1.1.60",
@@ -30,29 +41,31 @@
           "file": "YunXiaoLiao-mobile_1.1.59_26090807.apk",
           "size": 133360643,
           "downloadUrl": "https://github.com/xiaoli55979/ipa_install/releases/download/YunXiaoLiao-mobile-1.1.59/YunXiaoLiao-mobile_1.1.59_26090807.apk"
-        },
-        {
-          "bundleId": "com.jiliaoim.dis.cn",
-          "version": "1.1.58",
-          "uploadedAt": "2026-09-08T06:32:46Z",
-          "tag": "YunXiaoLiao-mobile-1.1.58",
-          "releaseName": "YunXiaoLiao-mobile-1.1.58",
-          "notes": "自动发布 YunXiaoLiao-mobile-1.1.58\n\n- `YunXiaoLiao-mobile_1.1.58_test.ipa`\n- `YunXiaoLiao-mobile_1.1.58_26090805.apk`\n\n构建时间: 2026-09-08 15:31:23 JST",
-          "file": "YunXiaoLiao-mobile_1.1.58_26090805.apk",
-          "size": 133360647,
-          "downloadUrl": "https://github.com/xiaoli55979/ipa_install/releases/download/YunXiaoLiao-mobile-1.1.58/YunXiaoLiao-mobile_1.1.58_26090805.apk"
         }
       ],
       "mac": [],
       "win": [],
       "showPlatformBundleIds": false,
-      "latestAt": "2026-09-09T08:22:01Z"
+      "latestAt": "2026-09-09T09:07:57Z"
     },
     {
       "id": "com.imtest.cn",
       "name": "云小聊",
       "icon": "https://xiaoli55979.github.io/ipa_install/icons/com.imtest.cn-ios.png",
       "ios": [
+        {
+          "bundleId": "com.imtest.cn",
+          "version": "1.1.61",
+          "uploadedAt": "2026-09-09T09:06:55Z",
+          "tag": "YunXiaoLiao-mobile-1.1.61",
+          "releaseName": "YunXiaoLiao-mobile-1.1.61",
+          "notes": "自动发布 YunXiaoLiao-mobile-1.1.61\n\n- `YunXiaoLiao-mobile_1.1.61_test.ipa`\n- `YunXiaoLiao-mobile_1.1.61_26090904.apk`\n\n构建时间: 2026-09-09 18:06:09 JST",
+          "file": "YunXiaoLiao-mobile_1.1.61_test.ipa",
+          "size": 41057342,
+          "downloadUrl": "https://github.com/xiaoli55979/ipa_install/releases/download/YunXiaoLiao-mobile-1.1.61/YunXiaoLiao-mobile_1.1.61_test.ipa",
+          "manifestUrl": "https://xiaoli55979.github.io/ipa_install/manifest/com.imtest.cn-YunXiaoLiao-mobile-1.1.61.plist",
+          "installUrl": "itms-services://?action=download-manifest&url=https%3A%2F%2Fxiaoli55979.github.io%2Fipa_install%2Fmanifest%2Fcom.imtest.cn-YunXiaoLiao-mobile-1.1.61.plist"
+        },
         {
           "bundleId": "com.imtest.cn",
           "version": "1.1.60",
@@ -78,26 +91,13 @@
           "downloadUrl": "https://github.com/xiaoli55979/ipa_install/releases/download/YunXiaoLiao-mobile-1.1.59/YunXiaoLiao-mobile_1.1.59_test.ipa",
           "manifestUrl": "https://xiaoli55979.github.io/ipa_install/manifest/com.imtest.cn-YunXiaoLiao-mobile-1.1.59.plist",
           "installUrl": "itms-services://?action=download-manifest&url=https%3A%2F%2Fxiaoli55979.github.io%2Fipa_install%2Fmanifest%2Fcom.imtest.cn-YunXiaoLiao-mobile-1.1.59.plist"
-        },
-        {
-          "bundleId": "com.imtest.cn",
-          "version": "1.1.58",
-          "uploadedAt": "2026-09-08T06:32:12Z",
-          "tag": "YunXiaoLiao-mobile-1.1.58",
-          "releaseName": "YunXiaoLiao-mobile-1.1.58",
-          "notes": "自动发布 YunXiaoLiao-mobile-1.1.58\n\n- `YunXiaoLiao-mobile_1.1.58_test.ipa`\n- `YunXiaoLiao-mobile_1.1.58_26090805.apk`\n\n构建时间: 2026-09-08 15:31:23 JST",
-          "file": "YunXiaoLiao-mobile_1.1.58_test.ipa",
-          "size": 41058055,
-          "downloadUrl": "https://github.com/xiaoli55979/ipa_install/releases/download/YunXiaoLiao-mobile-1.1.58/YunXiaoLiao-mobile_1.1.58_test.ipa",
-          "manifestUrl": "https://xiaoli55979.github.io/ipa_install/manifest/com.imtest.cn-YunXiaoLiao-mobile-1.1.58.plist",
-          "installUrl": "itms-services://?action=download-manifest&url=https%3A%2F%2Fxiaoli55979.github.io%2Fipa_install%2Fmanifest%2Fcom.imtest.cn-YunXiaoLiao-mobile-1.1.58.plist"
         }
       ],
       "android": [],
       "mac": [],
       "win": [],
       "showPlatformBundleIds": false,
-      "latestAt": "2026-09-09T08:21:10Z"
+      "latestAt": "2026-09-09T09:06:55Z"
     },
     {
       "id": "com.jiliaoim.cn",
