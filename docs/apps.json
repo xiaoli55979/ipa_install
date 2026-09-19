@@ -1,7 +1,7 @@
 {
   "siteTitle": "App 分发",
   "publicUrl": "https://xiaoli55979.github.io/ipa_install",
-  "generatedAt": "2026-09-19T17:41:30.453Z",
+  "generatedAt": "2026-09-19T17:42:31.550Z",
   "apps": [
     {
       "id": "com.jiliaoim.cn",
@@ -120,15 +120,15 @@
         },
         {
           "bundleId": "com.jiliaoim.dis.cn",
-          "version": "1.1.29",
-          "uploadedAt": "2026-06-09T14:12:52Z",
-          "tag": "im_chat_manager_plugin_example-mobile-1.1.29",
-          "releaseName": "im_chat_manager_plugin_example-mobile-1.1.29",
-          "notes": "自动发布 im_chat_manager_plugin_example-mobile-1.1.29\n\n- `im_chat_manager_plugin_example-mobile_1.1.29.apk`\n\n构建时间: 2026-06-09 22:57:45 JST",
-          "file": "im_chat_manager_plugin_example-mobile_1.1.29.apk",
-          "size": 131399134,
-          "downloadCount": 185,
-          "downloadUrl": "https://github.com/xiaoli55979/ipa_install/releases/download/im_chat_manager_plugin_example-mobile-1.1.29/im_chat_manager_plugin_example-mobile_1.1.29.apk"
+          "version": "1.1.60",
+          "uploadedAt": "2026-09-09T08:22:01Z",
+          "tag": "YunXiaoLiao-mobile-1.1.60",
+          "releaseName": "YunXiaoLiao-mobile-1.1.60",
+          "notes": "自动发布 YunXiaoLiao-mobile-1.1.60\n\n- `YunXiaoLiao-mobile_1.1.60_test.ipa`\n- `YunXiaoLiao-mobile_1.1.60_26090902.apk`\n\n构建时间: 2026-09-09 17:19:07 JST",
+          "file": "YunXiaoLiao-mobile_1.1.60_26090902.apk",
+          "size": 133377031,
+          "downloadCount": 11,
+          "downloadUrl": "https://github.com/xiaoli55979/ipa_install/releases/download/YunXiaoLiao-mobile-1.1.60/YunXiaoLiao-mobile_1.1.60_26090902.apk"
         }
       ],
       "mac": [],
