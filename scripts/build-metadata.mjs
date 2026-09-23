@@ -262,8 +262,20 @@ function pcNameFromFilename(filename) {
 
 export function fetchReleases() {
   const out = sh('gh', ['api', '--paginate', `/repos/${REPO}/releases?per_page=100`]);
-  const arr = JSON.parse(out);
-  return arr.filter(r => !r.draft);
+  const arr = JSON.parse(out).filter(r => !r.draft);
+  // 列表端点内嵌的 assets 有缓存延迟:release 发布后才上传的包,短时间内这里仍是空数组,
+  // 会导致刚发的版本被当成"无资产"漏掉。对空 assets 的 release 用实时端点 /releases/{id}/assets 补拉一次。
+  for (const rel of arr) {
+    if ((rel.assets?.length ?? 0) > 0 || !rel.id) continue;
+    try {
+      const raw = sh('gh', ['api', '--paginate', `/repos/${REPO}/releases/${rel.id}/assets?per_page=100`]);
+      const assets = JSON.parse(raw);
+      if (Array.isArray(assets) && assets.length) rel.assets = assets;
+    } catch (e) {
+      console.warn(`[assets-refetch] ${rel.tag_name}: ${e.message}`);
+    }
+  }
+  return arr;
 }
 
 function downloadAsset(tag, name) {
