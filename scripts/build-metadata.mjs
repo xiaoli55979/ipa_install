@@ -278,15 +278,17 @@ export function fetchReleases() {
   return arr;
 }
 
-function downloadAsset(tag, name) {
+function downloadAsset(tag, asset) {
   const sub = path.join(TMP_DIR, slugify(tag));
   fs.mkdirSync(sub, { recursive: true });
-  sh('gh', ['release', 'download', tag,
-    '--repo', REPO,
-    '--pattern', name,
-    '--dir', sub,
-    '--clobber']);
-  return path.join(sub, name);
+  const dest = path.join(sub, asset.name);
+  // 按 asset id 走二进制端点直接下载。gh release download 靠 tag+pattern 再查一次列表,
+  // 会撞上和 fetchReleases 一样的 assets 缓存延迟导致找不到文件。
+  const buf = execFileSync('gh',
+    ['api', `/repos/${REPO}/releases/assets/${asset.id}`, '-H', 'Accept: application/octet-stream'],
+    { maxBuffer: 512 * 1024 * 1024 });
+  fs.writeFileSync(dest, buf);
+  return dest;
 }
 
 function parseIpa(filePath) {
@@ -538,7 +540,7 @@ async function main() {
         if (ext === 'exe' && (app._iconRank == null || app._iconRank > ICON_RANK.win)) {
           let exePath;
           try {
-            exePath = downloadAsset(rel.tag_name, asset.name);
+            exePath = downloadAsset(rel.tag_name, asset);
           } catch (e) {
             console.warn(`[skip-icon] download ${asset.name}: ${e.message}`);
           }
@@ -556,7 +558,7 @@ async function main() {
 
       let localPath;
       try {
-        localPath = downloadAsset(rel.tag_name, asset.name);
+        localPath = downloadAsset(rel.tag_name, asset);
       } catch (e) {
         console.warn(`[skip] download ${rel.tag_name}/${asset.name}: ${e.message}`);
         continue;
