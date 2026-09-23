@@ -46,8 +46,9 @@ export function parseDistributionGroupId(releaseBody) {
 }
 
 export function distributionGroup(bundleId, groupId) {
+  // key 统一小写,与 assetProjectKeyForRelease 的归一化一致,避免 MyApp/myapp 被展示层当两张卡、保留层当一个额度。
   return groupId
-    ? { key: `group:${groupId}`, id: groupId }
+    ? { key: `group:${groupId.toLowerCase()}`, id: groupId }
     : { key: bundleId, id: bundleId };
 }
 
@@ -63,6 +64,21 @@ const TMP_DIR = fs.mkdtempSync(path.join(os.tmpdir(), 'ipa-build-'));
 
 function sh(cmd, args) {
   return execFileSync(cmd, args, { encoding: 'utf-8', maxBuffer: 128 * 1024 * 1024 });
+}
+// gh 调用带退避重试:网络抖动 / 5xx / 二级速率限制在 CI 里常见,一次瞬时失败不该让 App 静默消失。
+// 4xx(404/410/422)是确定性错误(字节不存在等),直接抛不重试。
+function ghWithRetry(args, opts = {}, tries = 3) {
+  let lastErr;
+  for (let i = 0; i < tries; i++) {
+    try {
+      return execFileSync('gh', args, { encoding: 'utf-8', maxBuffer: 128 * 1024 * 1024, ...opts });
+    } catch (e) {
+      lastErr = e;
+      if (/HTTP 4\d\d/.test(String(e.stderr || e.message || ''))) throw e;
+      if (i < tries - 1) execFileSync('sleep', [String((i + 1) * 2)]);
+    }
+  }
+  throw lastErr;
 }
 function escapeXml(s) {
   return String(s).replace(/[<>&"']/g, c => (
@@ -92,7 +108,11 @@ export function artifactProjectKey(name) {
 export function assetProjectKeyForRelease(release, asset) {
   const groupId = parseDistributionGroupId(release?.body);
   if (groupId) return `group:${groupId.toLowerCase()}`;
-  return artifactProjectKey(asset?.name) || `asset:${String(asset?.name || '').toLowerCase()}`;
+  // 文件名无法唯一标识项目(如 Flutter 默认的 app-release.apk / Runner.ipa)时,兜底 key 并入 release 标识,
+  // 使不同 release 永不共享保留额度——否则多个 bundleId 不同的 App 会挤同一个桶、老的被静默删/藏。
+  const artifactKey = artifactProjectKey(asset?.name);
+  if (artifactKey) return artifactKey;
+  return `asset:${String(release?.id ?? release?.tag_name)}:${String(asset?.name || '').toLowerCase()}`;
 }
 
 export function releaseProjectKeys(release) {
@@ -260,20 +280,35 @@ function pcNameFromFilename(filename) {
   return cleaned || null;
 }
 
+const REFETCH_WINDOW_MS = 20 * 60 * 1000;
+const usableAssets = (assets) => (assets || []).filter(a => a.state == null || a.state === 'uploaded');
+
 export function fetchReleases() {
   const out = sh('gh', ['api', '--paginate', `/repos/${REPO}/releases?per_page=100`]);
   const arr = JSON.parse(out).filter(r => !r.draft);
-  // 列表端点内嵌的 assets 有缓存延迟:release 发布后才上传的包,短时间内这里仍是空数组,
-  // 会导致刚发的版本被当成"无资产"漏掉。对空 assets 的 release 用实时端点 /releases/{id}/assets 补拉一次。
   for (const rel of arr) {
-    if ((rel.assets?.length ?? 0) > 0 || !rel.id) continue;
-    try {
-      const raw = sh('gh', ['api', '--paginate', `/repos/${REPO}/releases/${rel.id}/assets?per_page=100`]);
-      const assets = JSON.parse(raw);
-      if (Array.isArray(assets) && assets.length) rel.assets = assets;
-    } catch (e) {
-      console.warn(`[assets-refetch] ${rel.tag_name}: ${e.message}`);
+    if (!rel.id) continue;
+    // 列表端点内嵌的 assets 有缓存滞后:刚发布的 release 可能返回空、只返回部分、或只返回未完成(starter)的资产。
+    // 补拉条件必须看"可用(已完成上传)资产数"而非原始数——否则只缓存到 starter 资产(原始数>0)会跳过补拉,
+    // 随后被 state 过滤清空,刚发布的 App 依旧静默消失。刚发布不久的 release 也补拉一次以覆盖"部分缓存"。
+    const published = rel.published_at ? Date.parse(rel.published_at) : NaN;
+    const recent = Number.isFinite(published) && (Date.now() - published < REFETCH_WINDOW_MS);
+    if (usableAssets(rel.assets).length === 0 || recent) {
+      try {
+        const raw = ghWithRetry(['api', '--paginate', `/repos/${REPO}/releases/${rel.id}/assets?per_page=100`]);
+        const live = JSON.parse(raw);
+        if (Array.isArray(live) && usableAssets(live).length > usableAssets(rel.assets).length) rel.assets = live;
+      } catch (e) {
+        console.warn(`[assets-refetch] ${rel.tag_name}: ${e.message}`);
+      }
     }
+    // 丢弃未完成上传(state 非 uploaded,如 starter)的资产:元数据在但字节不存在,下载会 404。
+    const all = rel.assets || [];
+    const broken = all.filter(a => a.state != null && a.state !== 'uploaded');
+    if (broken.length) {
+      console.warn(`[broken-upload] ${rel.tag_name}: ${broken.map(a => `${a.name}(${a.state})`).join(', ')} —— 上传未完成,已忽略,需重新上传`);
+    }
+    rel.assets = usableAssets(all);
   }
   return arr;
 }
@@ -282,13 +317,25 @@ function downloadAsset(tag, asset) {
   const sub = path.join(TMP_DIR, slugify(tag));
   fs.mkdirSync(sub, { recursive: true });
   const dest = path.join(sub, asset.name);
-  // 按 asset id 走二进制端点直接下载。gh release download 靠 tag+pattern 再查一次列表,
-  // 会撞上和 fetchReleases 一样的 assets 缓存延迟导致找不到文件。
-  const buf = execFileSync('gh',
-    ['api', `/repos/${REPO}/releases/assets/${asset.id}`, '-H', 'Accept: application/octet-stream'],
-    { maxBuffer: 512 * 1024 * 1024 });
-  fs.writeFileSync(dest, buf);
-  return dest;
+  // 按 asset id 走二进制端点直接下载(gh release download 靠 tag+pattern 再查列表,会撞上 assets 缓存滞后)。
+  // stdout 直接写文件 fd:不经 Node Buffer,无 512MB 上限、无 OOM——否则 512MB~2GB 的包会抛 ENOBUFS 被跳过而整卡消失。
+  const args = ['api', `/repos/${REPO}/releases/assets/${asset.id}`, '-H', 'Accept: application/octet-stream'];
+  let lastErr;
+  for (let i = 0; i < 3; i++) {
+    const fd = fs.openSync(dest, 'w');
+    try {
+      execFileSync('gh', args, { stdio: ['ignore', fd, 'pipe'] });
+      fs.closeSync(fd);
+      return dest;
+    } catch (e) {
+      fs.closeSync(fd);
+      try { fs.unlinkSync(dest); } catch {}  // 清掉半截文件,免得被 parse 误读
+      lastErr = e;
+      if (/HTTP 4\d\d/.test(String(e.stderr || e.message || '')) || i === 2) throw e;
+      execFileSync('sleep', [String((i + 1) * 2)]);
+    }
+  }
+  throw lastErr;
 }
 
 function parseIpa(filePath) {
@@ -300,6 +347,7 @@ function parseIpa(filePath) {
   const info = simplePlist.parse(infoEntry.getData());
 
   const bundleId = info.CFBundleIdentifier;
+  if (typeof bundleId !== 'string' || !bundleId.trim()) throw new Error('CFBundleIdentifier 缺失/为空');
   const version = info.CFBundleShortVersionString || info.CFBundleVersion || '0.0.0';
   const name = info.CFBundleDisplayName || info.CFBundleName || bundleId;
 
@@ -414,6 +462,7 @@ async function parseApk(filePath) {
   const parser = new ApkParser(filePath);
   const info = await parser.parse();
   const bundleId = info.package;
+  if (typeof bundleId !== 'string' || !bundleId.trim()) throw new Error('package(bundleId) 缺失/为空');
   const version = info.versionName || String(info.versionCode || '0.0.0');
   let name = bundleId;
   if (typeof info.application?.label === 'string') name = info.application.label;

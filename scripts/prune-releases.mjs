@@ -60,7 +60,9 @@ export function planReleasePrune(releases, maxVersions = MAX_VERSIONS_PER_APP) {
       continue;
     }
 
-    if (obsoleteAssets.length === assets.length) {
+    // 全部"包资产"都过期才整条删除。用 packageAssets.length 而非 assets.length:
+    // 否则 sha256/txt/sig/png 等非包 sidecar 会让分母膨胀,老 release 永远删不掉、无限堆积。
+    if (obsoleteAssets.length === packageAssets.length) {
       releaseDeletions.push(release);
       continue;
     }
