@@ -1,8 +1,99 @@
 {
   "siteTitle": "App 分发",
   "publicUrl": "https://xiaoli55979.github.io/ipa_install",
-  "generatedAt": "2026-09-25T08:03:33.040Z",
+  "generatedAt": "2026-09-25T08:06:27.151Z",
   "apps": [
+    {
+      "id": "com.jt8.cn",
+      "name": "808",
+      "icon": "https://xiaoli55979.github.io/ipa_install/icons/com.jt8.cn-ios.png",
+      "ios": [
+        {
+          "bundleId": "com.jt8.cn",
+          "version": "7.2.1",
+          "uploadedAt": "2026-09-25T08:03:42Z",
+          "tag": "808-mobile-7.2.1",
+          "releaseName": "808-mobile-7.2.1",
+          "notes": "自动发布 808-mobile-7.2.1\n\n- `808-mobile_7.2.1_test.ipa`\n- `808-mobile_7.2.1_26092501.apk`\n\n构建时间: 2026-09-25 17:03:28 JST",
+          "file": "808-mobile_7.2.1_test.ipa",
+          "size": 51552484,
+          "downloadCount": 0,
+          "downloadUrl": "https://github.com/xiaoli55979/ipa_install/releases/download/808-mobile-7.2.1/808-mobile_7.2.1_test.ipa",
+          "manifestUrl": "https://xiaoli55979.github.io/ipa_install/manifest/com.jt8.cn-808-mobile-7.2.1.plist",
+          "installUrl": "itms-services://?action=download-manifest&url=https%3A%2F%2Fxiaoli55979.github.io%2Fipa_install%2Fmanifest%2Fcom.jt8.cn-808-mobile-7.2.1.plist"
+        },
+        {
+          "bundleId": "com.jt8.cn",
+          "version": "7.0.13",
+          "uploadedAt": "2026-08-12T07:25:57Z",
+          "tag": "808-mobile-7.0.13",
+          "releaseName": "808-mobile-7.0.13",
+          "notes": "自动发布 808-mobile-7.0.13\n\n- `808-mobile_7.0.13_test.ipa`\n- `808-mobile_7.0.13.apk`\n\n构建时间: 2026-08-12 16:24:49 JST",
+          "file": "808-mobile_7.0.13_test.ipa",
+          "size": 48524171,
+          "downloadCount": 92,
+          "downloadUrl": "https://github.com/xiaoli55979/ipa_install/releases/download/808-mobile-7.0.13/808-mobile_7.0.13_test.ipa",
+          "manifestUrl": "https://xiaoli55979.github.io/ipa_install/manifest/com.jt8.cn-808-mobile-7.0.13.plist",
+          "installUrl": "itms-services://?action=download-manifest&url=https%3A%2F%2Fxiaoli55979.github.io%2Fipa_install%2Fmanifest%2Fcom.jt8.cn-808-mobile-7.0.13.plist"
+        },
+        {
+          "bundleId": "com.jt8.cn",
+          "version": "7.0.12",
+          "uploadedAt": "2026-07-17T00:33:46Z",
+          "tag": "808-mobile-7.0.12",
+          "releaseName": "808-mobile-7.0.12",
+          "notes": "自动发布 808-mobile-7.0.12\n\n- `808-mobile_7.0.12_test.ipa`\n- `808-mobile_7.0.12.apk`\n\n构建时间: 2026-07-17 09:32:23 JST",
+          "file": "808-mobile_7.0.12_test.ipa",
+          "size": 51192043,
+          "downloadCount": 122,
+          "downloadUrl": "https://github.com/xiaoli55979/ipa_install/releases/download/808-mobile-7.0.12/808-mobile_7.0.12_test.ipa",
+          "manifestUrl": "https://xiaoli55979.github.io/ipa_install/manifest/com.jt8.cn-808-mobile-7.0.12.plist",
+          "installUrl": "itms-services://?action=download-manifest&url=https%3A%2F%2Fxiaoli55979.github.io%2Fipa_install%2Fmanifest%2Fcom.jt8.cn-808-mobile-7.0.12.plist"
+        }
+      ],
+      "android": [
+        {
+          "bundleId": "com.jt8.cn",
+          "version": "7.2.1",
+          "uploadedAt": "2026-09-25T08:03:57Z",
+          "tag": "808-mobile-7.2.1",
+          "releaseName": "808-mobile-7.2.1",
+          "notes": "自动发布 808-mobile-7.2.1\n\n- `808-mobile_7.2.1_test.ipa`\n- `808-mobile_7.2.1_26092501.apk`\n\n构建时间: 2026-09-25 17:03:28 JST",
+          "file": "808-mobile_7.2.1_26092501.apk",
+          "size": 163685379,
+          "downloadCount": 0,
+          "downloadUrl": "https://github.com/xiaoli55979/ipa_install/releases/download/808-mobile-7.2.1/808-mobile_7.2.1_26092501.apk"
+        },
+        {
+          "bundleId": "com.jt8.cn",
+          "version": "7.0.13",
+          "uploadedAt": "2026-08-12T07:26:31Z",
+          "tag": "808-mobile-7.0.13",
+          "releaseName": "808-mobile-7.0.13",
+          "notes": "自动发布 808-mobile-7.0.13\n\n- `808-mobile_7.0.13_test.ipa`\n- `808-mobile_7.0.13.apk`\n\n构建时间: 2026-08-12 16:24:49 JST",
+          "file": "808-mobile_7.0.13.apk",
+          "size": 162452887,
+          "downloadCount": 90,
+          "downloadUrl": "https://github.com/xiaoli55979/ipa_install/releases/download/808-mobile-7.0.13/808-mobile_7.0.13.apk"
+        },
+        {
+          "bundleId": "com.jt8.cn",
+          "version": "7.0.12",
+          "uploadedAt": "2026-07-17T00:34:29Z",
+          "tag": "808-mobile-7.0.12",
+          "releaseName": "808-mobile-7.0.12",
+          "notes": "自动发布 808-mobile-7.0.12\n\n- `808-mobile_7.0.12_test.ipa`\n- `808-mobile_7.0.12.apk`\n\n构建时间: 2026-07-17 09:32:23 JST",
+          "file": "808-mobile_7.0.12.apk",
+          "size": 162338195,
+          "downloadCount": 123,
+          "downloadUrl": "https://github.com/xiaoli55979/ipa_install/releases/download/808-mobile-7.0.12/808-mobile_7.0.12.apk"
+        }
+      ],
+      "mac": [],
+      "win": [],
+      "showPlatformBundleIds": false,
+      "latestAt": "2026-09-25T08:03:57Z"
+    },
     {
       "id": "com.ams.com.cn",
       "name": "234",
@@ -513,97 +604,6 @@
       "win": [],
       "showPlatformBundleIds": false,
       "latestAt": "2026-08-12T12:11:53Z"
-    },
-    {
-      "id": "com.jt8.cn",
-      "name": "808",
-      "icon": "https://xiaoli55979.github.io/ipa_install/icons/com.jt8.cn-ios.png",
-      "ios": [
-        {
-          "bundleId": "com.jt8.cn",
-          "version": "7.0.13",
-          "uploadedAt": "2026-08-12T07:25:57Z",
-          "tag": "808-mobile-7.0.13",
-          "releaseName": "808-mobile-7.0.13",
-          "notes": "自动发布 808-mobile-7.0.13\n\n- `808-mobile_7.0.13_test.ipa`\n- `808-mobile_7.0.13.apk`\n\n构建时间: 2026-08-12 16:24:49 JST",
-          "file": "808-mobile_7.0.13_test.ipa",
-          "size": 48524171,
-          "downloadCount": 92,
-          "downloadUrl": "https://github.com/xiaoli55979/ipa_install/releases/download/808-mobile-7.0.13/808-mobile_7.0.13_test.ipa",
-          "manifestUrl": "https://xiaoli55979.github.io/ipa_install/manifest/com.jt8.cn-808-mobile-7.0.13.plist",
-          "installUrl": "itms-services://?action=download-manifest&url=https%3A%2F%2Fxiaoli55979.github.io%2Fipa_install%2Fmanifest%2Fcom.jt8.cn-808-mobile-7.0.13.plist"
-        },
-        {
-          "bundleId": "com.jt8.cn",
-          "version": "7.0.12",
-          "uploadedAt": "2026-07-17T00:33:46Z",
-          "tag": "808-mobile-7.0.12",
-          "releaseName": "808-mobile-7.0.12",
-          "notes": "自动发布 808-mobile-7.0.12\n\n- `808-mobile_7.0.12_test.ipa`\n- `808-mobile_7.0.12.apk`\n\n构建时间: 2026-07-17 09:32:23 JST",
-          "file": "808-mobile_7.0.12_test.ipa",
-          "size": 51192043,
-          "downloadCount": 122,
-          "downloadUrl": "https://github.com/xiaoli55979/ipa_install/releases/download/808-mobile-7.0.12/808-mobile_7.0.12_test.ipa",
-          "manifestUrl": "https://xiaoli55979.github.io/ipa_install/manifest/com.jt8.cn-808-mobile-7.0.12.plist",
-          "installUrl": "itms-services://?action=download-manifest&url=https%3A%2F%2Fxiaoli55979.github.io%2Fipa_install%2Fmanifest%2Fcom.jt8.cn-808-mobile-7.0.12.plist"
-        },
-        {
-          "bundleId": "com.jt8.cn",
-          "version": "7.0.11",
-          "uploadedAt": "2026-07-13T05:35:36Z",
-          "tag": "808-mobile-7.0.11",
-          "releaseName": "808-mobile-7.0.11",
-          "notes": "自动发布 808-mobile-7.0.11\n\n- `808-mobile_7.0.11_test.ipa`\n- `808-mobile_7.0.11.apk`\n\n构建时间: 2026-07-13 14:33:39 JST",
-          "file": "808-mobile_7.0.11_test.ipa",
-          "size": 51175613,
-          "downloadCount": 131,
-          "downloadUrl": "https://github.com/xiaoli55979/ipa_install/releases/download/808-mobile-7.0.11/808-mobile_7.0.11_test.ipa",
-          "manifestUrl": "https://xiaoli55979.github.io/ipa_install/manifest/com.jt8.cn-808-mobile-7.0.11.plist",
-          "installUrl": "itms-services://?action=download-manifest&url=https%3A%2F%2Fxiaoli55979.github.io%2Fipa_install%2Fmanifest%2Fcom.jt8.cn-808-mobile-7.0.11.plist"
-        }
-      ],
-      "android": [
-        {
-          "bundleId": "com.jt8.cn",
-          "version": "7.0.13",
-          "uploadedAt": "2026-08-12T07:26:31Z",
-          "tag": "808-mobile-7.0.13",
-          "releaseName": "808-mobile-7.0.13",
-          "notes": "自动发布 808-mobile-7.0.13\n\n- `808-mobile_7.0.13_test.ipa`\n- `808-mobile_7.0.13.apk`\n\n构建时间: 2026-08-12 16:24:49 JST",
-          "file": "808-mobile_7.0.13.apk",
-          "size": 162452887,
-          "downloadCount": 90,
-          "downloadUrl": "https://github.com/xiaoli55979/ipa_install/releases/download/808-mobile-7.0.13/808-mobile_7.0.13.apk"
-        },
-        {
-          "bundleId": "com.jt8.cn",
-          "version": "7.0.12",
-          "uploadedAt": "2026-07-17T00:34:29Z",
-          "tag": "808-mobile-7.0.12",
-          "releaseName": "808-mobile-7.0.12",
-          "notes": "自动发布 808-mobile-7.0.12\n\n- `808-mobile_7.0.12_test.ipa`\n- `808-mobile_7.0.12.apk`\n\n构建时间: 2026-07-17 09:32:23 JST",
-          "file": "808-mobile_7.0.12.apk",
-          "size": 162338195,
-          "downloadCount": 123,
-          "downloadUrl": "https://github.com/xiaoli55979/ipa_install/releases/download/808-mobile-7.0.12/808-mobile_7.0.12.apk"
-        },
-        {
-          "bundleId": "com.jt8.cn",
-          "version": "7.0.11",
-          "uploadedAt": "2026-07-13T05:37:11Z",
-          "tag": "808-mobile-7.0.11",
-          "releaseName": "808-mobile-7.0.11",
-          "notes": "自动发布 808-mobile-7.0.11\n\n- `808-mobile_7.0.11_test.ipa`\n- `808-mobile_7.0.11.apk`\n\n构建时间: 2026-07-13 14:33:39 JST",
-          "file": "808-mobile_7.0.11.apk",
-          "size": 162321731,
-          "downloadCount": 129,
-          "downloadUrl": "https://github.com/xiaoli55979/ipa_install/releases/download/808-mobile-7.0.11/808-mobile_7.0.11.apk"
-        }
-      ],
-      "mac": [],
-      "win": [],
-      "showPlatformBundleIds": false,
-      "latestAt": "2026-08-12T07:26:31Z"
     },
     {
       "id": "com.tfsystem.cn",
