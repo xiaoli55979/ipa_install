@@ -1,8 +1,99 @@
 {
   "siteTitle": "App 分发",
   "publicUrl": "https://xiaoli55979.github.io/ipa_install",
-  "generatedAt": "2026-10-03T11:45:30.385Z",
+  "generatedAt": "2026-10-03T11:49:36.651Z",
   "apps": [
+    {
+      "id": "com.ams.com.cn",
+      "name": "234",
+      "icon": "https://xiaoli55979.github.io/ipa_install/icons/com.ams.com.cn-ios.png",
+      "ios": [
+        {
+          "bundleId": "com.ams.com.cn",
+          "version": "7.2.6",
+          "uploadedAt": "2026-10-03T11:47:52Z",
+          "tag": "234-mobile-2-7.2.6",
+          "releaseName": "234-mobile-2-7.2.6",
+          "notes": "自动发布 234-mobile-2-7.2.6\n\n- `234-mobile-2_7.2.6_test.ipa`\n- `234-mobile-2_7.2.6_26100301.apk`\n\n构建时间: 2026-10-03 20:47:39 JST",
+          "file": "234-mobile-2_7.2.6_test.ipa",
+          "size": 49205850,
+          "downloadCount": 0,
+          "downloadUrl": "https://github.com/xiaoli55979/ipa_install/releases/download/234-mobile-2-7.2.6/234-mobile-2_7.2.6_test.ipa",
+          "manifestUrl": "https://xiaoli55979.github.io/ipa_install/manifest/com.ams.com.cn-234-mobile-2-7.2.6.plist",
+          "installUrl": "itms-services://?action=download-manifest&url=https%3A%2F%2Fxiaoli55979.github.io%2Fipa_install%2Fmanifest%2Fcom.ams.com.cn-234-mobile-2-7.2.6.plist"
+        },
+        {
+          "bundleId": "com.ams.com.cn",
+          "version": "7.2.5",
+          "uploadedAt": "2026-10-02T11:27:26Z",
+          "tag": "234-mobile-2-7.2.5",
+          "releaseName": "234-mobile-2-7.2.5",
+          "notes": "自动发布 234-mobile-2-7.2.5\n\n- `234-mobile-2_7.2.5_test.ipa`\n- `234-mobile-2_7.2.5_26100201.apk`\n\n构建时间: 2026-10-02 20:27:13 JST",
+          "file": "234-mobile-2_7.2.5_test.ipa",
+          "size": 49479354,
+          "downloadCount": 4,
+          "downloadUrl": "https://github.com/xiaoli55979/ipa_install/releases/download/234-mobile-2-7.2.5/234-mobile-2_7.2.5_test.ipa",
+          "manifestUrl": "https://xiaoli55979.github.io/ipa_install/manifest/com.ams.com.cn-234-mobile-2-7.2.5.plist",
+          "installUrl": "itms-services://?action=download-manifest&url=https%3A%2F%2Fxiaoli55979.github.io%2Fipa_install%2Fmanifest%2Fcom.ams.com.cn-234-mobile-2-7.2.5.plist"
+        },
+        {
+          "bundleId": "com.ams.com.cn",
+          "version": "7.2.4",
+          "uploadedAt": "2026-10-01T10:12:45Z",
+          "tag": "234-mobile-2-7.2.4",
+          "releaseName": "234-mobile-2-7.2.4",
+          "notes": "自动发布 234-mobile-2-7.2.4\n\n- `234-mobile-2_7.2.4_test.ipa`\n- `234-mobile-2_7.2.4_26100101.apk`\n\n构建时间: 2026-10-01 19:12:21 JST",
+          "file": "234-mobile-2_7.2.4_test.ipa",
+          "size": 49448977,
+          "downloadCount": 11,
+          "downloadUrl": "https://github.com/xiaoli55979/ipa_install/releases/download/234-mobile-2-7.2.4/234-mobile-2_7.2.4_test.ipa",
+          "manifestUrl": "https://xiaoli55979.github.io/ipa_install/manifest/com.ams.com.cn-234-mobile-2-7.2.4.plist",
+          "installUrl": "itms-services://?action=download-manifest&url=https%3A%2F%2Fxiaoli55979.github.io%2Fipa_install%2Fmanifest%2Fcom.ams.com.cn-234-mobile-2-7.2.4.plist"
+        }
+      ],
+      "android": [
+        {
+          "bundleId": "com.ams.com.cn",
+          "version": "7.2.6",
+          "uploadedAt": "2026-10-03T11:48:11Z",
+          "tag": "234-mobile-2-7.2.6",
+          "releaseName": "234-mobile-2-7.2.6",
+          "notes": "自动发布 234-mobile-2-7.2.6\n\n- `234-mobile-2_7.2.6_test.ipa`\n- `234-mobile-2_7.2.6_26100301.apk`\n\n构建时间: 2026-10-03 20:47:39 JST",
+          "file": "234-mobile-2_7.2.6_26100301.apk",
+          "size": 182218772,
+          "downloadCount": 0,
+          "downloadUrl": "https://github.com/xiaoli55979/ipa_install/releases/download/234-mobile-2-7.2.6/234-mobile-2_7.2.6_26100301.apk"
+        },
+        {
+          "bundleId": "com.ams.com.cn",
+          "version": "7.2.5",
+          "uploadedAt": "2026-10-02T11:27:39Z",
+          "tag": "234-mobile-2-7.2.5",
+          "releaseName": "234-mobile-2-7.2.5",
+          "notes": "自动发布 234-mobile-2-7.2.5\n\n- `234-mobile-2_7.2.5_test.ipa`\n- `234-mobile-2_7.2.5_26100201.apk`\n\n构建时间: 2026-10-02 20:27:13 JST",
+          "file": "234-mobile-2_7.2.5_26100201.apk",
+          "size": 182218776,
+          "downloadCount": 5,
+          "downloadUrl": "https://github.com/xiaoli55979/ipa_install/releases/download/234-mobile-2-7.2.5/234-mobile-2_7.2.5_26100201.apk"
+        },
+        {
+          "bundleId": "com.ams.com.cn",
+          "version": "7.2.4",
+          "uploadedAt": "2026-10-01T10:13:10Z",
+          "tag": "234-mobile-2-7.2.4",
+          "releaseName": "234-mobile-2-7.2.4",
+          "notes": "自动发布 234-mobile-2-7.2.4\n\n- `234-mobile-2_7.2.4_test.ipa`\n- `234-mobile-2_7.2.4_26100101.apk`\n\n构建时间: 2026-10-01 19:12:21 JST",
+          "file": "234-mobile-2_7.2.4_26100101.apk",
+          "size": 182198361,
+          "downloadCount": 10,
+          "downloadUrl": "https://github.com/xiaoli55979/ipa_install/releases/download/234-mobile-2-7.2.4/234-mobile-2_7.2.4_26100101.apk"
+        }
+      ],
+      "mac": [],
+      "win": [],
+      "showPlatformBundleIds": false,
+      "latestAt": "2026-10-03T11:48:11Z"
+    },
     {
       "id": "com.wlp.com.cn",
       "name": "50",
@@ -275,97 +366,6 @@
       "win": [],
       "showPlatformBundleIds": false,
       "latestAt": "2026-10-02T16:23:37Z"
-    },
-    {
-      "id": "com.ams.com.cn",
-      "name": "234",
-      "icon": "https://xiaoli55979.github.io/ipa_install/icons/com.ams.com.cn-ios.png",
-      "ios": [
-        {
-          "bundleId": "com.ams.com.cn",
-          "version": "7.2.5",
-          "uploadedAt": "2026-10-02T11:27:26Z",
-          "tag": "234-mobile-2-7.2.5",
-          "releaseName": "234-mobile-2-7.2.5",
-          "notes": "自动发布 234-mobile-2-7.2.5\n\n- `234-mobile-2_7.2.5_test.ipa`\n- `234-mobile-2_7.2.5_26100201.apk`\n\n构建时间: 2026-10-02 20:27:13 JST",
-          "file": "234-mobile-2_7.2.5_test.ipa",
-          "size": 49479354,
-          "downloadCount": 4,
-          "downloadUrl": "https://github.com/xiaoli55979/ipa_install/releases/download/234-mobile-2-7.2.5/234-mobile-2_7.2.5_test.ipa",
-          "manifestUrl": "https://xiaoli55979.github.io/ipa_install/manifest/com.ams.com.cn-234-mobile-2-7.2.5.plist",
-          "installUrl": "itms-services://?action=download-manifest&url=https%3A%2F%2Fxiaoli55979.github.io%2Fipa_install%2Fmanifest%2Fcom.ams.com.cn-234-mobile-2-7.2.5.plist"
-        },
-        {
-          "bundleId": "com.ams.com.cn",
-          "version": "7.2.4",
-          "uploadedAt": "2026-10-01T10:12:45Z",
-          "tag": "234-mobile-2-7.2.4",
-          "releaseName": "234-mobile-2-7.2.4",
-          "notes": "自动发布 234-mobile-2-7.2.4\n\n- `234-mobile-2_7.2.4_test.ipa`\n- `234-mobile-2_7.2.4_26100101.apk`\n\n构建时间: 2026-10-01 19:12:21 JST",
-          "file": "234-mobile-2_7.2.4_test.ipa",
-          "size": 49448977,
-          "downloadCount": 11,
-          "downloadUrl": "https://github.com/xiaoli55979/ipa_install/releases/download/234-mobile-2-7.2.4/234-mobile-2_7.2.4_test.ipa",
-          "manifestUrl": "https://xiaoli55979.github.io/ipa_install/manifest/com.ams.com.cn-234-mobile-2-7.2.4.plist",
-          "installUrl": "itms-services://?action=download-manifest&url=https%3A%2F%2Fxiaoli55979.github.io%2Fipa_install%2Fmanifest%2Fcom.ams.com.cn-234-mobile-2-7.2.4.plist"
-        },
-        {
-          "bundleId": "com.ams.com.cn",
-          "version": "7.2.3",
-          "uploadedAt": "2026-09-29T08:48:57Z",
-          "tag": "234-mobile-2-7.2.3",
-          "releaseName": "234-mobile-2-7.2.3",
-          "notes": "自动发布 234-mobile-2-7.2.3\n\n- `234-mobile-2_7.2.3_test.ipa`\n- `234-mobile-2_7.2.3_26092901.apk`\n\n构建时间: 2026-09-29 17:48:42 JST",
-          "file": "234-mobile-2_7.2.3_test.ipa",
-          "size": 49147999,
-          "downloadCount": 24,
-          "downloadUrl": "https://github.com/xiaoli55979/ipa_install/releases/download/234-mobile-2-7.2.3/234-mobile-2_7.2.3_test.ipa",
-          "manifestUrl": "https://xiaoli55979.github.io/ipa_install/manifest/com.ams.com.cn-234-mobile-2-7.2.3.plist",
-          "installUrl": "itms-services://?action=download-manifest&url=https%3A%2F%2Fxiaoli55979.github.io%2Fipa_install%2Fmanifest%2Fcom.ams.com.cn-234-mobile-2-7.2.3.plist"
-        }
-      ],
-      "android": [
-        {
-          "bundleId": "com.ams.com.cn",
-          "version": "7.2.5",
-          "uploadedAt": "2026-10-02T11:27:39Z",
-          "tag": "234-mobile-2-7.2.5",
-          "releaseName": "234-mobile-2-7.2.5",
-          "notes": "自动发布 234-mobile-2-7.2.5\n\n- `234-mobile-2_7.2.5_test.ipa`\n- `234-mobile-2_7.2.5_26100201.apk`\n\n构建时间: 2026-10-02 20:27:13 JST",
-          "file": "234-mobile-2_7.2.5_26100201.apk",
-          "size": 182218776,
-          "downloadCount": 5,
-          "downloadUrl": "https://github.com/xiaoli55979/ipa_install/releases/download/234-mobile-2-7.2.5/234-mobile-2_7.2.5_26100201.apk"
-        },
-        {
-          "bundleId": "com.ams.com.cn",
-          "version": "7.2.4",
-          "uploadedAt": "2026-10-01T10:13:10Z",
-          "tag": "234-mobile-2-7.2.4",
-          "releaseName": "234-mobile-2-7.2.4",
-          "notes": "自动发布 234-mobile-2-7.2.4\n\n- `234-mobile-2_7.2.4_test.ipa`\n- `234-mobile-2_7.2.4_26100101.apk`\n\n构建时间: 2026-10-01 19:12:21 JST",
-          "file": "234-mobile-2_7.2.4_26100101.apk",
-          "size": 182198361,
-          "downloadCount": 10,
-          "downloadUrl": "https://github.com/xiaoli55979/ipa_install/releases/download/234-mobile-2-7.2.4/234-mobile-2_7.2.4_26100101.apk"
-        },
-        {
-          "bundleId": "com.ams.com.cn",
-          "version": "7.2.3",
-          "uploadedAt": "2026-09-29T08:49:14Z",
-          "tag": "234-mobile-2-7.2.3",
-          "releaseName": "234-mobile-2-7.2.3",
-          "notes": "自动发布 234-mobile-2-7.2.3\n\n- `234-mobile-2_7.2.3_test.ipa`\n- `234-mobile-2_7.2.3_26092901.apk`\n\n构建时间: 2026-09-29 17:48:42 JST",
-          "file": "234-mobile-2_7.2.3_26092901.apk",
-          "size": 182181977,
-          "downloadCount": 24,
-          "downloadUrl": "https://github.com/xiaoli55979/ipa_install/releases/download/234-mobile-2-7.2.3/234-mobile-2_7.2.3_26092901.apk"
-        }
-      ],
-      "mac": [],
-      "win": [],
-      "showPlatformBundleIds": false,
-      "latestAt": "2026-10-02T11:27:39Z"
     },
     {
       "id": "com.jiliaoim.dis.cn",
