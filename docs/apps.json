@@ -1,8 +1,99 @@
 {
   "siteTitle": "App 分发",
   "publicUrl": "https://xiaoli55979.github.io/ipa_install",
-  "generatedAt": "2026-10-13T06:12:27.788Z",
+  "generatedAt": "2026-10-13T06:16:42.787Z",
   "apps": [
+    {
+      "id": "com.lianfu.cn",
+      "name": "988",
+      "icon": "https://xiaoli55979.github.io/ipa_install/icons/com.lianfu.cn-ios.png",
+      "ios": [
+        {
+          "bundleId": "com.lianfu.cn",
+          "version": "7.2.11",
+          "uploadedAt": "2026-10-13T06:13:07Z",
+          "tag": "988-mobile-7.2.11",
+          "releaseName": "988-mobile-7.2.11",
+          "notes": "自动发布 988-mobile-7.2.11\n\n- `988-mobile_7.2.11_test.ipa`\n- `988-mobile_7.2.11_26101301.apk`\n\n构建时间: 2026-10-13 15:12:52 JST",
+          "file": "988-mobile_7.2.11_test.ipa",
+          "size": 50112476,
+          "downloadCount": 0,
+          "downloadUrl": "https://github.com/xiaoli55979/ipa_install/releases/download/988-mobile-7.2.11/988-mobile_7.2.11_test.ipa",
+          "manifestUrl": "https://xiaoli55979.github.io/ipa_install/manifest/com.lianfu.cn-988-mobile-7.2.11.plist",
+          "installUrl": "itms-services://?action=download-manifest&url=https%3A%2F%2Fxiaoli55979.github.io%2Fipa_install%2Fmanifest%2Fcom.lianfu.cn-988-mobile-7.2.11.plist"
+        },
+        {
+          "bundleId": "com.lianfu.cn",
+          "version": "7.2.10",
+          "uploadedAt": "2026-10-09T09:52:22Z",
+          "tag": "988-mobile-7.2.10",
+          "releaseName": "988-mobile-7.2.10",
+          "notes": "自动发布 988-mobile-7.2.10\n\n- `988-mobile_7.2.10_test.ipa`\n- `988-mobile_7.2.10_26100901.apk`\n\n构建时间: 2026-10-09 18:52:04 JST",
+          "file": "988-mobile_7.2.10_test.ipa",
+          "size": 50098926,
+          "downloadCount": 2,
+          "downloadUrl": "https://github.com/xiaoli55979/ipa_install/releases/download/988-mobile-7.2.10/988-mobile_7.2.10_test.ipa",
+          "manifestUrl": "https://xiaoli55979.github.io/ipa_install/manifest/com.lianfu.cn-988-mobile-7.2.10.plist",
+          "installUrl": "itms-services://?action=download-manifest&url=https%3A%2F%2Fxiaoli55979.github.io%2Fipa_install%2Fmanifest%2Fcom.lianfu.cn-988-mobile-7.2.10.plist"
+        },
+        {
+          "bundleId": "com.lianfu.cn",
+          "version": "7.2.9",
+          "uploadedAt": "2026-10-02T16:36:07Z",
+          "tag": "988-mobile-7.2.9",
+          "releaseName": "988-mobile-7.2.9",
+          "notes": "自动发布 988-mobile-7.2.9\n\n- `988-mobile_7.2.9_test.ipa`\n- `988-mobile_7.2.9_26100301.apk`\n\n构建时间: 2026-10-03 01:33:14 JST",
+          "file": "988-mobile_7.2.9_test.ipa",
+          "size": 50002181,
+          "downloadCount": 7,
+          "downloadUrl": "https://github.com/xiaoli55979/ipa_install/releases/download/988-mobile-7.2.9/988-mobile_7.2.9_test.ipa",
+          "manifestUrl": "https://xiaoli55979.github.io/ipa_install/manifest/com.lianfu.cn-988-mobile-7.2.9.plist",
+          "installUrl": "itms-services://?action=download-manifest&url=https%3A%2F%2Fxiaoli55979.github.io%2Fipa_install%2Fmanifest%2Fcom.lianfu.cn-988-mobile-7.2.9.plist"
+        }
+      ],
+      "android": [
+        {
+          "bundleId": "com.lianfu.cn",
+          "version": "7.2.11",
+          "uploadedAt": "2026-10-13T06:13:26Z",
+          "tag": "988-mobile-7.2.11",
+          "releaseName": "988-mobile-7.2.11",
+          "notes": "自动发布 988-mobile-7.2.11\n\n- `988-mobile_7.2.11_test.ipa`\n- `988-mobile_7.2.11_26101301.apk`\n\n构建时间: 2026-10-13 15:12:52 JST",
+          "file": "988-mobile_7.2.11_26101301.apk",
+          "size": 162892579,
+          "downloadCount": 0,
+          "downloadUrl": "https://github.com/xiaoli55979/ipa_install/releases/download/988-mobile-7.2.11/988-mobile_7.2.11_26101301.apk"
+        },
+        {
+          "bundleId": "com.lianfu.cn",
+          "version": "7.2.10",
+          "uploadedAt": "2026-10-09T09:53:51Z",
+          "tag": "988-mobile-7.2.10",
+          "releaseName": "988-mobile-7.2.10",
+          "notes": "自动发布 988-mobile-7.2.10\n\n- `988-mobile_7.2.10_test.ipa`\n- `988-mobile_7.2.10_26100901.apk`\n\n构建时间: 2026-10-09 18:52:04 JST",
+          "file": "988-mobile_7.2.10_26100901.apk",
+          "size": 162777891,
+          "downloadCount": 4,
+          "downloadUrl": "https://github.com/xiaoli55979/ipa_install/releases/download/988-mobile-7.2.10/988-mobile_7.2.10_26100901.apk"
+        },
+        {
+          "bundleId": "com.lianfu.cn",
+          "version": "7.2.9",
+          "uploadedAt": "2026-10-02T16:39:12Z",
+          "tag": "988-mobile-7.2.9",
+          "releaseName": "988-mobile-7.2.9",
+          "notes": "自动发布 988-mobile-7.2.9\n\n- `988-mobile_7.2.9_test.ipa`\n- `988-mobile_7.2.9_26100301.apk`\n\n构建时间: 2026-10-03 01:33:14 JST",
+          "file": "988-mobile_7.2.9_26100301.apk",
+          "size": 162384845,
+          "downloadCount": 14,
+          "downloadUrl": "https://github.com/xiaoli55979/ipa_install/releases/download/988-mobile-7.2.9/988-mobile_7.2.9_26100301.apk"
+        }
+      ],
+      "mac": [],
+      "win": [],
+      "showPlatformBundleIds": false,
+      "latestAt": "2026-10-13T06:13:26Z"
+    },
     {
       "id": "com.ams.com.cn",
       "name": "234",
@@ -275,97 +366,6 @@
       "win": [],
       "showPlatformBundleIds": false,
       "latestAt": "2026-10-12T13:48:24Z"
-    },
-    {
-      "id": "com.lianfu.cn",
-      "name": "988",
-      "icon": "https://xiaoli55979.github.io/ipa_install/icons/com.lianfu.cn-ios.png",
-      "ios": [
-        {
-          "bundleId": "com.lianfu.cn",
-          "version": "7.2.10",
-          "uploadedAt": "2026-10-09T09:52:22Z",
-          "tag": "988-mobile-7.2.10",
-          "releaseName": "988-mobile-7.2.10",
-          "notes": "自动发布 988-mobile-7.2.10\n\n- `988-mobile_7.2.10_test.ipa`\n- `988-mobile_7.2.10_26100901.apk`\n\n构建时间: 2026-10-09 18:52:04 JST",
-          "file": "988-mobile_7.2.10_test.ipa",
-          "size": 50098926,
-          "downloadCount": 2,
-          "downloadUrl": "https://github.com/xiaoli55979/ipa_install/releases/download/988-mobile-7.2.10/988-mobile_7.2.10_test.ipa",
-          "manifestUrl": "https://xiaoli55979.github.io/ipa_install/manifest/com.lianfu.cn-988-mobile-7.2.10.plist",
-          "installUrl": "itms-services://?action=download-manifest&url=https%3A%2F%2Fxiaoli55979.github.io%2Fipa_install%2Fmanifest%2Fcom.lianfu.cn-988-mobile-7.2.10.plist"
-        },
-        {
-          "bundleId": "com.lianfu.cn",
-          "version": "7.2.9",
-          "uploadedAt": "2026-10-02T16:36:07Z",
-          "tag": "988-mobile-7.2.9",
-          "releaseName": "988-mobile-7.2.9",
-          "notes": "自动发布 988-mobile-7.2.9\n\n- `988-mobile_7.2.9_test.ipa`\n- `988-mobile_7.2.9_26100301.apk`\n\n构建时间: 2026-10-03 01:33:14 JST",
-          "file": "988-mobile_7.2.9_test.ipa",
-          "size": 50002181,
-          "downloadCount": 7,
-          "downloadUrl": "https://github.com/xiaoli55979/ipa_install/releases/download/988-mobile-7.2.9/988-mobile_7.2.9_test.ipa",
-          "manifestUrl": "https://xiaoli55979.github.io/ipa_install/manifest/com.lianfu.cn-988-mobile-7.2.9.plist",
-          "installUrl": "itms-services://?action=download-manifest&url=https%3A%2F%2Fxiaoli55979.github.io%2Fipa_install%2Fmanifest%2Fcom.lianfu.cn-988-mobile-7.2.9.plist"
-        },
-        {
-          "bundleId": "com.lianfu.cn",
-          "version": "7.2.8",
-          "uploadedAt": "2026-10-02T11:14:45Z",
-          "tag": "988-mobile-7.2.8",
-          "releaseName": "988-mobile-7.2.8",
-          "notes": "自动发布 988-mobile-7.2.8\n\n- `988-mobile_7.2.8_test.ipa`\n- `988-mobile_7.2.8_26100202.apk`\n\n构建时间: 2026-10-02 20:14:32 JST",
-          "file": "988-mobile_7.2.8_test.ipa",
-          "size": 50003345,
-          "downloadCount": 11,
-          "downloadUrl": "https://github.com/xiaoli55979/ipa_install/releases/download/988-mobile-7.2.8/988-mobile_7.2.8_test.ipa",
-          "manifestUrl": "https://xiaoli55979.github.io/ipa_install/manifest/com.lianfu.cn-988-mobile-7.2.8.plist",
-          "installUrl": "itms-services://?action=download-manifest&url=https%3A%2F%2Fxiaoli55979.github.io%2Fipa_install%2Fmanifest%2Fcom.lianfu.cn-988-mobile-7.2.8.plist"
-        }
-      ],
-      "android": [
-        {
-          "bundleId": "com.lianfu.cn",
-          "version": "7.2.10",
-          "uploadedAt": "2026-10-09T09:53:51Z",
-          "tag": "988-mobile-7.2.10",
-          "releaseName": "988-mobile-7.2.10",
-          "notes": "自动发布 988-mobile-7.2.10\n\n- `988-mobile_7.2.10_test.ipa`\n- `988-mobile_7.2.10_26100901.apk`\n\n构建时间: 2026-10-09 18:52:04 JST",
-          "file": "988-mobile_7.2.10_26100901.apk",
-          "size": 162777891,
-          "downloadCount": 4,
-          "downloadUrl": "https://github.com/xiaoli55979/ipa_install/releases/download/988-mobile-7.2.10/988-mobile_7.2.10_26100901.apk"
-        },
-        {
-          "bundleId": "com.lianfu.cn",
-          "version": "7.2.9",
-          "uploadedAt": "2026-10-02T16:39:12Z",
-          "tag": "988-mobile-7.2.9",
-          "releaseName": "988-mobile-7.2.9",
-          "notes": "自动发布 988-mobile-7.2.9\n\n- `988-mobile_7.2.9_test.ipa`\n- `988-mobile_7.2.9_26100301.apk`\n\n构建时间: 2026-10-03 01:33:14 JST",
-          "file": "988-mobile_7.2.9_26100301.apk",
-          "size": 162384845,
-          "downloadCount": 14,
-          "downloadUrl": "https://github.com/xiaoli55979/ipa_install/releases/download/988-mobile-7.2.9/988-mobile_7.2.9_26100301.apk"
-        },
-        {
-          "bundleId": "com.lianfu.cn",
-          "version": "7.2.8",
-          "uploadedAt": "2026-10-02T11:14:58Z",
-          "tag": "988-mobile-7.2.8",
-          "releaseName": "988-mobile-7.2.8",
-          "notes": "自动发布 988-mobile-7.2.8\n\n- `988-mobile_7.2.8_test.ipa`\n- `988-mobile_7.2.8_26100202.apk`\n\n构建时间: 2026-10-02 20:14:32 JST",
-          "file": "988-mobile_7.2.8_26100202.apk",
-          "size": 162384289,
-          "downloadCount": 10,
-          "downloadUrl": "https://github.com/xiaoli55979/ipa_install/releases/download/988-mobile-7.2.8/988-mobile_7.2.8_26100202.apk"
-        }
-      ],
-      "mac": [],
-      "win": [],
-      "showPlatformBundleIds": false,
-      "latestAt": "2026-10-09T09:53:51Z"
     },
     {
       "id": "com.jiliaoim.dis.cn",
