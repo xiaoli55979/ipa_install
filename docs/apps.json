@@ -1,7 +1,7 @@
 {
   "siteTitle": "App 分发",
   "publicUrl": "https://xiaoli55979.github.io/ipa_install",
-  "generatedAt": "2026-10-28T09:27:31.319Z",
+  "generatedAt": "2026-10-28T09:30:14.650Z",
   "apps": [
     {
       "id": "com.lianfu.cn",
@@ -95,188 +95,6 @@
       "latestAt": "2026-10-27T06:56:39Z"
     },
     {
-      "id": "com.ams.com.cn",
-      "name": "234",
-      "icon": "https://xiaoli55979.github.io/ipa_install/icons/com.ams.com.cn-ios.png",
-      "ios": [
-        {
-          "bundleId": "com.ams.com.cn",
-          "version": "7.2.11",
-          "uploadedAt": "2026-10-27T06:40:54Z",
-          "tag": "234-mobile-2-7.2.11",
-          "releaseName": "234-mobile-2-7.2.11",
-          "notes": "VERSION_CODE: 26102701\n\n---\n\n自动发布 234-mobile-2-7.2.11\n\n- `234-mobile-2_7.2.11_test.ipa`\n- `234-mobile-2_7.2.11_26102701.apk`\n\n构建时间: 2026-10-27 15:40:40 JST",
-          "file": "234-mobile-2_7.2.11_test.ipa",
-          "size": 49346634,
-          "downloadCount": 3,
-          "downloadUrl": "https://github.com/xiaoli55979/ipa_install/releases/download/234-mobile-2-7.2.11/234-mobile-2_7.2.11_test.ipa",
-          "manifestUrl": "https://xiaoli55979.github.io/ipa_install/manifest/com.ams.com.cn-234-mobile-2-7.2.11.plist",
-          "installUrl": "itms-services://?action=download-manifest&url=https%3A%2F%2Fxiaoli55979.github.io%2Fipa_install%2Fmanifest%2Fcom.ams.com.cn-234-mobile-2-7.2.11.plist"
-        },
-        {
-          "bundleId": "com.ams.com.cn",
-          "version": "7.2.10",
-          "uploadedAt": "2026-10-17T11:50:32Z",
-          "tag": "234-mobile-2-7.2.10",
-          "releaseName": "234-mobile-2-7.2.10",
-          "notes": "自动发布 234-mobile-2-7.2.10\n\n- `234-mobile-2_7.2.10_test.ipa`\n- `234-mobile-2_7.2.10_26101701.apk`\n\n构建时间: 2026-10-17 20:49:25 JST",
-          "file": "234-mobile-2_7.2.10_test.ipa",
-          "size": 49317090,
-          "downloadCount": 9,
-          "downloadUrl": "https://github.com/xiaoli55979/ipa_install/releases/download/234-mobile-2-7.2.10/234-mobile-2_7.2.10_test.ipa",
-          "manifestUrl": "https://xiaoli55979.github.io/ipa_install/manifest/com.ams.com.cn-234-mobile-2-7.2.10.plist",
-          "installUrl": "itms-services://?action=download-manifest&url=https%3A%2F%2Fxiaoli55979.github.io%2Fipa_install%2Fmanifest%2Fcom.ams.com.cn-234-mobile-2-7.2.10.plist"
-        },
-        {
-          "bundleId": "com.ams.com.cn",
-          "version": "7.2.9",
-          "uploadedAt": "2026-10-15T08:37:17Z",
-          "tag": "234-mobile-2-7.2.9",
-          "releaseName": "234-mobile-2-7.2.9",
-          "notes": "自动发布 234-mobile-2-7.2.9\n\n- `234-mobile-2_7.2.9_test.ipa`\n- `234-mobile-2_7.2.9_26101501.apk`\n\n构建时间: 2026-10-15 17:36:44 JST",
-          "file": "234-mobile-2_7.2.9_test.ipa",
-          "size": 49317268,
-          "downloadCount": 14,
-          "downloadUrl": "https://github.com/xiaoli55979/ipa_install/releases/download/234-mobile-2-7.2.9/234-mobile-2_7.2.9_test.ipa",
-          "manifestUrl": "https://xiaoli55979.github.io/ipa_install/manifest/com.ams.com.cn-234-mobile-2-7.2.9.plist",
-          "installUrl": "itms-services://?action=download-manifest&url=https%3A%2F%2Fxiaoli55979.github.io%2Fipa_install%2Fmanifest%2Fcom.ams.com.cn-234-mobile-2-7.2.9.plist"
-        }
-      ],
-      "android": [
-        {
-          "bundleId": "com.ams.com.cn",
-          "version": "7.2.11",
-          "uploadedAt": "2026-10-27T06:41:09Z",
-          "tag": "234-mobile-2-7.2.11",
-          "releaseName": "234-mobile-2-7.2.11",
-          "notes": "VERSION_CODE: 26102701\n\n---\n\n自动发布 234-mobile-2-7.2.11\n\n- `234-mobile-2_7.2.11_test.ipa`\n- `234-mobile-2_7.2.11_26102701.apk`\n\n构建时间: 2026-10-27 15:40:40 JST",
-          "file": "234-mobile-2_7.2.11_26102701.apk",
-          "size": 182792602,
-          "downloadCount": 3,
-          "downloadUrl": "https://github.com/xiaoli55979/ipa_install/releases/download/234-mobile-2-7.2.11/234-mobile-2_7.2.11_26102701.apk"
-        },
-        {
-          "bundleId": "com.ams.com.cn",
-          "version": "7.2.10",
-          "uploadedAt": "2026-10-17T11:52:03Z",
-          "tag": "234-mobile-2-7.2.10",
-          "releaseName": "234-mobile-2-7.2.10",
-          "notes": "自动发布 234-mobile-2-7.2.10\n\n- `234-mobile-2_7.2.10_test.ipa`\n- `234-mobile-2_7.2.10_26101701.apk`\n\n构建时间: 2026-10-17 20:49:25 JST",
-          "file": "234-mobile-2_7.2.10_26101701.apk",
-          "size": 182792602,
-          "downloadCount": 13,
-          "downloadUrl": "https://github.com/xiaoli55979/ipa_install/releases/download/234-mobile-2-7.2.10/234-mobile-2_7.2.10_26101701.apk"
-        },
-        {
-          "bundleId": "com.ams.com.cn",
-          "version": "7.2.9",
-          "uploadedAt": "2026-10-15T08:38:01Z",
-          "tag": "234-mobile-2-7.2.9",
-          "releaseName": "234-mobile-2-7.2.9",
-          "notes": "自动发布 234-mobile-2-7.2.9\n\n- `234-mobile-2_7.2.9_test.ipa`\n- `234-mobile-2_7.2.9_26101501.apk`\n\n构建时间: 2026-10-15 17:36:44 JST",
-          "file": "234-mobile-2_7.2.9_26101501.apk",
-          "size": 182792602,
-          "downloadCount": 15,
-          "downloadUrl": "https://github.com/xiaoli55979/ipa_install/releases/download/234-mobile-2-7.2.9/234-mobile-2_7.2.9_26101501.apk"
-        }
-      ],
-      "mac": [],
-      "win": [],
-      "showPlatformBundleIds": false,
-      "latestAt": "2026-10-27T06:41:09Z"
-    },
-    {
-      "id": "com.wlp.com.cn",
-      "name": "50",
-      "icon": "https://xiaoli55979.github.io/ipa_install/icons/com.wlp.com.cn-ios.png",
-      "ios": [
-        {
-          "bundleId": "com.wlp.com.cn",
-          "version": "7.2.17",
-          "uploadedAt": "2026-10-27T06:33:26Z",
-          "tag": "50-mobile-7.2.17",
-          "releaseName": "50-mobile-7.2.17",
-          "notes": "VERSION_CODE: 26102701\n\n---\n\n自动发布 50-mobile-7.2.17\n\n- `50-mobile_7.2.17_test.ipa`\n- `50-mobile_7.2.17_26102701.apk`\n\n构建时间: 2026-10-27 15:33:02 JST",
-          "file": "50-mobile_7.2.17_test.ipa",
-          "size": 53846110,
-          "downloadCount": 4,
-          "downloadUrl": "https://github.com/xiaoli55979/ipa_install/releases/download/50-mobile-7.2.17/50-mobile_7.2.17_test.ipa",
-          "manifestUrl": "https://xiaoli55979.github.io/ipa_install/manifest/com.wlp.com.cn-50-mobile-7.2.17.plist",
-          "installUrl": "itms-services://?action=download-manifest&url=https%3A%2F%2Fxiaoli55979.github.io%2Fipa_install%2Fmanifest%2Fcom.wlp.com.cn-50-mobile-7.2.17.plist"
-        },
-        {
-          "bundleId": "com.wlp.com.cn",
-          "version": "7.2.16",
-          "uploadedAt": "2026-10-17T11:39:59Z",
-          "tag": "50-mobile-7.2.16",
-          "releaseName": "50-mobile-7.2.16",
-          "notes": "自动发布 50-mobile-7.2.16\n\n- `50-mobile_7.2.16_test.ipa`\n- `50-mobile_7.2.16_26101702.apk`\n\n构建时间: 2026-10-17 20:38:44 JST",
-          "file": "50-mobile_7.2.16_test.ipa",
-          "size": 53828568,
-          "downloadCount": 10,
-          "downloadUrl": "https://github.com/xiaoli55979/ipa_install/releases/download/50-mobile-7.2.16/50-mobile_7.2.16_test.ipa",
-          "manifestUrl": "https://xiaoli55979.github.io/ipa_install/manifest/com.wlp.com.cn-50-mobile-7.2.16.plist",
-          "installUrl": "itms-services://?action=download-manifest&url=https%3A%2F%2Fxiaoli55979.github.io%2Fipa_install%2Fmanifest%2Fcom.wlp.com.cn-50-mobile-7.2.16.plist"
-        },
-        {
-          "bundleId": "com.wlp.com.cn",
-          "version": "7.2.15",
-          "uploadedAt": "2026-10-17T11:13:48Z",
-          "tag": "50-mobile-7.2.15",
-          "releaseName": "50-mobile-7.2.15",
-          "notes": "自动发布 50-mobile-7.2.15\n\n- `50-mobile_7.2.15_test.ipa`\n- `50-mobile_7.2.15_26101701.apk`\n\n构建时间: 2026-10-17 20:11:07 JST",
-          "file": "50-mobile_7.2.15_test.ipa",
-          "size": 53825309,
-          "downloadCount": 10,
-          "downloadUrl": "https://github.com/xiaoli55979/ipa_install/releases/download/50-mobile-7.2.15/50-mobile_7.2.15_test.ipa",
-          "manifestUrl": "https://xiaoli55979.github.io/ipa_install/manifest/com.wlp.com.cn-50-mobile-7.2.15.plist",
-          "installUrl": "itms-services://?action=download-manifest&url=https%3A%2F%2Fxiaoli55979.github.io%2Fipa_install%2Fmanifest%2Fcom.wlp.com.cn-50-mobile-7.2.15.plist"
-        }
-      ],
-      "android": [
-        {
-          "bundleId": "com.wlp.com.cn",
-          "version": "7.2.17",
-          "uploadedAt": "2026-10-27T06:33:46Z",
-          "tag": "50-mobile-7.2.17",
-          "releaseName": "50-mobile-7.2.17",
-          "notes": "VERSION_CODE: 26102701\n\n---\n\n自动发布 50-mobile-7.2.17\n\n- `50-mobile_7.2.17_test.ipa`\n- `50-mobile_7.2.17_26102701.apk`\n\n构建时间: 2026-10-27 15:33:02 JST",
-          "file": "50-mobile_7.2.17_26102701.apk",
-          "size": 187157751,
-          "downloadCount": 4,
-          "downloadUrl": "https://github.com/xiaoli55979/ipa_install/releases/download/50-mobile-7.2.17/50-mobile_7.2.17_26102701.apk"
-        },
-        {
-          "bundleId": "com.wlp.com.cn",
-          "version": "7.2.16",
-          "uploadedAt": "2026-10-17T11:44:12Z",
-          "tag": "50-mobile-7.2.16",
-          "releaseName": "50-mobile-7.2.16",
-          "notes": "自动发布 50-mobile-7.2.16\n\n- `50-mobile_7.2.16_test.ipa`\n- `50-mobile_7.2.16_26101702.apk`\n\n构建时间: 2026-10-17 20:38:44 JST",
-          "file": "50-mobile_7.2.16_26101702.apk",
-          "size": 187075831,
-          "downloadCount": 15,
-          "downloadUrl": "https://github.com/xiaoli55979/ipa_install/releases/download/50-mobile-7.2.16/50-mobile_7.2.16_26101702.apk"
-        },
-        {
-          "bundleId": "com.wlp.com.cn",
-          "version": "7.2.15",
-          "uploadedAt": "2026-10-17T11:16:44Z",
-          "tag": "50-mobile-7.2.15",
-          "releaseName": "50-mobile-7.2.15",
-          "notes": "自动发布 50-mobile-7.2.15\n\n- `50-mobile_7.2.15_test.ipa`\n- `50-mobile_7.2.15_26101701.apk`\n\n构建时间: 2026-10-17 20:11:07 JST",
-          "file": "50-mobile_7.2.15_26101701.apk",
-          "size": 187075831,
-          "downloadCount": 10,
-          "downloadUrl": "https://github.com/xiaoli55979/ipa_install/releases/download/50-mobile-7.2.15/50-mobile_7.2.15_26101701.apk"
-        }
-      ],
-      "mac": [],
-      "win": [],
-      "showPlatformBundleIds": false,
-      "latestAt": "2026-10-27T06:33:46Z"
-    },
-    {
       "id": "com.jt8.cn",
       "name": "808",
       "icon": "https://xiaoli55979.github.io/ipa_install/icons/com.jt8.cn-ios.png",
@@ -340,6 +158,136 @@
       "win": [],
       "showPlatformBundleIds": false,
       "latestAt": "2026-10-17T12:14:00Z"
+    },
+    {
+      "id": "com.ams.com.cn",
+      "name": "234",
+      "icon": "https://xiaoli55979.github.io/ipa_install/icons/com.ams.com.cn-ios.png",
+      "ios": [
+        {
+          "bundleId": "com.ams.com.cn",
+          "version": "7.2.10",
+          "uploadedAt": "2026-10-17T11:50:32Z",
+          "tag": "234-mobile-2-7.2.10",
+          "releaseName": "234-mobile-2-7.2.10",
+          "notes": "自动发布 234-mobile-2-7.2.10\n\n- `234-mobile-2_7.2.10_test.ipa`\n- `234-mobile-2_7.2.10_26101701.apk`\n\n构建时间: 2026-10-17 20:49:25 JST",
+          "file": "234-mobile-2_7.2.10_test.ipa",
+          "size": 49317090,
+          "downloadCount": 9,
+          "downloadUrl": "https://github.com/xiaoli55979/ipa_install/releases/download/234-mobile-2-7.2.10/234-mobile-2_7.2.10_test.ipa",
+          "manifestUrl": "https://xiaoli55979.github.io/ipa_install/manifest/com.ams.com.cn-234-mobile-2-7.2.10.plist",
+          "installUrl": "itms-services://?action=download-manifest&url=https%3A%2F%2Fxiaoli55979.github.io%2Fipa_install%2Fmanifest%2Fcom.ams.com.cn-234-mobile-2-7.2.10.plist"
+        },
+        {
+          "bundleId": "com.ams.com.cn",
+          "version": "7.2.9",
+          "uploadedAt": "2026-10-15T08:37:17Z",
+          "tag": "234-mobile-2-7.2.9",
+          "releaseName": "234-mobile-2-7.2.9",
+          "notes": "自动发布 234-mobile-2-7.2.9\n\n- `234-mobile-2_7.2.9_test.ipa`\n- `234-mobile-2_7.2.9_26101501.apk`\n\n构建时间: 2026-10-15 17:36:44 JST",
+          "file": "234-mobile-2_7.2.9_test.ipa",
+          "size": 49317268,
+          "downloadCount": 14,
+          "downloadUrl": "https://github.com/xiaoli55979/ipa_install/releases/download/234-mobile-2-7.2.9/234-mobile-2_7.2.9_test.ipa",
+          "manifestUrl": "https://xiaoli55979.github.io/ipa_install/manifest/com.ams.com.cn-234-mobile-2-7.2.9.plist",
+          "installUrl": "itms-services://?action=download-manifest&url=https%3A%2F%2Fxiaoli55979.github.io%2Fipa_install%2Fmanifest%2Fcom.ams.com.cn-234-mobile-2-7.2.9.plist"
+        }
+      ],
+      "android": [
+        {
+          "bundleId": "com.ams.com.cn",
+          "version": "7.2.10",
+          "uploadedAt": "2026-10-17T11:52:03Z",
+          "tag": "234-mobile-2-7.2.10",
+          "releaseName": "234-mobile-2-7.2.10",
+          "notes": "自动发布 234-mobile-2-7.2.10\n\n- `234-mobile-2_7.2.10_test.ipa`\n- `234-mobile-2_7.2.10_26101701.apk`\n\n构建时间: 2026-10-17 20:49:25 JST",
+          "file": "234-mobile-2_7.2.10_26101701.apk",
+          "size": 182792602,
+          "downloadCount": 13,
+          "downloadUrl": "https://github.com/xiaoli55979/ipa_install/releases/download/234-mobile-2-7.2.10/234-mobile-2_7.2.10_26101701.apk"
+        },
+        {
+          "bundleId": "com.ams.com.cn",
+          "version": "7.2.9",
+          "uploadedAt": "2026-10-15T08:38:01Z",
+          "tag": "234-mobile-2-7.2.9",
+          "releaseName": "234-mobile-2-7.2.9",
+          "notes": "自动发布 234-mobile-2-7.2.9\n\n- `234-mobile-2_7.2.9_test.ipa`\n- `234-mobile-2_7.2.9_26101501.apk`\n\n构建时间: 2026-10-15 17:36:44 JST",
+          "file": "234-mobile-2_7.2.9_26101501.apk",
+          "size": 182792602,
+          "downloadCount": 15,
+          "downloadUrl": "https://github.com/xiaoli55979/ipa_install/releases/download/234-mobile-2-7.2.9/234-mobile-2_7.2.9_26101501.apk"
+        }
+      ],
+      "mac": [],
+      "win": [],
+      "showPlatformBundleIds": false,
+      "latestAt": "2026-10-17T11:52:03Z"
+    },
+    {
+      "id": "com.wlp.com.cn",
+      "name": "50",
+      "icon": "https://xiaoli55979.github.io/ipa_install/icons/com.wlp.com.cn-ios.png",
+      "ios": [
+        {
+          "bundleId": "com.wlp.com.cn",
+          "version": "7.2.16",
+          "uploadedAt": "2026-10-17T11:39:59Z",
+          "tag": "50-mobile-7.2.16",
+          "releaseName": "50-mobile-7.2.16",
+          "notes": "自动发布 50-mobile-7.2.16\n\n- `50-mobile_7.2.16_test.ipa`\n- `50-mobile_7.2.16_26101702.apk`\n\n构建时间: 2026-10-17 20:38:44 JST",
+          "file": "50-mobile_7.2.16_test.ipa",
+          "size": 53828568,
+          "downloadCount": 10,
+          "downloadUrl": "https://github.com/xiaoli55979/ipa_install/releases/download/50-mobile-7.2.16/50-mobile_7.2.16_test.ipa",
+          "manifestUrl": "https://xiaoli55979.github.io/ipa_install/manifest/com.wlp.com.cn-50-mobile-7.2.16.plist",
+          "installUrl": "itms-services://?action=download-manifest&url=https%3A%2F%2Fxiaoli55979.github.io%2Fipa_install%2Fmanifest%2Fcom.wlp.com.cn-50-mobile-7.2.16.plist"
+        },
+        {
+          "bundleId": "com.wlp.com.cn",
+          "version": "7.2.15",
+          "uploadedAt": "2026-10-17T11:13:48Z",
+          "tag": "50-mobile-7.2.15",
+          "releaseName": "50-mobile-7.2.15",
+          "notes": "自动发布 50-mobile-7.2.15\n\n- `50-mobile_7.2.15_test.ipa`\n- `50-mobile_7.2.15_26101701.apk`\n\n构建时间: 2026-10-17 20:11:07 JST",
+          "file": "50-mobile_7.2.15_test.ipa",
+          "size": 53825309,
+          "downloadCount": 10,
+          "downloadUrl": "https://github.com/xiaoli55979/ipa_install/releases/download/50-mobile-7.2.15/50-mobile_7.2.15_test.ipa",
+          "manifestUrl": "https://xiaoli55979.github.io/ipa_install/manifest/com.wlp.com.cn-50-mobile-7.2.15.plist",
+          "installUrl": "itms-services://?action=download-manifest&url=https%3A%2F%2Fxiaoli55979.github.io%2Fipa_install%2Fmanifest%2Fcom.wlp.com.cn-50-mobile-7.2.15.plist"
+        }
+      ],
+      "android": [
+        {
+          "bundleId": "com.wlp.com.cn",
+          "version": "7.2.16",
+          "uploadedAt": "2026-10-17T11:44:12Z",
+          "tag": "50-mobile-7.2.16",
+          "releaseName": "50-mobile-7.2.16",
+          "notes": "自动发布 50-mobile-7.2.16\n\n- `50-mobile_7.2.16_test.ipa`\n- `50-mobile_7.2.16_26101702.apk`\n\n构建时间: 2026-10-17 20:38:44 JST",
+          "file": "50-mobile_7.2.16_26101702.apk",
+          "size": 187075831,
+          "downloadCount": 15,
+          "downloadUrl": "https://github.com/xiaoli55979/ipa_install/releases/download/50-mobile-7.2.16/50-mobile_7.2.16_26101702.apk"
+        },
+        {
+          "bundleId": "com.wlp.com.cn",
+          "version": "7.2.15",
+          "uploadedAt": "2026-10-17T11:16:44Z",
+          "tag": "50-mobile-7.2.15",
+          "releaseName": "50-mobile-7.2.15",
+          "notes": "自动发布 50-mobile-7.2.15\n\n- `50-mobile_7.2.15_test.ipa`\n- `50-mobile_7.2.15_26101701.apk`\n\n构建时间: 2026-10-17 20:11:07 JST",
+          "file": "50-mobile_7.2.15_26101701.apk",
+          "size": 187075831,
+          "downloadCount": 10,
+          "downloadUrl": "https://github.com/xiaoli55979/ipa_install/releases/download/50-mobile-7.2.15/50-mobile_7.2.15_26101701.apk"
+        }
+      ],
+      "mac": [],
+      "win": [],
+      "showPlatformBundleIds": false,
+      "latestAt": "2026-10-17T11:44:12Z"
     },
     {
       "id": "com.jiliaoim.dis.cn",
