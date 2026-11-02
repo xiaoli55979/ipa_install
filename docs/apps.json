@@ -1,7 +1,7 @@
 {
   "siteTitle": "App 分发",
   "publicUrl": "https://xiaoli55979.github.io/ipa_install",
-  "generatedAt": "2026-11-02T06:04:29.000Z",
+  "generatedAt": "2026-11-02T06:05:46.670Z",
   "apps": [
     {
       "id": "com.jiliaoim.cn",
@@ -42,7 +42,7 @@
           "uploadedAt": "2026-11-02T05:59:05Z",
           "tag": "1.1.42",
           "releaseName": "1.1.42",
-          "notes": "Auto published PC version 1.1.42\n\nSource branch: main\nSource commit: e56eda89330441ea5f3061c03c6d48bd229d9ba9\nBuild time: 2026-11-02 15:02:15 JST\n\n- `YunXiaoLiao-Setup-1.1.42-x64.zip`\n",
+          "notes": "Windows 启动兼容性更新。\n\n- 升级至 Electron 43.8.6，更新 Windows 底层运行时。\n- Windows 默认使用软件渲染；可通过 `--enable-gpu` 启用硬件加速。\n- 截图组件和图片处理原生库改为按需加载，减少启动阶段的初始化。\n- 页面加载失败时提供重试与关闭；渲染进程异常最多自动恢复一次。\n- 截图组件增加超时与异常提示；增加本地启动日志和崩溃转储，崩溃文件不会自动上传。\n\n已通过 59 项测试、生产构建和 Windows 打包程序启动及 30 秒持续运行检查。Windows Server 2025 / AWS WorkSpaces 环境仍需安装后验证。\n\nSource branch: main\nSource commit: e56eda89330441ea5f3061c03c6d48bd229d9ba9\n\n- `YunXiaoLiao-Setup-1.1.42-x64.zip`\n",
           "file": "YunXiaoLiao-Setup-1.1.42-x64.zip",
           "size": 193057932,
           "downloadCount": 0,
